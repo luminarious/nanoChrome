@@ -1,0 +1,49 @@
+project:
+  type: book
+  output-dir: dist
+
+lang: en_GB
+
+book:
+  title: nanoChrome
+  subtitle: Subtitle
+
+  author:
+    - name: John Grümph
+      url: https://legrumph.org
+  date: 2015-09-30
+  isbn: 979-10-95063-07-0
+  abstract: Abstract
+  description: Description
+  output-file: nanoChrome
+
+  search: true
+  downloads: [pdf]
+  
+  repo-url: https://github.com/luminarious/nanoChrome
+  repo-actions: [edit, source, issue]
+  repo-branch: quarto
+
+  chapters:
+    - index.qmd
+    - content/nanochrome.qmd
+  appendices: 
+    - content/charsheet.qmd
+
+  sidebar:
+    background: secondary
+
+format:
+  html:
+    theme: yeti
+    css: assets/site.css
+    toc: true
+    reference-location: margin
+    callout-appearance: simple
+    number-sections: false
+  pdf:
+    toc: true
+    css: assets/book.css
+    pdf-engine: prince
+    pdf-engine-opts:
+      - -v

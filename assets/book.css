@@ -1,0 +1,14 @@
+@page {
+	size: A4;
+	margin: 15mm;
+}
+
+body {
+	font-family: sans-serif;
+	line-height: 127%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: monospace;
+	line-height: 111%;
+}
