@@ -1,0 +1,3709 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Description">
+
+<title>Running the game – nanoChrome</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../content/relationships.html" rel="next">
+<link href="../content/rules.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-c39790739b795761a025db3e98f5af6a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/rules.html">How to run</a></li><li class="breadcrumb-item"><a href="../content/running.html"><span class="chapter-title">Running the game</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">nanoChrome</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/luminarious/nanoChrome" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <a href="../nanoChrome.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">How to play</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/characters.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Characters</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/matrix.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Matrix</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/vehicles.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Vehicles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/catalogues.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Catalogues</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/magic.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Magic</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">How to run</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/rules.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Rules of the game</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/running.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Running the game</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/relationships.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Relationships</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/adventures.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Adventures</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/enemies.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Enemies and NPCs</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/charsheet.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Character sheet</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/credits.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Credits</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#the-other" id="toc-the-other" class="nav-link active" data-scroll-target="#the-other">The Other</a>
+  <ul class="collapse">
+  <li><a href="#name-the-other" id="toc-name-the-other" class="nav-link" data-scroll-target="#name-the-other">Name the Other</a></li>
+  <li><a href="#describe-the-other" id="toc-describe-the-other" class="nav-link" data-scroll-target="#describe-the-other">Describe the Other</a></li>
+  <li><a href="#divide-and-conquer" id="toc-divide-and-conquer" class="nav-link" data-scroll-target="#divide-and-conquer">Divide and Conquer</a></li>
+  </ul></li>
+  <li><a href="#managing-cycles" id="toc-managing-cycles" class="nav-link" data-scroll-target="#managing-cycles">Managing cycles</a></li>
+  <li><a href="#campaign-focus" id="toc-campaign-focus" class="nav-link" data-scroll-target="#campaign-focus">Campaign focus</a>
+  <ul class="collapse">
+  <li><a href="#techmercs" id="toc-techmercs" class="nav-link" data-scroll-target="#techmercs">Techmercs</a></li>
+  <li><a href="#corporates" id="toc-corporates" class="nav-link" data-scroll-target="#corporates">Corporates</a></li>
+  <li><a href="#panopticom" id="toc-panopticom" class="nav-link" data-scroll-target="#panopticom">Panopticom</a></li>
+  </ul></li>
+  <li><a href="#conducting-an-investigation" id="toc-conducting-an-investigation" class="nav-link" data-scroll-target="#conducting-an-investigation">Conducting an investigation</a>
+  <ul class="collapse">
+  <li><a href="#questions-and-answers" id="toc-questions-and-answers" class="nav-link" data-scroll-target="#questions-and-answers">Questions and answers</a></li>
+  <li><a href="#critical-path" id="toc-critical-path" class="nav-link" data-scroll-target="#critical-path">Critical path</a></li>
+  <li><a href="#whats-the-point" id="toc-whats-the-point" class="nav-link" data-scroll-target="#whats-the-point">What’s the point?</a></li>
+  </ul></li>
+  <li><a href="#a-note-on-the-back-of-a-matchbox" id="toc-a-note-on-the-back-of-a-matchbox" class="nav-link" data-scroll-target="#a-note-on-the-back-of-a-matchbox">A note on the back of a matchbox</a></li>
+  <li><a href="#intrusions" id="toc-intrusions" class="nav-link" data-scroll-target="#intrusions">Intrusions</a>
+  <ul class="collapse">
+  <li><a href="#an-example" id="toc-an-example" class="nav-link" data-scroll-target="#an-example">An example</a></li>
+  </ul></li>
+  <li><a href="#events-and-rumours" id="toc-events-and-rumours" class="nav-link" data-scroll-target="#events-and-rumours">Events and rumours</a></li>
+  <li><a href="#flash-infos" id="toc-flash-infos" class="nav-link" data-scroll-target="#flash-infos">Flash-infos</a></li>
+  <li><a href="#the-galleries" id="toc-the-galleries" class="nav-link" data-scroll-target="#the-galleries">THE GALLERIES</a></li>
+  <li><a href="#gigs" id="toc-gigs" class="nav-link" data-scroll-target="#gigs">Gigs</a></li>
+  <li><a href="#returning-the-favour" id="toc-returning-the-favour" class="nav-link" data-scroll-target="#returning-the-favour">Returning the favour</a></li>
+  <li><a href="#corporations" id="toc-corporations" class="nav-link" data-scroll-target="#corporations">Corporations</a></li>
+  <li><a href="#gangs" id="toc-gangs" class="nav-link" data-scroll-target="#gangs">Gangs</a></li>
+  <li><a href="#serve-and-protect" id="toc-serve-and-protect" class="nav-link" data-scroll-target="#serve-and-protect">Serve and protect</a>
+  <ul class="collapse">
+  <li><a href="#general-organisation" id="toc-general-organisation" class="nav-link" data-scroll-target="#general-organisation">General organisation</a></li>
+  <li><a href="#municipal-police-conurbs" id="toc-municipal-police-conurbs" class="nav-link" data-scroll-target="#municipal-police-conurbs">Municipal police (ConUrbs)</a></li>
+  <li><a href="#corporate-security-enclaves" id="toc-corporate-security-enclaves" class="nav-link" data-scroll-target="#corporate-security-enclaves">Corporate security (enclaves)</a></li>
+  <li><a href="#on-the-wrong-side-of-investigations" id="toc-on-the-wrong-side-of-investigations" class="nav-link" data-scroll-target="#on-the-wrong-side-of-investigations">On the wrong side of investigations</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/luminarious/nanoChrome/edit/quarto/content/running.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/luminarious/nanoChrome/blob/quarto/content/running.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/luminarious/nanoChrome/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/rules.html">How to run</a></li><li class="breadcrumb-item"><a href="../content/running.html"><span class="chapter-title">Running the game</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Running the game</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<blockquote class="blockquote">
+<p>The night of our cities no longer resembles that clamour of the dogs of Latin darkness, nor to the bat of the Middle Ages, nor to that image of pain that is the night of the Renaissance. It is an immense monster of sheet metal, pierced a thousand times by knives.</p>
+<p>—Louis Aragon, Le Paysan de Paris</p>
+</blockquote>
+<p>The following chapter is more specifically reserved for the game leader. You will find additional tools and tips for running a game of nanoChrome. Gather the elements that interest you and that will serve you in the game; be inspired by the proposals and the mechanics. The important thing is that it gives you ways to bounce back quickly when you improvise or write your stories.</p>
+<ul>
+<li>The Other: at the heart of any good cyberpunk campaign is a particular organisation, ambivalent and mysterious, to which all the threads of the stories, however tenuous, seem to connect. It is the characters’ nemesis, their main adversary, but also an occasional ally and a source of information, missions and resources. This section invites you to create this organisation, called ‘The Other’ in these pages, and explains how to use it in-game.</li>
+<li>Managing Cycles: It is often useful to structure campaigns to give players and characters breathing space in the tense flow of adventures - especially when you can’t directly refer to clear, precise story endings and the events are relentless. By giving the players control over the cycles, you allow them to move at their own pace and manage these breaks, but you don’t stand still: use the cycles to change the world and alter the setting and cast!</li>
+<li>In the first chapter of this book, we offer three different approaches to playing nanoChrome: techmercs, corporates and Panopticom journalists. Let’s explore these different options and see what you can do with them.</li>
+<li>Investigate: Because of the ‘detective’ heritage of cyberpunk, the characters are likely to be involved in many investigations. But it’s one thing to watch well-paced, well-crafted whodunits on TV; it’s quite another to pull off the same tricks at a gaming table. But there are a few tricks you can use.</li>
+<li>Plans and intrusions: paramilitary operations and criminal coups often form the second part of an adventure, after the investigations needed to gather information and know where to strike. But it’s not the players who make the plans, and it’s certainly not the players who go out into the field and risk their lives: it’s their characters.</li>
+<li>Rumours and events: Chrome City is not still and dead, frozen in place waiting for the characters to get out of their homes. This isn’t the Truman Show, for crying out loud! People are still loving and hating each other, shooting at each other and making out with each other as the characters snooze or go about their own business.</li>
+<li>Newsflash: a handy little tool to punctuate the hours of play, newsflashes, on the matrix and the major news networks, will give you plenty of opportunities to rave and, why not, slip in relevant information to the players, without seeming to touch it.</li>
+<li>Trouble: in a good cyberpunk, Real Life™ should be able to come to the table and spoil the best-laid plans. A little flu? Mum coming round when the flat isn’t tidy? The car at the impound lot on the morning of the heist? The funny thing is that the players themselves will have fun spoiling each other.</li>
+<li>The odd jobs: the characters never have enough ¥, always sticking their tongues out to buy bullets, replace weapons seized by the police, pay off their debts or invest in new cyber implants. So they take the smallest job that allows them to earn three francs six pennies…</li>
+<li>If you think that the characters’ relations are waiting nicely by their phone for a call, you’re in deep trouble. They too have lives; they too have troubles; and they too need help from time to time. A good way to strengthen the links and to give thickness to some too anonymous figures.</li>
+<li>Describe a corporation: Corporations, big and small, are an essential part of the cyberpunk landscape. But what exactly is a corporation, apart from large luxurious offices, crowded open spaces, exhausted employees and contemptuous executives?</li>
+<li>Describe a gang: the opposite of corporations, but not so different, are gangs. They rule the anarzone; they are responsible for more than half of Chrome City’s violent crime; they fear nothing; they are numerous and well armed. So what?</li>
+<li>The law in Chrome City: the last actor the characters will probably have to deal with often is the police. Or the police, if we take into account the security services of the corporations. What are their means and objectives? Can we really escape them?</li>
+</ul>
+<section id="the-other" class="level2">
+<h2 class="anchored" data-anchor-id="the-other">The Other</h2>
+<blockquote class="blockquote">
+<p>This story told him that people were the stupidest thing on earth. It told him that people who fight a losing battle are even more stupid than the others. She told him that to be on the side of power and authority, and that you had to stay there. Nobody gave a damn about the people of this town. Nobody gave a damn about the fact that it was their homes, the place where they had hoped to live forever. No, nobody gave a damn. All that mattered was money, power and control. That’s what mattered, that’s what you had to have. Money, power, control. And you had to have as much of it as you could.</p>
+<p>—R.J. Ellory, Bad Star</p>
+</blockquote>
+<p>The Other is an organisation, usually a large one, that dominates the political, economic, moral landscape of the place where you play. It’s not necessarily the biggest or most powerful organisation, but it’s clearly the one that sets the pace of events. It’s almost always an organisation with a high profile and respectability.</p>
+<p>The Other is ambivalent: it is both the big bad of the story and an ally of the characters. He has his fingers in every jam jar around here, but not always for the wrong reasons. His motivations are complex and we can even agree with his arguments without denying his soul.</p>
+<p>The Other is multiple: there is not just one person at its head, but many factions and groups with divergent and personal interests who agree on only one thing: The Other must survive all storms, whatever the means used.</p>
+<p>The Other is at the heart of events: almost every story you tell will have some connection, however remote, with The Other. Whether it’s something that concerns him directly or whether it concerns a distant cousin of a junior executive in the legal department on the tenth floor. The important thing is to draw connections that make the players wonder and consider the worst. Even if, in the end, it has nothing to do with it. But in fact it does… Or not.</p>
+<p>The Other is secret, but visible: of course, everything about The Other is secret or subject to concealment and appearances. And we know that behind appearances there are other appearances. The Other is only discovered little by little in the course of the adventures. It must therefore have a public face that is perfectly clear to all the characters (and their players): this is its nature, its purpose, its public positions, etc. Openly, The Other is unambiguous about his social benevolence and his constructive contribution to the community. And it knows how to protect this image.</p>
+<section id="name-the-other" class="level3">
+<h3 class="anchored" data-anchor-id="name-the-other">Name the Other</h3>
+<p>Find a snappy name that is easy to pronounce and remember - an acronym perhaps, or a name with many allegorical meanings. The important thing is that you use this one name from now on to refer to The Other. The Other does not exist; The Other is just a facility, a code name for this section of the book. At your table, The Other must become the centre of attention.</p>
+</section>
+<section id="describe-the-other" class="level3">
+<h3 class="anchored" data-anchor-id="describe-the-other">Describe the Other</h3>
+<p>Here are a few different tables to help you picture The Other.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D6</th>
+<th style="text-align: left;">NATURE OF THE OTHER</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">A local corporation</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">An orbital corporation</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">An NGO</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">A criminal organisation</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">A governmental organisation</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">A secret society or cult</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D6</th>
+<th style="text-align: left;">THE OTHER’S FACADE</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">Friendly and sympathetic</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Charitable and benevolent</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Discreet and cold</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Mysterious</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">Respectable and serious</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">Scandalous and media-friendly</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D6</th>
+<th style="text-align: left;">THE OTHER’S SECRET MEANS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">Money, lots of it</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Fast and efficient henchmen</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Effective political and judicial influence</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Unprecedented and secret technological means</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">Accurate and comprehensive intelligence</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">Unshakeable public image</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D6</th>
+<th style="text-align: left;">WEAKNESSES OF THE OTHER</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">A lot of indecision and delay</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Too much infighting</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Ambitions without the means</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Cruelty, baby, cruelty</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">Very poor public image</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">Too much self-confidence</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 97%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D6</th>
+<th style="text-align: left;">THE OTHER’S REAL GOALS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">CONTROL: The Other wants power in one (or all) areas. It is about control and mastery. This can easily turn into fascism when The Other also wants to ‘create’ the conditions for an ideal society on its terms.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">CONVEY: The Other covets something. It may be power or wealth, or something simpler like an absolute monopoly on a particular technology. All his manoeuvres consist of creating the conditions for his success by eliminating competitors or by seeking the object of desire.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">CREATION: The Other has a great idea and wants to implement it, even if people don’t agree. It may be something physical (developing innovative energy systems that will put all oil workers out of work, creating a race of super soldiers) or something more conceptual (establishing perfect security in a fully Christianised world). Generally, it’s not without trial, error and escaped laboratory creatures.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">DESTRUCTION: The ultimate goal of The Other is to destroy something - the social order, enemies, an ethnic group, a political faction, trade unionists, polluters, orbiters, earthlings, etc. - and to make it a reality. The Other has embarked on a complex and far-reaching plan, spanning several years or decades, to ensure the success of the enterprise.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">EXPANSION: The Other wants to expand or extend its influence throughout a community, city or region. This can be about gaining market share or putting key people in important positions. This is the crude application of the concept: Grow or Lose.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">PROTECTION: The Other wants to protect something or someone. This may be to protect a community from a threat, to protect the threat itself, to defend against outsiders, to protect a way of life or customs. Usually, this is not without cruel decisions and extreme actions.</td>
+</tr>
+</tbody>
+</table>
+<p>The Other may react in very different ways to perceived threats. Some reactions are brutal, others subtle. The following table gives you some examples of threats and possible reactions:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">IN CASE OF…</th>
+<th style="text-align: center;">1D26</th>
+<th style="text-align: left;">THE REACTION IS…</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Attack</td>
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">Hand over to the authorities</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Departure or resignation</td>
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">Corrupt</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Disappearance</td>
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">Destroy credibility</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Elimination</td>
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">Eliminate</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Espionage</td>
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">Cover up</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Extraction</td>
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">Intercept</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Leakage</td>
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">Leave it alone or ignore</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Intrusion</td>
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">Manipulating opinion</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Threats</td>
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">Threatening</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Public disclosure</td>
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">Entrapment</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Surveillance</td>
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">Bringing to court</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Theft</td>
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">Surveillance</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="divide-and-conquer" class="level3">
+<h3 class="anchored" data-anchor-id="divide-and-conquer">Divide and Conquer</h3>
+<p>You are left to divide The Other into factions that support, fight or ignore each other. Some factions are well known; others operate in the shadows. Some are well-resourced, with complex networks; others have only a few highly motivated people.</p>
+<p>Most of the time, you will need at least three factions within The Other:</p>
+<ul>
+<li>An old, entrenched, brutal but sleepy ruling faction, which personifies the traditional broad directions of The Other. The old faction is conservative, powerful, stable, and well-organised, though no longer as vigilant. The goals of the members of this faction are often the same as those of The Other, to which can be added, in many cases, a thirst for power and a bit of welcome greed. The old faction is always very careful about its reputation and the reputation of The Other; it wants to keep up appearances and if it can make clear and quick decisions, it will not easily engage in actions that are too… messy, preferring to use subtle and legal means of coercion to achieve its ends: it is easier to ruin someone or to take away the slightest reason to live than to kill them directly.</li>
+<li>A younger faction, extremely dynamic, really bad, for whom the end justifies the means (all means). This faction has teeth that scratch the floor and wants the old faction’s place, unless it is to take advantage of The Other’s means to achieve completely different goals. This faction is a parasite, a tumour, but it is run by people who are smart enough not to let it show. On the other hand, it’s not a problem for them to get their hands dirty - a large part of their resources are mobilised by the need to clean up after themselves, including eliminating compromised agents and assets, but at least they achieve their goals with some speed.</li>
+<li>And an even younger faction, poorly settled, ill at ease with itself, which may help the characters if it realises that the other factions are evil, or which will fight them ferociously, out of sheer solidarity, if they alienate its goodwill through outright aggression. This faction is the most ambivalent of all; it is certainly idealistic, in its own way, and does not conceive of the use of extreme means. But there is nothing to say that it will not become radicalised if given no choice. And then she could become the most dangerous thing in Chrome City.</li>
+</ul>
+<p>If The Other is some kind of anonymous, awesome monolith, it’s important that the factions are led by real people (or possibly akhashic spirits, of course). Write down names; establish simple relational networks between faction members - who likes whom and why? Who hates whom and why? Who is under influence? Who owes favours? Who will betray? Who sleeps with whom? Who has skeletons in their wardrobe, debts, dark secrets?</p>
+<p>Make general plans for each faction, short and medium term goals according to their motivations.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D6</th>
+<th style="text-align: left;">FACTION MOTIVATIONS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">Greed</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Lust</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Hatred</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Power</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">Vision</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">Revenge</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="managing-cycles" class="level2">
+<h2 class="anchored" data-anchor-id="managing-cycles">Managing cycles</h2>
+<blockquote class="blockquote">
+<p>There is a time for everything under the heavens: a time to be silent and a time to speak; a time to love and a time to hate; a time for war and a time for peace.</p>
+<p>—Qoheleth 3:1</p>
+</blockquote>
+<p>For the game leader, managing the cycles is like playing 1, 2, 3, Sun!</p>
+<p>As long as the characters are acting, within a cycle, the various factions and the main figures do not move. As soon as the players announce a cycle change, they rush to their objectives and activate their means of action. What does this mean in practice?</p>
+<ul>
+<li>When a cycle begins, the factions are in a defined initial position. Their agents are engaged here or there (although some may be available); their attention is focused on specific issues; they act according to their needs.</li>
+<li>As the cycle progresses, the factions can react if they are directly attacked by characters or events, but they do not have the ability to redistribute their resources or change their general conformation - the extras are, in a sense, ‘frozen’ in space. If the characters learn that a particular extra is in a particular place, he or she will be there for the rest of the cycle. “This does not mean that they do not move, but that they are assigned to tasks or missions and will only leave if there are emergencies that affect them directly. An agent may be investigating a gang or trying to exfiltrate a scientist from another corpo: he will move and act within the scope of his mission, but will not”move” unless the characters interfere.</li>
+<li>On the other hand, when the cycle changes, the factions can change everything, reorganise everything. The extras can eventually move, recall forces, sound alarms, beg on the characters, take action against their loved ones, etc. In short, there is a good chance that at the beginning of the next cycle, the characters’ information will no longer be completely up to date. The leader of a faction was in his country house where the characters could come and kidnap him? He either took his helicopter away or increased his security by hiring threatening techmercs.</li>
+<li>Of course, don’t change everything all the time, because you can. The factions have very elaborate plans and only change their protocols if the characters get their attention. Nevertheless, be consistent, logical and ruthless, brutal if you must or can be. Changing the cycle has enormous benefits for the characters, but the players should feel the pinch every time!</li>
+</ul>
+<p>Finally, remember that factions have goals and if given time, will achieve them. You can assume, for example, that it will take two, three, five cycles for a faction to fully achieve one of its goals if the characters do nothing to stop it. The consequences will simply be front page news at the beginning of the next cycle…</p>
+</section>
+<section id="campaign-focus" class="level2">
+<h2 class="anchored" data-anchor-id="campaign-focus">Campaign focus</h2>
+<section id="techmercs" class="level3">
+<h3 class="anchored" data-anchor-id="techmercs">Techmercs</h3>
+<blockquote class="blockquote">
+<p>In these deaf and cowardly battles for money where the weak are quietly disembowelled, there are no more ties, no more kinship, no more friendship: it is the atrocious law of the strong, those who eat in order not to be eaten.</p>
+<p>—Émile Zola, Money</p>
+</blockquote>
+<p>Playing techmercs is the basis of the cyberpunk game. You play as guys who will do anything to eat and burn. You like money and adrenaline, in any order you like. You show off for the gallery under the guise of rebellious misfits, but in reality, you’re waiting for the big score that will buy you a deserted island in the Pacific or a way to get back at someone. Draw or choose a motivation for each character.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 89%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D6</th>
+<th style="text-align: left;">TECHMERC MOTIVATION</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">To help a family member who is in big trouble</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Change the world or change the world</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Make a big score to pay off all your debts and finally see the sun</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Find a way to get your kid back from being stolen by dirty corpos</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">Be loyal to the mentor who taught you and your family everything who’s been protecting you all your life</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">Get revenge for a dirty trick that left you stranded once upon a time</td>
+</tr>
+</tbody>
+</table>
+<p>With techmercs, you can have one adventure after another without bothering too much with The Other at first. Just make him appear gradually and establish a race to see who will achieve their goals first: the characters or The Other?</p>
+<p>The adventures almost always have a similar structure: the Client meets the characters, gives them a mission and promises them payment. The mission is more complicated than it seems; objectives and secondary factions collide and compete; there is betrayal or misinformation; the bad guys need scapegoats. If the characters make it out alive - they know they’re just pawns in the corporate wars - they still have to pay for it and suffer the retribution of those who lost.</p>
+<p>Of course, as a campaign progresses, the characters will have more resources, political support, connections, information to use. And more enemies and more problems with the authorities. And they will be identified and locked out by The Other.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 92%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D6</th>
+<th style="text-align: left;">WHO IS THE CLIENT?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">An elderly corporatist executive, his eyes burnt out by all he has already seen and done.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">A young guy with big teeth, full of accelerants accelerators, excited as a flea and rather expansive.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">A sharp and jovial O.G. with a sharp mind as his body blades.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">A retired former techmerc, a bit off at times, but still on the ball.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">A pretty, discreet and cold young woman who keeps the characters at a distance and does not respond to any of their their direct requests.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">A presence on the matrix - no doubt an akashic spirit, but who can really know?</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 94%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D6</th>
+<th style="text-align: left;">WHAT IS THE ATTITUDE OF THE CLIENT?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">It is a simple intermediary, a transmission belt. Nothing personal, one way or the other.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Calm and resigned to the darkness of his job, he organises things as best he can and puts oil in the wheels so that everyone gets through.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">He is deadly serious when it comes to business. We’re not here to fraternise, but the job must be done at all costs and he’s always available. Just remember that he doesn’t like excuses.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">The Client always has advice to give, checks on the progress of operations every five minutes, sometimes intervenes in the field without being asked. Who said “Pain in the ass”?</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">The Client is warm, patient and understanding. Always.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">The Client is passive-aggressive and never gives satisfaction. He always has something to reproach the characters with and will recriminate at the slightest request.</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 81%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D6</th>
+<th style="text-align: left;">WHAT IS THE CLIENT’S POSITION?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">He is a front man for a secret power.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">He is an undercover government agent.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">He is another techmerc who subcontracts some of his missions.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">He is an employee of the Other.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">He is a freelancer who works for himself and has a lot of money.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">He is a freelance intermediary.</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 95%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D6</th>
+<th style="text-align: left;">WHAT IS THE CLIENT’S MOTIVATION?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">It’s a job like any other. Tomorrow, the Client may be assigned to the marketing department of his company.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">There’s always stuff to skim - money, information, stuff to sell. There’s no reason not to make a little extra on the backs of the characters.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">The Client has a complicated personal history, a score to settle or an intimate investigation to unravel. And every assignment he gives has a little extra to it that only concerns him.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">The Client would have liked to become a techmerc. But he has a degree and he doesn’t like violence, so he might as well settle for a more comfortable and better-paid position. But still, he would have liked to be a techmerc too…</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">The Client is, secretly or not, connected to the characters and tries to protect or guide them.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">Someone is putting pressure on the Client with convincing arguments - intimidation, vital resources, information, blackmail…</td>
+</tr>
+</tbody>
+</table>
+<p>At the end of a job for the Client, you may wish to choose or draw an item from the next table - without any obligation. Something goes wrong and the characters may be surprised by the outcome of their mission…</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 6%">
+<col style="width: 93%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D6</th>
+<th style="text-align: left;">THE END OF A MISSION</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">The operation receives full media coverage (thanks Panopticom!).</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">The operation has not gone unnoticed and the Other has all the details in hand.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">The target of the contract takes revenge on the characters or their or their relatives, unless they ask for a a ‘voluntary’ service to wipe the slate clean.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">The Client does not like to leave a trail of operations and a team is assigned to eliminate the characters.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">The Client is not who he seems and in the end, he screws everyone over.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">You don’t get the full amount promised, if you only get paid.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="corporates" class="level3">
+<h3 class="anchored" data-anchor-id="corporates">Corporates</h3>
+<blockquote class="blockquote">
+<p>Above the state and behind the facades of apparent power, in the maze of multiple departments, underlying all shifts of authority and in the chaos of inefficiency, lies the core of power in the country: the hyper-efficient and hyper-competent secret police.</p>
+<p>—Hannah Arendt</p>
+</blockquote>
+<p>Well, it’s not complicated: you work for The Other, in one of its security services no doubt, doing intelligence or counter-intelligence, or research why not.</p>
+<p>This mode of play is perhaps a little more difficult to set up for the game leader: he does not benefit from a wide variety of hooks for adventures and the characters can legitimately have access to important means and discreet but effective support. Moreover, he has to put The Other into action very quickly and involve the various factions involved: the rumours of corridors, office intrigues and internal affairs take up a lot of game time and you have to improvise on a complex social canvas.</p>
+<p>Nevertheless, the characters have clear and identifiable objectives: to protect the employer’s assets and to be accountable. And they are immediately involved in the secrets of The Other.</p>
+<p>Another advantage is that the characters’ mission is simply to bring the factions’ plans to fruition - you only have to write one scenario!</p>
+<p>In the meantime, between or during missions, add a little spice to the characters’ hard working lives.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D36</th>
+<th style="text-align: left;">INTERNAL LIFE OR A FEW MINUTES AT THE COFFEE MACHINE</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">Change of management</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">Catfight</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">Jokes that go wrong</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">Colleagues who are a bit too free</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">Work all over the place</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">Jealousy drama</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">Nervous exhaustion</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">Political wrangling</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">Waste and mismanagement</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">Moral harassment</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">The age of individual evaluations</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">Shortage of drawing pins and paper clips</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.1</td>
+<td style="text-align: left;">Office romance</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.2</td>
+<td style="text-align: left;">Bitch-talk night</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.3</td>
+<td style="text-align: left;">A crow leaves messages on the intranet</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.4</td>
+<td style="text-align: left;">A bet in progress</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.5</td>
+<td style="text-align: left;">A bit too much water at the farewell party</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.6</td>
+<td style="text-align: left;">A medical alert</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="panopticom" class="level3">
+<h3 class="anchored" data-anchor-id="panopticom">Panopticom</h3>
+<blockquote class="blockquote">
+<p>It’s not a crime, not a trick, not a dirty trick, not a swindle, not a vice that does not endure without the secrecy that surrounds it. Expose these facts in the open, describe them, attack them, ridicule them in the press and sooner or later public opinion will drive them out. Publicity may not be the only thing necessary but it is one thing without which all other efforts will be in vain.</p>
+<p>—Joseph Pulitzer</p>
+</blockquote>
+<p>Panopticom is an investigative feature programme. It broadcasts a new issue every few weeks, featuring one or more stories provided by Panopticom cells.</p>
+<p>The programme takes its name from the theories of panoptic architecture: “the surveillance of all by all”. For that is the purpose of its existence: to monitor and denounce from within the walls, in an active position and not as mere witnesses falsely hiding behind the corrupt status of journalist.</p>
+<p>Panopticom cells are independent of each other, inserted into society. Anyone can join - there is no press card, no registration, no official existence. Those who make up a cell are truth resisters and act as such, in the shadows, spying, monitoring, exposing, tracking down weaknesses.</p>
+<p>A few cells wallow in sensationalism, in gonzo people; but most deal with hot topics, social problems, corruption, health scandals, political prevarications, small arrangements between the powerful that have an impact on the whole of society. They highlight the individual responsibilities in all the decisions that affect us all: no more hiding behind the secrets of deliberations or supposed orders from the hierarchy. No more buying, cheating, corrupting those who report. No more leverage - money, prestige, position, reputation, vanity. Only anonymous truth.</p>
+<p>Panopticom’s hope is to create a virtuous society because everyone will take responsibility with full knowledge of the facts. Is this fascism? No.&nbsp;It’s about transforming man in depth. Is it humanism? It is forcing civilisation to progress despite the conservative brakes and privileges that are defended tooth and nail.</p>
+<p>Regularly, at the passage of cycles, when they are ready, the Panopticom cells return their reports. These are accepted or not by the programme’s anonymous producers according to objective criteria, insofar as they are reliable. A report that is too weak, poorly researched or incomplete is likely to be rejected.</p>
+<p>If the information is inaccurate or untrue, the public and the mass media will pick up on this after the broadcast - and the reputation of the unit will suffer terribly. A good reputation increases the likelihood that the cell’s stories will be accepted, even with lower standards; a bad reputation allows mistrust to set in, even when all the standards are met. A cell with a destroyed reputation will have the greatest difficulty in continuing to provide reports: truthfulness, evidence and verification are the main concerns of most cells.</p>
+<p>Especially since an anonymous crowdfunding system allows the cells with the best reputations to receive larger budgets the more popular and followed their reports are.</p>
+<p>Each story that is accepted and delivered earns 5¥ and an additional 100 XP per character.</p>
+<section id="criteria" class="level4">
+<h4 class="anchored" data-anchor-id="criteria">Criteria</h4>
+<p>The ten criteria are both a roadmap for the characters - to help them organise and structure their investigations and research - and quantifiable objectives. When a report is handed in, the leader rolls 2d6. If the result is higher than the number of criteria met, the story is rejected - it can be resubmitted later if at least one other criterion has been met. The 2d6 roll is modified by the reputation of the cell.</p>
+<p>Players are given several criteria sheets and fill them in as they go along - one for each case in progress. This serves as a note sheet for information, a status bar for the investigation, and a tracking sheet so they always know what to do. A story is only acceptable if the sheet is carefully filled in (and legible).</p>
+<ol type="1">
+<li>The issue, the angle of approach: the characters discuss why and how they take on a story and note their initial intentions, a priori, and then, when the story starts to take shape, the way they want to treat it in the report.</li>
+<li>The basic facts: who what where when how why. This is the initial framework for getting as much factual information as possible.</li>
+<li>Causes and consequences: the events leading up to the case and its discovery and the impact the case has on the people involved.</li>
+<li>The deeper facts: what lies behind or beyond; possible ramifications, implications at other levels.</li>
+<li>The impact in society: how the story resonates in the city, the practical implications of the story before and after it is revealed; the opinion of the circles of power (political, economic, religious, etc.)</li>
+<li>Evidence: what can be brought forward as solid evidence to support the story - this would allow the case to go to court and be heard in summary proceedings.</li>
+<li>Pictures: to make a good and interesting story to follow on the matrix.</li>
+<li>Confrontation: to confront the actors and perpetrators, to get their opinion on the story and the facts presented. This step is very important to get last minute information or insights.</li>
+<li>The involvement of The Other: The Other is always involved. Always. You just have to find the links, direct or indirect.</li>
+<li>Ethics: this criterion is ticked, or not, by the leader. It is the conscience of the characters - did they do their job sincerely and professionally? Did they hide facts or lie? Did they leave out things that should be brought to people’s attention? It’s really a Jiminy Cricket thing. No value or moral judgement, just questioning the path taken from the characters’ point of view. They may have been misled and therefore give false information - and yet tick this criterion because they have done their best.</li>
+</ol>
+</section>
+<section id="reputation" class="level4">
+<h4 class="anchored" data-anchor-id="reputation">Reputation</h4>
+<p>The cells that work for Panopticom have a good or bad reputation, both from the public and from the press campaigns of those involved. This is a tricky thing for the game leader to manage, but very important:</p>
+<ul>
+<li>On the one hand, he has to judge objectively whether the story holds up or not, whether the characters have missed information that will be revealed later and may destroy or support their case.</li>
+<li>On the other hand, he has to manage the public and media returns of the revelations. Do people follow or not? Do the people involved defend themselves well or not?</li>
+</ul>
+<p>These two elements should allow you to vary the reputation of the cell after each broadcast (or even later). Each report can vary the reputation by 1 point up or down, with extremes from -3 to +3.</p>
+<p>Apply reputation to the 2d6 roll for acceptance of the story, but also to the ¥ the characters receive.</p>
+</section>
+</section>
+</section>
+<section id="conducting-an-investigation" class="level2">
+<h2 class="anchored" data-anchor-id="conducting-an-investigation">Conducting an investigation</h2>
+<blockquote class="blockquote">
+<p>“Woe! He’s building a city on blood! He founds a city on crime!”</p>
+<p>—Habakkuk 2, 12</p>
+</blockquote>
+<p>An investigation is a puzzle where the leader knows the answer(s) and the players try to guess the solution by asking questions.</p>
+<p>It is a complicated exercise, both for the game leader and for the players. The players like puzzles. Most of the time they like to play with their brains and crack seemingly unsolvable problems, especially when they want to prove to you that they are much smarter than you (the fools!). But, if they are not stupid, remember that they are groping their way through the fog and darkness. What may seem perfectly logical and coherent to you, because you know the ins and outs, may not make sense to them because they lack the elements to make connections between different clues.</p>
+<p>The leader must be consistent and logical in his answers; he must not leave anything out, and yet he cannot rely on the players to follow exactly the path he has imagined in his mind: sometimes they have incredible insights that make them skip several steps at once; other times they are blind and deaf and bang their heads against walls for hours.</p>
+<p>So it’s always a balancing act: keeping the mystery alive and not boring the players, making them think without making the problem unsolvable…</p>
+<p>Here are a few tips and tools to stage a good investigation that satisfies everyone, a whudonit that will not frustrate anyone and that will have as much rhythm as a good TV series.</p>
+<p>First of all, remember that the game leader has two main missions, which at first glance seem contradictory and yet must absolutely complement each other:</p>
+<ul>
+<li>The players must be forced to rack their brains so that there is challenge and difficulty.</li>
+<li>The players must have fun and frustration must never outweigh the pleasure.</li>
+</ul>
+<section id="questions-and-answers" class="level3">
+<h3 class="anchored" data-anchor-id="questions-and-answers">Questions and answers</h3>
+<p>An investigation is about finding information to make a decision: Who committed this crime? Where are the secret laboratories of the corporation? Who is behind the chain of events that is shaking the city and why?</p>
+<p>Generally, this information is not particularly secret or hidden and it just takes time: finding building plans, accessing financial information, building a biographical file on someone from their presence on the matrix… A simple Intelligence roll to solve a document search can be enough. The difficulty, in reality, is knowing where to look and asking the right questions.</p>
+<p>When the characters have to deal with a crime, a conspiracy or secret corporate manoeuvres, things get more complicated, but basically, it’s always the same process:</p>
+<ul>
+<li>The characters need information.</li>
+<li>They take the necessary actions to obtain that information.</li>
+<li>They use this information to make a decision: to seek new information or to act on the information they have already accumulated.</li>
+</ul>
+<p>Sometimes the search is very specific - the characters have a name, for example, and look for anything related to it. Other times the search is more open-ended: examining a crime scene, going through papers without knowing what they might find, interviewing people in the hope of getting a description.</p>
+<p>The rule for the game leader is very simple: when the players ask a question, you have to give them an answer!</p>
+<p>The players are not there to wander around in the dark, blind, for hours. A role-playing game is not real life, where investigators can run into walls for months or years, or even never find the culprit of heinous crimes. Here, as in a TV series, the investigation has to be completed in a relatively short time and therefore every question must be answered.</p>
+<p>Sometimes it can be a simple “You’re burning up” or “You’re freezing your butt off” - in an appropriate form: “You’ve been through the documents and found nothing. They really don’t seem to be related to your case.</p>
+<p>The rest of the time, they are pieces of the puzzle that should force the characters to undertake new research or new actions.</p>
+</section>
+<section id="critical-path" class="level3">
+<h3 class="anchored" data-anchor-id="critical-path">Critical path</h3>
+<p>There are two types of information:</p>
+<ul>
+<li>Information that is strictly necessary to continue the investigation. This information must always be given, at some point, if the players ask the right questions - and sometimes, even if they don’t do the right things: all it takes is for a witness to come to them spontaneously!</li>
+<li>Bonus information, which provides additional insight or leads to interesting secondary leads. This bonus information can sometimes speed up an investigation by giving the characters enough momentum to skip several steps or link the pieces of the puzzle together more easily. They can only be unearthed if the players ask specific questions or if their characters make particularly good skill rolls. Eventually, they may come later in the investigation, in the form of pieces needed to move forward: for example, crime scene findings that speed up the first few hours of the investigation, but which should arrive the next day anyway when all the lab work has been done.</li>
+</ul>
+<p>This is where the game leader’s job is particularly tricky: he or she has to determine which clues and information are available and how they lead to the solution. You should be very wary of things that are too constructed and too written down.</p>
+<p>Trust yourself: you know the end of the investigation, where it should end up. So you must be able, at any moment and without difficulty, to trace a path between this end and the stage where the characters are. Improvisation in an investigation is never difficult. Let yourself be carried along by the plot itself, since you don’t need to bounce off the players’ actions to change the world, but only expose to them, snippet by snippet, in order or disorder, all the aspects of a story already written. This is the easiest thing to do in improvisation.</p>
+<ul>
+<li>What remains to be discovered?</li>
+<li>What are the obstacles that remain before we get to the end of the story?</li>
+<li>What do the characters need to move forward?</li>
+<li>How do the target(s) of the investigation protect or hide themselves?</li>
+<li>What actions do they take that may leave new clues (according to the Locard principle)?</li>
+</ul>
+<p>All of these questions translate into various pieces of information that you should dispense gradually. What you must absolutely avoid is determining in advance that such and such a clue is in the hands of such and such a person, member of such and such a gang in such and such a neighbourhood. If the characters never set foot in the area, they will never have the information. On the other hand, you can decide that only gangsters or criminals can give this information: use the characters’ relations and contacts; wait for them to go to someone who fits your needs or, at worst, someone who tells them that they should go to gangsters (and gives them a contact, why not).</p>
+<p>There are two things that should guide the way you slip information in:</p>
+<ul>
+<li>The coherence of your story - just link directly to the circumstances of the crime, its chronological development, the personalities or means of the bad guys.</li>
+<li>The opportunities the players give you - answer their questions, always.</li>
+</ul>
+</section>
+<section id="whats-the-point" class="level3">
+<h3 class="anchored" data-anchor-id="whats-the-point">What’s the point?</h3>
+<p>Why do you need to make your investigators’ lives easier and give them answers? Simple: the investigation itself is not the most important part of the story. What really matters is what the characters do with it at the end.</p>
+<p>They have information; they have all the pieces of the puzzle. They still have to put them together in the right order and without misunderstandings, and most importantly, they now have to act!</p>
+<p>And if you’ve done your job well, it won’t be easy for them: the culprit may have excellent reasons and his victims were bastards; the culprit is untouchable, protected by powerful supporters; if it’s possible to know he’s guilty, it’s impossible to prove it; nobody believes the characters or the story interests anyone; someone is confiscating all the work of the characters and making the evidence, the victims and the culprits disappear…</p>
+<p>The important thing is that the characters have something to do with the results of their investigation, that they are forced to make choices or take action based on this information.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D36</th>
+<th style="text-align: left;">SOURCES OF INFORMATION</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">Official records</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">Personal files</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">Medical records</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">Relatives</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">Relationships or associates of the target</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">The police</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">Financial analyst</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">Newspaper article</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">Interested client</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">Confidential informant</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">A forensic laboratory</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">A cooperative witness</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.1</td>
+<td style="text-align: left;">A reluctant witness</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.2</td>
+<td style="text-align: left;">An anonymous tip</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.3</td>
+<td style="text-align: left;">A press conference</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.4</td>
+<td style="text-align: left;">A hunch</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.5</td>
+<td style="text-align: left;">A search on the matrix</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.6</td>
+<td style="text-align: left;">A rumour in the street</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D26</th>
+<th style="text-align: left;">ATTITUDES OF WITNESSES</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">Unclear, uncertain, hesitant</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">Categorical, confident</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">Too many irrelevant details</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">Evasive, reluctant, obstinate, distrustful</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">Unfriendly, aggressive, uncooperative</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">Inquisitive, curious, answers questions</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">Hides something, conceals, lies</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">Wants something out of it, greedy, interested</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">Already contacted by others, threatened, coerced</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">Inventive, mythomaniac, manipulative</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">Scared, won’t say anything, doesn’t want to talk</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">In a hurry, late, not now</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D36</th>
+<th style="text-align: left;">TYPE OF INFORMATION</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">DNA fingerprints</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">Computer files</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">Bundles of paper</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">Chemicals</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">Footprints or tyre tracks</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">Blood</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">A serial number</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">An object</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">An appointment</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">A network or known links</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">An address in the matrix</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">A physical address</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.1</td>
+<td style="text-align: left;">A weapon</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.2</td>
+<td style="text-align: left;">A chronology</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.3</td>
+<td style="text-align: left;">A physical description</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.4</td>
+<td style="text-align: left;">Ancient history</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.5</td>
+<td style="text-align: left;">Real-time location</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.6</td>
+<td style="text-align: left;">A note on the back of a matchbox</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="a-note-on-the-back-of-a-matchbox" class="level2">
+<h2 class="anchored" data-anchor-id="a-note-on-the-back-of-a-matchbox">A note on the back of a matchbox</h2>
+<blockquote class="blockquote">
+<p>I was trying to work out exactly how, when and where I should act and, most importantly, what I was going to do if it went wrong. Once the target had been chosen, the outline of a kidnapping is almost always the same. One, reconnaissance; two, abduction; three, detention; four, negotiations; five, payment of ransom; and finally, release - although sometimes this does not happen. My job was to prepare and execute the first three steps; the rest was not my concern.</p>
+<p>—Andy McNab, Operation Firewall</p>
+</blockquote>
+<p>Before you go on an intrusion mission, you may want to prepare a plan. Let’s be clear: it’s up to the characters to make the plan, not the players. The players are not in the field, and it’s well known that operational agents always get screwed when it’s the analysts who do the planning.</p>
+<p>Before a mission, each character can spend ¥2 to regain a number of connection points equal to the rank of the characteristic of his choice. This corresponds to how well he prepares: Strength or Constitution to do some heavy lifting like modifying a vehicle or arranging for destructive equipment, Dexterity or Intelligence to retrieve data or fiddle with electronics, Wisdom or Charisma to get information from the right people.</p>
+<p>You don’t need to list exactly what you prepare or get. The character is considered to be doing the right thing in their chosen field.</p>
+<p>You can use these connection points (and the rest of your stash) in the usual way - to hack the matrix or activate relationships - but in the context of a specific intrusion or mission, you can also spend them on inventing ways to get out of trouble when things start going wrong. Every time the leader throws up an obstacle, an unpleasant surprise, a twist, you can pretend that you had planned it. Spend connection points (possibly pooling them) and explain how you are too strong: the security guard was bribed to let you through; you fingerprinted the executive to turn on his secure office console; you have a key to a back staircase allowing you to leave the floor while avoiding the SWAT team, etc.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 11%">
+<col style="width: 88%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Connection points</th>
+<th style="text-align: left;">Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Remove a minor obstacle that you could obviously pass easily, but which would then take you a few minutes when you only have a few seconds.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">Escape a major hazard or remove an embarrassing obstacle that you could not get past if you had not provided the equipment, skills or information.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5+</td>
+<td style="text-align: left;">Clearing a major obstacle or escaping immediate and deadly danger, by absolutely cheating the odds and virtually changing the leader’s descriptions.</td>
+</tr>
+</tbody>
+</table>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Multiple uses of connection points
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>When you play the basic game, connection points are only used for one thing: hacking and manipulating the live matrix. Intermediaries have a special rule for summoning connections and asking them for services. Then, swordsmen (in particular) learn that they can spend connection points to make certain special ammunition available. And finally, these connection points are also used to manipulate the scenes. This gets seriously complicated. In reality, connection points are a “mystical” resource - the equivalent of magic points in Pocket Dragon. They indicate how you can cheat the rules to get special effects, to act like the heroes in the movies (they have the writers on their side) and get out of the worst situations with a spin. Notice how the actors always have a pool of water under their feet when they accidentally go out the window? But it’s a resource you have to manage - sure, it replenishes itself every day and you can even spend luck points to recharge it during the adventure, but if the game’s leader gets a bit carried away with his adventures, you’ll soon run out.</p>
+</div>
+</div>
+</section>
+<section id="intrusions" class="level2">
+<h2 class="anchored" data-anchor-id="intrusions">Intrusions</h2>
+<blockquote class="blockquote">
+<p>So, shovel in one hand, gun in the other, we leap from hole to hole, ready to pounce again when our breath has returned and our hearts have calmed down a bit. The heavy artillery has set up one hell of a barrage. From the forest huge white flames emerge and the trees are falling as if under a gigantic scythe. We see the Russians cowering behind their dead corpses, since a corpse is as effective a protection as a sandbag; as for sensitivity, there is no room for it at the front. Don’t blame the unfortunate soldiers, but the criminals who provoke wars!</p>
+<p>—Sven Hassel, I saw them die</p>
+</blockquote>
+<p>There are times when you need to speed things up and structure the elements of your adventure a little better: for example, when you have to break into an archaeology to extract someone and implant a virus in their neurotronic systems, or when you have to traverse a district of the anarzone in the middle of a civil war while planting spy nanodrones and looting a gang’s accelerator supply.</p>
+<p>There are three ways to do this:</p>
+<ul>
+<li>You plan in advance all the game elements you want to place and recite your lesson as rigorously as possible.</li>
+<li>The players roll one or two times and it’s hit or miss.</li>
+<li>You use the intrusion rules presented here.</li>
+</ul>
+<p>An intrusion is the generic name given to a mission with one or more specific, pre-planned tactical objectives - usually one to three. The intrusion is completed when all objectives have been met.</p>
+<p>The players determine the number of objectives to be completed and the order in which they are completed. The first objective earns 5 XP per character; the second earns 10 XP, the third 15 and so on. It is not possible to take a rest while there are still objectives to complete, unless you give up and the mission is interrupted.</p>
+<p>The game leader has a little preparation to do before launching his players into intrusion. Don’t worry, it’s not much.</p>
+<p>Fill out a small table for each objective to be accomplished. The table usually has 6 items numbered from 1 to 6 (but if you have the right stuff on hand, you can vary the die used from d4 to d10 to represent the difficulty or length of the operation). The 1 is always “goal achieved” (at least, the characters are able to do what they need to do now to achieve it). For the other elements, you can pick and choose from the following suggestions according to your needs and desires. Try to put the things you consider most dangerous at the top of the die and the things that are more favourable to the characters at the bottom of the table. By choosing the items on each table, the leader can really guide the moods he wants to set for events, even if he doesn’t ultimately decide exactly what they are.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 90%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D6</th>
+<th style="text-align: left;">EXAMPLE OF HOW DANGEROUS THE EVENTS ARE</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">The characters achieve their objective</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">The adventure is annoying and wastes the characters’ time characters, but does not put the mission back into play.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">The incident is a real puzzle, difficult to solve, but the characters have some time.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Things suddenly speed up. It’s not deadly, but it is explosive.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">It’s a pretty dangerous ride, but the characters have a few moments’ notice.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">The situation is extremely dangerous and things jump out at the characters without them having had time to prepare.</td>
+</tr>
+</tbody>
+</table>
+<p>OPPOSITION</p>
+<ul>
+<li>At gunpoint</li>
+<li>Watch out! Behind you!</li>
+<li>Contact! Contact!</li>
+<li>Unexpected face to face</li>
+<li>There are too many of them!</li>
+<li>Alarms are sounding…</li>
+<li>Muted threat approaching…</li>
+<li>Changing of the guard</li>
+<li>A new competitor</li>
+</ul>
+<p>OBSTACLE</p>
+<ul>
+<li>Where is the exit again?</li>
+<li>The timing couldn’t be worse!</li>
+<li>Sentinels keeping watch</li>
+<li>Esclandre!</li>
+<li>Head against the wall…</li>
+<li>Glass wall…</li>
+<li>Forceful passage</li>
+<li>Too many choices</li>
+<li>A diversion that is much too long…</li>
+</ul>
+<p>DANGER</p>
+<ul>
+<li>Take cover!!!</li>
+<li>It’s a trap!</li>
+<li>It’ll blow up in your face!</li>
+<li>Suspicious smells</li>
+<li>Shouldn’t you have turned left?</li>
+<li>Up to your neck!</li>
+<li>The noose is tightening…</li>
+<li>Point of no return</li>
+<li>Chain reaction!</li>
+</ul>
+<p>SURPRISE</p>
+<ul>
+<li>Much ado about nothing!</li>
+<li>Good information, bad interpretation…</li>
+<li>Unfortunate coincidences</li>
+<li>Ambush!</li>
+<li>I didn’t see it coming…</li>
+<li>The fear of your life!</li>
+<li>The dust settles…</li>
+<li>Stunned and shaken</li>
+<li>Betrayal!</li>
+</ul>
+<p>MEETING</p>
+<ul>
+<li>Angel or demon?</li>
+<li>Blackmail and pressure</li>
+<li>Defection!</li>
+<li>Attentive and discreet people</li>
+<li>Diversion</li>
+<li>I’ve got just what you need</li>
+<li>Misunderstanding and misunderstanding</li>
+<li>A really weird guy</li>
+<li>Small staff</li>
+</ul>
+<p>RECEPTION</p>
+<ul>
+<li>It can’t hurt…</li>
+<li>Where is everyone?</li>
+<li>Nobody…</li>
+<li>Little help?</li>
+<li>Stockpile of materials</li>
+<li>Care and repair</li>
+<li>A teasing smile</li>
+<li>A comfortable cache</li>
+<li>Information perhaps?</li>
+</ul>
+<p>MYSTERY</p>
+<ul>
+<li>How does this thing work?</li>
+<li>In the dark suddenly!</li>
+<li>Strange and disturbing noises…</li>
+<li>Non-Euclidean geometry</li>
+<li>Uncertain identification</li>
+<li>The lens has disappeared!</li>
+<li>Tractations…</li>
+<li>A detail you all missed…</li>
+<li>A moment of hesitation…</li>
+</ul>
+<p>CATASTROPHE</p>
+<ul>
+<li>Fatal blow!</li>
+<li>Sudden disappearance</li>
+<li>Collateral damage</li>
+<li>Checkmate!</li>
+<li>And it’s an explosion!</li>
+<li>Flee, you fools!</li>
+<li>Fire in the belly</li>
+<li>Poisoning</li>
+<li>We are going to be separated!</li>
+</ul>
+<p>Now it’s up to the players. Each player in turn draws a die. Write down the title of the story on a post-it note. It’s up to him to invent an adventure, a twist, an obstacle, a threat, a danger. He takes the lead, lays the foundations of the situation, imagines some interesting elements and then hands over control to you when, naturally, you ask the question “What are you doing?”</p>
+<p>Then play the scene as normal, integrate the proposed elements into the narrative and the rest of the story, bounce around, add your own ingredients and let the players work it out - remember they still have a few plan points to spend just in case (at least if they’ve been careful to prepare).</p>
+<p>When the players get the long-awaited 1, the objective is revealed, it is within reach. Don’t forget to play the scene: they still have to win the thing.</p>
+<p>When the last objective is reached, you can play a final episode if the extraction is not too complicated or plan a final scene - on 1, the characters are finally safe!</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Sometimes the characters find relevant information, quick shortcuts or have dazzling intuitions. In this case, reduce the dice (e.g.&nbsp;roll 1d3 instead of 1d6) while the advantage remains - this helps to achieve the objective more quickly. Similarly, you may or may not feel that the same number cannot be rolled twice; conversely, you can have fun, if the players land on the same number, giving them a different title the second time around…</p>
+</div>
+</div>
+</div>
+<section id="an-example" class="level3">
+<h3 class="anchored" data-anchor-id="an-example">An example</h3>
+<p>The characters must infiltrate a corporate marina, find a specific yacht, plant clues that compromise a specific frame and copy the memories of the onboard computer. That’s two objectives: 1. enter the marina and find the yacht; 2. plant the clues and access the computer. Of course, there are guards everywhere, security systems and the yacht is really big (and busy).</p>
+<p>The leader should therefore prepare two small adventure tables:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D6</th>
+<th>EVENTS: THE MARINA</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td>Objective achieved: The characters are in front of</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td>Misunderstanding and misunderstanding</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td>Shouldn’t you have turned right?</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td>Surprise visit</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td>Attentive and discreet people</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td>Unexpected face to face</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D6</th>
+<th style="text-align: left;">ADVENTURES: THE YACHT</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">Objective achieved: the characters access the</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Cupboards full of things…</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Strange and disturbing noises…</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Midnight swim!</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">Unfortunate coincidences</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">Alarm bells ringing…</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="events-and-rumours" class="level2">
+<h2 class="anchored" data-anchor-id="events-and-rumours">Events and rumours</h2>
+<blockquote class="blockquote">
+<p>But if there is a greater lesson to be learned from what happened in the clearing, it is the simple fact that the real gladiators of the world gladiators of the world are of such humble origin and so commonplace in appearance that if you stand in line behind them in a grocery shop, you can’t guess how much the fire of their souls can light up the darkness.</p>
+<p>—James Lee Burke, Swan Lake</p>
+</blockquote>
+<p>A nanoChrome campaign can be played in a sandbox style. The game leader sets events and mysteries and lets the players deal with them. The success criteria of the stories and missions provide sufficient guidance so that the players always know where to go and what to do: they just have to act in such a way as to find the answers to the questions. From then on, the leader can let himself be carried along by events.</p>
+<p>To get the action going again, you have several tools at your disposal:</p>
+<ul>
+<li>Start a new story line or mission request: the town doesn’t stop spinning because the characters are investigating a case or working on a mission. In fact, it’s much more interesting when they find themselves drowning in the need to investigate three or four different leads at once. As they close cases and send in their reports or respond to their employers, you can add game material. Load up the boat, let them chase every bone you throw them and insist on more. They will hate you and yet love the story.</li>
+<li>Get The Other to act: The Other does not sit still. It has its own goals and it sets them in motion at its own pace. This is how the world gradually evolves. Normally you have to wait for a cycle to pass, but if the characters don’t take the initiative, too bad for them…</li>
+<li>Ask the players to invent rumours or events in the town: you can use the table below as a guide to trigger or inspire these rumours - or leave it to the players. Ideally, ask for one rumour a day - when the characters get up. Players can take turns answering. Rumours can be about things that have happened, are happening, or are likely to happen later.</li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 14%">
+<col style="width: 85%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D6</th>
+<th style="text-align: left;">WHEN?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1-2</td>
+<td style="text-align: left;">What happened in the previous days (the previous cycle)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3-4</td>
+<td style="text-align: left;">What is happening today (this cycle)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5-6</td>
+<td style="text-align: left;">What will happen in the next few days (the next cycle or even the one after that)</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 9%">
+<col style="width: 86%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D36</th>
+<th style="text-align: left;">RUMOURS/EVENTS</th>
+<th style="text-align: left;">KEYWORDS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">AT WORK</td>
+<td style="text-align: left;">Unemployment - strikes - wage negotiations - industrial accident - economic crisis - modification of the labour code - trade union action - counter-insurgency and jaunts - employer pressure - repression…</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">PARTIES AND EVENTS</td>
+<td style="text-align: left;">Block party - traditional celebrations - concert - art - happening - Zeuf, Kabukirock and Takodub - Blitzball match - student party - excellent mega party - stars and celebrities - social event and cocktail party…</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">ANARZONE</td>
+<td style="text-align: left;">Abandonment - on the wrong side of the checkpoints - violent gangs - territoriality - resignation - revolt - protest - charity work - black market and smuggling - no future - ruins - hope…</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">THE OTHER</td>
+<td style="text-align: left;">Press conference - media announcements - unverified rumours - suppressed scandal - trial - defeated opponents…</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">CRIMINALITY</td>
+<td style="text-align: left;">Grisly murder - drug trafficking - corruption - grand theft - score-settling - serial killer - gang warfare - drive-by shooting - human trafficking - cyber-recovery - akhashic crime…</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">THE MUNICIPALITY</td>
+<td style="text-align: left;">Works - local codes - council decisions - scandal - press conference - security - firm opposition - deals and compromises - public pressure - shady deals…</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">POLITICS</td>
+<td style="text-align: left;">Authoritarianism - utopia - social movements - protests - indecisions - violence - unnatural agreements and alliances - nationalism and identity-based withdrawal - internationalism - elections - militants - scandal - prevarications and abuses…</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">THE WORLD</td>
+<td style="text-align: left;">World news - ongoing wars - ecological disasters - devastating accidents - pacts and alliances - commodity prices - new technologies…</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">THE FLOATING WORLD</td>
+<td style="text-align: left;">Gamblers and bouncers - bars and cabarets - shows - music scene - prostitution - gambling - code of conduct - drunkenness - predators and victims - drugs - gangers - trafficking - cop patrols - nightclubs - snitches…</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">THE NEIGHBORHOOD</td>
+<td style="text-align: left;">Traders - residents - entrepreneurs - suppliers - friends - neighbours - thugs - parasites - profiteers - exploited - accident - drama - joy - party…</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">THE SQUAT</td>
+<td style="text-align: left;">Passages - meetings - feelings - quarrels - logistics - celebrations - mourning - work - exclusions - newcomers - mysteries - black market…</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">THE WEATHER</td>
+<td style="text-align: left;">Storms - strong winds - heavy rain - heat waves - floods - extreme cold - power cuts - accidents…</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.1</td>
+<td style="text-align: left;">THE CONURBS</td>
+<td style="text-align: left;">Football match - quiet life - unpredictable drama - fire - building work - monster traffic jams - problems on public transport - perversions - buried secrets - mowing the lawn and putting your head down…</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.2</td>
+<td style="text-align: left;">CORPORATIONS</td>
+<td style="text-align: left;">Orbitals - price wars - industrial management - hedonism - scandal - board of directors - wealth - power - internal struggles - careers and jobs - managers and employees…</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.3</td>
+<td style="text-align: left;">THE ENCLAVES CORPORATISTS</td>
+<td style="text-align: left;">Archologies - enhanced security - press conference - marketing and aggressive advertising - sales - antizone on fire terrorist attack - munificence and abuse…</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.4</td>
+<td style="text-align: left;">THE ORBITALS</td>
+<td style="text-align: left;">Corporatist Council - lift orbital elevator - moon islands - Kwaza barge - interventionism - the twelve orbitals - UN - secret war - space accident - bombings - above the mass…</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.5</td>
+<td style="text-align: left;">MY PRIVATE LIFE</td>
+<td style="text-align: left;">Simple meeting - tragic accident - anecdote - important meeting - discovery - secret to share - stupidity - humour - dark thoughts - love at first sight break-up - evening with friends - too many things to do to do - bills to pay…</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.6</td>
+<td style="text-align: left;">ON THE MATRIX</td>
+<td style="text-align: left;">Special communications - news streaming - hackers and coders - akhashic minds - lost connection - virtual reality - persistent worlds - digital economy - blackmail and control - denial of service - concerted attacks - akhashic flashmob…</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="flash-infos" class="level2">
+<h2 class="anchored" data-anchor-id="flash-infos">Flash-infos</h2>
+<blockquote class="blockquote">
+<p>When you see people getting richer by bribing and extortion than by working, and that your laws do not protect you against them, but protect them against you, when you see that corruption is rewarded and honesty has become abnegation, you know that your society is doomed.</p>
+<p>—Ayn Rand, Atlas Shrugged</p>
+</blockquote>
+<p>If you like, you can also use the newsflash table: draw from each column and throw out a news item in less than thirty seconds in the form of a flash headline heard on the radio. If the players are hooked or want to know more, you can then expand on the story as you see fit. By punctuating the game sessions in this way, you’ll set the pace and find yourself making up lots of interesting stuff on the fly - all the goodness of automatic writing, in a hurry, without thinking…</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D66</th>
+<th style="text-align: left;">WHAT?</th>
+<th style="text-align: left;">WHO?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">Accident</td>
+<td style="text-align: left;">The federal government</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">Economic news</td>
+<td style="text-align: left;">Local government</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">Foreign news</td>
+<td style="text-align: left;">The Other</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">Political news</td>
+<td style="text-align: left;">Police</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">Social news</td>
+<td style="text-align: left;">Organised crime</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">Social agenda</td>
+<td style="text-align: left;">Big crime</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">Robbery</td>
+<td style="text-align: left;">Panopticom</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">Weather report</td>
+<td style="text-align: left;">An adversary</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">Pink notebooks</td>
+<td style="text-align: left;">A corporate executive</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">Catastrophe</td>
+<td style="text-align: left;">An akashic shaman</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">Sensational crime</td>
+<td style="text-align: left;">A coder</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">Culture</td>
+<td style="text-align: left;">A diplomat</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.1</td>
+<td style="text-align: left;">Drama</td>
+<td style="text-align: left;">An akhashic mind</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.2</td>
+<td style="text-align: left;">Riot</td>
+<td style="text-align: left;">A media expert</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.3</td>
+<td style="text-align: left;">Espionage</td>
+<td style="text-align: left;">A street gang</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.4</td>
+<td style="text-align: left;">Absurd fact</td>
+<td style="text-align: left;">A politician</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.5</td>
+<td style="text-align: left;">Criminal mischief</td>
+<td style="text-align: left;">An immortal</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.6</td>
+<td style="text-align: left;">War</td>
+<td style="text-align: left;">A stranger</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.1</td>
+<td style="text-align: left;">Justice and trial</td>
+<td style="text-align: left;">An intermediary</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.2</td>
+<td style="text-align: left;">The Matrix</td>
+<td style="text-align: left;">An inventor</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.3</td>
+<td style="text-align: left;">Manifestations</td>
+<td style="text-align: left;">A messenger</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.4</td>
+<td style="text-align: left;">Murder</td>
+<td style="text-align: left;">A nomad</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.5</td>
+<td style="text-align: left;">Military operations</td>
+<td style="text-align: left;">An oligarch</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.6</td>
+<td style="text-align: left;">Police operations</td>
+<td style="text-align: left;">A cleric</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.1</td>
+<td style="text-align: left;">People</td>
+<td style="text-align: left;">An orbital national</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.2</td>
+<td style="text-align: left;">Religion</td>
+<td style="text-align: left;">A swordsman</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.3</td>
+<td style="text-align: left;">International meeting</td>
+<td style="text-align: left;">A scientist</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.4</td>
+<td style="text-align: left;">Health</td>
+<td style="text-align: left;">A recognized specialist</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.5</td>
+<td style="text-align: left;">Political and financial scandal</td>
+<td style="text-align: left;">A sportsman</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.6</td>
+<td style="text-align: left;">Sexual scandal</td>
+<td style="text-align: left;">A trafficker</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.1</td>
+<td style="text-align: left;">Science and discovery</td>
+<td style="text-align: left;">A celebrity</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.2</td>
+<td style="text-align: left;">Sports - results</td>
+<td style="text-align: left;">An orbital corporation</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.3</td>
+<td style="text-align: left;">Sports - scandals and stories</td>
+<td style="text-align: left;">An escort</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.4</td>
+<td style="text-align: left;">Technology</td>
+<td style="text-align: left;">A faction of the game</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.5</td>
+<td style="text-align: left;">Terrorism</td>
+<td style="text-align: left;">A relationship</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.6</td>
+<td style="text-align: left;">Urban violence</td>
+<td style="text-align: left;">A cult</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D26</th>
+<th style="text-align: left;">WHERE?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">Abroad (anarzone)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">Abroad (conurb)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">Abroad (corporatist enclave)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">In facilities belonging to The Other</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">In an antizone</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">In orbit</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">Here (anarzone)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">Here (conurb)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">Here (corporatist enclave)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">Another city (anarzone)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">Another city (conurb)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">Another city (corporatist enclave)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="the-galleries" class="level2">
+<h2 class="anchored" data-anchor-id="the-galleries">THE GALLERIES</h2>
+<blockquote class="blockquote">
+<p>Strange thing, almost all men of action incline to fatality, just as most thinkers incline to Providence.</p>
+<p>—Honoré de Balzac, The Human Comedy</p>
+</blockquote>
+<p>To fill in the dead time or bounce the action in unexpected directions, don’t hesitate to get the characters into trouble by sending them into a gallery. A crisis is just a bad moment, an additional complication in an already complicated life. It usually concerns only one character, but he can of course drag his companions into the mess.</p>
+<p>When a problem has been solved, it yields 20 XP and 3 connection points.</p>
+<p>You can also give the list to the players: each one chooses one in secret at the beginning of the adventure. They can play it whenever they want on themselves or on one of their little friends. For the sake of mischief and to the delight of the rest of the table. What can be funny is when all the galleys fall on the same unfortunate person (who ends up accumulating some XP in the story).</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 8%">
+<col style="width: 87%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D66</th>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">ACCIDENT</td>
+<td style="text-align: left;">You are involved in an accident – whether you are responsible or not. There’s damage and lots of complications to manage, both material and human.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">BUREAUCRACY</td>
+<td style="text-align: left;">You’re being given administrative grief – reminder letters, lost files, debts, and bizarre bills… It’s becoming urgent to deal with it, and it’s going to keep you busy for a while.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">CELEBRATION</td>
+<td style="text-align: left;">You’re invited to a party, but it’s really bad timing. You’re not in the mood, and everyone is going to drink way too much. It’s going to be a long night…</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">SUSPICIOUS PACKAGE</td>
+<td style="text-align: left;">You mistakenly received and opened a strange package not addressed to you. It contained something dangerous – for you and the recipient – far too much money, drugs, illegal equipment, threats, a bomb, or even a bloody ear or head.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">STROKE OF LUCK</td>
+<td style="text-align: left;">You’re really lucky today. You’ve won a lot of ¥. But money doesn’t buy happiness, as you well know. And this money is going to burn a hole in your pocket.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">CHASE</td>
+<td style="text-align: left;">You’ve just been robbed. Surprised at first, you are now chasing the thug. It’s not necessarily bad luck; you might have been the target of the setup.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">DEBT</td>
+<td style="text-align: left;">Someone close to you owes money to dangerous people. Gambling debt, unofficial loan, illegal service… They need help and are already roughed up. You can’t leave them like this.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">LOCAL DIPLOMACY</td>
+<td style="text-align: left;">Your squat has some problems with troublesome neighbors, and you’re in charge of dealing with it. You’ll need a good dose of patience and diplomacy, unless you opt for the punch-in-the-face method…</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">MISSING PERSON</td>
+<td style="text-align: left;">A buddy, a brother, or an acquaintance is nowhere to be found. What kind of mess has he gotten himself into this time? He might have left you a worried message, and no one has seen him since.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">MISTAKEN IDENTITY</td>
+<td style="text-align: left;">You’re mistaken for someone else, and of course, it’s not to give you flowers or congratulate you. These people won’t let you go because of a few protests, and they are dangerous.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">OUTBREAK OF VIOLENCE</td>
+<td style="text-align: left;">You witness an outbreak of violence that will leave physical or emotional scars, or even involve you more than you’d like.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">FRUSTRATION</td>
+<td style="text-align: left;">Sometimes, the cup is full. You explode angrily. For now, people are just afraid of you. But tomorrow, you’ll have to deal with the stares and complaints.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.1</td>
+<td style="text-align: left;">GROUPIE</td>
+<td style="text-align: left;">After a brilliant act, someone is obsessed with you. For now, they’re harmless, but with this kind of crackpot, you never know what might happen.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.2</td>
+<td style="text-align: left;">HANGOVER</td>
+<td style="text-align: left;">Here come those rough mornings when you can’t remember how you ended up there, when the slightest noise gives you a migraine that would knock out a COPA. What happened last night?</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.3</td>
+<td style="text-align: left;">LOVE STORY</td>
+<td style="text-align: left;">You’re in love, but couple life is sometimes complicated, whether the story is in full swing or you’re settled into a routine.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.4</td>
+<td style="text-align: left;">FESTIVAL DAY</td>
+<td style="text-align: left;">You don’t like festivals. Impossible to get around, do errands, or reach your contacts. Nothing seems to work normally.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.5</td>
+<td style="text-align: left;">THE HEAT</td>
+<td style="text-align: left;">Those corporate security jerks are overzealous tonight. Insults, beatings? Either you’re at the station for more thorough “verifications,” or you’re on the run with half the corpo cops on your tail.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.6</td>
+<td style="text-align: left;">BURYING THE HATCHET</td>
+<td style="text-align: left;">You made the wrong joke to the wrong person. Everyone had a good laugh, but you saw it in their eyes: war is declared. It’s not going to end there… oh no!</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.1</td>
+<td style="text-align: left;">MURPHY’S LAW</td>
+<td style="text-align: left;">Today is a bad day, and it’s only just begun. Whatever you do today, it’s going to turn into a nightmare.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.2</td>
+<td style="text-align: left;">THE EXES</td>
+<td style="text-align: left;">An ex comes back into your life: they need a favor from you, or vice versa; it’s pure chance working things out (or not); it’s a pleasant surprise (or not)…</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.3</td>
+<td style="text-align: left;">ILLNESS</td>
+<td style="text-align: left;">Someone is sick. Maybe you. You’ll have to run around everywhere to find increasingly rare and expensive medications.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.4</td>
+<td style="text-align: left;">BAD IDEA</td>
+<td style="text-align: left;">You’re dragged into a bad plan, a first-class mess. You’re not responsible for your friends, family, or clients, but when their problems start to concern you, it’s already too late.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.5</td>
+<td style="text-align: left;">BAD PRESS</td>
+<td style="text-align: left;">The media is cruel, and you find yourself their target without quite understanding why. Does the journalist think they have a scoop, or are they pursuing you with some sort of personal hatred? Unless they were paid to destroy you.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.6</td>
+<td style="text-align: left;">LONG FUSE</td>
+<td style="text-align: left;">Your past comes back to haunt you. You made some mistakes back in the day, and now it’s time to pay the bill.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.1</td>
+<td style="text-align: left;">SUDDEN DEATH</td>
+<td style="text-align: left;">Someone has died. This death may or may not affect you emotionally, but it certainly forces you to reconsider your plans for the day.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.2</td>
+<td style="text-align: left;">IMPROVISED NANNY</td>
+<td style="text-align: left;">You’ve inherited a kid for the day – the mother thrust them into your arms and bolted, claiming urgent matters. You’ll quickly realize this is far from a little angel!</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.3</td>
+<td style="text-align: left;">PERSONAL PAGE</td>
+<td style="text-align: left;">Someone has tampered with your personal page on the WakuWaku social network. It pisses you off, for sure, but it’s not without consequences.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.4</td>
+<td style="text-align: left;">BREAKDOWN</td>
+<td style="text-align: left;">Something breaks down at the worst possible moment, and guess who has to fix the problem. And in the meantime, you’ll have to do the work by hand since the machine has given up the ghost.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.5</td>
+<td style="text-align: left;">APPOINTMENT</td>
+<td style="text-align: left;">You have an important appointment, the kind you can’t miss, and it falls right in the middle of something else equally crucial. You’ll have to find a solution.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.6</td>
+<td style="text-align: left;">REVELATIONS</td>
+<td style="text-align: left;">Someone close trusts you enough to make very personal, very disturbing, or downright bizarre revelations to you. Except it’s much more than you can handle.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.1</td>
+<td style="text-align: left;">RIPPED OFF</td>
+<td style="text-align: left;">You had a contract, but the other party didn’t honor their commitments – shoddy or undelivered equipment, false information. You’ll have to kick some asses, and something tells you your night isn’t over yet.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.2</td>
+<td style="text-align: left;">ABSENT-MINDED</td>
+<td style="text-align: left;">Today you’re tired, in love, or obsessed with your problems. You don’t retain anything you’re told, and you forget half of what you’re asked to do.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.3</td>
+<td style="text-align: left;">A DEMANDING JOB</td>
+<td style="text-align: left;">There are problems at the squat, and the caretaker has summoned you. He’s furious, overwhelmed, stressed, and this needs to be sorted out before anything else… You’re not going to be idle!</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.4</td>
+<td style="text-align: left;">A SMALL FAVOR</td>
+<td style="text-align: left;">You’re asked for a favor you can’t refuse. You said yes reflexively, without thinking about the real consequences of your answer, and now you’re stuck.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.5</td>
+<td style="text-align: left;">FAMILY VISIT</td>
+<td style="text-align: left;">Members of your family are coming to visit - but as often, nothing is simple. They’re very nice, but really cumbersome and tiring.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.6</td>
+<td style="text-align: left;">VOLUNTEER</td>
+<td style="text-align: left;">You have something to do for the squat, a thankless job for which you can expect no recognition, but someone has to do it. And of course, it’s on a day when everything is complicated.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="gigs" class="level2">
+<h2 class="anchored" data-anchor-id="gigs">Gigs</h2>
+<blockquote class="blockquote">
+<p>It’s strange that some people commit when there are so many perfectly legal ways to be dishonest.</p>
+<p>—Georges Courteline</p>
+</blockquote>
+<p>Do the characters need ¥ quickly? No problem. All they have to do is go to work, instead of waiting for their corpo girlfriends.</p>
+<p>Generally speaking, a small job keeps a character busy for a large part of the day or night - and never during the tense ellipses, that would be too easy. You can skip over these sequences or play them in their entirety depending on your mood and the time available. A small job consists of putting your abilities and skills at the service of people who have immediate needs in marginal areas: delivering a package of accelerators somewhere, guarding a cyber chop shop for the time of a sensitive intervention for a local kingpin, using your CPA to go and unload contraband in a remote cove, going to collect money from a Shylock’s debtors, etc. In short, nothing but legal and unpaid work. In short, nothing but the legal and the shiny…</p>
+<p>Depending on your inspiration, things can either go well or go seriously wrong. If you have no idea, use the golden rule.</p>
+<p>At the end of a job, you get 1d3 ¥, plus 1d3 if you have a really interesting skill or ability for the job.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D36</th>
+<th style="text-align: left;">Gig</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">Accompaniment</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">Administration</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">Assistance</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">On-call</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">Accounting</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">Driving</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">Construction</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">Manufacturing</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">Custodial</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">Structural work</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">Delivery</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">Maintenance</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.1</td>
+<td style="text-align: left;">Handling</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.2</td>
+<td style="text-align: left;">Cleaning</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.3</td>
+<td style="text-align: left;">Protection</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.4</td>
+<td style="text-align: left;">Service</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.5</td>
+<td style="text-align: left;">Surveillance</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.6</td>
+<td style="text-align: left;">Tour</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="returning-the-favour" class="level2">
+<h2 class="anchored" data-anchor-id="returning-the-favour">Returning the favour</h2>
+<blockquote class="blockquote">
+<p>“And the problem with love,” he added, is that you can’t force anyone. It is natural to want those you love to do what you what you want, or what you think is good for them, but you but you have to let things happen. happen. We can no more intervene in the lives of those we love the lives of those we love any more than we can intervene in the lives of people we don’t know. you don’t know. And it’s hard,” he says, because very often you want to intervene - you want to be the one who calls the shots.</p>
+<p>“It’s hard to want to protect someone and not be able to,” Ange observed.</p>
+<p>“You can’t protect people, kid,” Wally replied. “All you can do is love them.”</p>
+<p>—John Irving, God’s work, the devil’s share</p>
+</blockquote>
+<p>What if the characters helped their relationships a little instead of always being hung up on them? From time to time, friends and acquaintances need a hand too.</p>
+<p>Just figure out what it is and how the characters are involved, then go for it. You can complicate things or even make it the start of a whole adventure.</p>
+<p>When all is well, the characters involved gain 3 connection points and, more importantly, a freebie to ask for later - say, up to a value of 3 connection points. But, if the referral is really important, it can also be a connection point to spend to increase the character’s relationship with the contact.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 38%">
+<col style="width: 44%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D36</th>
+<th style="text-align: left;">TRIGGER</th>
+<th style="text-align: left;">REQUEST</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">It’s a job like any other</td>
+<td style="text-align: left;">Helping a friend in trouble</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">“Friends” ask for it</td>
+<td style="text-align: left;">Breaking kneecaps</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">In the middle of something else</td>
+<td style="text-align: left;">Defending your lair</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">A knock on the door…</td>
+<td style="text-align: left;">Delivering a message</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">By the family</td>
+<td style="text-align: left;">Giving a hand to move</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">By a third party</td>
+<td style="text-align: left;">Eliminating a threat</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">During a lunch in town</td>
+<td style="text-align: left;">Preventing her murder</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">During a drunken night out</td>
+<td style="text-align: left;">Preventing a dirty trick</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">Suddenly, with direct involvement</td>
+<td style="text-align: left;">Intercepting sensitive information</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">An article in the media</td>
+<td style="text-align: left;">Participating in negotiations</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">A challenge</td>
+<td style="text-align: left;">Protecting a cover</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">A message from a faction</td>
+<td style="text-align: left;">Recovering something valuable</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.1</td>
+<td style="text-align: left;">A message about the matrix</td>
+<td style="text-align: left;">Finding a lost object</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.2</td>
+<td style="text-align: left;">A paper slipped under the door</td>
+<td style="text-align: left;">Finding a person</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.3</td>
+<td style="text-align: left;">A clandestine meeting</td>
+<td style="text-align: left;">Finding out about someone</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.4</td>
+<td style="text-align: left;">Long-distance communication</td>
+<td style="text-align: left;">Acting as a diplomatic intermediary</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.5</td>
+<td style="text-align: left;">A rumour</td>
+<td style="text-align: left;">Monitoring a person or group</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.6</td>
+<td style="text-align: left;">An emergency</td>
+<td style="text-align: left;">Finding sensitive sensitive information</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="corporations" class="level2">
+<h2 class="anchored" data-anchor-id="corporations">Corporations</h2>
+<blockquote class="blockquote">
+<p>But Brian was not fooled. In the face of competition from global markets, sovereign states could do little to stem the pressures of finance and global trade, or else they would alienate investors and threaten their GDP: the role of states was now confined to maintaining order and security in the midst the new global disorder led by centrifugal, extraterritorial forces, elusive forces. No one believed in progress any more: the world had become uncertain, precarious, but most decision-makers agreed that the world had become uncertain, precarious, but most decision-makers of this phantom system, while waiting for the end of the catastrophe. The excluded were pushed to the outskirts of the megacities, reserved for the winners of an anthropophagous game where television, sport and the pipolisation of the void channelled individual frustrations, in the absence of collective perspectives.</p>
+<p>—Caryl Férey, Zulu</p>
+</blockquote>
+<p>In nanoChrome, the characters have a lot to do with corporations - whether they work for them, attack them or spy on them, whether they plunder them or render them meaningful services.</p>
+<p>Corporation: a catch-all term for any company or business, profit-making or not, that has a logo, a name, a front on the matrix and possibly offices somewhere (which isn’t even a requirement any more). Of course, people tend to imagine that all corporations are transnationals or even orbitals, with hundreds of thousands of employees. In reality, most are small - even if they are all owned, through cross-holdings, holdings, pension funds and other capital managers, by only a few people in the world.</p>
+<p>But a corporation is a more or less complicated organisation, and it’s people who work more or less together, with their good and bad sides. In short, it’s a microcosm that you have to make live, in all its diversity, so that all corporations don’t end up looking the same.</p>
+<p>So here are a few different tables that should inspire you…</p>
+<blockquote class="blockquote">
+<p>To begin with, you may want to compose a vague organisation chart of the corporation. At the top, you have the board of directors and the CEO (Chief Executive Officer) who is the managing director. Then you have lots of COs (CFO, COO, CSO, CBO…) with various titles to put around them. In good French, this means Human Resources Director, Financial Director, Administrative Director, Compliance Director, etc. Underneath all this fine laundry, organise departments. The bigger the company, the more departments it has; the more different areas it deals with, the more departments it has. You will almost always find certain departments: general services, accounting, human resources. For the rest, have fun building something funny and impossible to understand. Put some names for the known managers and add some stories.</p>
+</blockquote>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D666</th>
+<th style="text-align: left;">DEPARTMENTS AND SERVICES</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1.1</td>
+<td style="text-align: left;">Reception and representation</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.1.2</td>
+<td style="text-align: left;">Procurement</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.1.3</td>
+<td style="text-align: left;">General administration</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.1.4</td>
+<td style="text-align: left;">Akashic</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.1.5</td>
+<td style="text-align: left;">Archives</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.1.6</td>
+<td style="text-align: left;">Insurance</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.2.1</td>
+<td style="text-align: left;">Internal audit</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2.2</td>
+<td style="text-align: left;">Social benefits</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.2.3</td>
+<td style="text-align: left;">Trainee’s office</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2.4</td>
+<td style="text-align: left;">Clients</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.2.5</td>
+<td style="text-align: left;">Accounting</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2.6</td>
+<td style="text-align: left;">Consumption</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3.1</td>
+<td style="text-align: left;">External contracts</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.3.2</td>
+<td style="text-align: left;">Counter-espionage</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3.3</td>
+<td style="text-align: left;">Cost control</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.3.4</td>
+<td style="text-align: left;">Mail</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3.5</td>
+<td style="text-align: left;">Creative</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.3.6</td>
+<td style="text-align: left;">Design</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.4.1</td>
+<td style="text-align: left;">Retail</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4.2</td>
+<td style="text-align: left;">Development</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.4.3</td>
+<td style="text-align: left;">Local management</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4.4</td>
+<td style="text-align: left;">Product division</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.4.5</td>
+<td style="text-align: left;">Warehouses and stocks</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4.6</td>
+<td style="text-align: left;">Environment</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5.1</td>
+<td style="text-align: left;">Evaluation and estimates</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.5.2</td>
+<td style="text-align: left;">Manufacturing</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5.3</td>
+<td style="text-align: left;">Billing</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.5.4</td>
+<td style="text-align: left;">Finance</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5.5</td>
+<td style="text-align: left;">Charitable foundation</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.5.6</td>
+<td style="text-align: left;">Continuing education</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.6.1</td>
+<td style="text-align: left;">Health and safety</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6.2</td>
+<td style="text-align: left;">Industrial</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.6.3</td>
+<td style="text-align: left;">IT</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6.4</td>
+<td style="text-align: left;">Engineering</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.6.5</td>
+<td style="text-align: left;">Investment</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6.6</td>
+<td style="text-align: left;">Legal</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1.1</td>
+<td style="text-align: left;">Litigation</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.1.2</td>
+<td style="text-align: left;">Logistics</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1.3</td>
+<td style="text-align: left;">Maintenance</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.1.4</td>
+<td style="text-align: left;">Marketing</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1.5</td>
+<td style="text-align: left;">Trademarks and patents</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.1.6</td>
+<td style="text-align: left;">Packaging</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.2.1</td>
+<td style="text-align: left;">Vehicle fleet</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2.2</td>
+<td style="text-align: left;">Internal complaints</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.2.3</td>
+<td style="text-align: left;">Planning</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2.4</td>
+<td style="text-align: left;">Promotion and media</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.2.5</td>
+<td style="text-align: left;">Cleanliness</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2.6</td>
+<td style="text-align: left;">Prospects</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3.1</td>
+<td style="text-align: left;">Management protection</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.3.2</td>
+<td style="text-align: left;">Psychological</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3.3</td>
+<td style="text-align: left;">Quality</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.3.4</td>
+<td style="text-align: left;">Research</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3.5</td>
+<td style="text-align: left;">Recruitment</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.3.6</td>
+<td style="text-align: left;">Public relations</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.4.1</td>
+<td style="text-align: left;">Intelligence</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4.2</td>
+<td style="text-align: left;">Human Resources</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.4.3</td>
+<td style="text-align: left;">Risks</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4.4</td>
+<td style="text-align: left;">Health and occupational health</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.4.5</td>
+<td style="text-align: left;">Executive Secretariat</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4.6</td>
+<td style="text-align: left;">General Secretariat</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5.1</td>
+<td style="text-align: left;">Security</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.5.2</td>
+<td style="text-align: left;">Tour Operator Service</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5.3</td>
+<td style="text-align: left;">Domestic Services</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.5.4</td>
+<td style="text-align: left;">General Services</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5.5</td>
+<td style="text-align: left;">Subcontracting</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.5.6</td>
+<td style="text-align: left;">Switchboard</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.6.1</td>
+<td style="text-align: left;">Statistics</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6.2</td>
+<td style="text-align: left;">Technical</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.6.3</td>
+<td style="text-align: left;">Transport</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6.4</td>
+<td style="text-align: left;">Economic intelligence</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.6.5</td>
+<td style="text-align: left;">Legal and compliance monitoring</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6.6</td>
+<td style="text-align: left;">Technology watch</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.x.x</td>
+<td style="text-align: left;"><strong>Reroll</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.x.x</td>
+<td style="text-align: left;"><strong>Reroll</strong></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.x.x</td>
+<td style="text-align: left;"><strong>Reroll</strong></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.x.x</td>
+<td style="text-align: left;"><strong>Reroll</strong></td>
+</tr>
+</tbody>
+</table>
+<p>You need to populate the corporation with employees with different profiles, complex expectations and ambivalent attitudes. Each time the characters meet someone, try to give them some depth - their attitude is what they project, their nature is more secret but influences their short and long term motivations.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D26</th>
+<th style="text-align: left;">JOB</th>
+<th style="text-align: left;">POSITION</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">Junior Executive</td>
+<td style="text-align: left;">Former</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">Senior Manager</td>
+<td style="text-align: left;">In the know</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">Creative</td>
+<td style="text-align: left;">Client</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">Director</td>
+<td style="text-align: left;">Freewheeling</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">Expert</td>
+<td style="text-align: left;">Eccentric</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">Engineer</td>
+<td style="text-align: left;">Mistreated</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">Janitor</td>
+<td style="text-align: left;">Newcomer</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">Hidden</td>
+<td style="text-align: left;">Stuck</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">Replacement</td>
+<td style="text-align: left;">Placarded</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">Secretary</td>
+<td style="text-align: left;">Leaving</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">Security</td>
+<td style="text-align: left;">Guarded</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">Temporary</td>
+<td style="text-align: left;">Technician</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D26</th>
+<th style="text-align: left;">ATTITUDE</th>
+<th style="text-align: left;">NATURE</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">Aggressive</td>
+<td style="text-align: left;">Ambitious</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">Condescending</td>
+<td style="text-align: left;">Plotter</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">Out of phase</td>
+<td style="text-align: left;">Curious</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">Unpleasant</td>
+<td style="text-align: left;">Dangerous</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">Enthusiastic</td>
+<td style="text-align: left;">Incompetent</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">Invasive</td>
+<td style="text-align: left;">Mysterious</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">Cold</td>
+<td style="text-align: left;">Naïve</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">Unlucky</td>
+<td style="text-align: left;">Profiteer</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">Unfortunate</td>
+<td style="text-align: left;">Rebellious</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">Lost</td>
+<td style="text-align: left;">Secret</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">Helpful</td>
+<td style="text-align: left;">Seducer</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">Sympathetic</td>
+<td style="text-align: left;">Sociopath</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 22%">
+<col style="width: 60%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D26</th>
+<th style="text-align: left;">LOCATION</th>
+<th style="text-align: left;">OFFICE STORIES</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">Library</td>
+<td style="text-align: left;">Administrative brutality</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">Offices</td>
+<td style="text-align: left;">Personal drama</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">Canteen/cafeteria</td>
+<td style="text-align: left;">Self-destructive dynamics</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">Data centre</td>
+<td style="text-align: left;">Moral and/or sexual harassment</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">Open spaces</td>
+<td style="text-align: left;">Calculated incompetence</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">Laboratories</td>
+<td style="text-align: left;">Service jealousy</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">Technical room</td>
+<td style="text-align: left;">Management by fear</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">Coffee machine</td>
+<td style="text-align: left;">Unattainable goals and enormous pressure</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">Gymnasium</td>
+<td style="text-align: left;">Fraudulent transactions and abuse of company assets</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">Meeting rooms</td>
+<td style="text-align: left;">Peters’ principle in action</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">Reception rooms</td>
+<td style="text-align: left;">Soothing and mind-numbing routine</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">Toilets</td>
+<td style="text-align: left;">Suspicion and mistrust</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="gangs" class="level2">
+<h2 class="anchored" data-anchor-id="gangs">Gangs</h2>
+<blockquote class="blockquote">
+<p>“Straight outta Compton, crazy motherfucker named Ice Cube<br>
+From the gang called Niggaz With Attitudes<br>
+When I’m called off, I got a sawed off<br>
+Squeeze the trigger, and bodies are hauled off<br>
+You too, boy, if ya fuck with me”</p>
+<p>—N.W.A., Straight outta Compton</p>
+</blockquote>
+<p>The anarzones are full of gangs. But so are the conurbs, and even the enclaves. A gang is a bunch of guys and gals, all born somewhere and never left - at least in their heads. As a matter of principle, they all engage in diverse and wide-ranging criminal activities - it’s really a way of life - and employ violence with a readiness that can sometimes be surprising, against other gangs of course but also against just about anything they consider a threat or an insult. When confronted with gangsters, it’s best to have a big gun and be prepared to use it mercilessly - or look down, hand over your wallet and move on.</p>
+<p>Let’s be clear: gangsters are stupid to the last degree, who communicate only through violence, and who don’t even bother to conceal their activities or their crimes any more. If they are caught, they go to jail: it’s good for their reputation in the group, like a virginity that must be lost to gain respect. If they die, it doesn’t matter: they are dead.</p>
+<p>And the little ones they leave behind pick up the torch. To some extent, gangers are the goblins of cyberpunk! You can of course, and rightly so, blame economic conditions, endemic poverty, lack of education - and frankly, hang the city planners with the politicians’ guts - but the situation has been going on for so long now in nanoChrome (a century or two probably - some of the oldest gangs have been around since before World War II!) that there’s not much you can do about it…</p>
+<p>In nanoChrome, you absolutely have to play the gangs seriously. They are fools, but armed, dangerous, determined fools, who are not afraid of anything (so foolish). Their violence is relentless, sudden, absurd, impulsive. They don’t always react with the logic one would expect from a human being normed by society. Their standards are really too foreign for that…</p>
+<ul>
+<li>Gangs are directly responsible for two-thirds of Chrome City’s violent crime - murders, assaults, robberies, rapes, etc.</li>
+<li>They are mainly territorial, but they have managed to organise themselves into networks of franchises to facilitate their various trades: drugs, weapons, slaves, organs, blood… The most important gangs are now transnational (and perhaps orbital…)</li>
+<li>A gang is not a small group of ten or so individuals stuck in a street. Gangs range from several thousand to tens of thousands of members. One can consider that 1% or more of the total population of Chrome City belongs to a gang (these are perfectly realistic figures!). They are therefore dangerous gangs and it is not enough to be called Charles Bronson to eliminate them all after a good fight. Hence the constant danger of getting involved with them - revenge is not an empty word. Nevertheless, gangs are very often divided into smaller cliques, a few dozen individuals in a neighbourhood.</li>
+<li>Gangs are, for the most part, ethnic and cultural. One joins a gang that shares religious values, cultural celebrations, eating habits, and the language of one’s childhood. Nevertheless, many gangs are relatively open as long as the ganger adopts the culture of reference.</li>
+<li>Violence and cruelty are one of the main markers of gang definition. Assault, rape, murder, torture, mutilation are normal. You shoot a guy for revenge and cut up his family in the bathtub to make a point. You aim at a guy on a bus and decapitate all the passengers. You have to kill the teacher at your school to get into the gang. A pretty girl is taken, tattooed (to mark the property) and raped. You do something stupid? The whole gang beats you up until you fall. Do two things wrong? They stick one in the back of your head. That’s normal. A guy looks at you the wrong way? You smoke him - and his girl will have a great time in your arms.</li>
+</ul>
+<p>In short: gangers are not carefree.</p>
+<p>To finish with these happy thoughts, don’t forget that the various mafia groups are gangs in their own right - just a bit more established: the difference between a cult and a church… And then add to this the fact that the various mafia groups are also gangs. And then throw in bikers, survivalists, neo-Nazis, some ‘religious’ sects and you’ve got some good opportunities to shake up your characters with some very scary threats.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 91%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D6</th>
+<th style="text-align: left;">GANG RELATIONSHIP</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">PROTECTION Families and relatives providing support to gang members without being part of the gang.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">AT RISK Kids in the neighbourhood who do favours and will eventually join the gang.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">ASSOCIATES Uninitiated teenage members who gravitate to the gang, consider themselves part of it and learn the ropes.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">MEMBERS who only associate with other members and are fully initiated. Responsible for daily activities and protection.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">VETERANs are fully invested in the gang and have no other cultural background. They usually have good prison experience.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">LEADER Usually the oldest and the one with the lightest criminal record. In contact with the other gang leaders.</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D26</th>
+<th style="text-align: left;">GANG COLOURS (ROLL TWO OR THREE TIMES)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">Silver</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">White</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">Light blue</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">Dark blue</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">Grey</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">Yellow</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">Black</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">Gold</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">Orange</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">Purple</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">Red</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">Green</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D26</th>
+<th style="text-align: left;">GANG-RELATED LOCATIONS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">Sweatshop</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">Sleazy brothel</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">Cache (drugs, weapons…)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">Hideout (people, slaves…)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">Street corner</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">Drug packing lab</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">Drug manufacturing lab</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">Family house</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">Public park</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">Safe house</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">Cash reserve</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">Social club - Strip club</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="serve-and-protect" class="level2">
+<h2 class="anchored" data-anchor-id="serve-and-protect">Serve and protect</h2>
+<blockquote class="blockquote">
+<p>Robbin’ people with a six-gun<br>
+I fought the law and the law won<br>
+I fought the law and the law won<br>
+I lost my girl and I lost my fun<br>
+I fought the law and the law won<br>
+I fought the law and the law won</p>
+<p>—The Clash</p>
+</blockquote>
+<p>The police are the first regalian power. They are the repository of legitimate violence. In short, they are a gang like any other, but this one is in the service of the powerful. In nanoChrome, the powers are varied - corporations, nations, cities, etc. - And they’ll be up the asses of the characters in the game. And they’ll be on the characters’ asses at one point or another.</p>
+<section id="general-organisation" class="level3">
+<h3 class="anchored" data-anchor-id="general-organisation">General organisation</h3>
+<p>The police have three main functions:</p>
+<ul>
+<li>Administrative police: to prevent disturbances, ensure the tranquillity, safety and health of the city’s inhabitants - especially those in charge. People will have to deal with the police when they are loitering in guarded areas for no reason or when they need to obtain papers, authorisations and other important documents.</li>
+<li>Judicial police: bringing criminals to justice. As soon as the characters cross the line of the law - for example, by opening fire outside the anarzones or dealing accelerants with a few known gangsters - they’ll have investigators on their tail. This is the fun part of your job as a leader…</li>
+<li>Political police: monitor, coerce and eliminate opponents of a certain social and moral order. These are far more dangerous than criminals and gangsters… It is obvious that those who harm the interests of corporations fall into this category and the Panopticom cells in particular. Remember that political police officers rarely bother with legality, judgements and other human rights. They have special prisons, interrogation centres, well-concealed cesspools and vast anonymous cemeteries.</li>
+</ul>
+</section>
+<section id="municipal-police-conurbs" class="level3">
+<h3 class="anchored" data-anchor-id="municipal-police-conurbs">Municipal police (ConUrbs)</h3>
+<p>This police department, based on an “American-style” model, is organised into four divisions under the authority of the Office of the Chief of Police. Each division is headed by a Deputy Chief.</p>
+<section id="the-office-of-the-chief-of-police" class="level4">
+<h4 class="anchored" data-anchor-id="the-office-of-the-chief-of-police">THE OFFICE OF THE CHIEF OF POLICE</h4>
+<ul>
+<li>The Chief of Police (COP) is appointed by the highest authority in the city - the Mayor. The Chief of Police (COP) is appointed by the city’s highest authority - the mayor and is responsible for the overall management of the police department.</li>
+<li>The administrative secretariat coordinates and supports the daily activities of the COP - mail management, organisation of staff meetings, handling of complaints and requests from officers and the public, research and development of special projects…</li>
+<li>The Quality Office is under the direct responsibility of the COP. They are the internal services of the police department: they investigate all complaints concerning the conduct of officers and enforce discipline.</li>
+<li>Public Relations is the front of the Police Department and liaises with the community and journalists, providing all relevant information. PR organizes commemorations, award ceremonies, memorials, funerals, etc. and advises the OPC and his deputies on communication matters.</li>
+</ul>
+</section>
+<section id="field-division" class="level4">
+<h4 class="anchored" data-anchor-id="field-division">Field division</h4>
+<ul>
+<li>The Field Division is the largest of the divisions. It deals with uni form patrols, assigned to areas divided into sectors. Its officers are in direct contact with the population and have the mission of enforcing the laws and protecting the inhabitants. It is essentially an administrative police force: it intervenes to prevent crimes and offences from being committed. The characters will have to deal with the officers of the Field Division whenever they have a suspicious behaviour. Equality, justice, professionalism and rigour do not prevent racial profiling - quite the contrary.</li>
+<li>Each zone is under the command of a major who is responsible for its administration and reports to the Deputy Head of the Division. The zone captains act as a link between the major and the sergeants and take over the major’s duties when he is absent. Zone Lieutenants ensure that the rotas are working properly; they prepare the daily assignments, monitor discipline, manage the working time of the teams, evaluate the performance of the officers and sergeants and develop local action plans to fight crime. Administrative sergeants take roll call, manage schedules, investigate discipline problems and accidents. Sector sergeants supervise the operations of patrol officers, evaluate their work, review reports for clarification and completion, and supervise special activities.</li>
+<li>Several specialists are assigned to each area: a criminal analyst checks the M.O. of criminals, enters information into databases, receives victims, and maintains an up-to-date daily crime bulletin; an akashic analyst is responsible for processing real-time matrix searches for patrol officers; security inspectors monitor community-related criminal cases, arrange meetings with the public, and conduct interviews; field investigators investigate robberies, narcotics cases, misdemeanors, and simple crimes as assigned by the zone commanders.</li>
+<li>The Field Division also oversees the special operations department: special and normal event monitoring, drone surveillance and response, checkpoints, hit-and-run, Red Dog Units, SWAT, CPA patrols, K-9 units, bomb disposal, etc. Special operations officers are called in to reinforce their colleagues when needed, to manage hostage situations and bomb threats, to organise and monitor vehicle pursuits in the event of a hit-and-run, to identify and clear abandoned vehicles, to impose a visible and powerful presence in the most sensitive areas and to manage all the checkpoints set up at the entrances to the anarzones.</li>
+</ul>
+</section>
+<section id="criminal-investigation-division" class="level4">
+<h4 class="anchored" data-anchor-id="criminal-investigation-division">Criminal investigation division</h4>
+<ul>
+<li>The Investigation Division is made up of several independent units, spread throughout the city. They are responsible for the investigation and follow-up of criminal cases involving people or property. All major investigations are conducted by detectives and inspectors assigned to this division.</li>
+<li>The most prestigious unit in the Division is the Homicide Squad, but there are also several special and independent units: Youth and Family Protection Unit; Special Investigations Unit; and a section attached to the Prosecutor’s Office.</li>
+<li>This Division is also responsible for the forensic resources: analysis and trace laboratories, coroner’s services, ballistics, genetic laboratory, nanodrones in the field, etc.; as well as the Akashic Investigation Department, which deals specifically with matrix crimes and special operations in this field.</li>
+</ul>
+</section>
+<section id="technical-services-division" class="level4">
+<h4 class="anchored" data-anchor-id="technical-services-division">Technical services division</h4>
+<ul>
+<li>This division provides the communication and technical means for the other divisions. It is made up of several offices: Communications; IT; General Services; Records and Archives; Seals; Mechanical and Fleet Services; and Impound.</li>
+</ul>
+</section>
+<section id="administrative-division" class="level4">
+<h4 class="anchored" data-anchor-id="administrative-division">Administrative division</h4>
+<ul>
+<li>This division provides administrative and logistical support to all other divisions. It is responsible for the initial recruitment, vetting and training of applicants; manages budgets and schedules; manages the department’s property and possessions, including seizures; and researches, tests and purchases equipment provided to officers, including vehicles, weapons, uniforms and toilet paper…</li>
+</ul>
+</section>
+</section>
+<section id="corporate-security-enclaves" class="level3">
+<h3 class="anchored" data-anchor-id="corporate-security-enclaves">Corporate security (enclaves)</h3>
+<p>Corporatist security services do not have quite the same goals and duties as street cops. They serve and protect the interests of their bosses and shareholders, not the public. Strangely, however, they have almost more difficulty in doing their job.</p>
+<p>First of all, let’s differentiate here between the standard security services and the operational corporatist agents that the characters may face. The latter rarely respond to the security services - they are much more often employed in the team of their direct sponsor (as special secretaries, for example). The security services are under the direction of a Chief Information Security Officer (CISO) and have much more general duties. The characters will have to deal with the corporate agents if they get noticed by the wrong people; but they will have to manage the security services to avoid being noticed…</p>
+<p>The problem with corporatist security services is that they are a hindrance. They never facilitate the smooth running of business and reduce the speed at which projects develop. In any case, this is how they are perceived by all the other departments: it has to be said that badging a door twenty times a day or submitting to random searches tends to irritate employees; and managers find it hard to fill in endless papers and notes for the slightest trip or meeting… As a result, their greatest enemies are sometimes the employees themselves, who do things half-heartedly or recriminate at the slightest constraints.</p>
+<p>And then, the bosses - the board of directors, the shareholders - sometimes ask that the departments be a little more flexible. It’s all about the smooth running of the business!</p>
+<p>Depending on the needs, security services can be centralised - fully attached to the parent company’s offices and managing all operations - or decentralised - each corporate unit has its own services adapted to local needs. Or a mixture of both.</p>
+<p>The list of tasks for the security services is quite impressive (and probably not exhaustive), but it gives an idea of what the characters may have to face if they seek to harm a corpo - their analysts are prepared for all eventualities…</p>
+<ul>
+<li>Forensic analysis</li>
+<li>Economic and industrial counter-espionage</li>
+<li>Continuous monitoring of personnel (drug tests, surprise searches, bank investigations…)</li>
+<li>Recruitment control</li>
+<li>Strategic development</li>
+<li>Internal investigations</li>
+<li>Access management and identity control</li>
+<li>Insurance management and legal compliance</li>
+<li>Event management and security</li>
+<li>Anti-fraud and accounting monitoring</li>
+<li>Business continuity and accident/disaster management</li>
+<li>Implementation of internal regulations, maintenance of discipline</li>
+<li>Data protection</li>
+<li>Respect for privacy</li>
+<li>Akashic security</li>
+<li>Security of premises and possessions</li>
+<li>Security of tools and applications</li>
+<li>Network security</li>
+<li>Security and electronic countermeasures</li>
+<li>Security and control of subcontractors</li>
+<li>Physical security of managers and employees</li>
+<li>Threat monitoring and vulnerability assessment</li>
+</ul>
+</section>
+<section id="on-the-wrong-side-of-investigations" class="level3">
+<h3 class="anchored" data-anchor-id="on-the-wrong-side-of-investigations">On the wrong side of investigations</h3>
+<p>All this leads to the fun part of this chapter. Most of the time, the characters commit a lot of crimes and, if they are not caught in the act (just to start a good fight), the game leader rarely follows up… Except that investigators don’t let go of their prey easily if they have something to chase!</p>
+<p>The general principle of this tool is as follows: the investigators can make skill rolls to find the characters if they have committed a crime or an offence. The difficulty depends on the crime and the clues the characters may have left behind - at the discretion of the leader who will use the following tables. If the roll is successful, the investigators find them; if not, it’s a dead end (until new information is found).</p>
+<p>We have chosen not to give precise figures so as not to scare you: the lists are, like all the lists in this book, invitations and inspirations. But, as a general rule, start from a given difficulty level (18 for example). Add +2 when circumstances are favourable to the characters and -2 when circumstances are unfavourable, for each of the items you may find appropriate. In the end, you will probably have a long list of + and -’s that will partly cancel each other out, but not totally.</p>
+<p>Generally, the Investigation roll is made on the next cycle after the crime or misdemeanour; if it is successful, the characters will probably have trouble in the next cycle; if it is unsuccessful, the investigators can roll again in the next cycle with a substantial increase in difficulty.</p>
+<section id="on-patrol" class="level4">
+<h4 class="anchored" data-anchor-id="on-patrol">On patrol</h4>
+<p>Do the characters get spotted by a patrol while going about their business? You can use the characters’ Stealth roll (in cooperation) to set the difficulty of the cops’ skill roll and adjust it according to several factors:</p>
+<ul>
+<li>Are the characters in a group? In pairs? Alone and isolated?</li>
+<li>Are the characters behaving suspiciously? Suspicious appearance (for the neighbourhood)? Suspicious material? Do they run or try to hide awkwardly?</li>
+<li>Are the characters known to the police? Are they wanted? Is their description broadcast? Is it accurate, vague or erroneous?</li>
+<li>Is the street deserted or is it crowded? What is the neighbourhood? Abandoned alleys? The underside of a motorway bridge? A street lined with villas? A square between corporate buildings?</li>
+<li>Is it dark? Dark night? Is it sunny?</li>
+<li>Do the cops have drones in the air? Dogs on the ground? Do the characters have akashic programs activated?</li>
+<li>What is the level of security in the neighbourhood?</li>
+</ul>
+</section>
+<section id="investigations" class="level4">
+<h4 class="anchored" data-anchor-id="investigations">Investigations</h4>
+<p>Once the crime has been committed, how do the characters get out of it? The initial difficulty depends, globally, on the actions of the characters and the nature of the crime. The more important, spectacular, bloody, or involving influential victims the crime is, the lower the initial difficulty - the cops go to great lengths to get to the bottom of it.</p>
+<ul>
+<li>Are the characters caught red-handed? In the immediate vicinity? Are they in possession of stolen goods?</li>
+<li>Are there any witnesses? Physical? Akashic? Electronic?</li>
+<li>Have the characters spoken? Exchanged names? Used a known modus operandi? Adopted significant behaviours? Were they in disguise?</li>
+<li>Were the characters violent? Intimidating? Discreet? Invisible?</li>
+<li>Did the characters leave any traces? Fingerprints? Tools? DNA? Materials from their hideout or from their normal life (Locard principle)? Did they use nanodrones for cover?</li>
+<li>Is there a financial trail that can be followed?</li>
+<li>Does the crime have a recognisable motive? Is it possible to understand the motives of the characters?</li>
+<li>Is there an akashic trail?</li>
+<li>Do the characters have accomplices? Did they tell anyone about their crime? Did they need help before or after? Can anyone sell the characters out or turn them in? Do they try to pass on stolen goods?</li>
+<li>Are the characters already known to the police? Are they registered? Are they wanted?</li>
+<li>Do they have an alibi? Do they have a good reputation? Are they protected?</li>
+<li>Are there signs that a crime has been committed (theft, body, signs of a struggle, etc.)?</li>
+<li>Can the police easily investigate? Corporate blockades? Hostile anarzone?</li>
+<li>Do the cops have a personal interest in going through with it? Can they be broken? Do they have too much work to do? Do they take the victim in sympathy or antipathy?</li>
+<li>Can the cops do searches? Can the cops search? Can the cops search the characters? Question their relatives?</li>
+</ul>
+</section>
+<section id="suspects" class="level4">
+<h4 class="anchored" data-anchor-id="suspects">Suspects</h4>
+<p>Once the investigation is successful, the cops will come down on the characters. But first there will probably be surveillance (physical, electronic, akashic), stakeouts, tailing, searches.</p>
+<p>And arrest.</p>
+<p>Remember that cops will prefer to arrest characters separately, at the same time, with maximum security: the quiet middleman will have two detectives coming to him as he leaves the restaurant; the ultra-violent swordsman will be picked off in the middle of the night by a SWAT team and reinforcements outside.</p>
+<p>If it’s corporatist agents who intervene, let’s just say things might not be as calm: how do your players behave when they’re the ones on the right side of the gun? Do the same. A bullet in the head, direct, or subtle negotiations: it’s up to them…</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>urban zones have their own security level, rated from 0 for anarzones to 10 for the most secure anti-zones, passing by 1 to 3 for conurbs and 4 to 7 for enclaves. Add this level of security to the difficulties of the jets in chatting to the authorities, hiding, camouflaging weapons, etc.</p>
+</div>
+</div>
+</div>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../content/rules.html" class="pagination-link" aria-label="Rules of the game">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Rules of the game</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../content/relationships.html" class="pagination-link" aria-label="Relationships">
+        <span class="nav-page-text"><span class="chapter-title">Relationships</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/luminarious/nanoChrome/edit/quarto/content/running.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/luminarious/nanoChrome/blob/quarto/content/running.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/luminarious/nanoChrome/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
