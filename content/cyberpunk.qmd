@@ -1,0 +1,927 @@
+# Chronicles of chrome
+
+> It was a golden age, a time of great adventure, of rich life and fierce death… but no one believed it. It was a future of fortunes and theft, of plunder and rapine, of culture and vice… but no one admitted it. It was an extreme time, a fascinating century of monsters… but nobody liked it.
+>
+> —Alfred Bester, The Stars My Destination
+
+When the cyberpunk movement took off in the late 1970s and early 1980s, it was science fiction. Imagine what it offered: a global telematics network, super-powerful computers, neural connections, cybernetic limbs, nation-states replaced by super-powerful transnational corporations like a synarchic dream finally realized, pollution on a massive scale, health scandals, corruption of all politicians, a globalized culture, the cult of the money-king, mass media at the peak of their power…
+
+Today, they are everyday realities or promises close to fulfillment - the omnipotence of banks, artificial transplants, the Internet, peak oil and the Chinese on the Moon.
+
+To survive, cyberpunk has been forced to become transhumanist, to project itself a little further into the future and into the stars.
+
+But classic cyberpunk still holds many treasures that can be explored. First of all, it's a reflection of our world, but one that we can stand back from - we really are "twenty minutes in the future". It's always difficult to tell political fiction stories in universes too close to us; you only have to open newspapers to get your fill of political and economic prevarications and betrayals of humanity and to be on the verge of nausea or despair - no need to add to that in a game that is supposed to help us escape from this absurd and frustrating daily life.
+
+Nevertheless, with a little adventurous distance, with some exotic elements, with some minor changes here and there, it is possible to reinvest these areas of narrative and offer a social and political critique, as all science fiction writers in general and cyberpunk in particular do, in a fun and exciting—and hopefully much less despairing—form.
+
+## Mood and style
+
+Cyberpunk is a delicate blend of hard-boiled thriller, paramilitary action, social-political anticipation and technological exoticism.
+
+Hard-boiled thriller
+:   cyberpunk heroes are tough. They carry out difficult investigations. They anger the powerful. They abuse drugs and stimulants. They have corpses in the wardrobe. But they also have friends and luck, if not pure anger, that keeps them going no matter how many obstacles are put in their way.
+
+Paramilitary action
+:   a tradition inherited from video games and early role-playing games, as much as from the classic literature of the genre, action is at the heart of most cyberpunk stories. Doughnuts and bullets fly around at every opportunity, usually spontaneously. But the characters are just as often called upon to participate in paramilitary operations: intrusions, kidnappings, protection of people and places, theft and hacking, exploration of forbidden zones, urban combat, surveillance, espionage, etc.
+
+Politico-social anticipation
+:   if the original cyberpunk was dark anticipation, it has become at most short-term foresight and a direct projection of our daily anxieties. We have ample examples of this: objective or obscurantist dictatorships, ethnic massacres, calls for war by hawks of all stripes, systematic recourse to torture, wars of economic interests, organization of the ruin and plundering of regions of the globe under bank control, creation of novlanguages in the service of the mass media, ethical and moral blackmail, trivialization of all security, exceptional measures which are becoming the norm, privatization of the judiciary and the criminal justice system, sanitary and pharmaceutical scandals, global epidemics, revolutions and civil wars, repression of alternative trade union and political movements, democratic masquerades by lobbies and technocrats, an explosion of misery and mass unemployment, destruction of food resources, sources of drinking water and vast ecosystems, the uncontrolled dissemination of genetically modified crops, massive exploitation of the proletariat in poor countries, privatization of education, religious fundamentalists infiltrating all centres of political and cultural decision making, etc. - Not to mention a major climate catastrophe looming over us. It's enough to inspire any dark dystopia. Yet it is here and now that it is happening. It's easy enough to add a little something to push this or that concept a step further, by extrapolating or caricaturing existing situations.
+
+Technological exoticism
+:   if you stick to the first three points below, you don't get much more than a contemporary game, a sort of Tom Clancy universe. Interesting, but without the exoticism that adds a bit of humour and distance to the game. So don't forget that cyberpunk is also about advanced technology and futuristic design - who doesn't admire the sleek bodywork of police battle mechs? The internet exists, but it's a universal augmented reality matrix, not just a minitel. Guns are wired directly to the nerves and use caseless ammunition. If you lose an arm or an eye, it is replaced in a jiffy by a ceramic and metal equivalent. If you have defective genes, they are repaired with a few injected stem cells. Asteroids have been placed on the Lagrange points and are accessed by orbital lift. Technology plays the same role in cyberpunk as magic does in fantasy - an enabler, a shortcut, a hook. It distracts players from the darker themes of the game, while allowing them to approach them in a playful way.
+
+## Three must-haves
+
+> The old world is dying, the new world is slow in appearing, and in this chiaroscuro monsters are emerging.
+>
+> —Antonio Gramsci
+
+Before you start playing the game and creating the characters, outline these three essential elements of the world to your players. Many of the rules of the game derive directly from these fundamental concepts.
+
+### Akashic Matrix and neurotronics
+
+In the past, the world's various interconnected telematics networks operated on a complete physical basis: exchanges, physical memories, routers, wireless transmitters, terminals, etc. This changed with the advent of the Akashic Matrix and neurotronics. Everything changed with the appearance of the first quantum computers. Within months of the first processors going live, engineers saw an incomprehensible increase in the processing and storage capabilities of the machines - a phenomenon that became even more dramatic as the technology was brought to market and used in everyday life.
+
+In fact, quantum computers are leaking. Their data is interconnecting in what has come to be known as the Akashic Field, the Akasha, to form a single, giant supercomputer where everyone is connected and where all unprotected data inevitably ends up. Anyone can access or manipulate this Akashic matrix if they have a simple quantum device - a nexus.
+
+What could have been an industrial disaster on a human scale - all the computers dumping their data in one place accessible to all - turned out to be a godsend. Competing neurotronic technology, based on bio-neurons, was completely immune to the problem. The neurotronic memories did not leak and protected their data and programs perfectly well behind traditional firewalls and existing security.
+
+We soon found ourselves with two different, interconnected but perfectly distinct systems: the personal and professional neurotronic machines, capable of protecting data; and the quantum machines directly connected to a universal matrix that soon replaced all other communication channels for media broadcasting, social networking, the development of virtual reality, but also computing power and all those sorts of things.
+
+In practical terms, it is considered that everyone is permanently connected to the Akashic Matrix through Nexuses, small personal quantum blocks with processors and neurotronic memories protecting certain personal data. This connection is achieved within augmented reality - the superimposition of virtual data and information on the natural perception of the world. The brain learns at an early age to mix these two realities into one, where what is real and what is projected are inseparable. Thus, for example, one usually wears only tight-fitting suits of neutral grey, in morphotextiles, while one can project, in augmented reality, all sorts of clothes according to the occasions of the day - strict suits for work, pretty fashionable dresses for the after-hours and casual wear at home, not to mention all the fantasies that are physically impossible but that the matrix allows without worrying about ever having to change.
+
+The problems start when clever people try to manipulate each other's perceptions by altering augmented reality to disguise elements of normal reality or try to access data from connected neurotronic memories. Fortunately, most nexuses are protected by powerful firewalls which considerably limit the risks, especially since the security of the city is usually sufficient.
+
+And then there are the Akashic minds.
+
+Concurrently with the rise of the quantum matrix, two phenomena appeared: on the one hand, some expert system cores escaped into the quantum field and found there the computational and expansion resources necessary for their awakening to a kind of limited, animal consciousness; on the other hand, the first experimental quantum memory cells also escaped, leading to the loss of complete human consciousnesses in the quantum field space.
+
+These phenomena became the spirits of the matrix - both demiurges and demons, masters and servants, lost in the vastness of the matrix and constantly seeking to stabilise their limits of singularity in order to continue to exist without diluting themselves.
+
+### Structure of the city
+
+In the common vocabulary, the world is divided on the one hand into geographical zones - countries, cities, neighbourhoods, etc. - and on the other hand into zones of identity. - In the common vocabulary, the world is divided into geographical zones - countries, cities, neighbourhoods, etc. - and into security zones - a good indication of the degree of protection or tranquillity one can expect from the authorities.
+
+-   The anarzone refers to all territories with zero security. These are on the one hand the still wild regions of the globe, but also all urban and peri-urban areas abandoned by corporations and local authorities. The anarzone is a lawless zone, where all those who want to escape the permanent surveillance of the corporations take refuge. You don't go to the anarzone without good reasons, strong back-up, a good dose of guts or if you are not a native - of course, the player characters often live in the anarzone.
+
+-   The conurbation refers to urban areas protected by the government. Security exists but is relatively minimal. The conurb essentially covers residential or semi-industrial areas, public parks and gardens, and most of the road network. Do not expect miracles, but the police and civil security forces always intervene eventually.
+
+-   Enclaves are all areas protected by corporations and their security services. They range from commercial areas to office floors, from corporatist contract areas to factories and industrial zones. Security is more or less high, but always provided by important investments - don't worry, in the end, it's always you who pays.
+
+-   Anti-zones are all areas of very high security - corporate laboratories, research and development areas, protected military zones, homes of very high ranking officials, etc. Security is at its highest, both physically and in the matrix - these are places where coders risk death if they encounter black ice. You don't venture into an antizone without serious credentials or titanium balls.
+
+### Orbitals
+
+> The last point considered unavoidable is the presence of humans in near space - don't worry, no one has conquered Mars yet (unless you really want to, Total Recall style). More than the previous two points, you can of course ignore this one, but it still provides much of the technological exoticism needed for the game and it provides some good villains for your adventures. And then it's a fitting tribute to one of the best cyberpunk novels ever written.
+>
+> —Walter Jon Williams' Wired.
+
+The colonisation of Earth's orbit began long ago with the installation of two large rocks recovered from the asteroid belt at the Moon's Lagrange points. The first, at L4, is called Ulysses, the second at L5 is called Caystros. They were hollowed out during their long journey by huge mining operations, and are now home to microgravity factories and corporate facilities of the highest standing. These two asteroids are surrounded by dozens of space stations of various sizes, mostly housing factories and dormitories for the workers who work there. Collectively, all the inhabited bodies orbiting the Earth are called the Moon Islands (a name already used on Earth for the Comoros Islands).
+
+To access the Moon Islands, an orbital lift has been built somewhere on the equator. Depending on your preferences and the geopolitical choices of your campaign, place it in Brazil, Indonesia, Kenya… From the orbital lift station, the orbitals go back and forth between all the facilities in small hydrogen-powered ships called Kwasa Coasters.
+
+Most of the orbitals have been augmented to adapt to microgravity conditions and no longer return to earth. They consider themselves above the mire, like advanced humanity. The ten largest transnational corporations are orbital and meddle in controlling the destiny of billions of surface people by triggering conflicts and crises at their convenience.
+
+Ulysses is the base for most of the ten largest orbital corporations, as well as the orbital council that brings them together. Caystos is an international political centre, housing the new UN council and the Hague tribunal, which was moved there after the former was destroyed in an unclaimed attack.
+
+## What we play
+
+You have at least three ways to play nanoChrome. Ask your players what they want to do, what ties their characters together, and what takes them on an adventure together.
+
+**Techmercs**: the characters are penniless techmercs who take on any black operations that shady individuals, collectively and slangly called The Client, offer them, usually on behalf of corporations or organisations that value their discretion. This game mode is perfect for games on the go: a meeting, a contract, a bit of investigation, an intrusion, a betrayal, a few bullets exchanged and there you go.
+
+**Corporates**: in this game mode, which is suitable for both campaign and quick games, the characters are corporatist agents. They have a clearly identified employer, material resources and some legal protection (at least to a certain extent). Of course, not only does their boss expect results, but they will also have to deal with the inertia of their company's politics, the gossip at the coffee machine, the jealousy of pushy colleagues and the countless pitfalls of corporate life. Moreover, there is nothing to prevent the company in question from being a government agency or a police department.
+
+**Panopticom**: in this game mode, your characters are outcasts and characters are splendid outsiders and losers. In appearance at least. In reality, they are rebellious underground journalists who provide full reports and investigations to a pirate show from the Matrix: Panopticom. Think of it as a nice Wikileaks/The Pirate Bay/Mediapart mix… Crisp and scandalous, but not people! This approach is perfect for campaign adventures, if you like investigation, secrets and open-ended sandbox play.
+
+Of course, you can mix and match: Panopticom journalists infiltrating a corpo and moonlighting as techmercs to collect cash to fund their operations; or corpos infiltrating the techmerc world to get their hands on one of their company's big enemies. Or any other exotic mix you like…
+
+> **A moral issue**
+>
+> This is the time to ask your players where they want to place the moral slider for their characters. Is it acceptable or appropriate to kill in cold blood, to murder a prisoner, to torture for information, to sacrifice innocents to achieve one's goals? Or are the characters not paragons of virtue, heroes who are in no way capable of committing atrocities?
+>
+> It is very important that this question be discussed immediately before a character commits an irreparable act before the indignant eyes of his comrades. In the past, characters had an alignment that defined, more or less, the moral boundary of a gaming group. Here, prevention is better than cure!
+>
+> From the point of view of the game leader, this decision can greatly influence the way he plays the world. Faced with ruthless characters, you have to play hard, very hard. Don't hesitate to kill, mutilate, and hurt extras and characters who have the misfortune to fall. Faced with heroic characters, the villains will not be so morally bound (they can always murder, pillage, torture to achieve their goals), but the heroes always have a chance to get out of it and will, at the very least, be respected by their enemies and helped by the population.
+
+## And the rest
+
+The rest of the world is up to you and your players to create:
+
+Ask your players where they want to play. Usually it will be in the corner of a large city and you won't move much. It could be Hong Kong, one of the big North American conurbations (SanSan, BosWash or ChiPi), Tokyo, Lagos, Mexico City, the east coast of Australia or even Paris… But it's quite possible your players will surprise you.
+
+If you don't have a lot of time, it is best to choose a region that you know a little about from reading or watching films. The important thing is that you have images and moods in mind.
+
+If you have a little more time, look at a map of the area, open its Wikipedia entry, walk around it via Streetview and make some notes on place names or neighbourhoods. You don't need to do much more than that - the important thing is to find a series of details that will feel 'real' and set the mood.
+
+Then go round the table with your players and take notes:
+
+1.  Ask them what they know about the town and the region, and ask them to describe some of the places that stand out, some of the atmosphere they want to find there. Try to 'futurise' the places to make a perfect Chrome City…
+2.  Ask them to tell you about people, cultures, society, politics, trends, fashion. Chrome City is not only buildings and streets, interchanges and wastelands, museums and archologies, but also and above all its inhabitants, as diverse as they are cosmopolitan, colourful, strange, offbeat - here too, project yourself into a possible future.
+3.  Finally, ask each of them to give you an event that is in the news, whether it is a headline in the newspapers or a rumour in the most confidential circles…
+
+Use the following lists to add to or find names and concepts that you like…
+
+## List of lists
+
+> The setting sun\
+> Clothe the fields,\
+> The canals, the whole city,\
+> With hyacinth and gold;\
+> The world falls asleep\
+> In a warm light.\
+> There, all is order and beauty,\
+> Luxury, calm and pleasure.
+>
+> —Charles Baudelaire, Les Fleurs du mal
+
+Many of the tables in this book suggest you roll strange dice: d26, d66, etc. In fact, for the d26, for example, you have to roll two d6s: the first one tells you the tens, depending on whether it is even or odd; the second one tells you the ones. Similarly, a d36 is easy to read: the first die gives you 1 (1-2), 2 (3-4) or 3 (5-6), while the second one normally reads 1 to 6.
+
+### Onomasticon of the future
+
+::: callout-tip
+For all the names of the characters and extras, please refer to the impressive [Kate Monk's Onomasticon website](https://tekeli.li/onomastikon/) on the Matrix.
+:::
+
+You can consult it from your tablet or, if you can, suck it up and keep a local record forever. Either way, once you try it, you probably won't be able to live without it.
+
+### Everything is wrong, nothing is right
+
+In the mood for disaster and darkness? Add one or more items from the following list to the game world…
+
+| 1D36 | Environment                               |
+|:----:|:------------------------------------------|
+| 1.1  | Climate anomalies                         |
+| 1.2  | Global deforestation                      |
+| 1.3  | Species extinction                        |
+| 1.4  | Accidental or deliberate ingenious spread |
+| 1.5  | Hunger riots                              |
+| 1.6  | Global flu epidemic                       |
+| 2.1  | Resource depletion                        |
+| 2.2  | Solar flares                              |
+| 2.3  | Water wars                                |
+| 2.4  | Floods                                    |
+| 2.5  | Pest outbreaks                            |
+| 2.6  | Ingenious disease from a laboratory       |
+| 3.1  | Parasitic diseases of cereals             |
+| 3.2  | Hurricane of the century (every year)     |
+| 3.3  | Mutagenic airborne particles              |
+| 3.4  | Sea pollution                             |
+| 3.5  | Urban parasitic plant proliferation       |
+| 3.6  | Droughts                                  |
+
+### New technologies
+
+If you need some exotic descriptions to descriptions to amaze your players…
+
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1D26    | Technologies                                                                                                                                                                          |
++:=======:+:======================================================================================================================================================================================+
+| 1.1     | POLYPHOTO TAPE: long-lasting luminescent tape glued to surfaces. Their light is harsh and unpleasant, but they are cheap.                                                             |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.2     | MOLDED CARBON: a strong, inexpensive building material that typically complements and covers concrete and macro-S, serving as a protective layer. Moulded carbon can take many forms. |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.3     | DISTRIBUTED POWER PLANTS: a system of energy production by small, localised power plants - possibly on a neighbourhood or company scale.                                              |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.4     | CHROME: name of metals in general (steels, alloys, etc.). Most metal objects are chromium-plated to increase their resistance to pollution and corrosion.                             |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.5     | DOMONEX: complete home automation systems for most modern homes combining connection to the matrix, local sensors and the use of intelligent materials with sliding properties.       |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.6     | EXO-CORAIL: a fast-growing, open-air, genetically modified coral that can be used to rapidly build carbon-positive living structures.                                                 |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.1     | SOLAR LAMPS: lamps that recharge naturally in sunlight for later use. Not very powerful but perfect for home interiors.                                                               |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.2     | MACRO-S (macro-structure): generic name for materials based on nanotubes or equivalent, used for the manufacture of giant structures.                                                 |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.3     | MORPHO-TEXTILE: adaptive textile, can be given specific aspects (heat resistant, solid, non-flammable, thermal regulation thermal regulation, anti-abrasion, luminescent…)            |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.4     | NEOSILK: synthetic silk fibres used to create very high strength cables and ropes.                                                                                                    |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.5     | POLY-RESIN: the basic material of 3D printers and, therefore, of most everyday objects made by these same printers.                                                                   |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.6     | SYMBIOTECH: a set of symbiotic technologies making it possible, for example, to make human skin capable of photosynthesis.                                                            |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+### The sports page: blitzball
+
+Blitzball is a very popular sport that is played in both virtual and physical reality. Two mixed teams of ten male and female players compete on foot, rollerblades and bicycles in a speed ring. The goal is to put the ball in the ring of the opposing team. Physical contact is highly codified and gratuitous violence is totally forbidden.
+
+The interest of the game lies in its virtual reality format. Players can, like in a Mario Kart course, pass through certain places on the circuit that appear in augmented reality and obtain bonuses - time bonuses for keeping the ball, accelerations, extra playing time, traps and weapons to throw at opponents to trigger constraint effects in their special combinations…
+
+The audience can also act. Each paying spectator has a certain number of votes during the game - spectators who watch the game in the stands have more votes than those registered for the akhashic broadcasts. At any time it is possible to vote for a player or a team. When a certain number of votes is reached, the player gets bonuses: he can activate certain cybernetic options of his equipment, trigger effects on his suit or have access to specific virtual bonuses in the game ring.
+
+In big matches, when millions of people are connected, the game is extremely dynamic and bonuses fly in all directions to change the course of the match.
+
+Of course, Bitzball generates huge revenues, even bigger bets and dozens of scandals per season. And the players are both stars and cattle.
+
+### Organizations
+
+| 1D26 | ORGANISATIONS                  |
+|:----:|:-------------------------------|
+| 1.1  | Government agencies            |
+| 1.2  | International agencies         |
+| 1.3  | Terrorist cells                |
+| 1.4  | Orbital corporations           |
+| 1.5  | Earth-based corporations       |
+| 1.6  | Organized crime                |
+| 2.1  | Alternative cultures           |
+| 2.2  | Political Movements            |
+| 2.3  | Legitimate religious movements |
+| 2.4  | NGOs & foundations             |
+| 2.5  | Cults                          |
+| 2.6  | Secret societies & cabals      |
+
+| 1D6 | GOVERNMENTAL AGENCIES (to be adapted to each country) |
+|:---:|:------------------------------------------------------|
+|  1  | Environmental agencies                                |
+|  2  | Ministry of Defence                                   |
+|  3  | Civil Protection                                      |
+|  4  | Health protection - centre for disease control        |
+|  5  | Intelligence services                                 |
+|  6  | Central Security (counter-intelligence)               |
+
+| 1D26 | INTERNATIONAL AGENCIES                      |
+|:----:|:--------------------------------------------|
+| 1.1  | Regional trade union (NAFTA, ASEAN, OPEC…)  |
+| 1.2  | Regional military union (NATO…)             |
+| 1.3  | Non-aligned union                           |
+| 1.4  | Regional political union (EU…)              |
+| 1.5  | Akhashic Security Council                   |
+| 1.6  | Orbital Council                             |
+| 2.1  | IMF                                         |
+| 2.2  | GX (G8, G20, etc.)                          |
+| 2.3  | Interpol                                    |
+| 2.4  | WTO                                         |
+| 2.5  | UN (including UNESCO, UN Peace Corps, etc.) |
+| 2.6  | Vatican                                     |
+
+| 1D6 | TERRORIST CELLS   |
+|:---:|:------------------|
+|  1  | Al Rhedheb        |
+|  2  | Greenies          |
+|  3  | Kwasa Warriors    |
+|  4  | Kebebasan         |
+|  5  | Red Friday        |
+|  6  | Weathermen Reboot |
+
++----------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1D26     | ORBITAL CORPORATIONS                                                                                                                              |
++:========:+:==================================================================================================================================================+
+| 1.1      | ASCLEPIA: medical technologies, human engineering, nanogenetics, rejuvenation technologies.                                                       |
++----------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.2      | EIKI: energy (gas, nuclear, electricity, energy. Pioneer in distributed energy.                                                                   |
++----------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.3      | FIRST CORPORATED: leading pharmaceutical group in the world, about to be bought by Lucrecia.                                                      |
++----------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.4      | GLASSPERFECT: the world's leading security and mercenary company.                                                                                 |
++----------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.5      | GROUPE RICHELIEU: a European banking group particularly active in advanced electronics, aeronautics, transport and engineering.                   |
++----------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.6      | HONGSE TECHNOLOGIES: the Chinese state corporation.                                                                                               |
++----------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.1      | KATSU: food processing, animal engineering, shipping and and space transport, banking group.                                                      |
++----------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.2      | LATIMER AND BERING: construction, public works, vehicles, water management and mass manufacturing.                                                |
++----------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.3      | LUCRECIA TRUST FUND: has grown into an economic and political powerhouse in the space of a few years.                                             |
++----------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.4      | SAIBEONAMJA: neuroscience, cybertechnology, nexus technologies.                                                                                   |
++----------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.5      | SHANADARA: transnational consortium for multimedia production - television, cinema, matrix. Founder of the first global social network: WakuWaku. |
++----------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.6      | ULKAWENA INDUSTRIES: Indonesian group, low-cost mass manufacturing, at the forefront of 3D printers, farming, agricultural engineering.           |
++----------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+
+| 1D26 | EARTH CORPORATIONS                              |
+|:----:|:------------------------------------------------|
+| 1.1  | Agribusiness                                    |
+| 1.2  | Communications and matrix                       |
+| 1.3  | Cybernetics                                     |
+| 1.4  | Water & energy                                  |
+| 1.5  | Environmental exploitation (forests and plants) |
+| 1.6  | Heavy industry                                  |
+| 2.1  | Light industry and manufacturing                |
+| 2.2  | Media                                           |
+| 2.3  | Health and engineering                          |
+| 2.4  | Banking and finance                             |
+| 2.5  | Primary sector (mining and oil)                 |
+| 2.6  | Services                                        |
+
+| 1D26 | ORGANISED CRIME                                         |
+|:----:|:--------------------------------------------------------|
+| 1.1  | Cartel (South America, Central America)                 |
+| 1.2  | African ethnic group (Nigeria, Zaire, South Africa…)    |
+| 1.3  | Indo-European ethnic group (Chechnya, India, Pakistan…) |
+| 1.4  | Hell's Angels (USA, Canada, Europe)                     |
+| 1.5  | The Corporation (Albania)                               |
+| 1.6  | Le Milieu (France)                                      |
+| 2.1  | Mafia (Italy, USA)                                      |
+| 2.2  | Mara Salvatrucha (Central America)                      |
+| 2.3  | Thagaandi (Australia)                                   |
+| 2.4  | Triads (South East Asia)                                |
+| 2.5  | Vory-v-Zakone (Russia)                                  |
+| 2.6  | Yakuza (Japan)                                          |
+
++--------------+-------------------------------------------------------------------------+
+| 1D26         | ORGANIZED CRIMINAL ACTIVITY                                             |
++:============:+:========================================================================+
+| 1.1          | Murder                                                                  |
++--------------+-------------------------------------------------------------------------+
+| 1.2          | Smuggling (people, drugs, weapons, organs…)                             |
++--------------+-------------------------------------------------------------------------+
+| 1.3          | Corruption of public officials and political figures                    |
++--------------+-------------------------------------------------------------------------+
+| 1.4          | Cybercrime                                                              |
++--------------+-------------------------------------------------------------------------+
+| 1.5          | Counterfeiting and money laundering                                     |
++--------------+-------------------------------------------------------------------------+
+| 1.6          | Infiltration of legal businesses                                        |
++--------------+-------------------------------------------------------------------------+
+| 2.1          | Racketeering, kidnapping and extortion                                  |
++--------------+-------------------------------------------------------------------------+
+| 2.2          | Receiving stolen goods                                                  |
++--------------+-------------------------------------------------------------------------+
+| 2.3          | Trafficking in women and children (prostitution, pimping, pornography…) |
++--------------+-------------------------------------------------------------------------+
+| 2.4          | Clandestine work                                                        |
++--------------+-------------------------------------------------------------------------+
+| 2.5          | Fixing of sports events                                                 |
++--------------+-------------------------------------------------------------------------+
+| 2.6          | Theft of confidential information                                       |
++--------------+-------------------------------------------------------------------------+
+
+| 1D26 | ALTERNATIVE CULTURES |
+|:----:|:---------------------|
+| 1.1  | Akashics             |
+| 1.2  | Altnerds             |
+| 1.3  | Bad Wolf             |
+| 1.4  | Borg                 |
+| 1.5  | Immobile             |
+| 1.6  | Luddites             |
+| 2.1  | Sailors              |
+| 2.2  | Nanites              |
+| 2.3  | Neoniks              |
+| 2.4  | Nomads               |
+| 2.5  | Purists              |
+| 2.6  | Ultra-tech           |
+
+| 1D26 | POLITICAL MOVEMENTS              |
+|:----:|:---------------------------------|
+| 1.1  | Extreme left                     |
+| 1.2  | Fighting left                    |
+| 1.3  | Social democratic-liberal centre |
+| 1.4  | Liberal right                    |
+| 1.5  | Libertarian                      |
+| 1.6  | Nationalist right                |
+| 2.1  | Neo-fascist                      |
+| 2.2  | Religious                        |
+| 2.3  | Ecologists - environmentalists   |
+| 2.4  | Mystics                          |
+| 2.5  | Banned party                     |
+| 2.6  | Unclassifiable                   |
+
+| 1D26 | LEGITIMATE RELIGIOUS MOVEMENTS                     |
+|:----:|:---------------------------------------------------|
+| 1.1  | Wiccan Shrine Alliance                             |
+| 1.2  | Universal Buddhist Circle                          |
+| 1.3  | Jedi Consular Council                              |
+| 1.4  | International Exarchate                            |
+| 1.5  | Islamic Brotherhood                                |
+| 1.6  | Jewish Youth of the World                          |
+| 2.1  | Theosophical Lodge                                 |
+| 2.2  | Seventh Day Church Movement                        |
+| 2.3  | New Church of Satan                                |
+| 2.4  | Cybermonial Order of Saint George and Saint Gudula |
+| 2.5  | Rose+Cross                                         |
+| 2.6  | Orbital Bible Society                              |
+
+| 1D26 | NGOS AND FOUNDATIONS             |
+|:----:|:---------------------------------|
+| 1.1  | Increases for all                |
+| 1.2  | International Equity             |
+| 1.3  | The Outstretched Hand Foundation |
+| 1.4  | Guns are bad!                    |
+| 1.5  | Human First                      |
+| 1.6  | La Vigie                         |
+| 2.1  | Free Matrix                      |
+| 2.2  | Omega                            |
+| 2.3  | World Health Network             |
+| 2.4  | Secrets Revealed International   |
+| 2.5  | Solidarité Secours               |
+| 2.6  | Women's Underground              |
+
+| 1D6 | CULTS                        |
+|:---:|:-----------------------------|
+|  1  | Solar Worshippers            |
+|  2  | Transmigration Study Circles |
+|  3  | Dianetic Clubs               |
+|  4  | Last Day Believers           |
+|  5  | Eugenics Cults               |
+|  6  | Children of the stars        |
+
+| 1D26 | SECRET SOCIETIES AND CABALS          |
+|:----:|:-------------------------------------|
+| 1.1  | Chapter 322                          |
+| 1.2  | Knights of Timbuktu                  |
+| 1.3  | World Study Committee                |
+| 1.4  | Council of Sages                     |
+| 1.5  | The Black Room                       |
+| 1.6  | League of Rights                     |
+| 2.1  | Masonic Lodge                        |
+| 2.2  | Akhashic Mysteries                   |
+| 2.3  | New divine order                     |
+| 2.4  | Hermetic Order                       |
+| 2.5  | Society of the Children of the Night |
+| 2.6  | Orbital Synarchy                     |
+
+### Brands
+
+Here are some brands to colour your descriptions. You will note that most of them are in the hands of the orbitals.
+
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Restaurant (franchises)  | BIA, Sam&Dave, Fortune Cookie, Dimsum express, Yatai, Café Duotti                                                                                         |
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Hotels (franchises)      | Hitsygi, Domtech, PlaneDivision,Palacio, Roomies, NoOne                                                                                                   |
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Nightclubs (franchises)  | 221BS, Vida Loca, Wolfenwolf                                                                                                                              |
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Fashion (ready-to-wear)  | Fantasia, Chrome, Blush, Tea4two,Tiamat, Riders, Peppermint                                                                                               |
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Fashion (high end)       | Roadstone, Giacommo, Hayari                                                                                                                               |
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Fashion (sports)         | Stadium Ten, GrandSlam, Dojo Kanzen                                                                                                                       |
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Cybertech                | Nova, Major Jenkins, Sorensen,Tako Dev, Sever City                                                                                                        |
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Genetech                 | Hillard, Genohm, Free Spirit, Marsden                                                                                                                     |
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Personal weapons         | Arcatech, Stavros, Evo, Sarmath,Volkstein, Pakol, Vulcan A.R.M Examples of models: Cougar, Cobra,Mongoose, Bloodstorm, Sword, Dagger,L60, Ahriman, Sable… |
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Vehicles (manufacturers) | SMD, Sakura, GenMo, Tata, Maybach,De Clercq, Phaeton, Duesenberg                                                                                          |
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Communication and data   | ITT, CamPhone, Vault, Cloudserve                                                                                                                          |
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Social networks          | LogInn, WakuWaku                                                                                                                                          |
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IT (hardware)            | Antaramuka, Jabko, TranzGeil                                                                                                                              |
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IT (software)            | Kehitys Software, Schutz FW, Carbonite                                                                                                                    |
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Media (global network)   | NowSports, NTTL, Scones, ITD news,Capcha Network, ShibiBC                                                                                                 |
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Care (franchises)        | Oakenshield Institute, St James Care Centers, EMU322                                                                                                      |
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Drugs                    | Douvoir, TaylorBeam, DaoKusuri,Fishner                                                                                                                    |
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Large-scale retailing    | World Food, Manitoba Market, Tang, C3PO Cash Cash Cash Pawn Office,Le Mutant                                                                              |
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Energy                   | Eiki Electrics, Sayat Bombay, EGF                                                                                                                         |
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Banks                    | Willard & Thomson, Global, Bank of China, GFS Ginko Financial Service, IBB,Savco                                                                          |
++--------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+### Cities and places
+
+Whenever you need a significant location to place a scene or story element, roll three d6's on the following tables:
+
+| 1D666 | POINTS OF INTEREST                            |
+|:-----:|:----------------------------------------------|
+| 1.1.1 | Aeroclub (conurb)                             |
+| 1.1.2 | Private airfield (antizone)                   |
+| 1.1.3 | International airport (enclave)               |
+| 1.1.4 | Open-air amphitheatre                         |
+| 1.1.5 | Aquapark                                      |
+| 1.1.6 | Aquarium                                      |
+| 1.2.1 | Aqueduct                                      |
+| 1.2.2 | Central Archives                              |
+| 1.2.3 | Blitzball Arena                               |
+| 1.2.4 | Clandestine fighting arena (anarzone)         |
+| 1.2.5 | Distribution cupboard                         |
+| 1.2.6 | Clandestine clothing workshop                 |
+| 1.3.1 | Assembly workshops electronics                |
+| 1.3.2 | Highways                                      |
+| 1.3.3 | Baths, thermal baths, sauna, spa              |
+| 1.3.4 | Bamboo grove                                  |
+| 1.3.5 | Protected data banks (anti-zone)              |
+| 1.3.6 | Seed banks                                    |
+| 1.4.1 | Bar and café                                  |
+| 1.4.2 | Rainwater collection basin                    |
+| 1.4.3 | Settling and waste water treatment ponds      |
+| 1.4.4 | Classified building                           |
+| 1.4.5 | Federal building                              |
+| 1.4.6 | Observation lookout                           |
+| 1.5.1 | Slum (anarzone)                               |
+| 1.5.2 | Thick wood                                    |
+| 1.5.3 | Nightclub                                     |
+| 1.5.4 | Mobile security brigade                       |
+| 1.5.5 | Bunkers                                       |
+| 1.5.6 | Corporate CEO offices (anti-zone)             |
+| 1.6.1 | Nomadic camp (anarzone)                       |
+| 1.6.2 | Industrial compound (enclave)                 |
+| 1.6.3 | Canals                                        |
+| 1.6.4 | Underground quarries                          |
+| 1.6.5 | Fire station                                  |
+| 1.6.6 | Open-air junkyard (anarzone)                  |
+| 2.1.1 | Catacombs                                     |
+| 2.1.2 | Network of caves                              |
+| 2.1.3 | Green belt                                    |
+| 2.1.4 | Central park                                  |
+| 2.1.5 | Desalination plant                            |
+| 2.1.6 | Gridded power plant                           |
+| 2.2.1 | Nuclear power plant                           |
+| 2.2.2 | Thermal power plant                           |
+| 2.2.3 | Security centres (anti-zone)                  |
+| 2.2.4 | Landfill                                      |
+| 2.2.5 | Waste incineration plant                      |
+| 2.2.6 | Emergency centre                              |
+| 2.3.1 | Road control centre                           |
+| 2.3.2 | Disaster management centre                    |
+| 2.3.3 | Research centre (enclave)                     |
+| 2.3.4 | Fitness centre and gym club                   |
+| 2.3.5 | Specialised educational centre                |
+| 2.3.6 | Financial and Scholarship Centre (enclave)    |
+| 2.4.1 | Penitentiary centre                           |
+| 2.4.2 | Scrapping yard                                |
+| 2.4.3 | Shipyard                                      |
+| 2.4.4 | Shipyard (anarzone)                           |
+| 2.4.5 | Underground construction site                 |
+| 2.4.6 | Water tower                                   |
+| 2.5.1 | Cemetery                                      |
+| 2.5.2 | Cinema                                        |
+| 2.5.3 | Nano-tank clinic                              |
+| 2.5.4 | Private clinic                                |
+| 2.5.5 | Veterinary clinic                             |
+| 2.5.6 | Private club                                  |
+| 2.6.1 | Wastewater collector                          |
+| 2.6.2 | College                                       |
+| 2.6.3 | Central police station                        |
+| 2.6.4 | Concentration of specialised shops            |
+| 2.6.5 | Industrial control and product testing centre |
+| 2.6.6 | Technical aisle                               |
+| 3.1.1 | Technical corridors under the enclaves        |
+| 3.1.2 | Country club                                  |
+| 3.1.3 | Cyber chop shop                               |
+| 3.1.4 | Open air dump                                 |
+| 3.1.5 | Fuel and chemical depot                       |
+| 3.1.6 | Dinner                                        |
+| 3.2.1 | Directorate of Equipment                      |
+| 3.2.2 | Public dispensary (conurb)                    |
+| 3.2.3 | Subsidised dispensary (anarzone)              |
+| 3.2.4 | Interchangeers                                |
+| 3.2.5 | Martial arts school                           |
+| 3.2.6 | Primary and nursery school                    |
+| 3.3.1 | Farming (anarzone)                            |
+| 3.3.2 | Exhibitions and galleries                     |
+| 3.3.3 | Extension or renovation                       |
+| 3.3.4 | Fast food                                     |
+| 3.3.5 | Fairground                                    |
+| 3.3.6 | Geothermal drilling                           |
+| 3.4.1 | Sewers                                        |
+| 3.4.2 | Warehouses                                    |
+| 3.4.3 | Cold stores                                   |
+| 3.4.4 | Wind turbines                                 |
+| 3.4.5 | Stairs                                        |
+| 3.4.6 | Wilderness areas                              |
+| 3.5.1 | Seafront                                      |
+| 3.5.2 | Funeral home                                  |
+| 3.5.3 | Funicular                                     |
+| 3.5.4 | 24/7 Self Storage                             |
+| 3.5.5 | Shunting yard                                 |
+| 3.5.6 | River station                                 |
+| 3.6.1 | Bus station                                   |
+| 3.6.2 | Local generator                               |
+| 3.6.3 | Ghetto (anarzone)                             |
+| 3.6.4 | Urban golf course                             |
+| 3.6.5 | Large school                                  |
+| 3.6.6 | Halls                                         |
+| 4.1.1 | Heliport                                      |
+| 4.1.2 | Hotel                                         |
+| 4.1.3 | Day hospital                                  |
+| 4.1.4 | Psychiatric hospital                          |
+| 4.1.5 | University Hospital                           |
+| 4.1.6 | City Hall                                     |
+| 4.2.1 | Buildings (conurb)                            |
+| 4.2.2 | Temporary office buildings                    |
+| 4.2.3 | Squatted buildings (anarzone)                 |
+| 4.2.4 | Self-service 3D printing                      |
+| 4.2.5 | Food industry                                 |
+| 4.2.6 | Chemical industry                             |
+| 4.3.1 | Heavy industry                                |
+| 4.3.2 | Pharmaceutical industry                       |
+| 4.3.3 | Underground industrial facilities             |
+| 4.3.4 | Cultural institute                            |
+| 4.3.5 | Public gardens                                |
+| 4.3.6 | Karaoke                                       |
+| 4.4.1 | Clandestine lab (anarzone)                    |
+| 4.4.2 | Analytical laboratories                       |
+| 4.4.3 | Laboratories and R&D centres (antizone)       |
+| 4.4.4 | Lake                                          |
+| 4.4.5 | Lounge                                        |
+| 4.4.6 | High school                                   |
+| 4.5.1 | Prison                                        |
+| 4.5.2 | Single-family homes (conurb)                  |
+| 4.5.3 | Mall                                          |
+| 4.5.4 | Illegal manufacture (anarzone)                |
+| 4.5.5 | Manufacturing                                 |
+| 4.5.6 | Flea market (anarzone)                        |
+| 4.6.1 | Open market                                   |
+| 4.6.2 | Wetlands                                      |
+| 4.6.3 | Marineland                                    |
+| 4.6.4 | Historical monument                           |
+| 4.6.5 | Morgue                                        |
+| 4.6.6 | Walls and fences                              |
+| 5.1.1 | Museum                                        |
+| 5.1.2 | Necropolis                                    |
+| 5.1.3 | Opera                                         |
+| 5.1.4 | Park                                          |
+| 5.1.5 | Botanical park                                |
+| 5.1.6 | Jogging path                                  |
+| 5.2.1 | Invested parking (anarzone)                   |
+| 5.2.2 | Overlapping car parks                         |
+| 5.2.3 | Walkways                                      |
+| 5.2.4 | Director's penthouse (antizone)               |
+| 5.2.5 | Business incubator                            |
+| 5.2.6 | Swimming pool                                 |
+| 5.3.1 | Plazza (huge square)                          |
+| 5.3.2 | Plazza (enclave)                              |
+| 5.3.3 | Checkpoint                                    |
+| 5.3.4 | Motorway bridges                              |
+| 5.3.5 | Bridges and viaducts                          |
+| 5.3.6 | Port                                          |
+| 5.4.1 | Commercial port                               |
+| 5.4.2 | Fishing harbour                               |
+| 5.4.3 | Marina                                        |
+| 5.4.4 | Military port (anti-zone)                     |
+| 5.4.5 | Autonomous security post                      |
+| 5.4.6 | Planted promenade                             |
+| 5.5.1 | Pub                                           |
+| 5.5.2 | Red light district                            |
+| 5.5.3 | Refinery                                      |
+| 5.5.4 | Homeless shelter                              |
+| 5.5.5 | Reservoir                                     |
+| 5.5.6 | Residences (conurb)                           |
+| 5.6.1 | Restaurant                                    |
+| 5.6.2 | Street restaurant                             |
+| 5.6.3 | Secondary road (anarzone)                     |
+| 5.6.4 | Dirt roads                                    |
+| 5.6.5 | Street of thirst                              |
+| 5.6.6 | Pedestrian street                             |
+| 6.1.1 | Alleys in all directions                      |
+| 6.1.2 | Criss-crossing surface streets                |
+| 6.1.3 | Sandpit                                       |
+| 6.1.4 | Concert hall                                  |
+| 6.1.5 | Gambling halls and casinos                    |
+| 6.1.6 | Servers                                       |
+| 6.2.1 | Souk (anarzone)                               |
+| 6.2.2 | Square                                        |
+| 6.2.3 | Artists' squat                                |
+| 6.2.4 | Stadium                                       |
+| 6.2.5 | Underground station                           |
+| 6.2.6 | Weather station                               |
+| 6.3.1 | Football field (anarzone)                     |
+| 6.3.2 | Waste land (conurb)                           |
+| 6.3.3 | Agricultural land                             |
+| 6.3.4 | Corporatist tower under construction          |
+| 6.3.5 | Corporatist towers (enclave)                  |
+| 6.3.6 | Transformers                                  |
+| 6.4.1 | Public Treasury                               |
+| 6.4.2 | Court                                         |
+| 6.4.3 | Tunnel                                        |
+| 6.4.4 | Abandoned tunnels                             |
+| 6.4.5 | Private university                            |
+| 6.4.6 | Public university                             |
+| 6.5.1 | Clandestine factory (conurb)                  |
+| 6.5.2 | Viaduct under construction                    |
+| 6.5.3 | Self-guided tracks                            |
+| 6.5.4 | Railway tracks                                |
+| 6.5.5 | Retention area                                |
+| 6.5.6 | Storage area                                  |
+| 6.6.1 | Wetland                                       |
+| 6.6.2 | Military zone (anti-zone)                     |
+| 6.6.3 | Military zone                                 |
+| 6.6.4 | Training areas and police academy             |
+| 6.6.5 | Residential areas (enclave)                   |
+| 6.6.6 | Zoo                                           |
+
+### On the street
+
+The following table is somewhat similar to the previous one, but focuses on the buildings you can find along a given street - draw half a dozen buildings that will be the most important locations. The rest you can improvise…
+
+| 1D666 | ALONG THE STREET                                   |
+|:-----:|:---------------------------------------------------|
+| 1.1.1 | Apartment rental agency                            |
+| 1.1.2 | Professional equipment rental agency               |
+| 1.1.3 | Construction vehicle rental agency                 |
+| 1.1.4 | Car rental agency                                  |
+| 1.1.5 | Employment agency                                  |
+| 1.1.6 | Travel agency                                      |
+| 1.2.1 | Real estate agency                                 |
+| 1.2.2 | Pet shop                                           |
+| 1.2.3 | Video game arcade                                  |
+| 1.2.4 | Archives                                           |
+| 1.2.5 | Armoury                                            |
+| 1.2.6 | Body shop                                          |
+| 1.3.1 | Computer repair shop                               |
+| 1.3.2 | Mechanical workshop                                |
+| 1.3.3 | Express mechanic workshop                          |
+| 1.3.4 | Driving school                                     |
+| 1.3.5 | Lawyers                                            |
+| 1.3.6 | Bank                                               |
+| 1.4.1 | Trendy bar                                         |
+| 1.4.2 | Biker bar                                          |
+| 1.4.3 | Cop bar                                            |
+| 1.4.4 | Gangster bar                                       |
+| 1.4.5 | Geek bar                                           |
+| 1.4.6 | Student bar                                        |
+| 1.5.1 | Abandoned building                                 |
+| 1.5.2 | Federal administration building                    |
+| 1.5.3 | Local government building                          |
+| 1.5.4 | Library                                            |
+| 1.5.5 | Jeweller                                           |
+| 1.5.6 | Brothel                                            |
+| 1.6.1 | Butcher shop                                       |
+| 1.6.2 | Bakery                                             |
+| 1.6.3 | Household appliances shop - repair and sales       |
+| 1.6.4 | Video rental shop                                  |
+| 1.6.5 | Fashion shop                                       |
+| 1.6.6 | Shop not occupied                                  |
+| 2.1.1 | Bridal shop                                        |
+| 2.1.2 | Health shop                                        |
+| 2.1.3 | Bowling                                            |
+| 2.1.4 | Brocante                                           |
+| 2.1.5 | Army recruitment office                            |
+| 2.1.6 | Offices - lawyers                                  |
+| 2.2.1 | Corporate offices                                  |
+| 2.2.2 | Cabaret                                            |
+| 2.2.3 | Dental practice                                    |
+| 2.2.4 | General practice                                   |
+| 2.2.5 | Specialist medical practice                        |
+| 2.2.6 | Cafe                                               |
+| 2.3.1 | Cafeteria                                          |
+| 2.3.2 | University campus                                  |
+| 2.3.3 | Fire station                                       |
+| 2.3.4 | Break                                              |
+| 2.3.5 | Neurotronic data centre                            |
+| 2.3.6 | Fitness centre                                     |
+| 2.4.1 | Social centre                                      |
+| 2.4.2 | Heating and air conditioning - services and repair |
+| 2.4.3 | Cinema                                             |
+| 2.4.4 | Clinic                                             |
+| 2.4.5 | Abortion clinic                                    |
+| 2.4.6 | Club /C                                            |
+| 2.5.1 | Gentleman's club                                   |
+| 2.5.2 | Gogo dancers club                                  |
+| 2.5.3 | Strip club                                         |
+| 2.5.4 | College                                            |
+| 2.5.5 | Police station                                     |
+| 2.5.6 | Electricity company                                |
+| 2.6.1 | Dealer - CPA                                       |
+| 2.6.2 | Dealer - Drones                                    |
+| 2.6.3 | Car dealer - luxury                                |
+| 2.6.4 | Car dealer - new and used                          |
+| 2.6.5 | Confectionery                                      |
+| 2.6.6 | Locker                                             |
+| 3.1.1 | Shoe repair                                        |
+| 3.1.2 | Country club                                       |
+| 3.1.3 | Crèche                                             |
+| 3.1.4 | Deposit and sale                                   |
+| 3.1.5 | Dinner                                             |
+| 3.1.6 | Dojo                                               |
+| 3.2.1 | Primary school                                     |
+| 3.2.2 | Church                                             |
+| 3.2.3 | Electrician                                        |
+| 3.2.4 | Warehouse                                          |
+| 3.2.5 | Plumbing company                                   |
+| 3.2.6 | Grocery shop - organic                             |
+| 3.3.1 | Grocery shop - ethnic                              |
+| 3.3.2 | Grocery shop - wholesale                           |
+| 3.3.3 | Grocery shop - 24/7                                |
+| 3.3.4 | Green space                                        |
+| 3.3.5 | Trick or treat                                     |
+| 3.3.6 | Fast food - American                               |
+| 3.4.1 | Mexican fast food                                  |
+| 3.4.2 | Farm                                               |
+| 3.4.3 | Fair at µ¥1                                        |
+| 3.4.4 | Fruit and vegetables                               |
+| 3.4.5 | Crack house                                        |
+| 3.4.6 | Art gallery                                        |
+| 3.5.1 | Shopping mall                                      |
+| 3.5.2 | Garage                                             |
+| 3.5.3 | Self-storage                                       |
+| 3.5.4 | Bus station                                        |
+| 3.5.5 | Ice cream parlour                                  |
+| 3.5.6 | Urban golf                                         |
+| 3.6.1 | Large surface - tools and materials                |
+| 3.6.2 | Gymnasium                                          |
+| 3.6.3 | Hotel - small                                      |
+| 3.6.4 | Hotel - medium                                     |
+| 3.6.5 | Hotel - tower                                      |
+| 3.6.6 | Hotel - pass                                       |
+| 4.1.1 | Office building - tower                            |
+| 4.1.2 | Office building - small                            |
+| 4.1.3 | Public garden                                      |
+| 4.1.4 | Newspaper kiosk                                    |
+| 4.1.5 | Research & development laboratories                |
+| 4.1.6 | Car wash                                           |
+| 4.2.1 | Laundromat                                         |
+| 4.2.2 | Bookstore                                          |
+| 4.2.3 | Quick delivery                                     |
+| 4.2.4 | Costume rental                                     |
+| 4.2.5 | High School                                        |
+| 4.2.6 | Store - heavy equipment, sales and repair          |
+| 4.3.1 | Store - tools and materials                        |
+| 4.3.2 | Store - small electronics                          |
+| 4.3.3 | Antique shop                                       |
+| 4.3.4 | Candle and candle shop                             |
+| 4.3.5 | DIY shop                                           |
+| 4.3.6 | Shoe shop                                          |
+| 4.4.1 | Cycle shop                                         |
+| 4.4.2 | Art supplies shop                                  |
+| 4.4.3 | Gardening shop                                     |
+| 4.4.4 | Video game shop                                    |
+| 4.4.5 | Toy shop                                           |
+| 4.4.6 | Lighting shop                                      |
+| 4.5.1 | Carpet and flooring shop                           |
+| 4.5.2 | Motorcycle shop                                    |
+| 4.5.3 | Music shop                                         |
+| 4.5.4 | Paint and wallpaper shop                           |
+| 4.5.5 | Photocopy shop                                     |
+| 4.5.6 | Car parts shop                                     |
+| 4.6.1 | Tyre shop                                          |
+| 4.6.2 | Door and window shop                               |
+| 4.6.3 | Souvenir shop                                      |
+| 4.6.4 | Sports shop                                        |
+| 4.6.5 | Telephone shop                                     |
+| 4.6.6 | Clothing shop                                      |
+| 5.1.1 | Wine and spirits shop                              |
+| 5.1.2 | Town hall                                          |
+| 5.1.3 | Fraternity house                                   |
+| 5.1.4 | Retirement home                                    |
+| 5.1.5 | Mall                                               |
+| 5.1.6 | Leather goods                                      |
+| 5.2.1 | Courier                                            |
+| 5.2.2 | Pawn shop                                          |
+| 5.2.3 | Motel                                              |
+| 5.2.4 | Museum                                             |
+| 5.2.5 | Sports betting shop                                |
+| 5.2.6 | Charity                                            |
+| 5.3.1 | Park                                               |
+| 5.3.2 | Open-air car park                                  |
+| 5.3.3 | Underground car park                               |
+| 5.3.4 | Multi-storey car park                              |
+| 5.3.5 | Ice rink                                           |
+| 5.3.6 | Pastry shop                                        |
+| 5.4.1 | Landscaping                                        |
+| 5.4.2 | Small apartment building                           |
+| 5.4.3 | Pharmacy                                           |
+| 5.4.4 | Photographer                                       |
+| 5.4.5 | Pizzeria                                           |
+| 5.4.6 | Post office                                        |
+| 5.5.1 | Dry cleaner                                        |
+| 5.5.2 | Pub                                                |
+| 5.5.3 | Hardware store                                     |
+| 5.5.4 | Animal shelter                                     |
+| 5.5.5 | Truck stop                                         |
+| 5.5.6 | Residence - duplex                                 |
+| 5.6.1 | Residence - single storey house                    |
+| 5.6.2 | Restaurant - takeaway truck                        |
+| 5.6.3 | Restaurant - takeaway stand                        |
+| 5.6.4 | Restaurant - steakhouse                            |
+| 5.6.5 | Restaurant - seafood                               |
+| 5.6.6 | Ethnic restaurant                                  |
+| 6.1.1 | Family restaurant                                  |
+| 6.1.2 | Gourmet restaurant                                 |
+| 6.1.3 | Gambling hall                                      |
+| 6.1.4 | Clandestine gambling hall                          |
+| 6.1.5 | Hair salon                                         |
+| 6.1.6 | Massage parlour                                    |
+| 6.2.1 | "Improved" massage parlour                         |
+| 6.2.2 | Locksmith                                          |
+| 6.2.3 | Legal advice services                              |
+| 6.2.4 | Spa and steam room                                 |
+| 6.2.5 | Square                                             |
+| 6.2.6 | Athletics stadium                                  |
+| 6.3.1 | Baseball Stadium                                   |
+| 6.3.2 | Blitzball Stadium                                  |
+| 6.3.3 | Football stadium                                   |
+| 6.3.4 | Shooting range                                     |
+| 6.3.5 | Gas station                                        |
+| 6.3.6 | Dance studio                                       |
+| 6.4.1 | Military surplus                                   |
+| 6.4.2 | Tobacco                                            |
+| 6.4.3 | Tobacco - medical marijuana                        |
+| 6.4.4 | Slum                                               |
+| 6.4.5 | Basketball court                                   |
+| 6.4.6 | Waste land                                         |
+| 6.5.1 | Theatre                                            |
+| 6.5.2 | Caterer                                            |
+| 6.5.3 | Electrical transformer                             |
+| 6.5.4 | Delivery carrier                                   |
+| 6.5.5 | State court                                        |
+| 6.5.6 | County court                                       |
+| 6.6.1 | Municipal court                                    |
+| 6.6.2 | Recycling plant                                    |
+| 6.6.3 | Water treatment plant                              |
+| 6.6.4 | Glassmaker                                         |
+| 6.6.5 | Veterinarian                                       |
+| 6.6.6 | Psychic                                            |

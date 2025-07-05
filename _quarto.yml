@@ -2,7 +2,8 @@ project:
   type: book
   output-dir: dist
 
-lang: en_GB
+lang: en
+tbl-cap-location: top
 
 book:
   title: nanoChrome
@@ -14,8 +15,8 @@ book:
   date: 2015-09-30
   isbn: 979-10-95063-07-0
   abstract: Abstract
-  description: Description
   output-file: nanoChrome
+  description: Description
 
   search: true
   downloads: [pdf]
@@ -26,12 +27,20 @@ book:
 
   chapters:
     - index.qmd
-    - content/nanochrome.qmd
+    - content/intro.qmd
+    - content/cyberpunk.qmd
+    - content/characters.qmd
+    - content/rules.qmd
+    - content/matrix.qmd
+    - content/relationships.qmd
+    - content/vehicles.qmd
+    - content/running.qmd
+    - content/adventures.qmd
+    - content/enemies.qmd
+    - content/magic.qmd
+    - content/catalogues.qmd
   appendices: 
     - content/charsheet.qmd
-
-  sidebar:
-    background: secondary
 
 format:
   html:
@@ -42,6 +51,7 @@ format:
     callout-appearance: simple
     number-sections: false
   pdf:
+    number-sections: false
     toc: true
     css: assets/book.css
     pdf-engine: prince

@@ -1,3 +1,7 @@
+---
+format: pdf
+---
+
 # Cyberpunk
 
 Twenty minutes in the future.\
@@ -92,7 +96,8 @@ Cyberpunk is a delicate blend of hard-boiled thriller, paramilitary action, soci
 
 ## Three must-haves
 
-> The old world is dying, the new world is slow in appearing, and in this chiaroscuro monsters are emerging.\
+> The old world is dying, the new world is slow in appearing, and in this chiaroscuro monsters are emerging.
+>
 > —Antonio Gramsci
 
 Before you start playing the game and creating the characters, outline these three essential elements of the world to your players. Many of the rules of the game derive directly from these fundamental concepts.
@@ -199,7 +204,7 @@ Many of the tables in this book suggest you roll strange dice: d26, d66, etc. In
 ### Onomasticon of the future
 
 ::: callout-tip
-For all the names of the characters and extras, please refer to the impressive Kate Monk's Onomasticon website on the Matrix: [tekeli.li/onomastikon](https://tekeli.li/onomastikon/)
+For all the names of the characters and extras, please refer to the impressive [Kate Monk's Onomasticon website](https://tekeli.li/onomastikon/) on the Matrix.
 :::
 
 You can consult it from your tablet or, if you can, suck it up and keep a local record forever. Either way, once you try it, you probably won't be able to live without it.

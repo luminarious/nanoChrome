@@ -1,0 +1,1392 @@
+# Welcome to Chrome City
+
+> The night of our cities no longer resembles that clamour of the dogs of Latin darkness, nor to the bat of the Middle Ages, nor to that image of pain that is the night of the Renaissance. It is an immense monster of sheet metal, pierced a thousand times by knives.
+>
+> —Louis Aragon, Le Paysan de Paris
+
+The following chapter is more specifically reserved for the game leader. You will find additional tools and tips for running a game of nanoChrome. Gather the elements that interest you and that will serve you in the game; be inspired by the proposals and the mechanics. The important thing is that it gives you ways to bounce back quickly when you improvise or write your stories.
+
+The Other
+: at the heart of any good cyberpunk campaign is a particular organisation, ambivalent and mysterious, to which all the threads of the stories, however tenuous, seem to connect. It is the characters' nemesis, their main adversary, but also an occasional ally and a source of information, missions and resources. This section invites you to create this organisation, called 'The Other' in these pages, and explains how to use it in-game.
+
+Managing Cycles
+: It is often useful to structure campaigns to give players and characters breathing space in the tense flow of adventures - especially when you can't directly refer to clear, precise story endings and the events are relentless. By giving the players control over the cycles, you allow them to move at their own pace and manage these breaks, but you don't stand still: use the cycles to change the world and alter the setting and cast!
+In the first chapter of this book, we offer three different approaches to playing nanoChrome: techmercs, corporates and Panopticom journalists. Let's explore these different options and see what you can do with them.
+
+Investigate
+: Because of the 'detective' heritage of cyberpunk, the characters are likely to be involved in many investigations. But it's one thing to watch well-paced, well-crafted whodunits on TV; it's quite another to pull off the same tricks at a gaming table. But there are a few tricks you can use.
+
+Plans and intrusions
+: paramilitary operations and criminal coups often form the second part of an adventure, after the investigations needed to gather information and know where to strike. But it's not the players who make the plans, and it's certainly not the players who go out into the field and risk their lives: it's their characters.
+
+Rumours and events
+: Chrome City is not still and dead, frozen in place waiting for the characters to get out of their homes. This isn't the Truman Show, for crying out loud! People are still loving and hating each other, shooting at each other and making out with each other as the characters snooze or go about their own business.
+
+Newsflash
+: a handy little tool to punctuate the hours of play, newsflashes, on the matrix and the major news networks, will give you plenty of opportunities to rave and, why not, slip in relevant information to the players, without seeming to touch it.
+
+Trouble
+: in a good cyberpunk, Real Life™ should be able to come to the table and spoil the best-laid plans. A little flu? Mum coming round when the flat isn't tidy? The car at the impound lot on the morning of the heist? The funny thing is that the players themselves will have fun spoiling each other.
+
+The odd jobs
+: the characters never have enough ¥, always sticking their tongues out to buy bullets, replace weapons seized by the police, pay off their debts or invest in new cyber implants. So they take the smallest job that allows them to earn three francs six pennies…
+If you think that the characters' relations are waiting nicely by their phone for a call, you're in deep trouble. They too have lives; they too have troubles; and they too need help from time to time. A good way to strengthen the links and to give thickness to some too anonymous figures.
+
+Describe a corporation
+: Corporations, big and small, are an essential part of the cyberpunk landscape. But what exactly is a corporation, apart from large luxurious offices, crowded open spaces, exhausted employees and contemptuous executives?
+
+Describe a gang
+: the opposite of corporations, but not so different, are gangs. They rule the anarzone; they are responsible for more than half of Chrome City's violent crime; they fear nothing; they are numerous and well armed. So what?
+
+The law in Chrome City
+: the last actor the characters will probably have to deal with often is the police. Or the police, if we take into account the security services of the corporations. What are their means and objectives? Can we really escape them?
+
+## The Other
+
+> This story told him that people were the stupidest thing on earth. It told him that people who fight a losing battle are even more stupid than the others. She told him that to be on the side of power and authority, and that you had to stay there. Nobody gave a damn about the people of this town. Nobody gave a damn about the fact that it was their homes, the place where they had hoped to live forever. No, nobody gave a damn. All that mattered was money, power and control. That's what mattered, that's what you had to have. Money, power, control. And you had to have as much of it as you could.
+>
+> —R.J. Ellory, Bad Star
+
+The Other is an organisation, usually a large one, that dominates the political, economic, moral landscape of the place where you play. It's not necessarily the biggest or most powerful organisation, but it's clearly the one that sets the pace of events. It's almost always an organisation with a high profile and respectability.
+
+The Other is ambivalent: it is both the big bad of the story and an ally of the characters. He has his fingers in every jam jar around here, but not always for the wrong reasons. His motivations are complex and we can even agree with his arguments without denying his soul.
+
+The Other is multiple: there is not just one person at its head, but many factions and groups with divergent and personal interests who agree on only one thing: The Other must survive all storms, whatever the means used.
+
+The Other is at the heart of events: almost every story you tell will have some connection, however remote, with The Other. Whether it's something that concerns him directly or whether it concerns a distant cousin of a junior executive in the legal department on the tenth floor. The important thing is to draw connections that make the players wonder and consider the worst. Even if, in the end, it has nothing to do with it. But in fact it does… Or not.
+
+The Other is secret, but visible: of course, everything about The Other is secret or subject to concealment and appearances. And we know that behind appearances there are other appearances. The Other is only discovered little by little in the course of the adventures. It must therefore have a public face that is perfectly clear to all the characters (and their players): this is its nature, its purpose, its public positions, etc. Openly, The Other is unambiguous about his social benevolence and his constructive contribution to the community. And it knows how to protect this image.
+
+### Name the Other
+
+Find a snappy name that is easy to pronounce and remember - an acronym perhaps, or a name with many allegorical meanings. The important thing is that you use this one name from now on to refer to The Other. The Other does not exist; The Other is just a facility, a code name for this section of the book. At your table, The Other must become the centre of attention.
+
+### Describe the Other
+
+Here are a few different tables to help you picture The Other.
+
+| 1D6 | NATURE OF THE OTHER         |
+|:---:|:----------------------------|
+|  1  | A local corporation         |
+|  2  | An orbital corporation      |
+|  3  | An NGO                      |
+|  4  | A criminal organisation     |
+|  5  | A governmental organisation |
+|  6  | A secret society or cult    |
+
+| 1D6 | THE OTHER'S FACADE            |
+|:---:|:------------------------------|
+|  1  | Friendly and sympathetic      |
+|  2  | Charitable and benevolent     |
+|  3  | Discreet and cold             |
+|  4  | Mysterious                    |
+|  5  | Respectable and serious       |
+|  6  | Scandalous and media-friendly |
+
+| 1D6 | THE OTHER'S SECRET MEANS                     |
+|:---:|:---------------------------------------------|
+|  1  | Money, lots of it                            |
+|  2  | Fast and efficient henchmen                  |
+|  3  | Effective political and judicial influence   |
+|  4  | Unprecedented and secret technological means |
+|  5  | Accurate and comprehensive intelligence      |
+|  6  | Unshakeable public image                     |
+
+| 1D6 | WEAKNESSES OF THE OTHER       |
+|:---:|:------------------------------|
+|  1  | A lot of indecision and delay |
+|  2  | Too much infighting           |
+|  3  | Ambitions without the means   |
+|  4  | Cruelty, baby, cruelty        |
+|  5  | Very poor public image        |
+|  6  | Too much self-confidence      |
+
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1D6    | THE OTHER'S REAL GOALS                                                                                                                                                                                                                                                                                                                                                                                               |
++:======:+:=====================================================================================================================================================================================================================================================================================================================================================================================================================+
+| 1      | CONTROL: The Other wants power in one (or all) areas. It is about control and mastery. This can easily turn into fascism when The Other also wants to 'create' the conditions for an ideal society on its terms.                                                                                                                                                                                                     |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2      | CONVEY: The Other covets something. It may be power or wealth, or something simpler like an absolute monopoly on a particular technology. All his manoeuvres consist of creating the conditions for his success by eliminating competitors or by seeking the object of desire.                                                                                                                                       |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3      | CREATION: The Other has a great idea and wants to implement it, even if people don't agree. It may be something physical (developing innovative energy systems that will put all oil workers out of work, creating a race of super soldiers) or something more conceptual (establishing perfect security in a fully Christianised world). Generally, it's not without trial, error and escaped laboratory creatures. |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 4      | DESTRUCTION: The ultimate goal of The Other is to destroy something - the social order, enemies, an ethnic group, a political faction, trade unionists, polluters, orbiters, earthlings, etc. - and to make it a reality. The Other has embarked on a complex and far-reaching plan, spanning several years or decades, to ensure the success of the enterprise.                                                     |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 5      | EXPANSION: The Other wants to expand or extend its influence throughout a community, city or region. This can be about gaining market share or putting key people in important positions. This is the crude application of the concept: Grow or Lose.                                                                                                                                                                |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 6      | PROTECTION: The Other wants to protect something or someone. This may be to protect a community from a threat, to protect the threat itself, to defend against outsiders, to protect a way of life or customs. Usually, this is not without cruel decisions and extreme actions.                                                                                                                                     |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+The Other may react in very different ways to perceived threats. Some reactions are brutal, others subtle. The following table gives you some examples of threats and possible reactions:
+
+| IN CASE OF…              | 1D26 | THE REACTION IS…             |
+|:-------------------------|:----:|:-----------------------------|
+| Attack                   | 1.1  | Hand over to the authorities |
+| Departure or resignation | 1.2  | Corrupt                      |
+| Disappearance            | 1.3  | Destroy credibility          |
+| Elimination              | 1.4  | Eliminate                    |
+| Espionage                | 1.5  | Cover up                     |
+| Extraction               | 1.6  | Intercept                    |
+| Leakage                  | 2.1  | Leave it alone or ignore     |
+| Intrusion                | 2.2  | Manipulating opinion         |
+| Threats                  | 2.3  | Threatening                  |
+| Public disclosure        | 2.4  | Entrapment                   |
+| Surveillance             | 2.5  | Bringing to court            |
+| Theft                    | 2.6  | Surveillance                 |
+
+### Divide and Conquer
+
+You are left to divide The Other into factions that support, fight or ignore each other. Some factions are well known; others operate in the shadows. Some are well-resourced, with complex networks; others have only a few highly motivated people.
+
+Most of the time, you will need at least three factions within The Other:
+
+-   An old, entrenched, brutal but sleepy ruling faction, which personifies the traditional broad directions of The Other. The old faction is conservative, powerful, stable, and well-organised, though no longer as vigilant. The goals of the members of this faction are often the same as those of The Other, to which can be added, in many cases, a thirst for power and a bit of welcome greed. The old faction is always very careful about its reputation and the reputation of The Other; it wants to keep up appearances and if it can make clear and quick decisions, it will not easily engage in actions that are too… messy, preferring to use subtle and legal means of coercion to achieve its ends: it is easier to ruin someone or to take away the slightest reason to live than to kill them directly.
+-   A younger faction, extremely dynamic, really bad, for whom the end justifies the means (all means). This faction has teeth that scratch the floor and wants the old faction's place, unless it is to take advantage of The Other's means to achieve completely different goals. This faction is a parasite, a tumour, but it is run by people who are smart enough not to let it show. On the other hand, it's not a problem for them to get their hands dirty - a large part of their resources are mobilised by the need to clean up after themselves, including eliminating compromised agents and assets, but at least they achieve their goals with some speed.
+-   And an even younger faction, poorly settled, ill at ease with itself, which may help the characters if it realises that the other factions are evil, or which will fight them ferociously, out of sheer solidarity, if they alienate its goodwill through outright aggression. This faction is the most ambivalent of all; it is certainly idealistic, in its own way, and does not conceive of the use of extreme means. But there is nothing to say that it will not become radicalised if given no choice. And then she could become the most dangerous thing in Chrome City.
+
+If The Other is some kind of anonymous, awesome monolith, it's important that the factions are led by real people (or possibly akhashic spirits, of course). Write down names; establish simple relational networks between faction members - who likes whom and why? Who hates whom and why? Who is under influence? Who owes favours? Who will betray? Who sleeps with whom? Who has skeletons in their wardrobe, debts, dark secrets?
+
+Make general plans for each faction, short and medium term goals according to their motivations.
+
+| 1D6 | FACTION MOTIVATIONS |
+|:---:|:--------------------|
+|  1  | Greed               |
+|  2  | Lust                |
+|  3  | Hatred              |
+|  4  | Power               |
+|  5  | Vision              |
+|  6  | Revenge             |
+
+## Managing cycles
+
+> There is a time for everything under the heavens: a time to be silent and a time to speak; a time to love and a time to hate; a time for war and a time for peace.
+>
+> —Qoheleth 3:1
+
+For the game leader, managing the cycles is like playing 1, 2, 3, Sun!
+
+As long as the characters are acting, within a cycle, the various factions and the main figures do not move. As soon as the players announce a cycle change, they rush to their objectives and activate their means of action. What does this mean in practice?
+
+-   When a cycle begins, the factions are in a defined initial position. Their agents are engaged here or there (although some may be available); their attention is focused on specific issues; they act according to their needs.
+-   As the cycle progresses, the factions can react if they are directly attacked by characters or events, but they do not have the ability to redistribute their resources or change their general conformation - the extras are, in a sense, 'frozen' in space. If the characters learn that a particular extra is in a particular place, he or she will be there for the rest of the cycle. "This does not mean that they do not move, but that they are assigned to tasks or missions and will only leave if there are emergencies that affect them directly. An agent may be investigating a gang or trying to exfiltrate a scientist from another corpo: he will move and act within the scope of his mission, but will not "move" unless the characters interfere.
+-   On the other hand, when the cycle changes, the factions can change everything, reorganise everything. The extras can eventually move, recall forces, sound alarms, beg on the characters, take action against their loved ones, etc. In short, there is a good chance that at the beginning of the next cycle, the characters' information will no longer be completely up to date. The leader of a faction was in his country house where the characters could come and kidnap him? He either took his helicopter away or increased his security by hiring threatening techmercs.
+-   Of course, don't change everything all the time, because you can. The factions have very elaborate plans and only change their protocols if the characters get their attention. Nevertheless, be consistent, logical and ruthless, brutal if you must or can be. Changing the cycle has enormous benefits for the characters, but the players should feel the pinch every time!
+
+Finally, remember that factions have goals and if given time, will achieve them. You can assume, for example, that it will take two, three, five cycles for a faction to fully achieve one of its goals if the characters do nothing to stop it. The consequences will simply be front page news at the beginning of the next cycle…
+
+## Campaign focus
+
+### Techmercs
+
+> In these deaf and cowardly battles for money where the weak are quietly disembowelled, there are no more ties, no more kinship, no more friendship: it is the atrocious law of the strong, those who eat in order not to be eaten.
+>
+> —Émile Zola, Money
+
+Playing techmercs is the basis of the cyberpunk game. You play as guys who will do anything to eat and burn. You like money and adrenaline, in any order you like. You show off for the gallery under the guise of rebellious misfits, but in reality, you're waiting for the big score that will buy you a deserted island in the Pacific or a way to get back at someone. Draw or choose a motivation for each character.
+
++-----------+----------------------------------------------------------------------------------------------------------+
+| 1D6       | TECHMERC MOTIVATION                                                                                      |
++:=========:+:=========================================================================================================+
+| 1         | To help a family member who is in big trouble                                                            |
++-----------+----------------------------------------------------------------------------------------------------------+
+| 2         | Change the world or change the world                                                                     |
++-----------+----------------------------------------------------------------------------------------------------------+
+| 3         | Make a big score to pay off all your debts and finally see the sun                                       |
++-----------+----------------------------------------------------------------------------------------------------------+
+| 4         | Find a way to get your kid back from being stolen by dirty corpos                                        |
++-----------+----------------------------------------------------------------------------------------------------------+
+| 5         | Be loyal to the mentor who taught you and your family everything who's been protecting you all your life |
++-----------+----------------------------------------------------------------------------------------------------------+
+| 6         | Get revenge for a dirty trick that left you stranded once upon a time                                    |
++-----------+----------------------------------------------------------------------------------------------------------+
+
+With techmercs, you can have one adventure after another without bothering too much with The Other at first. Just make him appear gradually and establish a race to see who will achieve their goals first: the characters or The Other?
+
+The adventures almost always have a similar structure: the Client meets the characters, gives them a mission and promises them payment. The mission is more complicated than it seems; objectives and secondary factions collide and compete; there is betrayal or misinformation; the bad guys need scapegoats. If the characters make it out alive - they know they're just pawns in the corporate wars - they still have to pay for it and suffer the retribution of those who lost.
+
+Of course, as a campaign progresses, the characters will have more resources, political support, connections, information to use. And more enemies and more problems with the authorities. And they will be identified and locked out by The Other.
+
++----------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| 1D6      | WHO IS THE CLIENT?                                                                                                                         |
++:========:+:===========================================================================================================================================+
+| 1        | An elderly corporatist executive, his eyes burnt out by all he has already seen and done.                                                  |
++----------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| 2        | A young guy with big teeth, full of accelerants accelerators, excited as a flea and rather expansive.                                      |
++----------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| 3        | A sharp and jovial O.G. with a sharp mind as his body blades.                                                                              |
++----------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| 4        | A retired former techmerc, a bit off at times, but still on the ball.                                                                      |
++----------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| 5        | A pretty, discreet and cold young woman who keeps the characters at a distance and does not respond to any of their their direct requests. |
++----------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| 6        | A presence on the matrix - no doubt an akashic spirit, but who can really know?                                                            |
++----------+--------------------------------------------------------------------------------------------------------------------------------------------+
+
++---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1D6     | WHAT IS THE ATTITUDE OF THE CLIENT?                                                                                                                                                        |
++:=======:+:===========================================================================================================================================================================================+
+| 1       | It is a simple intermediary, a transmission belt. Nothing personal, one way or the other.                                                                                                  |
++---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2       | Calm and resigned to the darkness of his job, he organises things as best he can and puts oil in the wheels so that everyone gets through.                                                 |
++---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3       | He is deadly serious when it comes to business. We're not here to fraternise, but the job must be done at all costs and he's always available. Just remember that he doesn't like excuses. |
++---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 4       | The Client always has advice to give, checks on the progress of operations every five minutes, sometimes intervenes in the field without being asked. Who said "Pain in the ass"?          |
++---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 5       | The Client is warm, patient and understanding. Always.                                                                                                                                     |
++---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 6       | The Client is passive-aggressive and never gives satisfaction. He always has something to reproach the characters with and will recriminate at the slightest request.                      |
++---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
++--------------+------------------------------------------------------------------+
+| 1D6          | WHAT IS THE CLIENT'S POSITION?                                   |
++:============:+:=================================================================+
+| 1            | He is a front man for a secret power.                            |
++--------------+------------------------------------------------------------------+
+| 2            | He is an undercover government agent.                            |
++--------------+------------------------------------------------------------------+
+| 3            | He is another techmerc who subcontracts some of his missions.    |
++--------------+------------------------------------------------------------------+
+| 4            | He is an employee of the Other.                                  |
++--------------+------------------------------------------------------------------+
+| 5            | He is a freelancer who works for himself and has a lot of money. |
++--------------+------------------------------------------------------------------+
+| 6            | He is a freelance intermediary.                                  |
++--------------+------------------------------------------------------------------+
+
++---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1D6     | WHAT IS THE CLIENT'S MOTIVATION?                                                                                                                                                                                                     |
++:=======:+:=====================================================================================================================================================================================================================================+
+| 1       | It's a job like any other. Tomorrow, the Client may be assigned to the marketing department of his company.                                                                                                                          |
++---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2       | There's always stuff to skim - money, information, stuff to sell. There's no reason not to make a little extra on the backs of the characters.                                                                                       |
++---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3       | The Client has a complicated personal history, a score to settle or an intimate investigation to unravel. And every assignment he gives has a little extra to it that only concerns him.                                             |
++---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 4       | The Client would have liked to become a techmerc. But he has a degree and he doesn't like violence, so he might as well settle for a more comfortable and better-paid position. But still, he would have liked to be a techmerc too… |
++---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 5       | The Client is, secretly or not, connected to the characters and tries to protect or guide them.                                                                                                                                      |
++---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 6       | Someone is putting pressure on the Client with convincing arguments - intimidation, vital resources, information, blackmail…                                                                                                         |
++---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+At the end of a job for the Client, you may wish to choose or draw an item from the next table - without any obligation. Something goes wrong and the characters may be surprised by the outcome of their mission…
+
++----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1D6      | THE END OF A MISSION                                                                                                                                         |
++:========:+:=============================================================================================================================================================+
+| 1        | The operation receives full media coverage (thanks Panopticom!).                                                                                             |
++----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2        | The operation has not gone unnoticed and the Other has all the details in hand.                                                                              |
++----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3        | The target of the contract takes revenge on the characters or their or their relatives, unless they ask for a a 'voluntary' service to wipe the slate clean. |
++----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 4        | The Client does not like to leave a trail of operations and a team is assigned to eliminate the characters.                                                  |
++----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 5        | The Client is not who he seems and in the end, he screws everyone over.                                                                                      |
++----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 6        | You don't get the full amount promised, if you only get paid.                                                                                                |
++----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+### Corporates
+
+> Above the state and behind the facades of apparent power, in the maze of multiple departments, underlying all shifts of authority and in the chaos of inefficiency, lies the core of power in the country: the hyper-efficient and hyper-competent secret police.
+>
+> —Hannah Arendt
+
+Well, it's not complicated: you work for The Other, in one of its security services no doubt, doing intelligence or counter-intelligence, or research why not.
+
+This mode of play is perhaps a little more difficult to set up for the game leader: he does not benefit from a wide variety of hooks for adventures and the characters can legitimately have access to important means and discreet but effective support. Moreover, he has to put The Other into action very quickly and involve the various factions involved: the rumours of corridors, office intrigues and internal affairs take up a lot of game time and you have to improvise on a complex social canvas.
+
+Nevertheless, the characters have clear and identifiable objectives: to protect the employer's assets and to be accountable. And they are immediately involved in the secrets of The Other.
+
+Another advantage is that the characters' mission is simply to bring the factions' plans to fruition - you only have to write one scenario!
+
+In the meantime, between or during missions, add a little spice to the characters' hard working lives.
+
+| 1D36 | INTERNAL LIFE OR A FEW MINUTES AT THE COFFEE MACHINE |
+|:----:|:-----------------------------------------------------|
+| 1.1  | Change of management                                 |
+| 1.2  | Catfight                                             |
+| 1.3  | Jokes that go wrong                                  |
+| 1.4  | Colleagues who are a bit too free                    |
+| 1.5  | Work all over the place                              |
+| 1.6  | Jealousy drama                                       |
+| 2.1  | Nervous exhaustion                                   |
+| 2.2  | Political wrangling                                  |
+| 2.3  | Waste and mismanagement                              |
+| 2.4  | Moral harassment                                     |
+| 2.5  | The age of individual evaluations                    |
+| 2.6  | Shortage of drawing pins and paper clips             |
+| 3.1  | Office romance                                       |
+| 3.2  | Bitch-talk night                                     |
+| 3.3  | A crow leaves messages on the intranet               |
+| 3.4  | A bet in progress                                    |
+| 3.5  | A bit too much water at the farewell party           |
+| 3.6  | A medical alert                                      |
+
+### Panopticom
+
+> It's not a crime, not a trick, not a dirty trick, not a swindle, not a vice that does not endure without the secrecy that surrounds it. Expose these facts in the open, describe them, attack them, ridicule them in the press and sooner or later public opinion will drive them out. Publicity may not be the only thing necessary but it is one thing without which all other efforts will be in vain.
+>
+> —Joseph Pulitzer
+
+Panopticom is an investigative feature programme. It broadcasts a new issue every few weeks, featuring one or more stories provided by Panopticom cells.
+
+The programme takes its name from the theories of panoptic architecture: "the surveillance of all by all". For that is the purpose of its existence: to monitor and denounce from within the walls, in an active position and not as mere witnesses falsely hiding behind the corrupt status of journalist.
+
+Panopticom cells are independent of each other, inserted into society. Anyone can join - there is no press card, no registration, no official existence. Those who make up a cell are truth resisters and act as such, in the shadows, spying, monitoring, exposing, tracking down weaknesses.
+
+A few cells wallow in sensationalism, in gonzo people; but most deal with hot topics, social problems, corruption, health scandals, political prevarications, small arrangements between the powerful that have an impact on the whole of society. They highlight the individual responsibilities in all the decisions that affect us all: no more hiding behind the secrets of deliberations or supposed orders from the hierarchy. No more buying, cheating, corrupting those who report. No more leverage - money, prestige, position, reputation, vanity. Only anonymous truth.
+
+Panopticom's hope is to create a virtuous society because everyone will take responsibility with full knowledge of the facts. Is this fascism? No. It's about transforming man in depth. Is it humanism? It is forcing civilisation to progress despite the conservative brakes and privileges that are defended tooth and nail.
+
+Regularly, at the passage of cycles, when they are ready, the Panopticom cells return their reports. These are accepted or not by the programme's anonymous producers according to objective criteria, insofar as they are reliable. A report that is too weak, poorly researched or incomplete is likely to be rejected.
+
+If the information is inaccurate or untrue, the public and the mass media will pick up on this after the broadcast - and the reputation of the unit will suffer terribly. A good reputation increases the likelihood that the cell's stories will be accepted, even with lower standards; a bad reputation allows mistrust to set in, even when all the standards are met. A cell with a destroyed reputation will have the greatest difficulty in continuing to provide reports: truthfulness, evidence and verification are the main concerns of most cells.
+
+Especially since an anonymous crowdfunding system allows the cells with the best reputations to receive larger budgets the more popular and followed their reports are.
+
+Each story that is accepted and delivered earns 5¥ and an additional 100 XP per character.
+
+#### Criteria
+
+The ten criteria are both a roadmap for the characters - to help them organise and structure their investigations and research - and quantifiable objectives. When a report is handed in, the leader rolls 2d6. If the result is higher than the number of criteria met, the story is rejected - it can be resubmitted later if at least one other criterion has been met. The 2d6 roll is modified by the reputation of the cell.
+
+Players are given several criteria sheets and fill them in as they go along - one for each case in progress. This serves as a note sheet for information, a status bar for the investigation, and a tracking sheet so they always know what to do. A story is only acceptable if the sheet is carefully filled in (and legible).
+
+1.  The issue, the angle of approach: the characters discuss why and how they take on a story and note their initial intentions, a priori, and then, when the story starts to take shape, the way they want to treat it in the report.
+2.  The basic facts: who what where when how why. This is the initial framework for getting as much factual information as possible.
+3.  Causes and consequences: the events leading up to the case and its discovery and the impact the case has on the people involved.
+4.  The deeper facts: what lies behind or beyond; possible ramifications, implications at other levels.
+5.  The impact in society: how the story resonates in the city, the practical implications of the story before and after it is revealed; the opinion of the circles of power (political, economic, religious, etc.)
+6.  Evidence: what can be brought forward as solid evidence to support the story - this would allow the case to go to court and be heard in summary proceedings.
+7.  Pictures: to make a good and interesting story to follow on the matrix.
+8.  Confrontation: to confront the actors and perpetrators, to get their opinion on the story and the facts presented. This step is very important to get last minute information or insights.
+9.  The involvement of The Other: The Other is always involved. Always. You just have to find the links, direct or indirect.
+10. Ethics: this criterion is ticked, or not, by the leader. It is the conscience of the characters - did they do their job sincerely and professionally? Did they hide facts or lie? Did they leave out things that should be brought to people's attention? It's really a Jiminy Cricket thing. No value or moral judgement, just questioning the path taken from the characters' point of view. They may have been misled and therefore give false information - and yet tick this criterion because they have done their best.
+
+#### Reputation
+
+The cells that work for Panopticom have a good or bad reputation, both from the public and from the press campaigns of those involved. This is a tricky thing for the game leader to manage, but very important:
+
+-   On the one hand, he has to judge objectively whether the story holds up or not, whether the characters have missed information that will be revealed later and may destroy or support their case.
+-   On the other hand, he has to manage the public and media returns of the revelations. Do people follow or not? Do the people involved defend themselves well or not?
+
+These two elements should allow you to vary the reputation of the cell after each broadcast (or even later). Each report can vary the reputation by 1 point up or down, with extremes from -3 to +3.
+
+Apply reputation to the 2d6 roll for acceptance of the story, but also to the ¥ the characters receive.
+
+## Conducting an investigation
+
+> "Woe! He's building a city on blood! He founds a city on crime!"
+>
+> —Habakkuk 2, 12
+
+An investigation is a puzzle where the leader knows the answer(s) and the players try to guess the solution by asking questions.
+
+It is a complicated exercise, both for the game leader and for the players. The players like puzzles. Most of the time they like to play with their brains and crack seemingly unsolvable problems, especially when they want to prove to you that they are much smarter than you (the fools!). But, if they are not stupid, remember that they are groping their way through the fog and darkness. What may seem perfectly logical and coherent to you, because you know the ins and outs, may not make sense to them because they lack the elements to make connections between different clues.
+
+The leader must be consistent and logical in his answers; he must not leave anything out, and yet he cannot rely on the players to follow exactly the path he has imagined in his mind: sometimes they have incredible insights that make them skip several steps at once; other times they are blind and deaf and bang their heads against walls for hours.
+
+So it's always a balancing act: keeping the mystery alive and not boring the players, making them think without making the problem unsolvable…
+
+Here are a few tips and tools to stage a good investigation that satisfies everyone, a whudonit that will not frustrate anyone and that will have as much rhythm as a good TV series.
+
+First of all, remember that the game leader has two main missions, which at first glance seem contradictory and yet must absolutely complement each other:
+
+-   The players must be forced to rack their brains so that there is challenge and difficulty.
+-   The players must have fun and frustration must never outweigh the pleasure.
+
+### Questions and answers
+
+An investigation is about finding information to make a decision: Who committed this crime? Where are the secret laboratories of the corporation? Who is behind the chain of events that is shaking the city and why?
+
+Generally, this information is not particularly secret or hidden and it just takes time: finding building plans, accessing financial information, building a biographical file on someone from their presence on the matrix… A simple Intelligence roll to solve a document search can be enough. The difficulty, in reality, is knowing where to look and asking the right questions.
+
+When the characters have to deal with a crime, a conspiracy or secret corporate manoeuvres, things get more complicated, but basically, it's always the same process:
+
+-   The characters need information.
+-   They take the necessary actions to obtain that information.
+-   They use this information to make a decision: to seek new information or to act on the information they have already accumulated.
+
+Sometimes the search is very specific - the characters have a name, for example, and look for anything related to it. Other times the search is more open-ended: examining a crime scene, going through papers without knowing what they might find, interviewing people in the hope of getting a description.
+
+The rule for the game leader is very simple: when the players ask a question, you have to give them an answer!
+
+The players are not there to wander around in the dark, blind, for hours. A role-playing game is not real life, where investigators can run into walls for months or years, or even never find the culprit of heinous crimes. Here, as in a TV series, the investigation has to be completed in a relatively short time and therefore every question must be answered.
+
+Sometimes it can be a simple "You're burning up" or "You're freezing your butt off" - in an appropriate form: "You've been through the documents and found nothing. They really don't seem to be related to your case.
+
+The rest of the time, they are pieces of the puzzle that should force the characters to undertake new research or new actions.
+
+### Critical path
+
+There are two types of information:
+
+-   Information that is strictly necessary to continue the investigation. This information must always be given, at some point, if the players ask the right questions - and sometimes, even if they don't do the right things: all it takes is for a witness to come to them spontaneously!
+-   Bonus information, which provides additional insight or leads to interesting secondary leads. This bonus information can sometimes speed up an investigation by giving the characters enough momentum to skip several steps or link the pieces of the puzzle together more easily. They can only be unearthed if the players ask specific questions or if their characters make particularly good skill rolls. Eventually, they may come later in the investigation, in the form of pieces needed to move forward: for example, crime scene findings that speed up the first few hours of the investigation, but which should arrive the next day anyway when all the lab work has been done.
+
+This is where the game leader's job is particularly tricky: he or she has to determine which clues and information are available and how they lead to the solution. You should be very wary of things that are too constructed and too written down.
+
+Trust yourself: you know the end of the investigation, where it should end up. So you must be able, at any moment and without difficulty, to trace a path between this end and the stage where the characters are. Improvisation in an investigation is never difficult. Let yourself be carried along by the plot itself, since you don't need to bounce off the players' actions to change the world, but only expose to them, snippet by snippet, in order or disorder, all the aspects of a story already written. This is the easiest thing to do in improvisation.
+
+-   What remains to be discovered?
+-   What are the obstacles that remain before we get to the end of the story?
+-   What do the characters need to move forward?
+-   How do the target(s) of the investigation protect or hide themselves?
+-   What actions do they take that may leave new clues (according to the Locard principle)?
+
+All of these questions translate into various pieces of information that you should dispense gradually. What you must absolutely avoid is determining in advance that such and such a clue is in the hands of such and such a person, member of such and such a gang in such and such a neighbourhood. If the characters never set foot in the area, they will never have the information. On the other hand, you can decide that only gangsters or criminals can give this information: use the characters' relations and contacts; wait for them to go to someone who fits your needs or, at worst, someone who tells them that they should go to gangsters (and gives them a contact, why not).
+
+There are two things that should guide the way you slip information in:
+
+-   The coherence of your story - just link directly to the circumstances of the crime, its chronological development, the personalities or means of the bad guys.
+-   The opportunities the players give you - answer their questions, always.
+
+### What's the point?
+
+Why do you need to make your investigators' lives easier and give them answers? Simple: the investigation itself is not the most important part of the story. What really matters is what the characters do with it at the end.
+
+They have information; they have all the pieces of the puzzle. They still have to put them together in the right order and without misunderstandings, and most importantly, they now have to act!
+
+And if you've done your job well, it won't be easy for them: the culprit may have excellent reasons and his victims were bastards; the culprit is untouchable, protected by powerful supporters; if it's possible to know he's guilty, it's impossible to prove it; nobody believes the characters or the story interests anyone; someone is confiscating all the work of the characters and making the evidence, the victims and the culprits disappear…
+
+The important thing is that the characters have something to do with the results of their investigation, that they are forced to make choices or take action based on this information.
+
+| 1D36 | SOURCES OF INFORMATION                    |
+|:----:|:------------------------------------------|
+| 1.1  | Official records                          |
+| 1.2  | Personal files                            |
+| 1.3  | Medical records                           |
+| 1.4  | Relatives                                 |
+| 1.5  | Relationships or associates of the target |
+| 1.6  | The police                                |
+| 2.1  | Financial analyst                         |
+| 2.2  | Newspaper article                         |
+| 2.3  | Interested client                         |
+| 2.4  | Confidential informant                    |
+| 2.5  | A forensic laboratory                     |
+| 2.6  | A cooperative witness                     |
+| 3.1  | A reluctant witness                       |
+| 3.2  | An anonymous tip                          |
+| 3.3  | A press conference                        |
+| 3.4  | A hunch                                   |
+| 3.5  | A search on the matrix                    |
+| 3.6  | A rumour in the street                    |
+
+| 1D26 | ATTITUDES OF WITNESSES                           |
+|:----:|:-------------------------------------------------|
+| 1.1  | Unclear, uncertain, hesitant                     |
+| 1.2  | Categorical, confident                           |
+| 1.3  | Too many irrelevant details                      |
+| 1.4  | Evasive, reluctant, obstinate, distrustful       |
+| 1.5  | Unfriendly, aggressive, uncooperative            |
+| 1.6  | Inquisitive, curious, answers questions          |
+| 2.1  | Hides something, conceals, lies                  |
+| 2.2  | Wants something out of it, greedy, interested    |
+| 2.3  | Already contacted by others, threatened, coerced |
+| 2.4  | Inventive, mythomaniac, manipulative             |
+| 2.5  | Scared, won't say anything, doesn't want to talk |
+| 2.6  | In a hurry, late, not now                        |
+
+| 1D36 | TYPE OF INFORMATION              |
+|:----:|:---------------------------------|
+| 1.1  | DNA fingerprints                 |
+| 1.2  | Computer files                   |
+| 1.3  | Bundles of paper                 |
+| 1.4  | Chemicals                        |
+| 1.5  | Footprints or tyre tracks        |
+| 1.6  | Blood                            |
+| 2.1  | A serial number                  |
+| 2.2  | An object                        |
+| 2.3  | An appointment                   |
+| 2.4  | A network or known links         |
+| 2.5  | An address in the matrix         |
+| 2.6  | A physical address               |
+| 3.1  | A weapon                         |
+| 3.2  | A chronology                     |
+| 3.3  | A physical description           |
+| 3.4  | Ancient history                  |
+| 3.5  | Real-time location               |
+| 3.6  | A note on the back of a matchbox |
+
+## A note on the back of a matchbox
+
+> I was trying to work out exactly how, when and where I should act and, most importantly, what I was going to do if it went wrong. Once the target had been chosen, the outline of a kidnapping is almost always the same. One, reconnaissance; two, abduction; three, detention; four, negotiations; five, payment of ransom; and finally, release - although sometimes this does not happen. My job was to prepare and execute the first three steps; the rest was not my concern.
+>
+> —Andy McNab, Operation Firewall
+
+Before you go on an intrusion mission, you may want to prepare a plan. Let's be clear: it's up to the characters to make the plan, not the players. The players are not in the field, and it's well known that operational agents always get screwed when it's the analysts who do the planning.
+
+Before a mission, each character can spend ¥2 to regain a number of connection points equal to the rank of the characteristic of his choice. This corresponds to how well he prepares: Strength or Constitution to do some heavy lifting like modifying a vehicle or arranging for destructive equipment, Dexterity or Intelligence to retrieve data or fiddle with electronics, Wisdom or Charisma to get information from the right people.
+
+You don't need to list exactly what you prepare or get. The character is considered to be doing the right thing in their chosen field.
+
+You can use these connection points (and the rest of your stash) in the usual way - to hack the matrix or activate relationships - but in the context of a specific intrusion or mission, you can also spend them on inventing ways to get out of trouble when things start going wrong. Every time the leader throws up an obstacle, an unpleasant surprise, a twist, you can pretend that you had planned it. Spend connection points (possibly pooling them) and explain how you are too strong: the security guard was bribed to let you through; you fingerprinted the executive to turn on his secure office console; you have a key to a back staircase allowing you to leave the floor while avoiding the SWAT team, etc.
+
++-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Connection points | Effects                                                                                                                                              |
++:==================+:=====================================================================================================================================================+
+| 1                 | Remove a minor obstacle that you could obviously pass easily, but which would then take you a few minutes when you only have a few seconds.          |
++-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3                 | Escape a major hazard or remove an embarrassing obstacle that you could not get past if you had not provided the equipment, skills or information.   |
++-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 5+                | Clearing a major obstacle or escaping immediate and deadly danger, by absolutely cheating the odds and virtually changing the leader's descriptions. |
++-------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+::: callout-note
+## Multiple uses of connection points
+
+When you play the basic game, connection points are only used for one thing: hacking and manipulating the live matrix. Intermediaries have a special rule for summoning connections and asking them for services. Then, swordsmen (in particular) learn that they can spend connection points to make certain special ammunition available. And finally, these connection points are also used to manipulate the scenes. This gets seriously complicated. In reality, connection points are a "mystical" resource - the equivalent of magic points in Pocket Dragon. They indicate how you can cheat the rules to get special effects, to act like the heroes in the movies (they have the writers on their side) and get out of the worst situations with a spin. Notice how the actors always have a pool of water under their feet when they accidentally go out the window? But it's a resource you have to manage - sure, it replenishes itself every day and you can even spend luck points to recharge it during the adventure, but if the game's leader gets a bit carried away with his adventures, you'll soon run out.
+:::
+
+## Intrusions {#intrusions}
+
+> So, shovel in one hand, gun in the other, we leap from hole to hole, ready to pounce again when our breath has returned and our hearts have calmed down a bit. The heavy artillery has set up one hell of a barrage. From the forest huge white flames emerge and the trees are falling as if under a gigantic scythe. We see the Russians cowering behind their dead corpses, since a corpse is as effective a protection as a sandbag; as for sensitivity, there is no room for it at the front. Don't blame the unfortunate soldiers, but the criminals who provoke wars!
+>
+> —Sven Hassel, I saw them die
+
+There are times when you need to speed things up and structure the elements of your adventure a little better: for example, when you have to break into an archaeology to extract someone and implant a virus in their neurotronic systems, or when you have to traverse a district of the anarzone in the middle of a civil war while planting spy nanodrones and looting a gang's accelerator supply.
+
+There are three ways to do this:
+
+-   You plan in advance all the game elements you want to place and recite your lesson as rigorously as possible.
+-   The players roll one or two times and it's hit or miss.
+-   You use the intrusion rules presented here.
+
+An intrusion is the generic name given to a mission with one or more specific, pre-planned tactical objectives - usually one to three. The intrusion is completed when all objectives have been met.
+
+The players determine the number of objectives to be completed and the order in which they are completed. The first objective earns 5 XP per character; the second earns 10 XP, the third 15 and so on. It is not possible to take a rest while there are still objectives to complete, unless you give up and the mission is interrupted.
+
+The game leader has a little preparation to do before launching his players into intrusion. Don't worry, it's not much.
+
+Fill out a small table for each objective to be accomplished. The table usually has 6 items numbered from 1 to 6 (but if you have the right stuff on hand, you can vary the die used from d4 to d10 to represent the difficulty or length of the operation). The 1 is always "goal achieved" (at least, the characters are able to do what they need to do now to achieve it). For the other elements, you can pick and choose from the following suggestions according to your needs and desires. Try to put the things you consider most dangerous at the top of the die and the things that are more favourable to the characters at the bottom of the table. By choosing the items on each table, the leader can really guide the moods he wants to set for events, even if he doesn't ultimately decide exactly what they are.
+
++-----------+---------------------------------------------------------------------------------------------------------------------+
+| 1D6       | EXAMPLE OF HOW DANGEROUS THE EVENTS ARE                                                                             |
++:=========:+:====================================================================================================================+
+| 1         | The characters achieve their objective                                                                              |
++-----------+---------------------------------------------------------------------------------------------------------------------+
+| 2         | The adventure is annoying and wastes the characters' time characters, but does not put the mission back into play.  |
++-----------+---------------------------------------------------------------------------------------------------------------------+
+| 3         | The incident is a real puzzle, difficult to solve, but the characters have some time.                               |
++-----------+---------------------------------------------------------------------------------------------------------------------+
+| 4         | Things suddenly speed up. It's not deadly, but it is explosive.                                                     |
++-----------+---------------------------------------------------------------------------------------------------------------------+
+| 5         | It's a pretty dangerous ride, but the characters have a few moments' notice.                                        |
++-----------+---------------------------------------------------------------------------------------------------------------------+
+| 6         | The situation is extremely dangerous and things jump out at the characters without them having had time to prepare. |
++-----------+---------------------------------------------------------------------------------------------------------------------+
+
+OPPOSITION
+
+-   At gunpoint
+-   Watch out! Behind you!
+-   Contact! Contact!
+-   Unexpected face to face
+-   There are too many of them!
+-   Alarms are sounding…
+-   Muted threat approaching…
+-   Changing of the guard
+-   A new competitor
+
+OBSTACLE
+
+-   Where is the exit again?
+-   The timing couldn't be worse!
+-   Sentinels keeping watch
+-   Esclandre!
+-   Head against the wall…
+-   Glass wall…
+-   Forceful passage
+-   Too many choices
+-   A diversion that is much too long…
+
+DANGER
+
+-   Take cover!!!
+-   It's a trap!
+-   It'll blow up in your face!
+-   Suspicious smells
+-   Shouldn't you have turned left?
+-   Up to your neck!
+-   The noose is tightening…
+-   Point of no return
+-   Chain reaction!
+
+SURPRISE
+
+-   Much ado about nothing!
+-   Good information, bad interpretation…
+-   Unfortunate coincidences
+-   Ambush!
+-   I didn't see it coming…
+-   The fear of your life!
+-   The dust settles…
+-   Stunned and shaken
+-   Betrayal!
+
+MEETING
+
+-   Angel or demon?
+-   Blackmail and pressure
+-   Defection!
+-   Attentive and discreet people
+-   Diversion
+-   I've got just what you need
+-   Misunderstanding and misunderstanding
+-   A really weird guy
+-   Small staff
+
+RECEPTION
+
+-   It can't hurt…
+-   Where is everyone?
+-   Nobody…
+-   Little help?
+-   Stockpile of materials
+-   Care and repair
+-   A teasing smile
+-   A comfortable cache
+-   Information perhaps?
+
+MYSTERY
+
+-   How does this thing work?
+-   In the dark suddenly!
+-   Strange and disturbing noises…
+-   Non-Euclidean geometry
+-   Uncertain identification
+-   The lens has disappeared!
+-   Tractations…
+-   A detail you all missed…
+-   A moment of hesitation…
+
+CATASTROPHE
+
+-   Fatal blow!
+-   Sudden disappearance
+-   Collateral damage
+-   Checkmate!
+-   And it's an explosion!
+-   Flee, you fools!
+-   Fire in the belly
+-   Poisoning
+-   We are going to be separated!
+
+Now it's up to the players. Each player in turn draws a die. Write down the title of the story on a post-it note. It's up to him to invent an adventure, a twist, an obstacle, a threat, a danger. He takes the lead, lays the foundations of the situation, imagines some interesting elements and then hands over control to you when, naturally, you ask the question "What are you doing?"
+
+Then play the scene as normal, integrate the proposed elements into the narrative and the rest of the story, bounce around, add your own ingredients and let the players work it out - remember they still have a few plan points to spend just in case (at least if they've been careful to prepare).
+
+When the players get the long-awaited 1, the objective is revealed, it is within reach. Don't forget to play the scene: they still have to win the thing.
+
+When the last objective is reached, you can play a final episode if the extraction is not too complicated or plan a final scene - on 1, the characters are finally safe!
+
+::: callout-note
+Sometimes the characters find relevant information, quick shortcuts or have dazzling intuitions. In this case, reduce the dice (e.g. roll 1d3 instead of 1d6) while the advantage remains - this helps to achieve the objective more quickly. Similarly, you may or may not feel that the same number cannot be rolled twice; conversely, you can have fun, if the players land on the same number, giving them a different title the second time around…
+:::
+
+### An example
+
+The characters must infiltrate a corporate marina, find a specific yacht, plant clues that compromise a specific frame and copy the memories of the onboard computer. That's two objectives: 1. enter the marina and find the yacht; 2. plant the clues and access the computer. Of course, there are guards everywhere, security systems and the yacht is really big (and busy).
+
+The leader should therefore prepare two small adventure tables:
+
+| 1D6 | EVENTS: THE MARINA                                 |
+|:---:|----------------------------------------------------|
+|  1  | Objective achieved: The characters are in front of |
+|  2  | Misunderstanding and misunderstanding              |
+|  3  | Shouldn't you have turned right?                   |
+|  4  | Surprise visit                                     |
+|  5  | Attentive and discreet people                      |
+|  6  | Unexpected face to face                            |
+
+| 1D6 | ADVENTURES: THE YACHT                         |
+|:---:|:----------------------------------------------|
+|  1  | Objective achieved: the characters access the |
+|  2  | Cupboards full of things…                     |
+|  3  | Strange and disturbing noises…                |
+|  4  | Midnight swim!                                |
+|  5  | Unfortunate coincidences                      |
+|  6  | Alarm bells ringing…                          |
+
+## Events and rumours
+
+> But if there is a greater lesson to be learned from what happened in the clearing, it is the simple fact that the real gladiators of the world gladiators of the world are of such humble origin and so commonplace in appearance that if you stand in line behind them in a grocery shop, you can't guess how much the fire of their souls can light up the darkness.
+>
+> —James Lee Burke, Swan Lake
+
+A nanoChrome campaign can be played in a sandbox style. The game leader sets events and mysteries and lets the players deal with them. The success criteria of the stories and missions provide sufficient guidance so that the players always know where to go and what to do: they just have to act in such a way as to find the answers to the questions. From then on, the leader can let himself be carried along by events.
+
+To get the action going again, you have several tools at your disposal:
+
+-   Start a new story line or mission request: the town doesn't stop spinning because the characters are investigating a case or working on a mission. In fact, it's much more interesting when they find themselves drowning in the need to investigate three or four different leads at once. As they close cases and send in their reports or respond to their employers, you can add game material. Load up the boat, let them chase every bone you throw them and insist on more. They will hate you and yet love the story.
+-   Get The Other to act: The Other does not sit still. It has its own goals and it sets them in motion at its own pace. This is how the world gradually evolves. Normally you have to wait for a cycle to pass, but if the characters don't take the initiative, too bad for them…
+-   Ask the players to invent rumours or events in the town: you can use the table below as a guide to trigger or inspire these rumours - or leave it to the players. Ideally, ask for one rumour a day - when the characters get up. Players can take turns answering. Rumours can be about things that have happened, are happening, or are likely to happen later.
+
++-------------+-----------------------------------------------------------------------------------+
+| 1D6         | WHEN?                                                                             |
++:===========:+:==================================================================================+
+| 1-2         | What happened in the previous days (the previous cycle)                           |
++-------------+-----------------------------------------------------------------------------------+
+| 3-4         | What is happening today (this cycle)                                              |
++-------------+-----------------------------------------------------------------------------------+
+| 5-6         | What will happen in the next few days (the next cycle or even the one after that) |
++-------------+-----------------------------------------------------------------------------------+
+
++--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1D36   | RUMOURS/EVENTS            | KEYWORDS                                                                                                                                                                                                                                            |
++:======:+:==========================+:====================================================================================================================================================================================================================================================+
+| 1.1    | AT WORK                   | Unemployment - strikes - wage negotiations - industrial accident - economic crisis - modification of the labour code - trade union action - counter-insurgency and jaunts - employer pressure - repression…                                         |
++--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.2    | PARTIES AND EVENTS        | Block party - traditional celebrations - concert - art - happening - Zeuf, Kabukirock and Takodub - Blitzball match - student party - excellent mega party - stars and celebrities - social event and cocktail party…                               |
++--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.3    | ANARZONE                  | Abandonment - on the wrong side of the checkpoints - violent gangs - territoriality - resignation - revolt - protest - charity work - black market and smuggling - no future - ruins - hope…                                                        |
++--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.4    | THE OTHER                 | Press conference - media announcements - unverified rumours - suppressed scandal - trial - defeated opponents…                                                                                                                                      |
++--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.5    | CRIMINALITY               | Grisly murder - drug trafficking - corruption - grand theft - score-settling - serial killer - gang warfare - drive-by shooting - human trafficking - cyber-recovery - akhashic crime…                                                              |
++--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.6    | THE MUNICIPALITY          | Works - local codes - council decisions - scandal - press conference - security - firm opposition - deals and compromises - public pressure - shady deals…                                                                                          |
++--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.1    | POLITICS                  | Authoritarianism - utopia - social movements - protests - indecisions - violence - unnatural agreements and alliances - nationalism and identity-based withdrawal - internationalism - elections - militants - scandal - prevarications and abuses… |
++--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.2    | THE WORLD                 | World news - ongoing wars - ecological disasters - devastating accidents - pacts and alliances - commodity prices - new technologies…                                                                                                               |
++--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.3    | THE FLOATING WORLD        | Gamblers and bouncers - bars and cabarets - shows - music scene - prostitution - gambling - code of conduct - drunkenness - predators and victims - drugs - gangers - trafficking - cop patrols - nightclubs - snitches…                            |
++--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.4    | THE NEIGHBORHOOD          | Traders - residents - entrepreneurs - suppliers - friends - neighbours - thugs - parasites - profiteers - exploited - accident - drama - joy - party…                                                                                               |
++--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.5    | THE SQUAT                 | Passages - meetings - feelings - quarrels - logistics - celebrations - mourning - work - exclusions - newcomers - mysteries - black market…                                                                                                         |
++--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.6    | THE WEATHER               | Storms - strong winds - heavy rain - heat waves - floods - extreme cold - power cuts - accidents…                                                                                                                                                   |
++--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3.1    | THE CONURBS               | Football match - quiet life - unpredictable drama - fire - building work - monster traffic jams - problems on public transport - perversions - buried secrets - mowing the lawn and putting your head down…                                         |
++--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3.2    | CORPORATIONS              | Orbitals - price wars - industrial management - hedonism - scandal - board of directors - wealth - power - internal struggles - careers and jobs - managers and employees…                                                                          |
++--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3.3    | THE ENCLAVES CORPORATISTS | Archologies - enhanced security - press conference - marketing and aggressive advertising - sales - antizone on fire terrorist attack - munificence and abuse…                                                                                      |
++--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3.4    | THE ORBITALS              | Corporatist Council - lift orbital elevator - moon islands - Kwaza barge - interventionism - the twelve orbitals - UN - secret war - space accident - bombings - above the mass…                                                                    |
++--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3.5    | MY PRIVATE LIFE           | Simple meeting - tragic accident - anecdote - important meeting - discovery - secret to share - stupidity - humour - dark thoughts - love at first sight break-up - evening with friends - too many things to do to do - bills to pay…              |
++--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3.6    | ON THE MATRIX             | Special communications - news streaming - hackers and coders - akhashic minds - lost connection - virtual reality - persistent worlds - digital economy - blackmail and control - denial of service - concerted attacks - akhashic flashmob…        |
++--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+## Flash-infos
+
+> When you see people getting richer by bribing and extortion than by working, and that your laws do not protect you against them, but protect them against you, when you see that corruption is rewarded and honesty has become abnegation, you know that your society is doomed.
+>
+> —Ayn Rand, Atlas Shrugged
+
+If you like, you can also use the newsflash table: draw from each column and throw out a news item in less than thirty seconds in the form of a flash headline heard on the radio. If the players are hooked or want to know more, you can then expand on the story as you see fit. By punctuating the game sessions in this way, you'll set the pace and find yourself making up lots of interesting stuff on the fly - all the goodness of automatic writing, in a hurry, without thinking…
+
+| 1D66 | WHAT?                           | WHO?                    |
+|:----:|:--------------------------------|:------------------------|
+| 1.1  | Accident                        | The federal government  |
+| 1.2  | Economic news                   | Local government        |
+| 1.3  | Foreign news                    | The Other               |
+| 1.4  | Political news                  | Police                  |
+| 1.5  | Social news                     | Organised crime         |
+| 1.6  | Social agenda                   | Big crime               |
+| 2.1  | Robbery                         | Panopticom              |
+| 2.2  | Weather report                  | An adversary            |
+| 2.3  | Pink notebooks                  | A corporate executive   |
+| 2.4  | Catastrophe                     | An akashic shaman       |
+| 2.5  | Sensational crime               | A coder                 |
+| 2.6  | Culture                         | A diplomat              |
+| 3.1  | Drama                           | An akhashic mind        |
+| 3.2  | Riot                            | A media expert          |
+| 3.3  | Espionage                       | A street gang           |
+| 3.4  | Absurd fact                     | A politician            |
+| 3.5  | Criminal mischief               | An immortal             |
+| 3.6  | War                             | A stranger              |
+| 4.1  | Justice and trial               | An intermediary         |
+| 4.2  | The Matrix                      | An inventor             |
+| 4.3  | Manifestations                  | A messenger             |
+| 4.4  | Murder                          | A nomad                 |
+| 4.5  | Military operations             | An oligarch             |
+| 4.6  | Police operations               | A cleric                |
+| 5.1  | People                          | An orbital national     |
+| 5.2  | Religion                        | A swordsman             |
+| 5.3  | International meeting           | A scientist             |
+| 5.4  | Health                          | A recognized specialist |
+| 5.5  | Political and financial scandal | A sportsman             |
+| 5.6  | Sexual scandal                  | A trafficker            |
+| 6.1  | Science and discovery           | A celebrity             |
+| 6.2  | Sports - results                | An orbital corporation  |
+| 6.3  | Sports - scandals and stories   | An escort               |
+| 6.4  | Technology                      | A faction of the game   |
+| 6.5  | Terrorism                       | A relationship          |
+| 6.6  | Urban violence                  | A cult                  |
+
+| 1D26 | WHERE?                               |
+|:----:|:-------------------------------------|
+| 1.1  | Abroad (anarzone)                    |
+| 1.2  | Abroad (conurb)                      |
+| 1.3  | Abroad (corporatist enclave)         |
+| 1.4  | In facilities belonging to The Other |
+| 1.5  | In an antizone                       |
+| 1.6  | In orbit                             |
+| 2.1  | Here (anarzone)                      |
+| 2.2  | Here (conurb)                        |
+| 2.3  | Here (corporatist enclave)           |
+| 2.4  | Another city (anarzone)              |
+| 2.5  | Another city (conurb)                |
+| 2.6  | Another city (corporatist enclave)   |
+
+## THE GALLERIES
+
+> Strange thing, almost all men of action incline to fatality, just as most thinkers incline to Providence.
+>
+> —Honoré de Balzac, The Human Comedy
+
+To fill in the dead time or bounce the action in unexpected directions, don't hesitate to get the characters into trouble by sending them into a gallery. A crisis is just a bad moment, an additional complication in an already complicated life. It usually concerns only one character, but he can of course drag his companions into the mess.
+
+When a problem has been solved, it yields 20 XP and 3 connection points.
+
+You can also give the list to the players: each one chooses one in secret at the beginning of the adventure. They can play it whenever they want on themselves or on one of their little friends. For the sake of mischief and to the delight of the rest of the table. What can be funny is when all the galleys fall on the same unfortunate person (who ends up accumulating some XP in the story).
+
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1D66  | Name                 | Description                                                                                                                                                                                                                            |
++:=====:+:=====================+:=======================================================================================================================================================================================================================================+
+| 1.1   | ACCIDENT             | You are involved in an accident – whether you are responsible or not. There's damage and lots of complications to manage, both material and human.                                                                                     |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.2   | BUREAUCRACY          | You're being given administrative grief – reminder letters, lost files, debts, and bizarre bills… It's becoming urgent to deal with it, and it's going to keep you busy for a while.                                                   |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.3   | CELEBRATION          | You're invited to a party, but it's really bad timing. You're not in the mood, and everyone is going to drink way too much. It's going to be a long night...                                                                           |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.4   | SUSPICIOUS PACKAGE   | You mistakenly received and opened a strange package not addressed to you. It contained something dangerous – for you and the recipient – far too much money, drugs, illegal equipment, threats, a bomb, or even a bloody ear or head. |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.5   | STROKE OF LUCK       | You're really lucky today. You've won a lot of ¥. But money doesn't buy happiness, as you well know. And this money is going to burn a hole in your pocket.                                                                            |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.6   | CHASE                | You've just been robbed. Surprised at first, you are now chasing the thug. It's not necessarily bad luck; you might have been the target of the setup.                                                                                 |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.1   | DEBT                 | Someone close to you owes money to dangerous people. Gambling debt, unofficial loan, illegal service… They need help and are already roughed up. You can't leave them like this.                                                       |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.2   | LOCAL DIPLOMACY      | Your squat has some problems with troublesome neighbors, and you're in charge of dealing with it. You'll need a good dose of patience and diplomacy, unless you opt for the punch-in-the-face method...                                |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.3   | MISSING PERSON       | A buddy, a brother, or an acquaintance is nowhere to be found. What kind of mess has he gotten himself into this time? He might have left you a worried message, and no one has seen him since.                                        |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.4   | MISTAKEN IDENTITY    | You're mistaken for someone else, and of course, it's not to give you flowers or congratulate you. These people won't let you go because of a few protests, and they are dangerous.                                                    |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.5   | OUTBREAK OF VIOLENCE | You witness an outbreak of violence that will leave physical or emotional scars, or even involve you more than you'd like.                                                                                                             |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.6   | FRUSTRATION          | Sometimes, the cup is full. You explode angrily. For now, people are just afraid of you. But tomorrow, you'll have to deal with the stares and complaints.                                                                             |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3.1   | GROUPIE              | After a brilliant act, someone is obsessed with you. For now, they're harmless, but with this kind of crackpot, you never know what might happen.                                                                                      |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3.2   | HANGOVER             | Here come those rough mornings when you can't remember how you ended up there, when the slightest noise gives you a migraine that would knock out a COPA. What happened last night?                                                    |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3.3   | LOVE STORY           | You're in love, but couple life is sometimes complicated, whether the story is in full swing or you're settled into a routine.                                                                                                         |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3.4   | FESTIVAL DAY         | You don't like festivals. Impossible to get around, do errands, or reach your contacts. Nothing seems to work normally.                                                                                                                |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3.5   | THE HEAT             | Those corporate security jerks are overzealous tonight. Insults, beatings? Either you're at the station for more thorough "verifications," or you're on the run with half the corpo cops on your tail.                                 |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3.6   | BURYING THE HATCHET  | You made the wrong joke to the wrong person. Everyone had a good laugh, but you saw it in their eyes: war is declared. It's not going to end there... oh no!                                                                           |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 4.1   | MURPHY'S LAW         | Today is a bad day, and it's only just begun. Whatever you do today, it's going to turn into a nightmare.                                                                                                                              |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 4.2   | THE EXES             | An ex comes back into your life: they need a favor from you, or vice versa; it's pure chance working things out (or not); it's a pleasant surprise (or not)…                                                                           |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 4.3   | ILLNESS              | Someone is sick. Maybe you. You'll have to run around everywhere to find increasingly rare and expensive medications.                                                                                                                  |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 4.4   | BAD IDEA             | You're dragged into a bad plan, a first-class mess. You're not responsible for your friends, family, or clients, but when their problems start to concern you, it's already too late.                                                  |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 4.5   | BAD PRESS            | The media is cruel, and you find yourself their target without quite understanding why. Does the journalist think they have a scoop, or are they pursuing you with some sort of personal hatred? Unless they were paid to destroy you. |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 4.6   | LONG FUSE            | Your past comes back to haunt you. You made some mistakes back in the day, and now it's time to pay the bill.                                                                                                                          |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 5.1   | SUDDEN DEATH         | Someone has died. This death may or may not affect you emotionally, but it certainly forces you to reconsider your plans for the day.                                                                                                  |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 5.2   | IMPROVISED NANNY     | You've inherited a kid for the day – the mother thrust them into your arms and bolted, claiming urgent matters. You'll quickly realize this is far from a little angel!                                                                |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 5.3   | PERSONAL PAGE        | Someone has tampered with your personal page on the WakuWaku social network. It pisses you off, for sure, but it's not without consequences.                                                                                           |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 5.4   | BREAKDOWN            | Something breaks down at the worst possible moment, and guess who has to fix the problem. And in the meantime, you'll have to do the work by hand since the machine has given up the ghost.                                            |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 5.5   | APPOINTMENT          | You have an important appointment, the kind you can't miss, and it falls right in the middle of something else equally crucial. You'll have to find a solution.                                                                        |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 5.6   | REVELATIONS          | Someone close trusts you enough to make very personal, very disturbing, or downright bizarre revelations to you. Except it's much more than you can handle.                                                                            |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 6.1   | RIPPED OFF           | You had a contract, but the other party didn't honor their commitments – shoddy or undelivered equipment, false information. You'll have to kick some asses, and something tells you your night isn't over yet.                        |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 6.2   | ABSENT-MINDED        | Today you're tired, in love, or obsessed with your problems. You don't retain anything you're told, and you forget half of what you're asked to do.                                                                                    |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 6.3   | A DEMANDING JOB      | There are problems at the squat, and the caretaker has summoned you. He's furious, overwhelmed, stressed, and this needs to be sorted out before anything else… You're not going to be idle!                                           |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 6.4   | A SMALL FAVOR        | You're asked for a favor you can't refuse. You said yes reflexively, without thinking about the real consequences of your answer, and now you're stuck.                                                                                |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 6.5   | FAMILY VISIT         | Members of your family are coming to visit - but as often, nothing is simple. They're very nice, but really cumbersome and tiring.                                                                                                     |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 6.6   | VOLUNTEER            | You have something to do for the squat, a thankless job for which you can expect no recognition, but someone has to do it. And of course, it's on a day when everything is complicated.                                                |
++-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+## Gigs
+
+> It's strange that some people commit when there are so many perfectly legal ways to be dishonest.
+>
+> —Georges Courteline
+
+Do the characters need ¥ quickly? No problem. All they have to do is go to work, instead of waiting for their corpo girlfriends.
+
+Generally speaking, a small job keeps a character busy for a large part of the day or night - and never during the tense ellipses, that would be too easy. You can skip over these sequences or play them in their entirety depending on your mood and the time available. A small job consists of putting your abilities and skills at the service of people who have immediate needs in marginal areas: delivering a package of accelerators somewhere, guarding a cyber chop shop for the time of a sensitive intervention for a local kingpin, using your CPA to go and unload contraband in a remote cove, going to collect money from a Shylock's debtors, etc. In short, nothing but legal and unpaid work. In short, nothing but the legal and the shiny…
+
+Depending on your inspiration, things can either go well or go seriously wrong. If you have no idea, use the golden rule.
+
+At the end of a job, you get 1d3 ¥, plus 1d3 if you have a really interesting skill or ability for the job.
+
+| 1D36 | Gig             |
+|:----:|:----------------|
+| 1.1  | Accompaniment   |
+| 1.2  | Administration  |
+| 1.3  | Assistance      |
+| 1.4  | On-call         |
+| 1.5  | Accounting      |
+| 1.6  | Driving         |
+| 2.1  | Construction    |
+| 2.2  | Manufacturing   |
+| 2.3  | Custodial       |
+| 2.4  | Structural work |
+| 2.5  | Delivery        |
+| 2.6  | Maintenance     |
+| 3.1  | Handling        |
+| 3.2  | Cleaning        |
+| 3.3  | Protection      |
+| 3.4  | Service         |
+| 3.5  | Surveillance    |
+| 3.6  | Tour            |
+
+## Returning the favour
+
+> "And the problem with love," he added, is that you can't force anyone. It is natural to want those you love to do what you what you want, or what you think is good for them, but you but you have to let things happen. happen. We can no more intervene in the lives of those we love the lives of those we love any more than we can intervene in the lives of people we don't know. you don't know. And it's hard," he says, because very often you want to intervene - you want to be the one who calls the shots.
+>
+> "It's hard to want to protect someone and not be able to," Ange observed.
+>
+> "You can't protect people, kid," Wally replied. "All you can do is love them."
+>
+> —John Irving, God's work, the devil's share
+
+What if the characters helped their relationships a little instead of always being hung up on them? From time to time, friends and acquaintances need a hand too.
+
+Just figure out what it is and how the characters are involved, then go for it. You can complicate things or even make it the start of a whole adventure.
+
+When all is well, the characters involved gain 3 connection points and, more importantly, a freebie to ask for later - say, up to a value of 3 connection points. But, if the referral is really important, it can also be a connection point to spend to increase the character's relationship with the contact.
+
++--------------+-----------------------------------+-----------------------------------------+
+| 1D36         | TRIGGER                           | REQUEST                                 |
++:============:+:==================================+:========================================+
+| 1.1          | It's a job like any other         | Helping a friend in trouble             |
++--------------+-----------------------------------+-----------------------------------------+
+| 1.2          | "Friends" ask for it              | Breaking kneecaps                       |
++--------------+-----------------------------------+-----------------------------------------+
+| 1.3          | In the middle of something else   | Defending your lair                     |
++--------------+-----------------------------------+-----------------------------------------+
+| 1.4          | A knock on the door…              | Delivering a message                    |
++--------------+-----------------------------------+-----------------------------------------+
+| 1.5          | By the family                     | Giving a hand to move                   |
++--------------+-----------------------------------+-----------------------------------------+
+| 1.6          | By a third party                  | Eliminating a threat                    |
++--------------+-----------------------------------+-----------------------------------------+
+| 2.1          | During a lunch in town            | Preventing her murder                   |
++--------------+-----------------------------------+-----------------------------------------+
+| 2.2          | During a drunken night out        | Preventing a dirty trick                |
++--------------+-----------------------------------+-----------------------------------------+
+| 2.3          | Suddenly, with direct involvement | Intercepting sensitive information      |
++--------------+-----------------------------------+-----------------------------------------+
+| 2.4          | An article in the media           | Participating in negotiations           |
++--------------+-----------------------------------+-----------------------------------------+
+| 2.5          | A challenge                       | Protecting a cover                      |
++--------------+-----------------------------------+-----------------------------------------+
+| 2.6          | A message from a faction          | Recovering something valuable           |
++--------------+-----------------------------------+-----------------------------------------+
+| 3.1          | A message about the matrix        | Finding a lost object                   |
++--------------+-----------------------------------+-----------------------------------------+
+| 3.2          | A paper slipped under the door    | Finding a person                        |
++--------------+-----------------------------------+-----------------------------------------+
+| 3.3          | A clandestine meeting             | Finding out about someone               |
++--------------+-----------------------------------+-----------------------------------------+
+| 3.4          | Long-distance communication       | Acting as a diplomatic intermediary     |
++--------------+-----------------------------------+-----------------------------------------+
+| 3.5          | A rumour                          | Monitoring a person or group            |
++--------------+-----------------------------------+-----------------------------------------+
+| 3.6          | An emergency                      | Finding sensitive sensitive information |
++--------------+-----------------------------------+-----------------------------------------+
+
+## Corporations
+
+> But Brian was not fooled. In the face of competition from global markets, sovereign states could do little to stem the pressures of finance and global trade, or else they would alienate investors and threaten their GDP: the role of states was now confined to maintaining order and security in the midst the new global disorder led by centrifugal, extraterritorial forces, elusive forces. No one believed in progress any more: the world had become uncertain, precarious, but most decision-makers agreed that the world had become uncertain, precarious, but most decision-makers of this phantom system, while waiting for the end of the catastrophe. The excluded were pushed to the outskirts of the megacities, reserved for the winners of an anthropophagous game where television, sport and the pipolisation of the void channelled individual frustrations, in the absence of collective perspectives.
+>
+> —Caryl Férey, Zulu
+
+In nanoChrome, the characters have a lot to do with corporations - whether they work for them, attack them or spy on them, whether they plunder them or render them meaningful services.
+
+Corporation: a catch-all term for any company or business, profit-making or not, that has a logo, a name, a front on the matrix and possibly offices somewhere (which isn't even a requirement any more). Of course, people tend to imagine that all corporations are transnationals or even orbitals, with hundreds of thousands of employees. In reality, most are small - even if they are all owned, through cross-holdings, holdings, pension funds and other capital managers, by only a few people in the world.
+
+But a corporation is a more or less complicated organisation, and it's people who work more or less together, with their good and bad sides. In short, it's a microcosm that you have to make live, in all its diversity, so that all corporations don't end up looking the same.
+
+So here are a few different tables that should inspire you…
+
+> To begin with, you may want to compose a vague organisation chart of the corporation. At the top, you have the board of directors and the CEO (Chief Executive Officer) who is the managing director. Then you have lots of COs (CFO, COO, CSO, CBO…) with various titles to put around them. In good French, this means Human Resources Director, Financial Director, Administrative Director, Compliance Director, etc. Underneath all this fine laundry, organise departments. The bigger the company, the more departments it has; the more different areas it deals with, the more departments it has. You will almost always find certain departments: general services, accounting, human resources. For the rest, have fun building something funny and impossible to understand. Put some names for the known managers and add some stories.
+
+| 1D666 | DEPARTMENTS AND SERVICES        |
+|:-----:|:--------------------------------|
+| 1.1.1 | Reception and representation    |
+| 1.1.2 | Procurement                     |
+| 1.1.3 | General administration          |
+| 1.1.4 | Akashic                         |
+| 1.1.5 | Archives                        |
+| 1.1.6 | Insurance                       |
+| 1.2.1 | Internal audit                  |
+| 1.2.2 | Social benefits                 |
+| 1.2.3 | Trainee's office                |
+| 1.2.4 | Clients                         |
+| 1.2.5 | Accounting                      |
+| 1.2.6 | Consumption                     |
+| 1.3.1 | External contracts              |
+| 1.3.2 | Counter-espionage               |
+| 1.3.3 | Cost control                    |
+| 1.3.4 | Mail                            |
+| 1.3.5 | Creative                        |
+| 1.3.6 | Design                          |
+| 1.4.1 | Retail                          |
+| 1.4.2 | Development                     |
+| 1.4.3 | Local management                |
+| 1.4.4 | Product division                |
+| 1.4.5 | Warehouses and stocks           |
+| 1.4.6 | Environment                     |
+| 1.5.1 | Evaluation and estimates        |
+| 1.5.2 | Manufacturing                   |
+| 1.5.3 | Billing                         |
+| 1.5.4 | Finance                         |
+| 1.5.5 | Charitable foundation           |
+| 1.5.6 | Continuing education            |
+| 1.6.1 | Health and safety               |
+| 1.6.2 | Industrial                      |
+| 1.6.3 | IT                              |
+| 1.6.4 | Engineering                     |
+| 1.6.5 | Investment                      |
+| 1.6.6 | Legal                           |
+| 2.1.1 | Litigation                      |
+| 2.1.2 | Logistics                       |
+| 2.1.3 | Maintenance                     |
+| 2.1.4 | Marketing                       |
+| 2.1.5 | Trademarks and patents          |
+| 2.1.6 | Packaging                       |
+| 2.2.1 | Vehicle fleet                   |
+| 2.2.2 | Internal complaints             |
+| 2.2.3 | Planning                        |
+| 2.2.4 | Promotion and media             |
+| 2.2.5 | Cleanliness                     |
+| 2.2.6 | Prospects                       |
+| 2.3.1 | Management protection           |
+| 2.3.2 | Psychological                   |
+| 2.3.3 | Quality                         |
+| 2.3.4 | Research                        |
+| 2.3.5 | Recruitment                     |
+| 2.3.6 | Public relations                |
+| 2.4.1 | Intelligence                    |
+| 2.4.2 | Human Resources                 |
+| 2.4.3 | Risks                           |
+| 2.4.4 | Health and occupational health  |
+| 2.4.5 | Executive Secretariat           |
+| 2.4.6 | General Secretariat             |
+| 2.5.1 | Security                        |
+| 2.5.2 | Tour Operator Service           |
+| 2.5.3 | Domestic Services               |
+| 2.5.4 | General Services                |
+| 2.5.5 | Subcontracting                  |
+| 2.5.6 | Switchboard                     |
+| 2.6.1 | Statistics                      |
+| 2.6.2 | Technical                       |
+| 2.6.3 | Transport                       |
+| 2.6.4 | Economic intelligence           |
+| 2.6.5 | Legal and compliance monitoring |
+| 2.6.6 | Technology watch                |
+| 3.x.x | **Reroll**                      |
+| 4.x.x | **Reroll**                      |
+| 5.x.x | **Reroll**                      |
+| 6.x.x | **Reroll**                      |
+
+You need to populate the corporation with employees with different profiles, complex expectations and ambivalent attitudes. Each time the characters meet someone, try to give them some depth - their attitude is what they project, their nature is more secret but influences their short and long term motivations.
+
+| 1D26 | JOB              | POSITION     |
+|:----:|:-----------------|:-------------|
+| 1.1  | Junior Executive | Former       |
+| 1.2  | Senior Manager   | In the know  |
+| 1.3  | Creative         | Client       |
+| 1.4  | Director         | Freewheeling |
+| 1.5  | Expert           | Eccentric    |
+| 1.6  | Engineer         | Mistreated   |
+| 2.1  | Janitor          | Newcomer     |
+| 2.2  | Hidden           | Stuck        |
+| 2.3  | Replacement      | Placarded    |
+| 2.4  | Secretary        | Leaving      |
+| 2.5  | Security         | Guarded      |
+| 2.6  | Temporary        | Technician   |
+
+| 1D26 | ATTITUDE      | NATURE      |
+|:----:|:--------------|:------------|
+| 1.1  | Aggressive    | Ambitious   |
+| 1.2  | Condescending | Plotter     |
+| 1.3  | Out of phase  | Curious     |
+| 1.4  | Unpleasant    | Dangerous   |
+| 1.5  | Enthusiastic  | Incompetent |
+| 1.6  | Invasive      | Mysterious  |
+| 2.1  | Cold          | Naïve       |
+| 2.2  | Unlucky       | Profiteer   |
+| 2.3  | Unfortunate   | Rebellious  |
+| 2.4  | Lost          | Secret      |
+| 2.5  | Helpful       | Seducer     |
+| 2.6  | Sympathetic   | Sociopath   |
+
++--------------+-------------------+-----------------------------------------------------+
+| 1D26         | LOCATION          | OFFICE STORIES                                      |
++:============:+:==================+:====================================================+
+| 1.1          | Library           | Administrative brutality                            |
++--------------+-------------------+-----------------------------------------------------+
+| 1.2          | Offices           | Personal drama                                      |
++--------------+-------------------+-----------------------------------------------------+
+| 1.3          | Canteen/cafeteria | Self-destructive dynamics                           |
++--------------+-------------------+-----------------------------------------------------+
+| 1.4          | Data centre       | Moral and/or sexual harassment                      |
++--------------+-------------------+-----------------------------------------------------+
+| 1.5          | Open spaces       | Calculated incompetence                             |
++--------------+-------------------+-----------------------------------------------------+
+| 1.6          | Laboratories      | Service jealousy                                    |
++--------------+-------------------+-----------------------------------------------------+
+| 2.1          | Technical room    | Management by fear                                  |
++--------------+-------------------+-----------------------------------------------------+
+| 2.2          | Coffee machine    | Unattainable goals and enormous pressure            |
++--------------+-------------------+-----------------------------------------------------+
+| 2.3          | Gymnasium         | Fraudulent transactions and abuse of company assets |
++--------------+-------------------+-----------------------------------------------------+
+| 2.4          | Meeting rooms     | Peters' principle in action                         |
++--------------+-------------------+-----------------------------------------------------+
+| 2.5          | Reception rooms   | Soothing and mind-numbing routine                   |
++--------------+-------------------+-----------------------------------------------------+
+| 2.6          | Toilets           | Suspicion and mistrust                              |
++--------------+-------------------+-----------------------------------------------------+
+
+## Gangs
+
+> "Straight outta Compton, crazy motherfucker named Ice Cube\
+> From the gang called Niggaz With Attitudes\
+> When I'm called off, I got a sawed off\
+> Squeeze the trigger, and bodies are hauled off\
+> You too, boy, if ya fuck with me"
+>
+> —N.W.A., Straight outta Compton
+
+The anarzones are full of gangs. But so are the conurbs, and even the enclaves. A gang is a bunch of guys and gals, all born somewhere and never left - at least in their heads. As a matter of principle, they all engage in diverse and wide-ranging criminal activities - it's really a way of life - and employ violence with a readiness that can sometimes be surprising, against other gangs of course but also against just about anything they consider a threat or an insult. When confronted with gangsters, it's best to have a big gun and be prepared to use it mercilessly - or look down, hand over your wallet and move on.
+
+Let's be clear: gangsters are stupid to the last degree, who communicate only through violence, and who don't even bother to conceal their activities or their crimes any more. If they are caught, they go to jail: it's good for their reputation in the group, like a virginity that must be lost to gain respect. If they die, it doesn't matter: they are dead.
+
+And the little ones they leave behind pick up the torch. To some extent, gangers are the goblins of cyberpunk! You can of course, and rightly so, blame economic conditions, endemic poverty, lack of education - and frankly, hang the city planners with the politicians' guts - but the situation has been going on for so long now in nanoChrome (a century or two probably - some of the oldest gangs have been around since before World War II!) that there's not much you can do about it…
+
+In nanoChrome, you absolutely have to play the gangs seriously. They are fools, but armed, dangerous, determined fools, who are not afraid of anything (so foolish). Their violence is relentless, sudden, absurd, impulsive. They don't always react with the logic one would expect from a human being normed by society. Their standards are really too foreign for that…
+
+-   Gangs are directly responsible for two-thirds of Chrome City's violent crime - murders, assaults, robberies, rapes, etc.
+-   They are mainly territorial, but they have managed to organise themselves into networks of franchises to facilitate their various trades: drugs, weapons, slaves, organs, blood… The most important gangs are now transnational (and perhaps orbital…)
+-   A gang is not a small group of ten or so individuals stuck in a street. Gangs range from several thousand to tens of thousands of members. One can consider that 1% or more of the total population of Chrome City belongs to a gang (these are perfectly realistic figures!). They are therefore dangerous gangs and it is not enough to be called Charles Bronson to eliminate them all after a good fight. Hence the constant danger of getting involved with them - revenge is not an empty word. Nevertheless, gangs are very often divided into smaller cliques, a few dozen individuals in a neighbourhood.
+-   Gangs are, for the most part, ethnic and cultural. One joins a gang that shares religious values, cultural celebrations, eating habits, and the language of one's childhood. Nevertheless, many gangs are relatively open as long as the ganger adopts the culture of reference.
+-   Violence and cruelty are one of the main markers of gang definition. Assault, rape, murder, torture, mutilation are normal. You shoot a guy for revenge and cut up his family in the bathtub to make a point. You aim at a guy on a bus and decapitate all the passengers. You have to kill the teacher at your school to get into the gang. A pretty girl is taken, tattooed (to mark the property) and raped. You do something stupid? The whole gang beats you up until you fall. Do two things wrong? They stick one in the back of your head. That's normal. A guy looks at you the wrong way? You smoke him - and his girl will have a great time in your arms.
+
+In short: gangers are not carefree.
+
+To finish with these happy thoughts, don't forget that the various mafia groups are gangs in their own right - just a bit more established: the difference between a cult and a church… And then add to this the fact that the various mafia groups are also gangs. And then throw in bikers, survivalists, neo-Nazis, some 'religious' sects and you've got some good opportunities to shake up your characters with some very scary threats.
+
++-----------+--------------------------------------------------------------------------------------------------------------------------+
+| 1D6       | GANG RELATIONSHIP                                                                                                        |
++:=========:+:=========================================================================================================================+
+| 1         | PROTECTION Families and relatives providing support to gang members without being part of the gang.                      |
++-----------+--------------------------------------------------------------------------------------------------------------------------+
+| 2         | AT RISK Kids in the neighbourhood who do favours and will eventually join the gang.                                      |
++-----------+--------------------------------------------------------------------------------------------------------------------------+
+| 3         | ASSOCIATES Uninitiated teenage members who gravitate to the gang, consider themselves part of it and learn the ropes.    |
++-----------+--------------------------------------------------------------------------------------------------------------------------+
+| 4         | MEMBERS who only associate with other members and are fully initiated. Responsible for daily activities and protection.  |
++-----------+--------------------------------------------------------------------------------------------------------------------------+
+| 5         | VETERANs are fully invested in the gang and have no other cultural background. They usually have good prison experience. |
++-----------+--------------------------------------------------------------------------------------------------------------------------+
+| 6         | LEADER Usually the oldest and the one with the lightest criminal record. In contact with the other gang leaders.         |
++-----------+--------------------------------------------------------------------------------------------------------------------------+
+
+| 1D26 | GANG COLOURS (ROLL TWO OR THREE TIMES) |
+|:----:|:---------------------------------------|
+| 1.1  | Silver                                 |
+| 1.2  | White                                  |
+| 1.3  | Light blue                             |
+| 1.4  | Dark blue                              |
+| 1.5  | Grey                                   |
+| 1.6  | Yellow                                 |
+| 2.1  | Black                                  |
+| 2.2  | Gold                                   |
+| 2.3  | Orange                                 |
+| 2.4  | Purple                                 |
+| 2.5  | Red                                    |
+| 2.6  | Green                                  |
+
+| 1D26 | GANG-RELATED LOCATIONS    |
+|:----:|:--------------------------|
+| 1.1  | Sweatshop                 |
+| 1.2  | Sleazy brothel            |
+| 1.3  | Cache (drugs, weapons…)   |
+| 1.4  | Hideout (people, slaves…) |
+| 1.5  | Street corner             |
+| 1.6  | Drug packing lab          |
+| 2.1  | Drug manufacturing lab    |
+| 2.2  | Family house              |
+| 2.3  | Public park               |
+| 2.4  | Safe house                |
+| 2.5  | Cash reserve              |
+| 2.6  | Social club - Strip club  |
+
+## Serve and protect
+
+> Robbin' people with a six-gun\
+> I fought the law and the law won\
+> I fought the law and the law won\
+> I lost my girl and I lost my fun\
+> I fought the law and the law won\
+> I fought the law and the law won
+>
+> —The Clash
+
+The police are the first regalian power. They are the repository of legitimate violence. In short, they are a gang like any other, but this one is in the service of the powerful. In nanoChrome, the powers are varied - corporations, nations, cities, etc. - And they'll be up the asses of the characters in the game. And they'll be on the characters' asses at one point or another.
+
+### General organisation
+
+The police have three main functions:
+
+-   Administrative police: to prevent disturbances, ensure the tranquillity, safety and health of the city's inhabitants - especially those in charge. People will have to deal with the police when they are loitering in guarded areas for no reason or when they need to obtain papers, authorisations and other important documents.
+-   Judicial police: bringing criminals to justice. As soon as the characters cross the line of the law - for example, by opening fire outside the anarzones or dealing accelerants with a few known gangsters - they'll have investigators on their tail. This is the fun part of your job as a leader…
+-   Political police: monitor, coerce and eliminate opponents of a certain social and moral order. These are far more dangerous than criminals and gangsters… It is obvious that those who harm the interests of corporations fall into this category and the Panopticom cells in particular. Remember that political police officers rarely bother with legality, judgements and other human rights. They have special prisons, interrogation centres, well-concealed cesspools and vast anonymous cemeteries.
+
+### Municipal police (ConUrbs)
+
+This police department, based on an "American-style" model, is organised into four divisions under the authority of the Office of the Chief of Police. Each division is headed by a Deputy Chief.
+
+#### THE OFFICE OF THE CHIEF OF POLICE
+
+-   The Chief of Police (COP) is appointed by the highest authority in the city - the Mayor. The Chief of Police (COP) is appointed by the city's highest authority - the mayor and is responsible for the overall management of the police department.
+-   The administrative secretariat coordinates and supports the daily activities of the COP - mail management, organisation of staff meetings, handling of complaints and requests from officers and the public, research and development of special projects…
+-   The Quality Office is under the direct responsibility of the COP. They are the internal services of the police department: they investigate all complaints concerning the conduct of officers and enforce discipline.
+-   Public Relations is the front of the Police Department and liaises with the community and journalists, providing all relevant information. PR organizes commemorations, award ceremonies, memorials, funerals, etc. and advises the OPC and his deputies on communication matters.
+
+#### Field division
+
+-   The Field Division is the largest of the divisions. It deals with uni form patrols, assigned to areas divided into sectors. Its officers are in direct contact with the population and have the mission of enforcing the laws and protecting the inhabitants. It is essentially an administrative police force: it intervenes to prevent crimes and offences from being committed. The characters will have to deal with the officers of the Field Division whenever they have a suspicious behaviour. Equality, justice, professionalism and rigour do not prevent racial profiling - quite the contrary.
+-   Each zone is under the command of a major who is responsible for its administration and reports to the Deputy Head of the Division. The zone captains act as a link between the major and the sergeants and take over the major's duties when he is absent. Zone Lieutenants ensure that the rotas are working properly; they prepare the daily assignments, monitor discipline, manage the working time of the teams, evaluate the performance of the officers and sergeants and develop local action plans to fight crime. Administrative sergeants take roll call, manage schedules, investigate discipline problems and accidents. Sector sergeants supervise the operations of patrol officers, evaluate their work, review reports for clarification and completion, and supervise special activities.
+-   Several specialists are assigned to each area: a criminal analyst checks the M.O. of criminals, enters information into databases, receives victims, and maintains an up-to-date daily crime bulletin; an akashic analyst is responsible for processing real-time matrix searches for patrol officers; security inspectors monitor community-related criminal cases, arrange meetings with the public, and conduct interviews; field investigators investigate robberies, narcotics cases, misdemeanors, and simple crimes as assigned by the zone commanders.
+-   The Field Division also oversees the special operations department: special and normal event monitoring, drone surveillance and response, checkpoints, hit-and-run, Red Dog Units, SWAT, CPA patrols, K-9 units, bomb disposal, etc. Special operations officers are called in to reinforce their colleagues when needed, to manage hostage situations and bomb threats, to organise and monitor vehicle pursuits in the event of a hit-and-run, to identify and clear abandoned vehicles, to impose a visible and powerful presence in the most sensitive areas and to manage all the checkpoints set up at the entrances to the anarzones.
+
+#### Criminal investigation division
+
+-   The Investigation Division is made up of several independent units, spread throughout the city. They are responsible for the investigation and follow-up of criminal cases involving people or property. All major investigations are conducted by detectives and inspectors assigned to this division.
+-   The most prestigious unit in the Division is the Homicide Squad, but there are also several special and independent units: Youth and Family Protection Unit; Special Investigations Unit; and a section attached to the Prosecutor's Office.
+-   This Division is also responsible for the forensic resources: analysis and trace laboratories, coroner's services, ballistics, genetic laboratory, nanodrones in the field, etc.; as well as the Akashic Investigation Department, which deals specifically with matrix crimes and special operations in this field.
+
+#### Technical services division
+
+-   This division provides the communication and technical means for the other divisions. It is made up of several offices: Communications; IT; General Services; Records and Archives; Seals; Mechanical and Fleet Services; and Impound.
+
+#### Administrative division
+
+-   This division provides administrative and logistical support to all other divisions. It is responsible for the initial recruitment, vetting and training of applicants; manages budgets and schedules; manages the department's property and possessions, including seizures; and researches, tests and purchases equipment provided to officers, including vehicles, weapons, uniforms and toilet paper…
+
+### Corporate security (enclaves)
+
+Corporatist security services do not have quite the same goals and duties as street cops. They serve and protect the interests of their bosses and shareholders, not the public. Strangely, however, they have almost more difficulty in doing their job.
+
+First of all, let's differentiate here between the standard security services and the operational corporatist agents that the characters may face. The latter rarely respond to the security services - they are much more often employed in the team of their direct sponsor (as special secretaries, for example). The security services are under the direction of a Chief Information Security Officer (CISO) and have much more general duties. The characters will have to deal with the corporate agents if they get noticed by the wrong people; but they will have to manage the security services to avoid being noticed…
+
+The problem with corporatist security services is that they are a hindrance. They never facilitate the smooth running of business and reduce the speed at which projects develop. In any case, this is how they are perceived by all the other departments: it has to be said that badging a door twenty times a day or submitting to random searches tends to irritate employees; and managers find it hard to fill in endless papers and notes for the slightest trip or meeting… As a result, their greatest enemies are sometimes the employees themselves, who do things half-heartedly or recriminate at the slightest constraints.
+
+And then, the bosses - the board of directors, the shareholders - sometimes ask that the departments be a little more flexible. It's all about the smooth running of the business!
+
+Depending on the needs, security services can be centralised - fully attached to the parent company's offices and managing all operations - or decentralised - each corporate unit has its own services adapted to local needs. Or a mixture of both.
+
+The list of tasks for the security services is quite impressive (and probably not exhaustive), but it gives an idea of what the characters may have to face if they seek to harm a corpo - their analysts are prepared for all eventualities…
+
+-   Forensic analysis
+-   Economic and industrial counter-espionage
+-   Continuous monitoring of personnel (drug tests, surprise searches, bank investigations…)
+-   Recruitment control
+-   Strategic development
+-   Internal investigations
+-   Access management and identity control
+-   Insurance management and legal compliance
+-   Event management and security
+-   Anti-fraud and accounting monitoring
+-   Business continuity and accident/disaster management
+-   Implementation of internal regulations, maintenance of discipline
+-   Data protection
+-   Respect for privacy
+-   Akashic security
+-   Security of premises and possessions
+-   Security of tools and applications
+-   Network security
+-   Security and electronic countermeasures
+-   Security and control of subcontractors
+-   Physical security of managers and employees
+-   Threat monitoring and vulnerability assessment
+
+### On the wrong side of investigations
+
+All this leads to the fun part of this chapter. Most of the time, the characters commit a lot of crimes and, if they are not caught in the act (just to start a good fight), the game leader rarely follows up… Except that investigators don't let go of their prey easily if they have something to chase!
+
+The general principle of this tool is as follows: the investigators can make skill rolls to find the characters if they have committed a crime or an offence. The difficulty depends on the crime and the clues the characters may have left behind - at the discretion of the leader who will use the following tables. If the roll is successful, the investigators find them; if not, it's a dead end (until new information is found).
+
+We have chosen not to give precise figures so as not to scare you: the lists are, like all the lists in this book, invitations and inspirations. But, as a general rule, start from a given difficulty level (18 for example). Add +2 when circumstances are favourable to the characters and -2 when circumstances are unfavourable, for each of the items you may find appropriate. In the end, you will probably have a long list of + and -'s that will partly cancel each other out, but not totally.
+
+Generally, the Investigation roll is made on the next cycle after the crime or misdemeanour; if it is successful, the characters will probably have trouble in the next cycle; if it is unsuccessful, the investigators can roll again in the next cycle with a substantial increase in difficulty.
+
+#### On patrol
+
+Do the characters get spotted by a patrol while going about their business? You can use the characters' Stealth roll (in cooperation) to set the difficulty of the cops' skill roll and adjust it according to several factors:
+
+-   Are the characters in a group? In pairs? Alone and isolated?
+-   Are the characters behaving suspiciously? Suspicious appearance (for the neighbourhood)? Suspicious material? Do they run or try to hide awkwardly?
+-   Are the characters known to the police? Are they wanted? Is their description broadcast? Is it accurate, vague or erroneous?
+-   Is the street deserted or is it crowded? What is the neighbourhood? Abandoned alleys? The underside of a motorway bridge? A street lined with villas? A square between corporate buildings?
+-   Is it dark? Dark night? Is it sunny?
+-   Do the cops have drones in the air? Dogs on the ground? Do the characters have akashic programs activated?
+-   What is the level of security in the neighbourhood?
+
+#### Investigations
+
+Once the crime has been committed, how do the characters get out of it? The initial difficulty depends, globally, on the actions of the characters and the nature of the crime. The more important, spectacular, bloody, or involving influential victims the crime is, the lower the initial difficulty - the cops go to great lengths to get to the bottom of it.
+
+-   Are the characters caught red-handed? In the immediate vicinity? Are they in possession of stolen goods?
+-   Are there any witnesses? Physical? Akashic? Electronic?
+-   Have the characters spoken? Exchanged names? Used a known modus operandi? Adopted significant behaviours? Were they in disguise?
+-   Were the characters violent? Intimidating? Discreet? Invisible?
+-   Did the characters leave any traces? Fingerprints? Tools? DNA? Materials from their hideout or from their normal life (Locard principle)? Did they use nanodrones for cover?
+-   Is there a financial trail that can be followed?
+-   Does the crime have a recognisable motive? Is it possible to understand the motives of the characters?
+-   Is there an akashic trail?
+-   Do the characters have accomplices? Did they tell anyone about their crime? Did they need help before or after? Can anyone sell the characters out or turn them in? Do they try to pass on stolen goods?
+-   Are the characters already known to the police? Are they registered? Are they wanted?
+-   Do they have an alibi? Do they have a good reputation? Are they protected?
+-   Are there signs that a crime has been committed (theft, body, signs of a struggle, etc.)?
+-   Can the police easily investigate? Corporate blockades? Hostile anarzone?
+-   Do the cops have a personal interest in going through with it? Can they be broken? Do they have too much work to do? Do they take the victim in sympathy or antipathy?
+-   Can the cops do searches? Can the cops search? Can the cops search the characters? Question their relatives?
+
+#### Suspects
+
+Once the investigation is successful, the cops will come down on the characters. But first there will probably be surveillance (physical, electronic, akashic), stakeouts, tailing, searches.
+
+And arrest.
+
+Remember that cops will prefer to arrest characters separately, at the same time, with maximum security: the quiet middleman will have two detectives coming to him as he leaves the restaurant; the ultra-violent swordsman will be picked off in the middle of the night by a SWAT team and reinforcements outside.
+
+If it's corporatist agents who intervene, let's just say things might not be as calm: how do your players behave when they're the ones on the right side of the gun? Do the same. A bullet in the head, direct, or subtle negotiations: it's up to them…
+
+::: callout-note
+urban zones have their own security level, rated from 0 for anarzones to 10 for the most secure anti-zones, passing by 1 to 3 for conurbs and 4 to 7 for enclaves. Add this level of security to the difficulties of the jets in chatting to the authorities, hiding, camouflaging weapons, etc.
+:::

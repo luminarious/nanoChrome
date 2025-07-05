@@ -1,0 +1,229 @@
+# Matrix
+
+> "Cyberspace. A consensual hallucination experienced daily and legally by tens of millions of operators, in all countries, by kids who are taught mathematical concepts … A graphic representation of data extracted from the memories of all the computers in the human system. An unthinkable complexity. Lines of light arranged in the non-space of the mind, clusters and constellations of data. Like the lights of cities in the distance…"
+>
+> —William Gibson, Neuromancer
+
+All characters have a nexus to connect to the Matrix and, through forbidden programs well hidden in the machine's memories, to hack into it. To engage a program, you must spend one or more connection points - this is how you defeat the safeties and alarms of the matrix itself. When you run out of connection points, any use of a program will inexorably trigger an alarm if you decide to run it anyway.
+
+You get all your connection points back after a night of rest, when the matrix stops being interested in you and your connection address has been reset.
+
+> Program or skill?
+>
+> Most character actions in the matrix can take the form of a com skill, especially when you have to code a very specific program or do research to file information or to classify information or find it in the middle of a information or find it in the middle of a pile of material. The programs, on the other hand, are self-matizing routines that are launched by touching an icon in reality icon or by dragging it over the target object - For example, dragging the small icon of the Symbiose on a camera visible in its field of view of vision to receive all the images it captures live. that it captures. These are very specific things that require a live presence in the area, to manipulate the matrix or the connected objects live. At home, these programs are sometimes useful, but most coders do things by hand. This is the popular difference between spiders, which glide along the web lightly and turtles, which move forward heavily but with an iron will (the turtle also refers to the small cursor in LOGO programs that could be programmed to perform specific tasks).
+
+## Firewalls and alarms
+
+### Firewalls
+
+Each time you attack a system with a firewall, roll 1d6. If the result is equal to or less than the level of the firewall, the program does not pass directly, but you must still spend the connection points.
+
++------------+--------------------------------------------------------------------------------------+
+| 1D6        | EXAMPLES                                                                             |
++:==========:+:=====================================================================================+
+| 0          | A nexus or completely unprotected machine                                            |
++------------+--------------------------------------------------------------------------------------+
+| 1-2        | Most automated systems and consumer nexuses                                          |
++------------+--------------------------------------------------------------------------------------+
+| 3-4        | The most common nexuses and corporate systems                                        |
++------------+--------------------------------------------------------------------------------------+
+| 5          | The most secure nexuses and systems available for corporations and security services |
++------------+--------------------------------------------------------------------------------------+
+| 6          | The legendary corporate anti-zones impossible to hack                                |
++------------+--------------------------------------------------------------------------------------+
+
+### Alarms
+
+If a firewall blocks you, you can give up (and why not re-spend connection points to start again immediately) or you can choose to force your way through. Your program works, but you trigger an alarm and roll 1d6 in the following table. Depending on the area, the alarm die may receive a variable bonus - usually equal to half the local security level (see page 273). Some abilities or nexus modifications allow the alarm die to be reduced.
+
++---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1D6     | EFFECT                                                                                                                                                                                                   |
++:=======:+:=========================================================================================================================================================================================================+
+| 1       | The alarm must sound in a vacuum somewhere. This is obviously the coffee break in the security office.                                                                                                   |
++---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2       | For the rest of the current cycle, all your connection costs are increased by 1 - the matrix is watching you without being able to find you.                                                             |
++---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3       | No one seems to react, but it is best to consider that the Matrix is off limits for the rest of the current scene.                                                                                       |
++---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 4       | The Matrix is off limits to you for the rest of the cycle, unless you can find a way to change your login identity. If you stick around, you'll get hit.                                                 |
++---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 5       | Opposing programmes have indeed spotted you. The host can roll 1d6 (rounded down) to see how many connection points you can still use before you are fully identified. Then, anyway, you will be traced. |
++---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 6       | Corporate forces are in the area in 1d2 minutes. You are spotted and marked by the opposing programs who are tracking you.                                                                               |
++---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 7+      | A counter-intrusion program is triggered which attacks you directly with somatic biofeedback loops.                                                                                                      |
++---------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+### Fighting in the Matrix!
+
+Depending on the effects you want to achieve, we offer two ways to handle counter-intrusion programs that can attack an encoder in the matrix.
+
+If you want something a little tense, set up a fight using the normal rules and the following characteristics for the programs. The coder fights using Intelligence as a guiding characteristic, both to attack and to inflict damage. The other characters can intervene in the matrix by spending a number of connection points equal to the power of the enemy program. The damage is real - neurons frying one after another.
+
++-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|       | PROGRAM  | DESCRIPTION                                                                                                                                                     |
++:======+:=========+:================================================================================================================================================================+
+| 1     | Cerberus | Defence 9; hp 15; attack +2; initiative +1d6                                                                                                                    |
++-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2     | Droïdeka | Defence 12; hp 15; attack +2; damage +4                                                                                                                         |
++-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 3     | Flamer   | Defence 10; hp 25; attack +2; damage +3 (area); initiative +2d6                                                                                                 |
++-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 4     | Guivre   | Defence 11; hp 30; attack +2; initiative +1d6; steals 1 connection point or 1d6 extra hp per attack (successful or not).                                        |
++-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 5     | Golem    | Defence 15; hp 40; attack +2; damage +4; each attack made steals one manoeuvre from the coder, to prevent him from fleeing while the security forces intervene. |
++-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 6     | Hydra    | Defence 13; hp 30; attack +2; damage +4; initiative +4d6. A hydra gains 5 hit points for each point of connection spent by the coder or his allies.             |
++-------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+The other solution, quicker and more random, is to call for an intelligence saving throw from the coder. The coder can 'bet' connection points, before the roll, to increase the result of the roll - each point invested brings a +1 bonus. Difficulty varies - but you can start with 12 + 1d6 (the d6 representing the type of program being activated, from cerberus to hydra). If the saving throw is successful, all is well. If not, draw a random event from the table on the next page:
+
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1D26    | COUNTER-INTRUSION EFFECTS                                                                                                                                                                               |
++:=======:+:========================================================================================================================================================================================================+
+| 1.1     | The character is ejected from the matrix until the end of the scene, with or without an alternate identity.                                                                                             |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.2     | The character suffers 1d6 (explosive) damage per power rank of the counter-intrusion program they are facing.                                                                                           |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.3     | The character is ejected from the matrix until the end of the cycle, with or without an alternate identity.                                                                                             |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.4     | The character loses 1d6 hit points.                                                                                                                                                                     |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.5     | The character loses all connection points.                                                                                                                                                              |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 1.6     | The program follows the character's footsteps and monitors his every move for 1d6 cycles, immediately alerting the security forces or adding half its power to any firewalls attacked by the character. |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.1     | The character suffers an EMP attack on any of his hardware (physical or cyber).                                                                                                                         |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.2     | The character's nexus is completely hacked and all his data is recovered by local security (it remains to be seen what they will do with the information).                                              |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.3     | The character's nexus is destroyed (on 4+ on 1d6, the data is destroyed at the same time).                                                                                                              |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.4     | The character suffers an EMP attack on all his equipment (physical or cyber).                                                                                                                           |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.5     | The character's nexus permanently loses one of its abilities.                                                                                                                                           |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2.6     | The program inflicts 1d6 wounds in the form of neural damage.                                                                                                                                           |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+## Programs
+
+You can run any of the following programs by spending a number of connection points equal to the level of the program. Using a program is an action.
+
+### Level 1
+
+-   SECURITY SYSTEM CONTROL: You take temporary control of a local security system (a door locked with an electronic lock, a detection portal, etc.).
+-   EMERGENCY DISCONNECT: If you need to trigger an alarm to force a program to run, you disconnect in time to avoid the consequences. The program runs and the alarm ignores you. Nevertheless, you lose all your remaining connection points.
+-   DIVERSION OF COMMUNICATIONS: You misuse a communication in such a way that you answer it yourself or do not complete it.
+-   GEOLOCATION: You divert the target's geolocation information so that you always know their location.
+-   QUICK GLANCE: You access a person's personal information recorded on their nexus. The amount of information naturally depends on the target's attitude towards his presence (or discretion) on the matrix.
+-   METAMORPHOSIS: You change your appearance in augmented reality - costume, appearance, size, gender, etc. The illusion only works for those who see the world in this way. The program is passive and everyone is affected.
+-   SYMBIOSIS: You are piggybacking on the signals of another user or system. You cannot control what he does, but you receive all the data at the same time.
+
+### Level 2
+
+-   ACCREDITATION: You grant temporary accreditation to a specific person. This person can pass a checkpoint without any problems. Each person beyond the first one costs an additional connection point.
+-   ANONYMAT: You camouflage your identity in the crowd. Surveillance programs waste time tracking you down. The alarm roll receives a -1 modifier.
+-   CONTROL OF A MACHINE: You take control of a local machine (manipulator arm, vehicle, robot, etc.) to make it perform simple tasks.
+-   LISTEN: After hacking into the target's nexus, you can listen in on their live conversations as long as you are within range.
+-   ILLUSION: You change the perceptions of a person connected to the augmented reality to add or remove elements of the setting - the details must be minor and consistent.
+-   CAMERA PLAYBACK: You retrieve recent data from local cameras (up to hours earlier). The retrieval concerns cameras of all kinds present in an area not exceeding the size of a block.
+-   SECURITY RESET: You reboot your nexus at maximum speed to cancel all programs that target or affect you - you need a full turn during which you are no longer connected to the matrix.
+-   DECOY: You send false data to machines or cameras that get false information and act accordingly.
+-   TAMPERED SIGNAL: You add data to a communication signal.
+-   NETWORK MONITORING: You display in augmented reality the communication patterns between individuals and between individuals and machines, in order to identify functional groups. You need to be in the area and the links are displayed live in your field of view.
+
+### Level 3
+
+-   ANONYMISATION: An alarm roll receives a modifier of -3.
+-   JAMMING: You saturate or jam communications in the area, causing a mess. You automatically trigger an alarm (roll 1d6 with a -3 modifier).
+-   EMBEZZLEMENT: You transfer funds from one account to another. Beware, this is the kind of operation that is anything but discreet and leaves traces for other coders like you. Sound the alarm immediately.
+-   INVISIBILITY: You disappear from the target's augmented reality devices. The target has to switch back to normal vision, disconnect from the matrix or trigger specific monitoring programs to become aware of your real presence - but if they were unaware of your presence, they are unlikely to think about it.
+-   ACCESS RESTRICTED DATA: The programme allows you to access databases normally out of reach of the public - administrative files, corporate files, etc. Beware: the program grants you access but does not carry out searches for you (make a skill roll); moreover, this is always a time-consuming operation and can block you for several turns, minutes or even hours.
+-   HACKING OF INTERFACED SYSTEMS: You take control of an interfaced system at an opponent's location. The target is forced to use this hardware until they can perform a reset (they only roll 2d6 for all related rolls).
+
+### Level 4
+
+-   NETWORK CONTROL: You take control of the network and can allow or disallow communications and data transfers according to the filters you set up. Roll 1d6 every minute below the number of minutes to see if you trigger an alarm.
+-   DECRYPTAGE: You decrypt passwords, encrypted files, etc. - the firewall of an opposing system has a -1 malus for the rest of the scene, allowing you to control it more easily. You can activate this program several times to cumulate its effects, including from several different consoles (if several characters act together).
+-   PROTECTED IDENTITY: In addition to its normal activation cost, this programme costs ¥5 each time it is activated. As long as the programme is activated (including over several successive cycles), you benefit from a secondary protected identity on the matrix. Any request for identification or data about you is directed to this secondary identity. If adversary programs identify you, they burn this identity and you escape prosecution - you will have to restart the program and pay for its use.
+-   SATURATION: You saturate a person's augmented reality receivers by drowning them in spam and attack ads. They must log out for the rest of the scene to reset their connection.
+
+### Level 5
+
+-   COUNTERORDER: You cancel an alarm that has just been triggered.
+-   DESTRUCTION: You operate a complete network collapse over an area equivalent to a block. All communications are interrupted and the secondary and alert management systems start up.
+-   WORM: You install a worm in a system. The worm performs one of the following tasks, defined during installation:
+    -   BACKDOOR: If you return to this system, the firewall is lowered by one level - even after several cycles. You should still activate your programs normally.
+    -   SCREENING: The worm installs itself on the passage of wealth and takes a tiny part of it and gives it back to you at the end of the cycle - in the form of 1d6 ¥. Beware: this worm is particularly visible and corporations always react extremely badly when they discover the theft.
+    -   SUPERVISION: The worm records all changes to the system files and sends a report at the end of each scene if necessary.
+
+### Special programs
+
+CHANGING DATA: You change data in the memories of a system, either to erase it or to corrupt it. The cost depends on the type of data and the type of changes - from 2 to 5 connection points.
+
+DATA FUNNEL: You run a program with specific instructions to sort and capture the most interesting data in a system. The cost is variable depending on the purpose of the searches. This program is often used in conjunction with Read Reserved Data.
+
+## Akashic spirits
+
+A character with the appropriate ability (see page 90) can attach a special Akashic Spirit to themselves, a mentor who accompanies them everywhere and watches over them from the matrix, granting them special abilities and a disadvantage specific to their nature. You can ignore the effects of a disadvantage by spending a luck point.
+
+### The Artist
+
+SPEND ONE POINT OF LUCK - you create a complex digital work in a short time - background music, painting, dress design or costume in virtual reality, etc. - you assess the value of a work and learn what there is to know about its about its author.
+
+DISADVANTAGE You must practice an artistic activity every day, such as music or painting. You never turn down a concert, an exhibition a museum visit.
+
+### The Assassin
+
+SPEND ONE POINT OF LUCK - you erase all images of you on the surveillance systems. - you find a quick way out of a place without getting caught.
+
+DISADVANTAGE You must not refuse to cause death when you have the opportunity to go through with it or when you could prevent it by some action.
+
+### The Investigator
+
+SPEND ONE POINT OF LUCK - you access police or security databases to get useful information. - you record the entire crime scene in 3D to study it later.
+
+DISADVANTAGE You must not leave a mystery unsolved.
+
+### The Officer
+
+SPEND ONE POINT OF LUCK - you get the positions at that moment of all the security units on an area equivalent to a block. - you and your companions pass a security checkpoint by simply showing your identity
+
+DISADVANTAGE You give orders and do not accept disobedience. Similarly, if a superior orders you to do something, you do it.
+
+### The Dilettante
+
+SPEND ONE POINT OF LUCK - you create a complete virtual universe in a few moments to welcome visitors to the matrix. - you know enough about a particular subject to fool an expert in that field for a few moments.
+
+DISADVANTAGE You have to try new things - culture, food, drink, sex, drugs, etc. - as often as possible and you do not resist such an offer.
+
+### The Businessman
+
+SPEND ONE POINT OF LUCK - you get ¥2. - you completely conceal a financial transaction and prevent any possibility of a payment being discovered or tracked.
+
+DISADVANTAGE You have to invest a significant part of your income in corporate interests - at the discretion of the game leader.
+
+### The Scientist
+
+SPEND ONE LUCK POINT - you get a scientific assessment of a situation and insights. - you get a mathematical analysis of the data in your possession to infer useful information.
+
+DISADVANTAGE You need to keep up to date with scientific information and spend a significant amount of time reading various journals and books.
+
+### The Seducer
+
+SPEND ONE LUCK POINT - you get all the information available on the matrix about your target. - you control elements of your AR and physical environment - music, lights, advertisements, etc. - to favour or hinder competitors.
+
+DISADVANTAGE You have to change partners regularly and organise days that are entirely dedicated to them (outings, restaurants, walks, shows, etc.)
+
+### The Thief
+
+SPEND ONE LUCK POINT - you get the positions of all security systems in an area equivalent to a block. - You get contacts to fences to sell or buy goods or to get commissions for specific thefts.
+
+DISADVANTAGE You have to steal a valuable object per cycle and sell it. What you do with you do with the ¥ is your own business.
+
+### The Traveller
+
+SPEND ONE LUCK POINT - you get simultaneous translations of foreign languages. - you can organise public transport connections during a journey to shorten the journey or to lose pursuers.
+
+DISADVANTAGE You must regularly travel to distant destinations - both within the city and destinations - within the city or out of town.

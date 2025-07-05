@@ -1,0 +1,364 @@
+# Chrome Dragon
+
+> As he dug, Cal thought about how many times the Fugue and its inhabitants had foiled his preconceptions. Here he was on his knees, digging a grave with a bunch of laughing kids: not the kind of situation his dreams had prepared him for. But this situation was, in its own way, more real than he had dared to hope for - dirt under his fingernails and a snotty child happily devouring a worm beside him. It was not a dream, but an awakening.
+>
+> —Clive Barker, Kingdom of the Diviners
+
+The next chapter, which is completely optional, offers you the chance to add a little magic and fantasy to your cyberpunk. This is not a new idea, we agree - there are plenty of Urban Fantasy worlds, but very few with a cyberpunk setting. Nevertheless, what we wouldn't do for a little exoticism?
+
+See what your players think of the idea and if everyone agrees, go for it. Beware though, the appearance of magic does not mean that the world will be all pastel, unicorns and rainbows. Magic can be a nasty thing and no one can trust a dragon!
+
+## Magic
+
+Add the following fundamental to the first three given in the first chapter (page 13).
+
+It had to happen sometime. By dint of playing with ever longer subatomic racetracks to observe Higgs bosons and tobacco pot gluons, researchers blew it up. One chance in a million, they said.
+
+What happened? A coiled dimension suddenly unfolded - physicists know that extra dimensions (beyond the first four) do exist, in the form of microscopic toroids that were formed just after the Big Bang. What was not known was that the dimension in question had an existence of its own and that it was home to particular energies and fauna.
+
+In short, overnight this new dimension was imposed on the world - so that we had to deal with the three physical dimensions, a fourth time dimension and a fifth, very real dimension, which was soon called the Æther.
+
+The Æther caused some major upheavals in the world:
+
+-   First, people started practicing magic - not silly Las Vegas-style prestidigitation - but real magic. Of course, in the beginning it was complicated and there were many accidents. But from learning came mastery, and from mastery came the traditions that are now well known.
+-   Then strange people appeared - gnomes, ogres, sidhes, but also trolls, goblins, mandrakes and ulfurs. It wasn't easy to make a place for them in the world and people were very afraid of them at first (and still are); but, as generations passed, everything was more or less settled…
+-   Finally, other, much more dangerous creatures arrived: the dragons. Believe me, these are quite a few, rare but powerful, and they quickly understood the interest they had in getting involved in human affairs to build up their fortunes.
+
+## Races of the Æther
+
+In addition to your affiliation, choose a race.
+
++-----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| RACE      | DESCRIPTION                                                                                                                                                                                         | ADVANTAGES                                                                                                                                                                   |
++:==========+:====================================================================================================================================================================================================+:=============================================================================================================================================================================+
+| GNOME     | Gnomes are telluric creatures, slow and tireless.                                                                                                                                                   | You have 10 additional hit points and you see in the dark.                                                                                                                   |
++-----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| GOBLIN    | Goblins are small, industrious, and cunning.                                                                                                                                                        | You have an additional point of Intelligence (which will allow you to reach +8 one day in this characteristic) and you see in the dark.                                      |
++-----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| HUMAN     | The people of the original land, mixed with other humans who are sometimes a bit strange.                                                                                                           | You have two additional skills.                                                                                                                                              |
++-----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| MANDRAKE  | The root people have surprisingly adapted to immense human megacities, but they still dislike fire.                                                                                                 | You have an additional point of Charisma (which will allow you to reach +8 one day in this characteristic) and you see in the dark.                                          |
++-----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| OGRE      | Ogres are immense and very strong, wrathful and uncontrollable like fire.                                                                                                                           | You have 2 additional luck points and one point of Strength (which will allow you to reach +8 one day in this characteristic).                                               |
++-----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| SIDHE     | Sidhe are aerial, light, haughty, and indifferent to material possessions.                                                                                                                          | You have 2 additional magic points and you see in the dark.                                                                                                                  |
++-----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| TROLL     | Trolls are hirsute and fierce, proud of their independence and savagery.                                                                                                                            | You have one skill and 10 additional hit points.                                                                                                                             |
++-----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ULFUR     | These enormous and powerful wolves live in nomadic, territorial, and aggressive packs. They can only use tools and weapons if they are interfaced – but they are often effective wired individuals. | You have an additional point of Wisdom (which will allow you to reach +8 one day in this characteristic) and a +1d6 bonus to melee damage when you use your claws and teeth. |
++-----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+## New classes
+
+### Alchemist
+
+Alchemists tinker with very powerful magic drugs and inject them into themselves to give themselves considerable powers. It's a long, painful apprenticeship to master the strange effects of these alchemical potions, but what one wouldn't do to achieve perfection.
+
+ACCELERATION: By spending one point of magic, you can perform a superhuman physical act - move faster, lift a heavy load, jump high and far, etc.
+
+FORTRESS: For one magic point, you ignore 1d6 points of damage. You can spend as many magic points as you like on the same hit.
+
+### Hermetic
+
+Hermetics study magic and its effects with a scientific, pragmatic eye. It is a physical science, nothing more, a derivative of the laws of thermodynamics - what happens when you change mass into energy and back again.
+
+FOCUS: You have a magical focus - staff, talisman, ring - which gives you 3 extra magic points.
+
+MAGIC: You can cast spells and summon spirits. You can also project your perception into the Æther.
+
+### Orphist
+
+For the Orphists, the appearance of the Æther marks the beginning of the great reunification of the world. They seek to break the cycle of creation/destruction, birth/death, that humans experience, so that time and all dimensions become one.
+
+GUIDE: A spirit of the Æther accompanies you wherever you go and gives you considerable magical powers. Choose your guide from the list provided.
+
+MAGIC: You can cast spells and summon spirits. You can also project your perception into the Æther.
+
+## Additional rules
+
+### Magic points
+
+If you are an alchemist, hermeticist or orphist, you have a number of magic points equal to your Constitution rank. This total is reduced for each item of cybernetics you wear, including cosmetic prosthetics, and for each wound you suffer. The use of magic is limited by pain and all things that tie the body to its own sensations. You recover all your magic points after a full night's sleep.
+
+### Physical and magical defences
+
+There are two different defences - physical and magical - which are calculated in the same way (Wisdom + 7). However, physical protections do not increase magical defence and conversely, magical protections have no effect against physical attacks. When a wizard casts an Ethereal Barrier spell, for example, he must choose whether to affect one or the other defence, but he can cast the spell twice to cover all options.
+
+Similarly, some creatures have only one magical defence. It is impossible to hit them with physical attacks. Conversely, physical objects have no magical defence and magical attacks have no effect on them.
+
+### New abilities
+
+MYSTIC ADEPT: You must be an alchemist to choose this ability. You can cast spells like hermeticists and orphists. However, you have two limitations: you can only cast spells whose level is equal to or lower than your Intelligence rank; you cannot summon spirits.
+
+ÆTHERIC AFFINITY: You have two extra magic points per day.
+
+SPEED: You must be an alchemist to choose this ability. Add twice your Dexterity rank to your initiative. It does not cost any magic points. You can gain 1d6 extra initiative points for each magic point you invest.
+
+CONTROL: You must be an alchemist to choose this ability. You can impose major deprivations on your body by spending magic points: one point per minute to stop breathing, one per hour to remain completely immobile, two per night to not sleep (but you don't get any magic or life points back in the morning), etc. You can go several days without eating and drinking very little.
+
+MAGIC FORTRESS: you must be an alchemist to choose this ability. The resistances and defences you gain also apply to your magic defence.
+
+RAPID HEALING: You must be an alchemist to choose this ability. You regain 1d6 hit points for every hour of rest or quiet activity. In addition, you recover 2d3 wounds each round instead of 1d3.
+
+MAGE OF HERMES: If you are a hermeticist, you belong to the Order of Hermes and can use its facilities and libraries.
+
+BATTLE MAGE: Add 1d6 to all damage you inflict with magic.
+
+INSTICTIVE MAGE: If you are a hermeticist or orphist, you can make magical attacks without spending any magic. Make an Intelligence roll to hit, against the target's (magical) defence, and calculate the damage normally.
+
+LODGE MEMBER: You belong to a major Orphic lodge and can use its facilities and libraries.
+
+POWER: You must be an alchemist to choose this ability. Add 1d6 (explosive) to all damage you deal in close combat. This does not cost a magic point. You can add 1d6 (non-explosive) damage for each point of magic you invest in the move.
+
+RAMPART: You must be an alchemist to choose this ability. Add your Constitution to your defence. This does not cost any magic points. You can gain +1 defence for the round for each magic point you invest.
+
+SAIL: You must be an alchemist to choose this ability. For 1 magic point, you go unnoticed and people ignore you.
+
+## Magic powers
+
+Hermetics and Orphists both possess the ability to cast spells and summon ethereal spirits.
+
+### Spells
+
+The magic still works and you do not have to make any rolls. Use an action and spend one magic point per spell level. If you do not have enough magic points, the spell does not work.
+
+Generally speaking, the effects of spells are instantaneous (or very short) or end with the next dawn or dusk. Most spells work on contact (including all spells intended to aid one's allies) or on sight; a few spells, such as Message, work beyond the normal range of perception.
+
+If a creature can make a saving throw to escape one of your spells, the difficulty of the saving throw is equal to 10 + your Wisdom. If you are wearing a magical focuser (staff, magic symbol, etc), add the bonus of that to the difficulty.
+
+#### Level 1
+
+-   ASSISTANCE: You grant a +4 bonus to a roll that you or a companion must make. This bonus does not stack with the use of a skill.
+-   MINOR ILLUSION: You create a small auditory or visual illusion within sight. Onlookers can make a saving throw to ignore the illusion, but only if they suspect it is something abnormal.
+-   LIGHT: A bright light appears that follows you everywhere and illuminates like a beautiful lamp until you extinguish it. You can concentrate it to give it the appearance and use of a high-power directional flash-light.
+-   MESSAGE: You send a short message to a person you know.
+-   ÆTHERIC PERCEPTION: You detect magic and see into the Æther up to your Intelligence in meters. You can also use this spell to analyse a scene from a magical point of view.
+
+#### Level 2
+
+-   ÆTHERIC BARRIER: You grant a +1 defence bonus to yourself or a companion for the duration of one combat. Each person can only receive one Ætheric barrier of a specific type at a time, but you can cast it on multiple people if you have enough magic points. You must choose whether the barrier applies to physical defence or magical defence.
+-   MAGIC SHOCK: One of your opponents loses their next action.
+-   MANIPULATION: You can activate any mechanical system at close range and within sight – locks, switches, levers, etc.
+-   MAGIC MISSILE: You inflict 1d6 + Wisdom damage points on a target within sight. You automatically hit without a saving throw.
+-   MINOR HEALING: You restore 1d6 + Wisdom hit points to an ally within sight.
+
+#### Level 3
+
+-   MAGIC AUGMENTATION: You grant a +1 bonus to all actions of your allies for the duration of one combat.
+-   ANTIDOTE: You cancel the effects of a pathogen, toxin, or nanodrug, including accelerators.
+-   INFLUENCE: A person of your choice finds you very likeable, even if they did not like you before. They will do you a service, but will not put their life in danger for you. The target can make a saving throw to cancel the spell's effects.
+-   INVISIBILITY: You remain invisible (including on video monitors not protected against magic) as long as you perform no other action than moving.
+-   MAGIC MECHANICS: You temporarily enchant electronic equipment so that it works even against magic (for example, a pistol that can hit an Ætheric spirit or a motion detector that works on the Æther). Nevertheless, it simultaneously gains a magical defence and becomes sensitive to magical attacks.
+
+#### Level 4
+
+-   ÆTHERIC SEAL: You mark the lintel of a door or an opening with an invisible sign that prohibits Ætheric creatures from passing through for the entire current cycle.
+-   MAGIC EXPLOSION: You inflict 3d6 + Wisdom damage points on all people present within a radius equal to your Intelligence rank in meters, originating from the centre of the effect which must be in sight. The damage affects everyone, including yourself or your companions if you are in the area. Everyone can make a saving throw to halve the damage.
+-   SPIRIT FORM: You can take the form of an animal of your choice and benefit from its natural abilities.
+-   LEVITATION: You fly a few meters above the ground and move at a maximum speed close to running. If you were falling, you recover without damage a few decimetres from the ground.
+-   SURVIVAL: You resist the heat of a blaze, the cold of a blizzard, the pressure of a landslide, asphyxiation underwater or in foul air, etc.
+
+#### Level 5
+
+-   COUNTERMAGIC: You immediately cancel a spell or magical effect. You cannot send back an Ætheric spirit this way.
+-   INVOCATION: You summon a hermetic or orphic spirit (according to your tradition) that you can control for a time. Alchemists can never cast this spell.
+-   COMBAT TELEPORTATION: You instantly teleport to a clear area that you can see live, including by electronic means.
+-   MANA STORM: You inflict 2d6 + Wisdom damage points on a number of enemies equal to 1d6 + Intelligence present on the battlefield – they can make a saving throw to halve the damage. Your companions are not affected.
+-   ÆTHERIC TRAVEL: You leave your body, which falls inanimate, and you go wandering in the Æther. You perceive the real world within a 10-meter radius per rank of Wisdom, and no physical barrier can stop you from passing, unless it is a force field or an Ætheric seal. Nevertheless, while you float slightly, you cannot fly and you remain unconsciously bound to physically possible movements (you do not climb walls unless you use a ladder or proper handholds).
+
+### Summoning
+
+With the level 5 Convocation spell, magicians can summon particular etheric spirits - hermetic or orphic. When performing the short ritual to summon the spirit, you must decide its power - from 1 to 5, but it can never be greater than your Intelligence. The more powerful a spirit is, the greater its abilities and services, but the harder it is to control.
+
+A summoned spirit stays until its summoner sends it away, until it has completed all its services or until the next dawn or dusk - whichever comes first.
+
+#### Controlling a spirit
+
+When the spirit appears, make an Intelligence (Knowing Spirits) roll against a difficulty equal to 5 + 5 per level of the spirit's power - the difficulty of controlling a level 5 spirit is thus equal to 30! You can invest additional magic points, on a 1:1 basis, to increase the result of your roll.
+
+If you succeed in controlling the spirit, it owes you a number of services equal to its level plus the result of the coloured die. If you fail to control the spirit, it may, at the discretion of the host:
+
+-   Return immediately to the Æther.
+-   Attack you, because it did not like being disturbed.
+-   Agree to discuss and negotiate one or more services in exchange for something. Generally, the more powerful a spirit is, the more willing it is to negotiate. Payment can be magic points, physical offerings (with a variable cost in ¥) or one or more services in exchange.
+
+#### Services
+
+Spirits can perform several types of service. Each use of a service decreases the level of control - when all services have been used, the spirit disappears into the Æther.
+
+-   PERFORM A PHYSICAL ACTION: The spirit performs a physical action related to its nature. A fire spirit can burn something; a mountain spirit can carry a heavy load; a desert spirit can protect from the sun…
+-   ACT AT A DISTANCE: The spirit agrees to perform a task entrusted to it by the hermetic or orphist and to leave for that purpose. It will do everything possible to accomplish its task before the end of its presence in the physical world, undoubtedly in a somewhat stubborn manner. Once this task is completed, the spirit disappears even if it had services left to perform.
+-   FIGHT: The spirit fights alongside the hermetic or orphist to the best of its abilities and until it is banished or the combat ends.
+-   CAST A SPELL: The spirit can authorise the character to cast a particular spell from the spirit's list by normally spending the character's magic points.
+
+#### Minor spirits
+
+Hermetics and orphists can summon, without great constraint, those simple spirits that populate the edges of the Æther. A minor spirit is always of power 1. They can perform the following services:
+
+-   ALARM: The spirit monitors or patrols a specific section of the Æther and warns a specific person in case of intrusion.
+-   ESPIONNAGE: The spirit can follow and spy on someone from the Æther and return to report to the summoner. It is limited by Ætheric seals and other magical protections.
+-   HARASSMENT: In combat, a watchful spirit inflicts a malus of -1 to the physical and magical defences of a specific target. The target must be specified each round by the summoner.
+-   MESSAGE: The spirit carries a message to a known person from the summoner and brings back a response if necessary.
+-   TRACKING Ætheric: The spirit attempts to find an object, person or a place, in the Æther or on the physical world. It must be given a precise image or impression of what it is looking for.
+
+#### The Hermetic Spirits
+
+Only Hermeticists can summon these ætheric spirits. The wizard must be near a significant source of raw material for the summoning to work properly - if not, the host may deem the action impossible or increase the number of magic points needed to cast the spell.
+
+##### Air Spirit
+
+LIGHTNESS (1): You or an ally gain an additional 1d6 initiative points.
+
+SILENCE (2): You spread an aura of silence around you. You can act normally, speak inside the bubble and even hear what is being said outside, but no one will hear you outside the area.
+
+ALTERED SENSES (3): You alter your senses to hear whispers from a great distance or to see silhouettes through a stone wall.
+
+BREATH (4): You enter into silent communication (questions and answers) with a number of people equal to your Charisma rank. They must be present when you cast the spell, but may separate afterwards.
+
+BOUCLIER OF WIND (5): You and all your allies gain a +2 bonus to physical defence. This spell does not stack with a Physical Ethereal Barrier.
+
+##### Water Spirit
+
+ENCHANT (1): You enchant a melee weapon or a clip of projectiles by dipping them in water. The weapon becomes magical until the next short rest and allows you to hit creatures immune to physical attacks.
+
+DISGUISE (2): You quickly change your general appearance and silhouette, changing the shape or colour of your clothes, your stature, or your gait. Disguise does not deceive close examination, but also affects Augmented Reality.
+
+WALL (3): You raise a wall of water sufficient to obscure the doors to a room and its windows. Bullets are very strongly slowed down and deflected, sounds are distorted, infrared perceptions blurred…
+
+SLEEP (4): By placing your hands on a person, you put him/her into a deep sleep for several hours. This only works on physical creatures whose power is equal to or less than your Wisdom.
+
+TRICK (5): You automatically win at games of chance or you get a triple-6 on a roll of your choice - you do not gain a Heroic point for this one.
+
+##### Earth Spirit
+
+LAY ON HANDS (1): For each additional magic point you spend, you heal 2 + Wisdom life points by laying on your hands. You can spend multiple magic points on the same action.
+
+BLINDING (2): By placing your hand on a wall (wall, door, etc.), you grant it the ability to resist any projectile, including armour piercing or anti-tank. The ability ceases as soon as you remove your hand.
+
+FORTIFICATIONS (3): You build earthen embankments and ditches in a few minutes, providing good protection against projectiles and a tactically favourable position for some fighters (defence increased by the magician's Intelligence for Wisdom fighters).
+
+STONE SKIN (4): You can place, on touch, a number of stone skins equal to your Intelligence rank on one or more targets. Each stone skin negates a subsequent successful attack with a loud bang. You cannot reroll this spell as long as one or more stone skins remain active.
+
+PASS-WALL (5): You can physically pass through any wall made of stone, concrete, or brick, up to one metre thickness per rank of Wisdom. The passage is impossible if the wall is lined with metal or protected by an etheric seal.
+
+##### Fire Spirit
+
+COMFORT (1): You extend an aura of comfort around you that warms or cools a room, calms fears and anxieties, soothes nerves, or keeps you awake.
+
+KINETIC RECOVERY (2): Every attack on you - whether it hits or not - causes you to regain one point of magic.
+
+FLAMING WHIP (3): You create a flaming whip that can be used in close combat or at a distance, against physical or magical creatures. Choose the characteristic you use to wield it.
+
+FUGUE (4): You and all your companions immediately gain 1d6 initiative points.
+
+CONCEALMENT (5): You burn a combustible object of your choice, of a reasonable size (say, the equivalent of a large chest). At the moment of your choice, later on, light a fire and take the object out of the fire, perfectly intact (with a smell of smoke).
+
+#### The Orphic Spirits
+
+Only orphists can summon spirits of this type, which are deeply connected to the oneness of the world. You must be in a suitable environment to perform the summoning - if not, the host may deem the action impossible or increase the number of magic points needed to cast the spell. A suitable environment can be purely symbolic: the top of a tower for a mountain spirit, in a public park for a woodland spirit, in a UV cabin for a desert spirit…
+
+##### City Spirit
+
+PASS FAST (1): You take the fastest streets and lanes, the least crowded or safest for you, to get where you need to go, speeding up your travel time considerably.
+
+RESCUE (2): If you are in a complicated situation, get out of it quickly - it's easy to find a way out, even if it means breaking the law or taking physical risks.
+
+CAMOUFLAGE (3): You blend in with the background or the crowd, becoming unseen or unknown. No one pays any attention to you. For every extra point of magic you invest, you can extend the effects to another person.
+
+PASS THROUGH SHADOWS (4): You use shadows to slip from one person to another, to another place in sight.
+
+RUMOUR (5): Ask the host a question about the adventure. He will answer you simply and without lying.
+
+##### Mountain Spirit
+
+BRUTE STRENGTH (1): You or an ally deal an additional 1d6 melee damage in close combat for the duration of a fight.
+
+ABRI (2): If you are within four walls, no one can enter the room you are protecting, nor send missiles of any kind into it, unless you allow it. You must cast the spell a second time for the same limits to apply to the Æther.
+
+OBSERVATION (3): You split your vision by placing part of your perceptions up to several metres away, or by placing part of your perception up to several tens of metres above you to observe a scene from the sky.
+
+STONE CROCS (4): All people present in an Intelligence radius around you at the time you cast the spell must give up moving or take 1d6 damage per manoeuvre. Vehicle tyres don't like this at all either.
+
+CHAIN REACTION (5): You cause a chain reaction of coincidences and chance events that serve your immediate purposes. Describe how things happen - the leader will be happy to add to it.
+
+##### Wood Spirit
+
+PASS WITHOUT TRACE (1): You leave no trace behind you - smells, DNA, fingerprints, RFID identification, etc. The spell only works for a limited geographical area: a room, a piece of pavement, etc. You can cast it before or after acting on it, depending on your needs. You must cast it a second time to protect yourself from detection.
+
+SPINES (2): Opponents engaged in hand-to-hand combat with you take 1d6 damage (minus their protection value) at the start of their turn.
+
+POTION (3): You can prepare a magic potion with the effect of your choice. The operation takes a day's work and a night's rest; on the other hand, it is likely that you will have to spend ¥1 or more on ingredients. The potion can be used until the end of the cycle.
+
+SPEAK WITH ANIMALS (4): You speak to vertebrate creatures and make yourself understood by them. They can respond to the extent of their intelligence and abilities.
+
+ANIMATE PLANTS (5): You control the natural movement of plants to move brambles and bushes, make grasses cling to boots, and have nettles and sumac whip exposed skin. Your enemies suffer in many ways - loss of time and manoeuvres, damage, etc. Choose a different effect and target each turn.
+
+##### Spirit of the Rivers and Seas
+
+IMMERSION (1): When you immerse yourself in a body of water, you breathe perfectly and swim like a fish. Alternatively, you can even metamorphose into a fish.
+
+SMOKE (2): You deposit a certain undetectable smell on an object or person. You can follow this smell until the next dawn or dusk, even through a crowd or a complicated environment.
+
+TRANSPORT (3): You use rivers to travel from one point in their course to another, upstream or downstream. The journey is not instantaneous, but it is extremely fast.
+
+MAJOR CARE (4): By immersing yourself for several hours in a natural body of water, you heal a wound.
+
+PUPPET (5): You take possession of the water that makes up an individual and you make them perform the actions of your choice for a number of minutes equal to your Intelligence. For each action that is contrary to their interests, the subject may make a saving throw to resist.
+
+##### Desert Spirit
+
+PURIFY (1): You purify a supply of food or water, removing toxins and dangerous pathogens.
+
+FARSIGHT (2): You expand your vision at will, as if you were using a pair of binoculars at high magnification or a microscope.
+
+MOUNT (3): You call to you a spirit that takes the form of a horse and can carry you away at the speed of a motor vehicle.
+
+DUST (4): Your body (and everything you wear) becomes a cloud of intangible dust. You can no longer interact with the physical world and vice versa. You can slip into narrow gaps.
+
+TORNADO (5): You deal 1d6 damage to all enemies in the area. In addition, they are pushed back several metres and fall to the ground.
+
+### Guide
+
+The orphist who awakens to magic understands that he is one with the universe and, at the heart of this universe, he finds a kindred spirit who will guide him and help him on the long initiatory path that will lead him to absolute unification, granting him special abilities and a disadvantage specific to his nature. You can ignore the effects of a disadvantage by spending a point of luck. If you are playing an orphist, choose a guide from the following list:
+
++-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Guide     | Advantage                                                                                                                                                                                                                                                | Disadvantage                                                                                                                                                        |
++:==========+:=========================================================================================================================================================================================================================================================+:====================================================================================================================================================================+
+| ANANKÉ    | You have a +4 bonus to resist poisons and diseases. Spend a luck point, you suddenly disappear, even before the eyes of witnesses.                                                                                                                       | You systematically avoid all conflicts and fights. You flee or find shelter. You only fight if your back is against the wall.                                       |
++-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ASCLÉPIOS | You have a +4 bonus to heal people. Spend a luck point, you restore all hit points to a person you touch.                                                                                                                                                | You enter a terrible rage when you, or a person you are protecting, fall to 0 hit points and suffer an injury. You then attack without regard for the consequences. |
++-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ATÉ       | You have a +4 bonus to sweet-talk/con people. By spending a luck point, you can palm, make disappear, and steal any object that fits in a pocket or bag, right under the noses of everyone who can see you.                                              | Every time you see an opportunity to make fun of someone or play a trick on them, even if it's a friend or to the detriment of your interests, you go for it.       |
++-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| BIA       | You have a +2 bonus to all attack and damage rolls in melee or at a distance. Spend a luck point, you inevitably have a useful item on you that you need immediately.                                                                                    | You have a taste for blood and you don't let go of prey until it is on the ground. Permanently.                                                                     |
++-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| CRATOS    | You have a +4 bonus to intimidate. Spend a luck point, you provoke a primal, irrational fear in a person.                                                                                                                                                | You leave no insult unpunished and you attack people when you feel offended.                                                                                        |
++-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ÉROS      | You have a +4 bonus in seduction. Spend a luck point, a person sexually attracted to you agrees to do you a favor. Any favor... or almost.                                                                                                               | You do not resist the temptation to indulge your vices and pleasures – drugs, sex, alcohol – whenever you have the opportunity.                                     |
++-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| FIDÈS     | You have a +4 bonus to your willpower rolls. You can spend a luck point and designate a person of your choice. You take all damage in their place for as long as you wish – furthermore, subtract 1d6 from the damage for each attack suffered this way. | You are stubbornly loyal, faithful to your friends. You cannot abandon or betray anyone, nor let someone sacrifice themselves in your place.                        |
++-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| GAÏA      | You have a +4 bonus to all your perception rolls. You can spend a luck point to make a technological object inoperative for a few seconds or minutes – it simply stops working.                                                                          | You are slightly allergic to atmospheric pollutants and easily get asthma when traffic peaks – which diminishes your athletic abilities.                            |
++-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| MNÉMOSYNE | You have a +4 bonus to lie and hide information. By spending a luck point, you know what you have to do to find ¥ quickly – all you have to do is get moving.                                                                                            | You don't like to negotiate. Things are your way or not at all. And that's it.                                                                                      |
++-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| MOÏRA     | You have a +4 bonus in empathy. Spend a luck point, you cancel any attack against one of your allies, and the attacker immediately takes 1d6 damage.                                                                                                     | You refuse to participate in any physical combat, but you stay to help and protect those who are attacked.                                                          |
++-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| NÉMÉSIS   | You have a +2 bonus to all attack and damage rolls in melee or at a distance. Spend a luck point, you know everything about your opponent, their strengths and weaknesses, and you can take advantage of it.                                             | You do not commit any dishonorable acts nor behave in a way that attracts opprobrium.                                                                               |
++-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| NIKÉ      | You have a +2 bonus to all attack and damage rolls in melee or at a distance. Spend a luck point, all your allies get a +4 bonus to their next roll.                                                                                                     | You never break a promise, by choice or accident, without paying a heavy price – you immediately suffer 1d3 injuries.                                               |
++-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| NYX       | You have a +4 bonus to read people's emotions. By spending a luck point, you immediately gain 2 ¥.                                                                                                                                                       | Every time you see an opportunity to exploit a situation or a person who shows the slightest weakness, you go for it.                                               |
++-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| OURANOS   | You have a +4 bonus to resist spells of all kinds. Spend a luck point, you automatically succeed on a die roll outside of combat.                                                                                                                        | Once a decision has been made, you stick to it no matter what. No improvising, ever!                                                                                |
++-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| PANDORE   | You have a +4 bonus in negotiation. Spend a luck point, you know the superficial thoughts of your interlocutor.                                                                                                                                          | You do not resist curiosity and the need to know, regardless of the risks.                                                                                          |
++-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| PROMÉTHÉE | You have a +4 bonus to tinker and repair things. Spend a luck point, you completely renovate a broken object by blowing gently on it – the pieces repair or stick back together on their own.                                                            | When you embrace a cause, you go all the way and are ready to sacrifice your life. Choose a cause.                                                                  |
++-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| SOPHIA    | You have a +4 bonus to all your stealth rolls. If you spend a luck point, Sophia can whisper a little secret in your ear concerning one of your interlocutors.                                                                                           | As long as you have not suffered direct damage, you do not attack your opponents, but you use various means to hinder, distract, divert them, etc.                  |
++-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| THANATOS  | You have a +4 bonus to all erudition (lore/knowledge) rolls. Spend a luck point, you ask a question to a corpse deceased for less than a day, and it answers you.                                                                                        | You are fragile. When an opponent rolls a 1 on the damage die, they can reroll the die and keep the new result.                                                     |
++-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ZÉLOS     | You have a +2 bonus to all attack and damage rolls in melee or at a distance. By spending a luck point, you instantly regain all your hit points.                                                                                                        | You never retreat and you never refuse a fight.                                                                                                                     |
++-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------+

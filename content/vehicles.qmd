@@ -1,0 +1,70 @@
+# Vehicles
+
+> They would have us believe that the word pleasure only expresses the satisfaction of a primitive impulse and that with it we lower ourselves to the rank of the animal. But this pleasure is ennobled when it responds to the same impulse if it is deformed, legalised, channelled by the culture in place, that is to say by being taught as civil and honest behaviour. However, this behaviour is also bestial, because the animal is like us capable of memory and learning. But a learned dog does not speak and therefore cannot find the excuse of value judgements to camouflage its unconscious automatisms.
+>
+> —Henri Laborit, In Praise of Flight
+
+Vehicles - civil and military, rolling or flying, drones or PSCs (Personal Assisted Combinations) - have several main functions:
+
+-   They are utilities designed to move or carry loads from one point to another;
+-   They are mobile tool platforms, carrying workshops, tools and sensors;
+-   They are targets and shelters.
+
+## Transportation
+
+The main feature of a vehicle is its overall design - you immediately recognise the use and capabilities of a combat armour, a van, a motorbike or a spy drone. So there's no need to go into detail about the number of seats available or the amount of cargo you can carry - everyone knows you don't load a sofa into the back of a two-seat, truck-sized electric vehicle (although you can still use the roof if you have straps).
+
+The second useful characteristic of a vehicle is its top speed - this determines how long it will take to get from one point to another, or whether it can escape a slower chaser. However, it is usually limited by traffic conditions, the nature of the roads or traffic regulations where they apply.
+
+1.  VERY SLOW: The speed of a running man, a trotting horse or a machine used for construction or maintenance.
+2.  SLOW: The speed of an electric city cart, a large tractor or a surveillance drone.
+3.  AVERAGE: The speed of a heavy road vehicle, a cargo truck or an entry-level civilian car.
+4.  FAST: The speed of a solidly powered road car or a good motorbike.
+5.  ULTRA-FAST: The speed of a fast and furious sports car, a civilian helicopter or a combat drone. Beyond that, it is not relevant to consider speed - we are talking about long journeys, in specialised vehicles (airliners, jets, combat aircraft, etc.).
+
+In the case of a chase, it is usually sufficient to compare the relative speeds of the vehicles - unless the chase is through the narrow streets of an old medieval city full of tourists: then size will certainly win out.
+
+## Platform
+
+The second function of a vehicle is to carry useful tools - sensors, weapons and other manipulator arms. See Vehicle Options (page 364) for more on this. Remember, though, that you can pack more stuff into a big truck than you can into a scooter, and that all of this can end up weighing a lot and therefore reducing the speed of a class.
+
+However, we are not proposing hard and fast rules on the subject - common sense will always suffice: no, a crane on the roof of a Ferrari will not lift a full skip of rubble!
+
+## Target and shelter
+
+The main problem a vehicle can face (apart from running out of fuel without a single petrol station in range - for breakdowns, consider the chapter on galleys, see page 237) is being targeted by another vehicle or any solid building in its path; or by gunfire or a missile dropped by a drone.
+
+A vehicle can take from 1 to 5 wounds - as a general rule, those used by the characters always have at least three wounds. Each hit or shot inflicts a wound. When the total is reached, the vehicle is out of service until it is repaired - or even destroyed.
+
+-   Collision: a vehicle that collides with an obstacle suffers a number of wounds corresponding to its current speed (1 for slow to 4 for ultra-fast). If the collision is frontal, add 1; if it is from the rear, subtract 1.
+-   Armour: A vehicle may have 'natural' armour. Armour indicates the type of firearms allowed to inflict injury on vehicles and the damage reduction offered to characters inside or behind the vehicle - it does not take into account the possibility of a vehicle exploding with its occupants: for this, there is Interflora (to order flowers).
+
++--------------+---------------------------------+------------------------------------+-------------------------------------+
+| Armor        | Damage reduction for passengers | Minimum caliber                    | Examples                            |
++:=============+:================================+:===================================+:====================================+
+| None         | 0                               | All firearms and other projectiles | Motorbikes, scooters, convertibles  |
++--------------+---------------------------------+------------------------------------+-------------------------------------+
+| Slight       | 1d6                             | All firearms                       | Civilian vehicles                   |
++--------------+---------------------------------+------------------------------------+-------------------------------------+
+| Medium       | 2d6                             | Assault rifles as a minimum        | Security or heavy civilian vehicles |
++--------------+---------------------------------+------------------------------------+-------------------------------------+
+| Heavy        | 3d6                             | Heavy guns, rockets and missiles   | Military vehicles                   |
++--------------+---------------------------------+------------------------------------+-------------------------------------+
+
+-   Physical defence: a vehicle has a physical defence of 7 when stationary and 11 when moving. If the vehicle is very fast, add 2 to the defence. If you are targeting passengers, add 4 to the defence, plus their own protection bonus - 15 to hit the driver of a fleeing vehicle!
+-   Damage: A hit to the target automatically inflicts injury to the vehicle - exploding tyres, bodywork with holes in it, engine losing hoses, etc. There is no calculation of damage. If it hits with enough calibre, it breaks stuff.
+
+## Driving
+
+Generally speaking, driving a vehicle is a Dexterity or Intelligence roll (or even a Constitution roll to drive three days in a row through the desert landscape of the Great West). Only make rolls to avoid obstacles or problems that arise. A normal driver can only take one action per turn, with no extra manoeuvres or bonus actions due to initiative.
+
+## Interface
+
+A character with a neural implant can wire directly to a machine or vehicle - CPAs, rolling and flying civilian and military vehicles, drones, etc. - in order to gain a +2 bonus to all their pilot rolls and access to certain interfaced equipment.
+
+## Riggers
+
+Rigger characters also have a unique ability, transfer: when they interface with a vehicle, they become the vehicle. Here are the specific rules:
+
+-   You act with the vehicle as if you were it - including fighting, moving, etc. You have one action and one manoeuvre per turn and get initiative bonuses.
+-   In combat, the vehicle has a number of hit points equal to your personal hit point total and can take an additional wound - a hit loses hit points before inflicting wounds. Alternatively, you can choose to take wounds instead of your vehicle if you are on board.

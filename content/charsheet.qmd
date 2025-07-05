@@ -1,4 +1,8 @@
 Character sheet
 ===============
 
+::: callout-warning
+This is a work in progress. It is not yet complete.
+:::
+
 This is a character sheet for nanoChrome².

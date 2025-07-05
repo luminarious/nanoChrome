@@ -1,0 +1,400 @@
+# Catalogues
+
+> Because in our system, it is simply unthinkable! All we know is the accumulation of capital. You know how it works: the rich get richer and the poor get poorer. There is no word or expression in the language to describe the opposite process. Proof, if any were needed, of the emptiness of our imagination. Once or twice I have come across the expression 'De-accumulation of capital', but applied to some kind of accident or mistake, and that is not what I have in mind. I'm talking about a deliberate, positive action. I've tried to call it capital dispersion - scattering of capital… You see the problem. It sounds wrong, even in the language. Redistribution of profits… you see how all the terms at our disposal for this describe actions which come after the accumulation of capital. Dispersing capital at the precise moment of its creation - it sounds almost contradictory, actually, and in a way it is; in our system there is no word or theory to explain the dispersal of capital without obligation of some kind. Pre-emption of dividends? Usufruct? I leave it to the bloggers to look up, as an exercise, the most appropriate term."
+>
+> —Kim Stanley Robinson, 60 Days Later.
+
+## Augmentations
+
+You can spend ¥ to buy cybernetic augmentations: neuronic, nanogenetic, panoptic, prosthetic or reinforcement. The basic implant costs ¥12. Each additional option for a given augmentation costs ¥4. Some options require a \[prerequisite\] listed in its description.
+
+You may not have more augmentations than your Constitution rank, but you may buy as many options as your Constitution rank. you may purchase as many options as you you wish.
+
+::: callout-note
+## Cyberpsychosis
+
+The human mind is not hard-wired to handle major bodily changes - you quickly get used to your physical body. When you abuse cybernetics, beyond the natural limit set by your Constitution rank, you run the risk of permanently blowing a fuse. At any moment, the game leader can take control of your character - a bit like a galley, but worse (and without the XP). And then anything can happen: blackouts, memory loss, ghost hacking, psychotic episodes, akashic hallucinations, irrepressible violent outbursts, amok, catatonia, etc. It's up to you if you want to end up like one of those shaking cyborgs, reduced to the state of trunk-men and stripped, for reasons of public safety, of all their cybernetics.
+:::
+
+### Neuronic
+
+Neural Plug: You can operate any equipment with a neural plug to improve its efficiency. Generally, you get a +2 bonus on all associated rolls (indicated on the equipment), but it can also be a simple prerequisite to operate the equipment.
+
+-   AFFINITY: You mentally communicate with other people who have this option and whose identifiers you possess.
+-   MATRIX WIRING \*: You gain 1 additional connection point (max 3).
+-   SMART EXTERNAL CABLES: The connection cables unroll and plug themselves in automatically.
+-   EMOTION CONTROL: You have hormonal suppressors that allow you to limit or suppress certain strong emotions.
+-   TEMPORAL SHUNT: You trigger ultra-fast temporal loops that allow you to make very complex decisions in a fraction of a second as if you had several minutes to do so. Once per cycle, spend 5 connection points and replay an entire conflict round – for you and your comrades.
+-   PAIN INHIBITOR \*: You ignore injury penalties for one scene per cycle.
+-   HIDDEN MEMORY: You hide information and erase it from normal memory until a trigger restores it.
+-   LOGIC PROCESSOR: You have a +4 bonus to analyze documents or situations.
+-   CORTICAL REDUNDANCY: Certain areas of your brain have been duplicated to protect them in other parts of your body – if you are pulverized by a high-powered weapon or an explosion, roll 1d6. On a 4+, your brain is found intact.
+-   STRESS REDUCER \*: Once per cycle, you automatically succeed on a social action of your choice.
+-   WIRED REFLEXES: You have a +1 bonus to defense and +1d6 to initiative.
+-   EMOTIONAL STABILIZER \*: You have an additional luck point per cycle (max 3).
+
+### Nanogenetic
+
+Regeneration: by spending one point of luck, you recover all your hit points.
+
+-   TRAUMA DAMPER \*: You cancel one injury per cycle when you fall to 0 hit points.
+-   HYDRA GENOBLASTS \*: Once per scene, recover 5 hit points.
+-   TOTIPOTENT GENOBLASTS: You have 5 additional hit points.
+-   REJUVENATION: You gain ten years of life expectancy per treatment.
+    -   BODY ADJUSTMENT: Allows modification of certain appearance elements within reasonable limits (hair color, eye color, height, general morphology, etc.).
+    -   METABOLIC SCREEN: Prevents excessive weight gain or loss.
+    -   ONKOS SCREEN: Protects the organism from tumors and cancerous cells and allows working in high-radiation environments.
+    -   TRAUMA ERASER: Erases scars, tattoos, and body marks.
+    -   TOX CLEANSE: Cleanses the organism of carcinogenic and biological toxins.
+-   ENDOCRINE MODIFICATION: You have additional endocrine glands that provide you with special abilities. You always make an initiative roll even when surprised.
+    -   EMPATHY: You have a +4 bonus to read emotions and detect lies.
+    -   NANOCONDUCTOR: You are insensitive to the effects of electricity – your body conducts it without damage.
+    -   PREMONITIONS: Your brain infers intuitive connections from sparse information. Once per cycle, ask the game master a question about an imminent event or determine it yourself at your convenience.
+    -   PYROKINESIS: You develop pyro-kinetic epithelial cells capable of creating fire – as if you had a gas burner in the palm of your hand.
+
+### Panoptic
+
+Enhanced senses: you have a +4 bonus to all perception rolls.
+
+-   SENSORY DAMPENERS: Dampens sudden violent noises (flashbang) or permanent ones (engines/reactors).
+-   LIGHT AMPLIFIER: Gives you night vision.
+-   SOUND AMPLIFIER: Increases the range and precision of hearing.
+-   CHEMICAL ANALYZER: You have a rudimentary analysis laboratory in your taste buds and nose.
+-   EXTENDED AUDITORY RANGE: You hear infrasound and ultrasound.
+-   RADIATION DETECTOR: So as not to be caught by surprise.
+-   SOUND EDITOR: You sort sound sources in real-time.
+-   BALANCE: You no longer suffer from motion sickness or vertigo…
+-   SYNESTHETIC RECORDER: You have sensors and detectors all over your body allowing for the complete recording of your sensations and environment for later playback as a synesthetic stream.
+    -   EMOTIONAL IMPLANT: Adds sensations and emotions to the recording.
+    -   SENSORY IMPLANT: Adds the senses of touch and smell to the recording.
+-   INFRARED: You see in the infrared spectrum.
+-   ELECTROMAGNETIC READER: You read and decrypt electromagnetic signals.
+-   PHOTOGRAPHIC MEMORY \*: You record the details of one scene at a time in a specific limbic memory.
+-   DIRECTIONAL MICROPHONE: You have a long-range directional microphone.
+-   ISOTHERMAL PROBE: You perceive thermoclines in the environment.
+-   RADAR SENSOR: You perceive radar waves and analyze them.
+-   ULTRAVIOLET: You see in the ultraviolet spectrum.
+-   ZOOM: Vision magnification.
+    -   HIGH-DEFINITION VISION: You have enhanced vision to capture small details at a distance or see the microscopic.
+
+### Prosthetic
+
+Power: You have a +2 bonus to all strength work, endurance or athletics tests, etc. Choose a specific body replacement - Woven Skin, Lower Limbs, Upper Limbs, Bone Replacement - and note the associated bonus.
+
+-   WOVEN SKIN: You have a +1 bonus to defense.
+-   DERMAL DISPLAY: \[Woven Skin\] Allows displaying messages or videos on the skin.
+-   THERMO-OPTICAL CAMOUFLAGE: \[Woven Skin\] Chameleon-like, but nude.
+-   MOTION SENSORS: \[Woven Skin\] Like fish or certain snakes over a few meters.
+-   DERMAL PAINT: \[Woven Skin\] Change skin color at will.
+-   FLASHDERM \*: \[Woven Skin\] A portion of the skin (usually in the palm of the hand or on the forehead) emits a high-power light flash, once per cycle, equivalent to a flash grenade.
+-   NICTITATING MEMBRANE: \[Woven Skin\] Transparent membrane that protects the eyes against external aggressions (dust, acids, toxins, tear gas, etc.).
+-   PHOTODERM: \[Woven Skin\] A portion of the skin (usually in the palm of the hand or on the forehead) emits a directional light equivalent to that of a high-power flashlight.
+-   DERMAL PLATES: \[Woven Skin\] You have a +1 bonus to defense.
+-   SUBDERMAL POUCH: \[Woven Skin\] You possess a flat storage compartment with a waterproof seal.
+-   ANTI-RADIATION PROTECTION: \[Woven Skin\] Protects against radiation for several tens of minutes.
+-   SOLAR REGULATION: \[Woven Skin\] To avoid sunburn by adapting the amount of melanin.
+-   THERMAL REGULATION: \[Woven Skin\] Withstands very low and very high temperatures for several tens of minutes.
+-   PROTECTIVE SEALS: \[Woven Skin\] Seals bodily orifices in case of emergency.
+-   HEIGHTENED TACTILE SENSITIVITY: \[Woven Skin\] You have a +4 bonus to all specific tests.
+-   AUTOMATIC SUTURES: \[Woven Skin\] Automatically closes wounds and compresses limbs in case of hemorrhage. Once per cycle, when you fall to 0 hit points, you immediately regain 5.
+-   SPECIAL TEXTURES: \[Woven Skin\] Fur, feathers, or scales option.
+-   LOWER LIMBS: Your lower limbs are cybernetic prosthetics. You have a +1d6 bonus to initiative.
+-   ACCELERATION: \[Lower Limbs\] You have a +1 bonus to defense in melee combat.
+-   JUMP ABSORBERS: \[Lower Limbs\] You can absorb falls from up to six meters in height.
+-   KINETIC ASSISTANCE: \[Lower Limbs\] You run faster and leap farther than a normal human.
+-   HIDDEN COMPARTMENT: You possess a compartment for storing small objects.
+-   ANCHORING HOOKS: \[Lower Limbs\] Hooks spring from the heel and sole of the feet to anchor securely in the ground, considerably increasing grip strength.
+-   FLIPPERS: \[Lower Limbs\] You have a +4 bonus to swim.
+-   UPPER LIMBS: Your upper limbs are cybernetic prosthetics. You have a +2 bonus to all Strength rolls outside of combat.
+-   INTEGRATED FIREARM: \[Upper Limbs\] A firearm is integrated into the forearm or shoulder. You can spend cybernetic option points to improve it.
+-   ELECTRIC SHOCK \*: \[Upper Limbs\] Once per combat, you deliver an electric shock on touch, adding 1d6 to the damage of a melee attack.
+-   IMPACTORS: \[Upper Limbs\] You have a +2 bonus to melee damage.
+-   BLADES: \[Upper Limbs\] A melee weapon is integrated into the forearm or shoulder. You can spend cybernetic option points to improve it.
+-   FRACTAL HAND: \[Upper Limbs\] The epidermis of the fingers unfolds in a fractal form, considerably increasing the precision of gestures and granting a +2 bonus to all rolls requiring fine manipulation.
+-   TOOL HAND: \[Upper Limbs\] The hand or fingers can transform into various common tools useful for all repairs or equipment maintenance.
+-   SPECIALIZED TOOL HAND: \[Upper Limbs\] The hand possesses specialized tools in a field – medicine, electrotechnical maintenance, mechanics, etc. – giving a +4 bonus to all rolls in that field.
+-   PILLOW: \[Upper Limbs\] An inflatable pillow in the arm, for sleeping in complete comfort.
+-   SUPERIOR STRENGTH: \[Upper Limbs\] You have an additional +2 bonus for all Strength actions.
+-   REINFORCEMENTS: \[Upper Limbs\] You can parry melee attacks with your arm and gain a +1 bonus to defense in melee.
+-   BONE REPLACEMENT: You have 5 additional hit points.
+-   REINFORCED SPINE: \[Bone Replacement\] To resist shocks, whiplash, and other more or less involuntary torsions.
+-   CERAMIC TEETH: \[Bone Replacement\] You can cut almost any material with your teeth.
+-   SONAR IMPLANT: \[Bone Replacement\] You use your skeleton to receive sonar waves and analyze them.
+-   INVISIBILITY (SKELETAL): \[Bone Replacement\] The skeleton is invisible to X-rays, radar, and other magnetic resonance detection.
+-   MANDIBLES: \[Bone Replacement\] Addition of prehensile mandibles on each side of the mouth.
+-   DYNAMIC FACIAL MODIFICATIONS: \[Bone Replacement\] Programmable and painful change of facial shape (one injury per use).
+-   DIAMOND NAILS: \[Bone Replacement\] Cut glass and most synthetic materials.
+-   TAIL: \[Bone Replacement\] To run faster and maintain balance – you have a +2 bonus when appropriate.
+-   PREHENSILE TAIL: \[Bone Replacement\] You can manipulate objects.
+
+### Reinforcement
+
+Toughness: You have 10 extra hit points.
+
+-   ELECTRIC SHOCK ABSORBER: Avoids untimely fibrillations in case of electric shock.
+-   ANTI-PATHOGEN BARRIER: To avoid poisoning linked to immersion in polluted waters.
+-   GILLS: Allows breathing underwater.
+-   HIDDEN COMPARTMENT: A compartment for storing things.
+-   METABOLISM CONTROL: To survive with less food and water or, conversely, to absorb enormous quantities of food without issue.
+-   EMETIC CONTROL: Prevents nausea and vomiting reflexes (seasickness, space sickness, etc.) or induces them (in case of poisoning, for example).
+-   ADAPTIVE DIGESTION: To consume non-human food (raw meat, woody plants, strange berries, etc.).
+-   DOUBLE HEART: A backup heart, located in the iliac fossa, which compensates for the deficiencies of the first. You have 5 additional hit points.
+-   NASAL FILTERS: Filters toxic gases and fumes.
+-   BLOOD FILTERS: Filters poisons.
+-   AUTOMATIC PLEURAL REPAIR: Repairs pneumothoraxes. You have a +1 bonus to defense against ranged attacks.
+-   OXYGEN RESERVE: Cells slowly release oxygen into the lungs when it is impossible to breathe otherwise, allowing you to last for several tens of minutes.
+-   RESERVES: To survive without food or water.
+-   SEALS: To completely close the digestive tract at both ends.
+-   AUTOMATIC STIMULATION: Allows restarting the heart when it stops. Once per cycle, when you fall to 0 hit points, you immediately regain 5.
+-   SEXUAL ORGANS: You have complete contraceptive control as well as the most common anti-STD filters. Most sexual options can be activated and deactivated at will.
+-   CASTRATION: \[Sexual Organs\] Complete neutralization of the area and disappearance of sexual tensions.
+-   COBRA: \[Sexual Organs\] Articulated weapon concealed in the penis or vagina, for a surprise melee attack.
+-   ERECTION CONTROL: \[Sexual Organs\] Complete control of erection and ejaculation, as well as optimal sex organ size based on partner's responses.
+-   EXPLOSIVE GONADS: \[Sexual Organs\] Replacement of a testicle with explosives.
+-   VARIANT HERMAPHRODITE: \[Sexual Organs\] Allows switching from one sex to another in a few minutes (sometimes a bit painful). Each sex is fully functional.
+-   LIQUID PHEROMONES: \[Sexual Organs\] Released during sexual intercourse to increase the partner's pleasure.
+-   HEIGHTENED URGES: \[Sexual Organs\] Increased needs. +2 bonus to all seduction rolls in pursuit/seduction circumstances.
+-   CONTROLLED URGES: \[Sexual Organs\] Decreased needs. +4 bonus to resist seduction or manipulation attempts.
+
+## Weapons
+
+> You and I both know that violence is like a drug. You come back for a shot and you regret it immediately. But you can't help it, can you?
+>
+> —Maxime Chattam, The Primal Conjuration
+
+You can modify your weapons and armour to give them special abilities. In addition, there are several types of projectiles for weapons - for the record, the vast majority of weapons now use caseless ammunition and electric firing systems that allow for a higher rate of fire.
+
+### Firearms
+
+Each option costs ¥4. Options marked with an \* can be taken more than once.
+
+-   TARGET LOCK: The character must aim for a full turn, without being hindered or having to move. The weapon records up to three targets in its aiming memory. On the following turn, the character can make up to three successive shots.
+-   VERSATILE CHAMBERING: The weapon accepts special ammunition of all types.
+-   DISCREET: The weapon is particularly discreet and reduces its discretion category by one level.
+-   IFF: If the character's allies have an IFF (Identification Friend or Foe) interface on their protection, it is impossible to target them by mistake. The weapon automatically blocks the shot, even during a burst fire.
+-   IMPACT \*: You have a +1 bonus to damage (maximum +3).
+-   INTERFACED: [Neuronic] The weapon is interfaced with the character's neural wiring. Attack +2.
+-   LONG RANGE: You have no attack penalty at long distance.
+-   MENACING: You have a +2 bonus to intimidation against people who only understand force.
+-   VOCAL MULTI-LOADER: \[Versatile Chambering\] This option allows firing different ammunition types within the same turn. Vocal sensitivity is adjustable for infiltration missions and only reacts to your voice signature.
+-   PRECISION: You have a +2 bonus to attack.
+-   SECURED: Only people whose genetic code is registered and encoded in the grip can activate the weapon.
+-   SILENCED: Firing this weapon does not get you spotted when no one is too close to the detonation or, conversely, when there is a lot of noise around.
+-   BURST FIRE: You can engage multiple opponents within range in the same action. The defense of the strongest target is increased by +1 per additional target. All hit targets suffer the same damage.
+-   RAPID FIRE: \[Interfaced\] You can make an additional shot in the turn by spending one connection point.
+-   LASER SIGHT: The weapon has a laser sight. Precision +1. This option is useless if the weapon is interfaced.
+
+### Ammunition
+
+Special ammunition costs connection points which you spend for each combat. However, once the cost is paid, you can use the ammunition for the duration of the fight.
+
+| AMMUNITION | COST | EFFECTS |
+|----|----|----|
+| SELF-GUIDED | 2 | These are actually self-propelled micro-missiles that the weapon guides to the target or that are locked on by geolocation (via the matrix), infrared signal, or laser pointing by an ally in position. Accuracy +2 or +0 against targets hidden behind obstacles. |
+| SHOCK | 1 | This non-lethal ammunition cannot kill its target but only render it powerless. |
+| EMP | 7 | Electromagnetic discharges are waves that disrupt or destroy electronic equipment. Security services are often armed with EMP pistols to stop coders, cyborgs, and terrorists of all kinds. EMP ammunition is quite terrifying and therefore highly controlled. It is quite difficult to obtain because it can very easily bring very expensive equipment to its knees. Apply the EMP effects based on the damage die as explained below. |
+| EXPANDING | 1 | Expanding ammunition is particularly useful against unprotected targets (damage +2) and objects. |
+| DARTS | 3 | Darts can contain doses of toxins that can cause specific effects. Apply the effects of the darts based on the damage die as explained below. |
+| ARMOR-PIERCING | 2 | This ammunition ignores the defense bonuses from protections, but inflicts -3 damage. |
+
+EMP ammunition or darts do not deal damage to hit points. You simply read the result of the damage die, with any bonuses, and apply the effects shown in the table opposite.
+
++----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+
+| DAMAGE               | EMP                                                                                                                                                                                                                | DART (TRANQUILIZER)                                                                        |
++:=====================+:===================================================================================================================================================================================================================+:===========================================================================================+
+| **1**                | The discharge causes no real damage to the equipment, apart from a very temporary minor overheating.                                                                                                               | The dart catches on clothing and does nothing.                                             |
++----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+
+| **2 - 3**            | The equipment stops working for one turn. If the equipment is vital, the character falls to the ground and cannot act.                                                                                             | The target is stunned. They have a -2 penalty on all their actions until they can rest.    |
++----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+
+| **4**                | The equipment stops working for the rest of the scene or until it can be restarted.                                                                                                                                | The target is nauseous. They only roll two dice for all their actions until they can rest. |
++----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+
+| **5**                | The equipment stops working for the rest of the cycle and it will cost at least 4 ¥ to repair everything.                                                                                                          | Same.                                                                                      |
++----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+
+| **6 or more**        | The equipment is permanently destroyed and stops functioning. The destruction of vital equipment (cybernetic enhancements, for example) can lead to death. In any case, everything must be replaced at full price. | The target falls unconscious.                                                              |
++----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+
+
+::: callout-note
+## Caseless ammunition
+
+The principle of caseless ammunition is to eliminate the casing that contains the primer, the explosive, and the bullet. These three elements are now held together by a binding agent. Most caseless ammunition, intended for electric weapons, has even replaced the primer and the explosive with a chemical propellant agent.
+
+While weapons with traditional chambered ammunition still exist, most armies, security services, and corporate forces now use caseless ammunition. The logistics, shape, and use of caseless weapons have considerably changed the habits of shooters.
+
+After the first unsuccessful tests at the end of the 20th century by the firm H&K in Germany, several companies took an interest in caseless ammunition until they obtained a stable formula that largely eliminated the flaws of the early models. It is the descendants of this ammunition that you now use in nanoChrome.
+
+Caseless ammunition has multiple advantages—and most of the disadvantages have been corrected. With the casing gone, there is no longer a need to eject it. Weapons therefore only have five mechanical operations to perform to load and fire, instead of seven for classic weapons. The rate of fire has thus been able to increase significantly. Furthermore, the weapons can be sealed against humidity, mold, and dust. Finally, they are now available for left-handed and right-handed users without additional modifications—which used to increase production and design costs. Caseless ammunition is particularly valued for vehicle-mounted weapons.
+
+Lighter and cheaper to manufacture, caseless ammunition has undeniable advantages for armed forces: more can be carried for the same weight, allowing for longer missions and less substantial supply lines. Moreover, their rectangular shape (which can be surprising) allows them to be stored more efficiently, to avoid friction problems in magazines, and to obtain more powerful propellant charges in more limited sizes.
+
+The problems of recoil (compression gases were poorly eliminated), heat (the casings carried away part of the heat upon their ejection), and durability (the first ammunition models handled the stress of combat and extreme conditions poorly) have been successfully resolved over the last thirty years. To claim that a caseless weapon is less reliable than a classic weapon is today the same kind of myth as the one that made people prefer revolvers over pistols at the end of the 20th century.
+
+Nevertheless, two different designs compete: on one hand, weapons that rely on a mechanical system with ammunition comprising a primer and an explosive; on the other hand, weapons that rely on an electrical system with chemical ammunition.
+
+Many believe the former are still the most reliable. Mechanical systems no longer jam since the casings were eliminated from the equation. They are, however, a little heavier and slower than their electrical competitors.
+
+The latter have a bad reputation due to several incidents of insufficient charge that have been costly for unprepared individuals. Nevertheless, they are lighter and faster and often have much more interesting looks, with comprehensive options for aiming and ballistic tracking.
+
+And looks count, don't they?
+:::
+
+### Melee
+
+Each option costs ¥4. Options marked with \* can be taken more than once.
+
+-   ELECTRIC SHOCK \*: Once per combat, when you make a melee attack, add 1d6 to the damage you inflict.
+-   VIBROBLADE: The blade can generate an ultrasonic vibration that destroys physical structures or destabilises them.
+-   DISCREET: The weapon is particularly discreet and reduces its discretion category by one level.
+-   IMPACT \*: You have a +2 bonus to damage (maximum +6).
+-   INTERFACED: [Neuronic] The weapon is interfaced with the character's neural wiring. Attack +2.
+-   SHAPE MEMORY: The nanomachines that constitute the blade retract into a reservoir located in the hilt, for reduced encumbrance. The nano-blade has no sheath and is easily stored in a coat or bag. However, it takes a full turn for the blade to deploy completely.
+-   MENACING: You have a +2 bonus to intimidation against people who only understand force.
+-   PRECISION: You have a +2 bonus to attack.
+-   PRESTIGIOUS: You have a +2 bonus for social relations with people who admire style – provided the weapon is visible.
+-   SECURED: Only people whose genetic code is registered and encoded in the grip can activate the weapon.
+
+## Armour
+
+There are two types of personal protection:
+
+-   Civilian protections are invisible, easy to put on and maintain. And above all, they are allowed everywhere.
+-   Tactical protection is much heavier and more visible, with attachments for weapons and equipment. Without the appropriate credentials, carrying around tactical armour is the best way to end up at the station for a thorough check.
+
+Each option costs ¥4. Options marked with an \* can be taken more than once.
+
+-   AUTO-INJECTOR \*: Once per cycle, if you fall to 0 hit points, you immediately regain 5.
+-   ELECTRIC SHOCK \*: Once per combat, when you make a melee attack, add 1d6 to the damage you inflict.
+-   DISCREET: The protection (armour) is particularly discreet and reduces its discretion category by one level.
+-   IFF: Your armour has an IFF (Identification Friend or Foe) system. If activated, your allies cannot shoot you, voluntarily or by mistake.
+-   INTERFACED: [Neuronic] The armour is interfaced. You permanently receive information about your health status and your environment. You have a +2 bonus to perception.
+-   SHAPE MEMORY: The armour is particularly adapted to your physiognomy. You have a +1 bonus to defence.
+-   REINFORCEMENTS: You have 5 additional hit points. You cannot choose the Discreet option.
+-   VITAL SUPPORT \*: Pressure point systems and automatic ligatures cancel one injury per cycle (max 3).
+
+## Vehicles
+
+### CPA (PERSONAL POWER SUIT)
+
+CPAs are powered armour, mechas about three metres high, controlled by a pilot in an inner cockpit and possibly interfaced to the aircraft. Each CPA also has an autonomous nexus that assists and advises the pilot in his tasks, while making all the necessary micro-adjustments in real time - these assistants often end up with a unique name and personality, which makes them stand out to their owners.
+
+You can act inside a CPA in the same way as if you were on foot - including fighting, running, jumping, etc. Of course, the size and mass of the craft gives you some advantages or disadvantages depending on the circumstances.
+
+A basic APC grants a +2 bonus to defence, grants a +5 bonus to damage from all attacks and can take three wounds.
+
+Unarmed and unarmoured APCs are considered civilian or work vehicles and are therefore perfectly legal. Combat APCs are reserved for security services.
+
+Each option costs ¥4. Options marked with an \* can be taken more than once.
+
+-   ACCELERATION \*: The CPA can move at higher speeds. Factory-standard, a CPA is very slow. Each rank of acceleration allows it to change category (slow, medium, fast, ultra-fast).
+-   ANTI-SHOCK: The CPA ignores the effects of injuries. If it is "killed," the CPA is simply immobilized for the rest of the combat and can be repaired. Without this option, the CPA is destroyed and good for scrap.
+-   ARMAMENT: The CPA has a weapon. Refer to the weapon lists (melee and ranged) to choose specific options.
+-   PILOTING ASSISTANCE \*: You have a +2 bonus for all movements with a CPA.
+-   ARMOR PLATING \*: The factory-standard CPA has no armour plating. Each option allows gaining an armour rank (light, medium, heavy) – be aware, medium and heavy armour plating are generally subject to authorisation and considered military equipment (see page 171).
+-   EMP PROTECTION \*: Each protection option allows you to cancel one EMP effect per cycle.
+-   JUMPS: The CPA has thrusters allowing it to make jumps of several tens of meters.
+-   ENVIRONMENTAL SEALS \*: The cockpit protects the pilot against extreme external conditions (vacuum, cold, heat, toxins, radiation, etc) for 12 hours. You can take this option multiple times to increase the duration by 6 hours.
+-   SENSORS: Each sensor point allows acquiring a specific system: thermographic vision, X-ray vision, night vision, motion detector, range increase, etc) Refer to the panoptic list (cybernetics) to choose specific options.
+-   SOLIDITY \*: The CPA can withstand an additional injury.
+-   SUPERIOR POWER: The CPA gives a +4 bonus to all raw power actions. It can lift considerable masses.
+
+### Civilian vehicles
+
+You have a civilian vehicle with all the necessary authorisations to pass corporate checkpoints.
+
+A vehicle operated by a character can take up to 3 wounds before being destroyed. Other vehicles can usually take 1-5 wounds depending on their size and strength.
+
+Each option costs ¥4. Options marked with an \* can be taken more than once.
+
+-   ACCELERATION \*: Each rank of acceleration allows the vehicle to change category (slow, medium, fast, very fast).
+-   ARMAMENT: The vehicle has a weapon. Refer to the ranged weapon lists to choose specific options.
+-   CONCEALED ARMAMENT: \[Armament\] The weapon is concealed when not activated.
+-   MEDICAL ASSISTANCE: The vehicle has a few medical injectors that restore 5 hit points, once per cycle, if you fall out of combat at the controls.
+-   AUTOPILOT: The vehicle is equipped with a nexus capable of piloting itself under normal conditions.
+-   REINFORCED ARMOR \*: Vehicles generally have light armour or no particular armour. Each time you take this option, increase the armour by one rank (light, medium, heavy) – be aware, medium and heavy armour are generally subject to authorisation and considered military equipment (see page 171).
+-   STEALTHY: The vehicle is discreet and offers a +2 bonus to avoid electronic detection.
+-   NANOCAMOUFLAGE: The vehicle can change colour and visual identification in real-time, according to patterns stored in its memory.
+-   EMP PROTECTION \*: The equipment is protected against EMP discharges once per cycle.
+-   ENVIRONMENTAL SEALS \*: The cockpit protects the pilot against extreme external conditions (vacuum, cold, heat, toxins, radiation, etc) for 12 hours. You can take this option multiple times to increase the duration by 6 hours.
+-   CARGO HOLD \*: You have a bit more space to store equipment or goods. The number of cargo holds you choose can have a significant effect on the vehicle's shape and size.
+-   STYLISH: The vehicle has style. You have a +2 bonus when dealing with urban tribes or vehicle enthusiasts when you are within range.
+
+### Drones
+
+Drones are small autonomous modules of varying size, capable of performing multiple useful tasks depending on their specificity and controlled via the matrix (or, more rarely, by radio control). You can add various options to them for ¥4. Options marked with \* can be taken more than once.
+
+-   ACCELERATION \*: Each rank of acceleration allows the drone to change category (slow, medium, fast, very fast).
+-   ARMAMENT: The drone has a weapon. Refer to the ranged weapon lists to choose specific options.
+-   CONCEALED ARMAMENT: \[Armament\] The weapon is concealed when not activated.
+-   AUTOPILOT: The drone is equipped with a nexus capable of piloting itself under normal conditions.
+-   REINFORCED ARMOR \*: Drones generally have light armour or no particular armour. Each time you take this option, increase the armour by one rank (light, medium, heavy) – be aware, medium and heavy armour are generally subject to authorisation and considered military equipment (see page 171).
+-   STEALTHY: The drone is discreet and offers a +2 bonus to avoid electronic detection.
+-   MOVEMENT MODE \*: The drone adds a type of movement in addition to the one initially planned (aerial, terrestrial, amphibious). It takes one action to switch from one locomotion mode to another.
+-   NANOCAMOUFLAGE: The drone can change colour and visual identification in real-time, according to patterns stored in its memory.
+-   EMP PROTECTION \*: The equipment is protected against EMP discharges once per cycle.
+-   SENSORS: Each sensor point allows acquiring a specific system: thermographic vision, X-ray vision, night vision, motion detector, range increase, etc) Refer to the panoptic list (cybernetics) to choose specific options.
+-   SOLIDITY: The drone can withstand an additional injury.
+
++-------------+------------------+--------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| DRONE TYPE  | SPEED            | WOUNDS | FUNCTIONS                                                                                                                                                                                                                               |
++:============+:=================+:=======+:========================================================================================================================================================================================================================================+
+| COMBATANT   | Flight/Fast      | 3      | The combatant is an agile drone armed with ranged weapons. By default, it carries the equivalent of an assault rifle and offers a +2 defense bonus to a wired individual.                                                               |
++-------------+------------------+--------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| SPY         | Flight/Very Slow | 1      | The spy is a minuscule drone, transparent to most detection systems (concealed, +4 bonus to stealth) and equipped with multiple panoptic options (microphones and cameras primarily). However, due to its size, it is slow and fragile. |
++-------------+------------------+--------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| MANIPULATOR | Flight/Slow      | 4      | Very solid and resistant, the manipulator is equipped with multiple tools and manipulator arms, including a fractal hand for fine remote operations. It is a rather imposing and heavy drone.                                           |
++-------------+------------------+--------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| PATROLLER   | Flight/Medium    | 2      | The patroller is a versatile surveillance drone, generally used for area reconnaissance (+4 bonus to perception and vigilance).                                                                                                         |
++-------------+------------------+--------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| TRANSPORTER | Flight/Fast      | 2      | The transporter is designed for carrying more or less heavy goods in an armoured and secure compartment. Practical for bringing equipment to a team in difficulty.                                                                      |
++-------------+------------------+--------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: Drone types {#tbl-drone-types}
+
+## Accelerators
+
+> "Drug abuse is not a disease; it is a decision, just like driving down the street in front of a speeding car. It is not called a disease, but an error in judgment."
+>
+> —Philip K. Dick, Dead Substance
+
+Accelerators are combat nanodrugs that have fallen into the public domain by force of circumstance. They are not particularly recreational drugs, although they can sometimes get you high, but tools that techmercs use and abuse. Fortunately, the problems of addiction are mainly psychological.
+
+You cannot combine the effects of two different accelerators at the same time.
+
+A character can consume accelerators at will without spending ¥, but suffers the negative side effects. If he chooses to spend ¥1 to buy a dose of accelerator, he can ignore the side effects - he knows the right addresses and has access to good stuff.
+
+Beware: some corporations prohibit the use of drugs by their employees and operate frequent controls. Also, while you can walk around with a dose or two on you, the police take a very dim view of suitcases full of drugs…
+
+CAROLINE SAYS: Drugs kill all the emotions you might feel. You become cold as death, insensitive to love, hate, anger, joy or sadness. You gain a +2 bonus to all rolls requiring concentration and detachment, including holding a target in its scope. On the other hand, you have an equivalent penalty on all rolls involving social interaction.
+
+CHELSEA GIRL: You begin to see life in a slightly different light. Each of your eyes adapts to a different vision: one sees virtual reality, the other unvarnished reality. You mix the two perceptions for three hours and fifteen minutes. Afterwards, you may note an injury to yourself - the human mind is not designed to withstand such an ordeal.
+
+DIRTY BOULEVARD: This is pure high. You turn your head upside down and forget your worries and the darkness of the world. You with a general malus of -4 to all actions throughout the day and night - you stammer and drool like an incomprehensible acid-addled pithecanthrope. During the next day, once you've come to your senses, clear-headed and cleansed, you benefit from a special acuity: whenever you have to roll dice, place one of them (not the damage die) on the side of your choice and roll the others. Each time you use this ability, roll 1d6: on 6+, the accelerator stops working.
+
+FEMME FATALE: You become devilishly seductive and exude powerful sexual nanormones. You have a +4 bonus to all social relationships for several hours. But you begin to have trouble managing your own desires, and when the accelerator stops working, you begin to hate yourself and have a -1 Charisma penalty for the rest of the cycle.
+
+GOOD FORTUNE: You float on your own cloud and escape into your own world. Nothing can go wrong. You don't care about anything, including difficulties. There is nothing you cannot achieve. You have a +1 bonus to all your actions until the end of the cycle, but you cannot gain any experience bonus by spending ¥.
+
+HALLOWEEN PARADE: You begin to glow, literally, with good health - your skin seems to glow slightly and draws admiring glances. Your beauty is heightened. No matter how much accreditation is required for a party or social event, you are let in with no problem. A little buoyant, a little giddy with intoxication and bubbly, you nevertheless have a -2 malus to all physical actions or combat for the rest of the night.
+
+LADY DAY: Your mind comes to grips with the deeper nature of the matrix. You begin to sense and see the spirits of the matrix, the legendary AIs that live in the interstices of virtual reality. You can ask them for a major service related to the matrix. Once the spirits are gone, you are completely cut off from the matrix for 1d6 days, too busy to get out of the self-destructive spiral that makes you hate your body and everything that makes you a mere mortal.
+
+MIRROR: You become a mirror of your contemporaries and your general empathy increases considerably. You instinctively understand their desires and motivations. While you are under the effect of the accelerator, you are unable to use the matrix.
+
+PERFECT DAY: This recreational drug clears your mind of the dark clouds that accumulate in it. You feel like you're drinking sangria at the zoo, toes out, for hours and hours. In reality, the feel-good flash lasts only a few seconds and can be enough to shake you up. When you're down to 0 hit points, you can use this accelerator to get back up to 5 hit points immediately.
+
+RUN RUN RUN: Using this accelerator as a catalyst, you can take two different accelerators and mix up their effects (and their descent). If you don't pay for the Run Run Run, you are forced to suffer the downslides of the other accelerators, even if you have paid for them.
+
+SAD SONG: You are in the midst of a spleen and are contemplating your life in a state of advanced dissociation, trying to take stock. You can't socialise with anyone for a whole day because you are so deep in the dark. The next day you have a +4 bonus to all your negotiation and diplomacy rolls.
+
+SATELLITE OF LOVE: This nanodrug allows you to share a special affinity with the matrix. You leave your body (be careful where you leave it) and walk around as if you were an Akashic spirit. You gain 1d6+3 points of connection and can run programs directly as a fully functioning nexus. The walk lasts one hour per Intelligence point. You are then cut off from the matrix for twenty-four hours.
+
+SISTER RAY: This experimental nanodrug is just starting to hit the streets. It explodes your psyche into eight different personalities (calm, angry, cold, empath, autistic, victim, killer, lover). You can switch from one to the other according to your needs. Each personality functions as a skill. It's a bit of a rough ride when you put the pieces back together: you have a -4 penalty to all your social actions for the rest of the cycle.
+
+SWEET JANE: Tell the host when you ingest this drug. At any time up to the end of the cycle, you can declare that everything that happened in the interim was a dream, a sketch of a possible future, a sort of psychometric vision of your desires. Replay all the scenes. Everything.
+
+VENUS IN FUR: Pain becomes distant, vaguely exotic information. Physical torture does not work on you. Until the end of the cycle, ignore the effects of wound malus (though you continue to register it normally). At the end of the cycle, you lose one Constitution rank or one Wisdom rank for a full cycle. You have a slight tendency to be hypersensitive and cry over nothing.
+
+VICIOUS: This accelerator exacerbates your violent impulses - you turn into a vicious, instinctive beast, reacting to the slightest stimulus and provocation. You have a +2 bonus to attack and melee damage, but the host can force you to react physically to frustration and anger.
+
+WHITE HEAT: The nanophets found on the street are slightly less powerful than their military counterparts, but they also drain a lot less. You don't need to sleep for a full night. You do get a bit paranoid though, and you experience some lapses in your usual social relationships.
+
+WHITE LIGHT: You inject yourself with combat nanophets. You can stop sleeping for the rest of the cycle if you wish. However, you definitely lose one Constitution rank at the end of it.

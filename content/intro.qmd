@@ -1,0 +1,20 @@
+# Introduction
+
+nanoChrome is a role-playing and adventure game set in a cyberpunk universe - a mixture of very contemporary situations and science-fiction exoticism. This is the second edition of this game, quite seriously expanded and also benefiting from many feedbacks from testers and players. Thanks to them for their attention to the small details.
+
+Each player will need a character sheet, a pencil, an eraser and three six-sided dice (marked d6 in this book), one of which must be different from the others, either by size or colour. Finally, a few post-its or note sheets are not to be ignored. As for the rest, drinks and various snacks can enhance the time spent around the table - but abusing them may limit your life expectancy.
+
+::: callout-tip
+Download the complete character sheets and many other game aids at [legrumph.org](https://www.legrumph.org/Terrier/public/chibi/nanochrome2)
+:::
+
+Yes, but what is a "role-playing adventure game"? A role-playing game, or RPG, is a board game whose main purpose is to tell stories together. There are many forms of RPGs, but nanoChrome is also an adventure game. Here, one of the participants is the game leader: his role is to bring the world where the adventures take place to life and to referee the game. The other players play as characters, inhabitants of the world and heroes of the adventures. There are no winners or losers - the leader is not the players' opponent and vice versa. The game ends when all the players feel that the adventure is over and the story has come to an end - this may take several play sessions and it is up to each playgroup to decide how long they want to play.
+
+The easiest way to explain a role-playing game is to imagine a small programme:
+
+1.  The players choose an alter ego in the game. This is their character.
+2.  The player tells the leader what their character is doing or asks a question.
+3.  The leader tells the players what is happening or answers the question. what is happening or answers the question.
+4.  Start again in 2.
+
+The game then takes the form of a long dialogue in which the players and the leader construct a story. When the leader and players are unsure of how the story can move forward (how to get back to 1), they can refer to a set of rules and hints which form, in fact, part of the rest of this book.

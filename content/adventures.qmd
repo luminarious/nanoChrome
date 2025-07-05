@@ -1,0 +1,319 @@
+# Adventures
+
+> "Once," she mused sullenly, "there was a purpose to all this." Her life had a wider perspective, a definite aim. A direction, upwards, out of the gravity well, plunging upwards, out of the gravity well, plunging into the black purity of the void of space. But now, the perspective has narrowed. The only thing that remains is the only imperative: to survive the Present Moment. The past hardly matters; the future, we shall see, day by day, as it comes. Every second, a new burden, a new application of the of the imperative.
+>
+> —Walter Jon Williams, Wired
+
+Whether you're playing on the go or in the countryside, you'll need stories to keep your players busy. Use the following tips to develop your own adventures.
+
+These can be missions for techmercs or corporates, or simply hooks to start investigations for Panopticom.
+
+## Improvisation
+
+Much of the fun in nanoChrome comes from the constant improvisation that the game leader must engage in. The secret is that a good improvisation must be prepared: imagination works all the better when it is subject to important constraints. If you have a few general ideas before you start, it will be easier afterwards to bounce from element to element, to add things and to connect the dots.
+
+Have you taken lots of notes during the world creation phase with the players? Now it's time to put them into shape. From all this material:
+
+-   choose six important events, things that all your stories will revolve around (at least all your first stories). Add two or three points of detail that you think are interesting, secrets that the characters can't know, and weave invisible links between two or more seemingly unrelated events.
+-   Choose six names of people or factions that have emerged during the discussions. You can - must - tap into the relationships the players have created from the portraits (see page 157) and use these resources to build new stories and involve them in previous events.
+-   Make a list of six objects, six locations, six upcoming events, to use as McGuffins when you need them.
+-   Make a list of six threats, six things that will go very wrong in the future if no one is careful. These can be people who will do bad things (intentionally or accidentally) or multiple coincidences that will build up to the final explosion.
+-   Finally, try to post some links that point to The Other.
+
+> The most important thing to remember when improvising is that nothing you write down or plan is set in stone. Stay flexible: as long as you haven't given the players any information, you can change everything all the time, imagine more coherent solutions or twists, work on your extras, your locations, your events to adapt them to the stories that have already emerged. Be confident, adapt to the circumstances and not the other way around. Don't impose anything that might break the dynamics of the game just because it's what you've written down. Things evolve, change. The only thing that cannot change is what has been played at the table and experienced by the characters. Everything else is just potential.
+
+## Creating an adventure
+
+To create an adventure, make four draws from the following tables.
+
+-   The first draw is how the story begins…
+-   The second draw is the mission the characters (or villains) are given.
+-   The third draw is the location where most of the adventure will take place.
+-   The final draw indicates the main opponent they will ultimately face.
+
+**The way it starts, the introduction, the hook:** this is how you start the adventure. It can be a simple announcement, but you can also set the scene for the whole event and make it more complicated or more fun for the players. Most often, it will be the Client who arrives with a problem to solve and some ¥ to entice the characters to accept the contract; but it can also be information gleaned from the matrix or events that happen to the characters. The hook can be either before the mission order (and triggers the adventure) or after (and is where it all begins).
+
+**The mission order:** this gives you the theme of the story you are telling. It's a simple objective that the characters will have to meet in order to succeed. From there, your job as game leader will be to set up obstacles and mysteries, place formidable opponents and turn the game into a sort of endless rollercoaster ride of twists, surprises and revelations. The mission order can also be given to other people - these are the people that a Panopticom team can investigate after the mission has been completed.
+
+**The location of the adventure:** this is the main place where everything will happen in the end. Of course, if you're not lazy, you can pull in an extra location or two to add more places to visit, but normally you should have plenty to do with this one location. In any case, as soon as they know enough to go there, ask them what they know. This could be rumours they have picked up on the matrix, things they have learned on previous visits, information they have read or heard. Go round the table a couple of times: each player has to give one piece of information. This can be true or false, or just inaccurate. Use these elements to dress up the scene, add twists, dangers or obstacles.
+
+**The main adversary:** The last die point indicates the main adversary of the characters, the one who is going to get in their way or who is directly competing with them for the mission. If you've already drawn this opponent in previous adventures, that's fine: it's the return of the son of vengeance. A good recurring extra is always good to have. If he's been eliminated before, don't worry: he's back with a nice scar and a heightened desire for revenge, unless it's his son, his brother or another relative.
+
+| 1D66 | HOW THE STORY BEGINS…                             |
+|:----:|:--------------------------------------------------|
+| 1.1  | In a shopping centre                              |
+| 1.2  | In a drunk tank                                   |
+| 1.3  | In a waiting room                                 |
+| 1.4  | Fights between gangsters                          |
+| 1.5  | Talks with other techmercs                        |
+| 1.6  | Strange and visible tags                          |
+| 2.1  | In a nightclub                                    |
+| 2.2  | In the WakuWaku open space                        |
+| 2.3  | In the middle of a car chase                      |
+| 2.4  | People in the neighbourhood are scared            |
+| 2.5  | Naked and handcuffed to a chair                   |
+| 2.6  | A few words dropped by a shopkeeper               |
+| 3.1  | Who carries the body?                             |
+| 3.2  | An industrial accident                            |
+| 3.3  | A call for help                                   |
+| 3.4  | Carnage in a flat                                 |
+| 3.5  | A lunch at Dinner                                 |
+| 3.6  | A brutal climatic event                           |
+| 4.1  | An Akashic spirit leaves a message                |
+| 4.2  | A newsflash about the matrix                      |
+| 4.3  | A secret meeting with masked people               |
+| 4.4  | A guy was killed in cold blood                    |
+| 4.5  | A press conference                                |
+| 4.6  | An official summons                               |
+| 5.1  | A suspicious disappearance                        |
+| 5.2  | A Panopticom broadcast                            |
+| 5.3  | A wild shootout                                   |
+| 5.4  | A strange icon to click on in his field of vision |
+| 5.5  | A brutal arrest in the early morning              |
+| 5.6  | A classified ad                                   |
+| 6.1  | A cheeky provocation                              |
+| 6.2  | A bizarre virtual reality advertisement           |
+| 6.3  | A strange meeting                                 |
+| 6.4  | A meeting in a virtual lounge                     |
+| 6.5  | A rumour in the squat                             |
+| 6.6  | A series of suspicious overdoses                  |
+
+| 1D66 | THE MISSION…                                    |
+|:----:|:------------------------------------------------|
+| 1.1  | Helping a person or persons (remove from the    |
+| 1.2  | Arrest a criminal                               |
+| 1.3  | Rob a corporate enclave                         |
+| 1.4  | Convince someone to keep their agreements       |
+| 1.5  | Convince a person or a valuable object          |
+| 1.6  | Thwart a criminal or corporatist conspiracy     |
+| 2.1  | Release a prisoner                              |
+| 2.2  | Destroy data or an industrial prototype         |
+| 2.3  | Eliminate someone                               |
+| 2.4  | Prevent an assassination                        |
+| 2.5  | Explore a location in the anarzone              |
+| 2.6  | Extract a corporate executive and his family    |
+| 3.1  | Discreetly make a corporatist executive talk    |
+| 3.2  | Make evidence disappear                         |
+| 3.3  | Infiltrate a corporation to extract R&D data    |
+| 3.4  | Play bodyguard and nanny for a few days         |
+| 3.5  | Deliver a shipment                              |
+| 3.6  | Investigate a problem or crime                  |
+| 4.1  | Build a surveillance and intelligence case      |
+| 4.2  | Negotiating with very dangerous criminals       |
+| 4.3  | Hosting and protecting a party                  |
+| 4.4  | Entering an anti-zone                           |
+| 4.5  | Strike a blow against corporate assets          |
+| 4.6  | Carry a confidential written message            |
+| 5.1  | Protect a building                              |
+| 5.2  | Recover a particular item from the black market |
+| 5.3  | Relocate wanted persons                         |
+| 5.4  | Find a missing person                           |
+| 5.5  | Sabotage facilities                             |
+| 5.6  | Guaranteeing a sensitive meeting                |
+| 6.1  | Tracking down a dangerous criminal              |
+| 6.2  | Tracking down an Akashic spirit                 |
+| 6.3  | Finding unique and confidential information     |
+| 6.4  | Finding a gift for an important person          |
+| 6.5  | Find a hidden or protected place                |
+| 6.6  | Steal a valuable object                         |
+
+| 1D66 | THE PLACES…                                       |
+|:----:|:--------------------------------------------------|
+| 1.1  | Abandoned warehouses behind Central Station       |
+| 1.2  | The paediatric wing of Sacred Hearth Hospital     |
+| 1.3  | The VIP floor of a corporate building             |
+| 1.4  | Mr Frost's shop in a souk in the Anarzone         |
+| 1.5  | The Egyptian collection at the Walberg Institute  |
+| 1.6  | The Symphonia Express gay bar                     |
+| 2.1  | The Apple, Strawberry and Apple hookah bar        |
+| 2.2  | The nomadic camp of the Five Elements tribe in    |
+| 2.3  | Rescue centre No. 78 on the edge of the Anarzone  |
+| 2.4  | The construction site of the new World Food tower |
+| 2.5  | St John Nepomuk Cemetery                          |
+| 2.6  | Afrodyke & Herakles gym club                      |
+| 3.1  | The International Financial Credit lobby          |
+| 3.2  | The control room of a distributed power plant     |
+| 3.3  | The Indian restaurant Le Pondichéry mon amour     |
+| 3.4  | The surroundings of the penitentiary centre n°5   |
+| 3.5  | The aisles of the Paradise Tower Mall             |
+| 3.6  | The private flats of a corporate executive        |
+| 4.1  | The cold rooms of the northern abattoirs          |
+| 4.2  | Backstage at Club 221BS on a concert night        |
+| 4.3  | The corridors of the Morgue                       |
+| 4.4  | The underground technical corridors of a          |
+| 4.5  | The mixed dormitories of a second-rate university |
+| 4.6  | The attics of Madame Charles' brothel             |
+| 5.1  | The changing rooms of the Dagobah Arena Blitzball |
+| 5.2  | By the Nelson Mandela Park water feature          |
+| 5.3  | A discreet housing estate in a corpo enclave      |
+| 5.4  | A coffin hotel from the DeadNight chain           |
+| 5.5  | A White Light production lab in a conurbation     |
+| 5.6  | A nanobiotech R&D lab                             |
+| 6.1  | An anonymous underground lounge behind the wind   |
+| 6.2  | A squat frequented by an Aryan fraternity         |
+| 6.3  | An Arcatech shooting range                        |
+| 6.4  | A ghost village housing members of the Sons of    |
+| 6.5  | A maquiladora under high protection on the border |
+| 6.6  | A disused metro station                           |
+
+| 1D66 | THE OPPONENT…                             |
+|:----:|:------------------------------------------|
+| 1.1  | The leader of a gang                      |
+| 1.2  | The board of directors of a corporation   |
+| 1.3  | The guru of a criminal cult               |
+| 1.4  | The godfather of an ethnic mafia clan     |
+| 1.5  | The boss of a network                     |
+| 1.6  | The Client                                |
+| 2.1  | Three racist and aggressive strippers     |
+| 2.2  | A bloodthirsty /C                         |
+| 2.3  | A corporatist agent on a mission          |
+| 2.4  | A clandestine SR agent                    |
+| 2.5  | An orbital agent                          |
+| 2.6  | A panicked corporatist executive          |
+| 3.1  | A sociopathic corporatist executive       |
+| 3.2  | An Akashic Shaman                         |
+| 3.3  | An independent contractor                 |
+| 3.4  | A cyberpsychotic                          |
+| 3.5  | A manipulated UN diplomat                 |
+| 3.6  | An Akashic spirit                         |
+| 4.1  | A rotten cop                              |
+| 4.2  | A bored immortal                          |
+| 4.3  | A normal guy who wasn't given a choice    |
+| 4.4  | A guy chased by bad guys                  |
+| 4.5  | A doctor with no morals                   |
+| 4.6  | A retired corporatist officer             |
+| 5.1  | A fifteen year old genius                 |
+| 5.2  | A mad scientist                           |
+| 5.3  | An arms dealer                            |
+| 5.4  | A lonely hitman                           |
+| 5.5  | A guy who hears voices in his head        |
+| 5.6  | A guy who has come a long way for revenge |
+| 6.1  | A ruthless, ambitious thug                |
+| 6.2  | A cabal of powerful guys                  |
+| 6.3  | A high-flying escort                      |
+| 6.4  | An escaped engineering experiment         |
+| 6.5  | A sadistic madam                          |
+| 6.6  | A tribe /C in need                        |
+
+## Complications
+
+Once you have drawn the first four points of the adventure, you need to flesh it out and provide some additional elements. To do this, simply answer the following questions. You can answer all of them or just some - you can even add to the sheet during the course of the adventure depending on the actions of the characters.
+
+### 1. What can go wrong?
+
+A mission is rarely fun. When the circumstances are against the characters, everything becomes more complicated.
+
+| 1D26 | SOME UNWELCOME COMPLICATIONS                      |
+|:----:|:--------------------------------------------------|
+| 1.1  | Difficult material circumstances                  |
+| 1.2  | Complicated personal events                       |
+| 1.3  | Missing relevant information                      |
+| 1.4  | Very specific material (or a single object) is    |
+| 1.5  | The mission order is a fake or has been changed   |
+| 1.6  | It's a trap!                                      |
+| 2.1  | You have to find and use a specific means of      |
+| 2.2  | You have to convince someone to go with you first |
+| 2.3  | There is breakage and things to fix               |
+| 2.4  | Political, economic, personal conditions are      |
+| 2.5  | An urgent secondary mission must be accomplished  |
+| 2.6  | Complex and potentially dramatic local events     |
+
+### 2. Who opposes the characters and why?
+
+The characters are not the only ones on the case. We're not talking about the mission's opponent here. We're talking about competition. There are other people hanging around. Why are they here?
+
+| 1D6 | WHAT THEY WANT                                       |
+|:---:|:-----------------------------------------------------|
+|  1  | They are just annoying the characters to annoy their |
+|  2  | They immediately need the characters for something   |
+|  3  | Their story has absolutely nothing to do with the    |
+|  4  | Their objectives are completely different but target |
+|  5  | Their objectives are directly opposed                |
+|  6  | Their objectives are the same but for different      |
+
+These antagonists should start to appear early on in the story, in the early stages. At first from a distance, as annoying little annoyances, then more and more head-on - until an agreement emerges or it ends in a good fight.
+
+| 1D26 | OPPONENTS OR COMPETITORS                         |
+|:----:|:-------------------------------------------------|
+| 1.1  | Other techmerchs                                 |
+| 1.2  | Allies or enemies of the main opponent           |
+| 1.3  | Local residents                                  |
+| 1.4  | Civil authorities                                |
+| 1.5  | A corporation's security forces                  |
+| 1.6  | An ally of the characters                        |
+| 2.1  | A corporate executive                            |
+| 2.2  | A gang                                           |
+| 2.3  | A strange guy                                    |
+| 2.4  | A powerful and very rich oligarch with big money |
+| 2.5  | An orbital                                       |
+| 2.6  | A lone swordsman                                 |
+
+### 3. Would the characters have a good reason to abandon the mission or change its terms?
+
+Characters are not always able to complete their mission - unless they perform extraordinary feats (but that is what is expected of them). Sometimes they have to choose between their safety and that of their allies, between their lives and their ideals. What will their choice be?
+
++-----------+---------------------------------------------------------------------------------------------------------------+
+| 1D6       | A GOOD REASON TO GIVE UP                                                                                      |
++:=========:+:==============================================================================================================+
+| 1         | Appearances are deceptive; the mission is reversed                                                            |
++-----------+---------------------------------------------------------------------------------------------------------------+
+| 2         | Characters face major legal risks or risk doing something very stupid                                         |
++-----------+---------------------------------------------------------------------------------------------------------------+
+| 3         | The characters will have to deny their honour or commit a terrible act (such as causing the death of a child) |
++-----------+---------------------------------------------------------------------------------------------------------------+
+| 4         | The characters will lose something important (their weapon of choice, a close person, an alliance…)           |
++-----------+---------------------------------------------------------------------------------------------------------------+
+| 5         | A second story, something huge appears; a choice has to be made between two objectives                        |
++-----------+---------------------------------------------------------------------------------------------------------------+
+| 6         | Too much opposition                                                                                           |
++-----------+---------------------------------------------------------------------------------------------------------------+
+
+### 4. Do I want to put down an important element of the universe or the story I am telling?
+
+You must have an idea in the back of your mind about what is happening in your part of the world. Sooner or later you will start to develop bits of story and you will want to place them. Use this adventure to do so: the mission will allow the characters to discover some very important secrets. What are they? How will they find out? What will be the consequences of their discoveries?
+
+### 5. Is there an extra, a setting, an event that I really want to stage?
+
+Come on, there must be a scene you have in mind. A really hot situation. Something that's going to make the players go wild. Special effects, unique descriptions that you've been inspired by dreams or by trolling the illustration sites on the internet. Go for it. Throw the sauce, think big, don't skimp on the means - they don't cost you anything. Do it right and do it big! No regrets!
+
+## Stages of the adventure
+
+Add one or more stages to the adventure.
+
+Each stage is an intermediate objective - give the relevant information so that the players know where to go and what to do to complete that stage. Then move on to the next. The final objective may be revealed at the start of the mission or it may only become clear along the way after several stages. As the mission progresses, drop clues to the players as to how to complete the final objective:
+
+-   Important information: how to get into the opponent's domain, where the defences are, who is really in charge of this story, etc.
+-   Useful material: the code to enter the opponent's house or the security keys, a weapon capable of shooting his bodyguard in CPA, a packet of ¥ to pay a middleman, etc.
+-   A secondary objective to be completed at the same time: unmask the traitor in the entourage of the leader of an allied faction, free prisoners, find an important object or destroy it, etc.
+
++-----------+----------------------------------------------------------------------------------------------------------------+
+| 1D26      | STEPS                                                                                                          |
++:=========:+:===============================================================================================================+
+| 1.1       | Confronting someone (in a duel, on the street, in a drinking contest…)                                         |
++-----------+----------------------------------------------------------------------------------------------------------------+
+| 1.2       | Fighting a threat (a gang, corporate agents, a hitman…)                                                        |
++-----------+----------------------------------------------------------------------------------------------------------------+
+| 1.3       | Bypass an obstacle (a checkpoint, a booby-trapped no-man's land…)                                              |
++-----------+----------------------------------------------------------------------------------------------------------------+
+| 1.4       | Destroy (a reputation, an object, prevent information from spreading…)                                         |
++-----------+----------------------------------------------------------------------------------------------------------------+
+| 1.5       | Explore mysterious or dangerous places                                                                         |
++-----------+----------------------------------------------------------------------------------------------------------------+
+| 1.6       | Obtaining information (by trickery, searching the matrix, stealing papers, interviewing informants in squats…) |
++-----------+----------------------------------------------------------------------------------------------------------------+
+| 2.1       | Enter or escape from a place (a corporatist enclave, a prison, an anti-zone…)                                  |
++-----------+----------------------------------------------------------------------------------------------------------------+
+| 2.2       | Retrieve a key (an object or a password for example)                                                           |
++-----------+----------------------------------------------------------------------------------------------------------------+
+| 2.3       | Meet someone important or get permission to pass                                                               |
++-----------+----------------------------------------------------------------------------------------------------------------+
+| 2.4       | Solve a riddle (a puzzle, a mystery, a code…)                                                                  |
++-----------+----------------------------------------------------------------------------------------------------------------+
+| 2.5       | Seducing, convincing or coaxing (a corpo executive, a tribal council /C, the waitress at the local Shawarma…)  |
++-----------+----------------------------------------------------------------------------------------------------------------+
+| 2.6       | Finding a route (coordinates, secret passage, guidebook…)                                                      |
++-----------+----------------------------------------------------------------------------------------------------------------+
+
+## Conclusion
+
+The last step is almost always the mission itself - at least, the outcome. But if you're feeling playful, you can also decide to play out the consequences of the mission. After all, the mission may just be the beginning of the trouble. Imagine that the characters quickly foil the assassination attempt they have been instructed to prevent. What happens next? What does the victim do? What if they disappear or go on the hunt for those who want them dead? The mission itself may be just a stage before the big finale, much later. Feel free to vary the approaches and lengthen the stories.

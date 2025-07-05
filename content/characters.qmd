@@ -1,0 +1,640 @@
+# Characters {#sec-characters}
+
+> "I suppose that deep down," he replied, "I want the same things as everyone else. Enough sense to stay out of trouble, enough money to buy what I want, enough time to enjoy it.
+>
+> —R.J. Ellory, Bad Star
+
+Note: There are many references to the concept of the cycle on the following pages. If you're eager to learn more, turn to page 102.
+
+## Creating a character
+
+Follow these steps to create your character:
+
+1.  Choose an affiliation (corporatist, ganger, independent, or /C) and note how you can use your connection points.
+2.  Choose an occupation (wired, coder, middleman, or swordsman) and note its two abilities.
+3.  Divide the following ranks between your characteristics: +1, +1, +2, +2, +3, +3.
+4.  Note your starting equipment. You can sacrifice one skill or ability to get an extra ¥10 to buy equipment or catalogue options.
+5.  Establish your relationships.
+6.  Choose five skills and two additional abilities. You can replace any of these options with a cybernetic augmentation, with a maximum equal to your Constitution.
+7.  Note your health, connection, luck and defence points.
+8.  Choose a name for your character.
+
+## Affiliations
+
+An affiliation indicates your culture of reference, the value system in which you were raised. Each affiliation has a small special ability that you can activate by spending a connection point (see page 100) \[\].
+
+### Corpo
+
+You belong to the upper social strata of society. You have a good education, you have money saved up. You can use connection points to show off your privileges: blowing up a charge or a fine, passing a checkpoint, getting a table without a reservation or getting into the VIP area of a fashionable club (see page 218) [See intrusions](#intrusions).
+
+### Ganger
+
+You grew up on the streets, left to your own devices, and found family and colour in a gang. You have a special relationship with your gang members, even if you are no longer part of them, and can spend connection points to, for example, receive help, find shelter or collect equipment (see page 156).
+
+### Independent
+
+You blend into the interstices of the world, where no one seems to notice you. You are anonymous, a part of the scenery. Nothing flashy, nothing remarkable. You can use your connection points to cover your tracks, to blend in - practically, you get nothing, but you prevent others from getting things about you.
+
+### /C
+
+You belong to one of the many counter-cultures that flourish here and there - altnerds, nomads, borgs, purists, immobile, neoniks, etc. Describe your /C to the leader and the other players; find details that put you a bit on the fringes of society and make you a bit weird. Each connection point you spend on an action gives you a +2 bonus to the roll.
+
+> In an age where social validation no longer necessarily depends on the opinions of your relatives, neighbours and the people in the village you'll never leave in your life, counter-cultures are flourishing around the world. All it takes is a few crazy people who meet at random in virtual lounges, somewhere in the vast cultural troll that floats in the matrix. From then on, dominant legitimacy becomes superfluous; one can live one's own way, with one's desires, ideas, whims, and traits of genius; one can create new habitus, new taboos, new norms that become dominant in a small but sufficient circle. This is what the /Cs are. Imagine what you want: cybersadhus crunching pills upon pills to achieve enlightenment? Fierce anti-government activists, paranoid no doubt but possessing some evidence that gives them some security? Fundamentalist peasants who abhor technology and the matrix? A cult worshipping an Akhashic guru who only appears in the virtual world? Tuning enthusiasts who are gradually transforming themselves into real experimental cyborgs?
+
+## Occupations
+
+Each occupation indicates the specialisation you have chosen and the specific abilities you have learned (note your two abilities!). It is impossible to learn these abilities with experience.
+
+### Rigger
+
+You are a special kind of coder, specialising in the use and piloting of vehicles and drones. You immerse yourself so deeply in the machines that you become one with them, their carcass becoming your body. Note that if you choose this occupation, you receive the Neuronic cybernetic augmentation for free (see page 72). For rules on drones and vehicles, see page 167.
+
+-   Starred abilities can be selected multiple times with experience.
+
+DRONES \*: You always have three specialised drones at your disposal, which you can ride on quickly. If they are destroyed, you get them back at the end of the cycle. If you take over this ability, you have an additional drone.
+
+TRANSFER: When you connect to a vehicle, you become fully immersed in that vehicle with all of its abilities and possibilities, even if you are not directly on board.
+
+### Hacker
+
+You are a matrix technician, able to manipulate data streams from your nexus - in a way that the system administrators don't like at all because of the illegal programs you constantly load onto the matrix. You can find the rules on the matrix on page 135.
+
+CONNECTION: You are constantly connected to the matrix. You have 3 additional connection points.
+
+NERVES OF STEEL: By spending one point of luck, you can automatically succeed in a non-combat action as if you had rolled a triple-6.
+
+### Face
+
+You are a charismatic individual with many contacts. Your main occupation is to pass information between the right people and to grow your own portfolio of knowledge and secrets. You will find the rules on relationships on pages 80 and 155.
+
+IMPROVISATION: You can use your connection points as plan points (see page 216), even if you haven't really had time to prepare anything.
+
+RELATIONSHIPS: You can create a temporary contact on the fly by giving them a name and an area of activity and service, then call on them by spending connection points.
+
+### Fighter
+
+Bodyguard, mercenary, assassin, soldier, you are physically and mentally trained for war - conventional warfare, street fighting, guerrilla warfare and terrorism. You are likely to be enhanced with high-level cybernetics! Have a look at the catalogues at the end of the book…
+
+TOUGH AS NAILS: you have accustomed your body to the most diverse exercises and pains. You have 15 extra life points.
+
+MILITARY TRAINING \*: you have a +2 bonus to all your attack and damage rolls in close combat or at a distance, as you wish. You can buy this ability again to finish your training.
+
+## Attributes
+
+Your character is defined by six characteristics. Most people have a rank between +1 and +3 in each of these; but the characteristics of the really tough guys can be as high as +7. You use characteristics as a bonus to all your rolls; by the way, they are used to calculate several counters and derivatives, such as hit points or defence.
+
+Strength
+:   Add your rank for melee attacks and damage; all physical actions requiring power and energy.
+
+Dexterity
+:   Add your rank for ranged attacks and damage; all physical actions requiring flexibility, speed, hand skills and agility.
+
+Constitution
+:   Add your rank for all physical actions requiring stamina and endurance; resist poisons, toxins, diseases and hard knocks. Each rank of Constitution gives 5 hit points. You can install a maximum of one cybernetic augmentation (see page 72) per Constitution rank - beyond that, you are constantly on the verge of cyberpsychosis.
+
+Intelligence
+:   Add your rank for surfing the matrix for information; remembering knowledge and lore about all things in the world. Each Intelligence rank gives 1 point of connection. Intelligence also applies to initiative rolls.
+
+Wisdom
+:   Add your rank to stay alert, spot things, search a place. Each rank of Wisdom increases defence by 1 point.
+
+Charisma
+:   Add your rank for chatting, convincing, seducing, sensing emotions and lying. Each rank of Charisma gives you 1 luck point.
+
+## Equipment
+
+### IDC/IDO
+
+Choose whether you have an ID number or nothing at all.
+
+If you have an ID number, you can move between most areas of the city without too much trouble, without wasting time, and checks are limited - readers flash your nexus which acts as a real-time transponder. However, your identity, fingerprints and many biometric measurements are stored in government (IDC for civil identification) or corporate (IDO for orbital identification) databases - IDOs offer many more rights, but are extremely secure and monitored.
+
+In the latter case, you are a second-class citizen, with no or extremely limited rights - but until you have been caught by the authorities and identified, you do not exist for anyone.
+
+On page 98, you will find an ability that gives you a pirate IDC, if you wish to cheat gracefully.
+
+### Starting equipment
+
+Choose your initial possessions from the three packs available: Action, Trick or Standing. Each option has its advantages and disadvantages. You can give up a skill or ability (or several) to add ¥10 to your account.
+
+#### Action
+
+-   A basic nexus to connect you to the matrix
+-   A melee weapon
+-   A ranged weapon
+-   A tactical protection vest - giving a +3 bonus to defence
+-   A subscription to a coffin hotel in a secondary conurbation
+-   An account (or anonymous credits) with ¥24
+
+#### BIDOUILLE
+
+-   A +3 nexus to connect to the matrix
+-   A melee weapon or a ranged weapon
+-   A light civil defence jacket - giving a +1 bonus to defence
+-   A workshop equipped to tinker in peace (+4 to all tinkering, repair and modification rolls, etc.)
+-   An account (or anonymous credits) with ¥22
+
+#### STANDING
+
+-   A +1 nexus to connect to the matrix
+-   A melee weapon or a ranged weapon
+-   A civil defence jacket - giving a +2 bonus to defence
+-   A well-appointed and highly secure flat
+-   An account (or anonymous credits) with ¥20
+
+### Nexus
+
+A nexus is an ultra-lightweight handheld console that allows you to connect to - and eventually hack into - the Matrix: it's the equivalent of a smartphone with a lot of extra features and power. Most nexuses contain an advanced expert system, incorrectly called AI by the general public. The bonuses indicate the number of extra connection points that the nexus grants each day. The following prices allow you to upgrade your hardware if you wish.
+
+| PRICE | HARDWARE    |
+|------:|:------------|
+|    4¥ | Basic Nexus |
+|    8¥ | Nexus +1    |
+|   12¥ | Nexus +3    |
+
+### Weapons and protection
+
+#### Weapons and stealth
+
+There are four degrees of stealth for these sensitive items:
+
+**Obvious**: It is impossible to conceal the weapon in any way. Worse than that, it attracts attention.
+
+**Visible**: the weapon is clearly visible, although it is still possible to cover it under a coat, for example, to limit the risks - in which case it cannot be used.
+
+**Invisible**: the weapon is not directly visible. The wearer must be searched for it or it must pass through electronic detection systems.
+
+**Concealed**: the weapon is actively concealed and systems cover the risk of electronic tracking.
+
+The Discreet option allows a weapon to be downgraded to a lower category.
+
+Note: normal weapons are effective against physical defence; similarly, the protections given here are physical protections and do not protect against magical attacks (if you use this game option, see page 303).
+
+Depending on your initial holdings, choose a ranged weapon from one of the following categories. Each additional weapon costs ¥8:
+
++--------------------------------------+--------------+---------------------------------------------+
+| FIREARM                              | DAMAGE       | VISIBILITY                                  |
++:=====================================+:=============+:============================================+
+| Handgun                              | +0           | Invisible                                   |
++--------------------------------------+--------------+---------------------------------------------+
+| Assault rifle and shotgun            | +3           | Visible                                     |
++--------------------------------------+--------------+---------------------------------------------+
+| Precision rifle                      | +3           | Visible (mounted), invisible (disassembled) |
++--------------------------------------+--------------+---------------------------------------------+
+| Assault cannon and heavy machine gun | +5           | Obvious                                     |
++--------------------------------------+--------------+---------------------------------------------+
+
+Choose a melee weapon from one of the one of the following categories. Each additional weapon costs ¥8:
+
+| MELEE WEAPON    | DAMAGE                  | VISIBILITY |
+|:----------------|:------------------------|:-----------|
+| Short Nanoblade | +0                      | Invisible  |
+| Long Nanoblade  | +3                      | Visible    |
+| Tonfa & Cestes  | +3                      | Visible    |
+| Tasers          | +0 (non-lethal/special) | Invisible  |
+
+The protections have the following prices if you want to upgrade or change them:
+
+| PRICE | PROTECTIONS                    | VISIBILITY |
+|------:|:-------------------------------|:-----------|
+|    4¥ | Light civil protection vest +1 | Invisible  |
+|    8¥ | Civilian Protective Vest +2    | Invisible  |
+|   12¥ | Tactical Protective Vest +3    | Visible    |
+
+### Augmentations
+
+At character creation, you can replace a skill or ability with a cybernetic augmentation - as many times as you like. You cannot have more augmentations than your constitution rank - otherwise, you are in cyberpsychosis.
+
+There are five types of augmentations. Each grants you a basic function, but you can buy options for ¥4 each (see page 340). After character creation, installing a new augmentation costs ¥12.
+
+#### Neuronic
+
+Neuronics take advantage of the growth and discoveries of neuro-medicine and neural nano-repairers to more or less completely rewire an individual's nervous system, to improve its overall functioning or to add new functions.
+
+NEURAL PLUG: You can operate any equipment with a neural plug to improve its efficiency. Generally, you get a +2 bonus on all associated rolls (indicated on the equipment), but it can also be a simple prerequisite to operate the equipment.
+
+#### Nanogenetic
+
+The engineering sciences have come a long way. The first generations of modified babies will soon be entering school with better genes than their parents (or so we hope, for we must still make do with vague promises). But the occupants of this time and space are too old to have enjoyed it. They are therefore content with the few genetic back-propagations that nanogenetics - the art of repairing cells from within - allows. These wealthy old men who are not finished with life are called immortals.
+
+REGENERATION: by spending one luck point, you recover all your life points.
+
+#### Panoptic
+
+You have sensors all over your body.
+
+ENHANCED SENSES: you have a +4 bonus to all perception rolls.
+
+#### Prosthetic
+
+Prosthetics involves replacing limbs, bones or skin with a mechanical equivalent made of synthetic materials or metal.
+
+POWER: You have a +2 bonus to all Strength work, Endurance or Athletics checks, etc. In addition, choose a specific body replacement - Woven Skin, Lower Limb, Upper Limb, Bone Replacement - and note the associated bonus.
+
+#### Reinforcement
+
+You have been replaced, in bulk, with organs from the abdominal cavity and chest. This is more convenient and faster to operate.
+
+STRENGTH: you have 10 extra life points.
+
+#### Cosmetic
+
+Cosmetic augmentations simply cost ¥2-4. There is no basic implant - it's the equivalent of an ancient piercing or tattoo. All you need is a good address, a little time and a lot of money, at least if you want quality. Chrome eyes, electroluminescent tattoos, living inks, variable breast implants, hair modifications and other fashionable effects are all yours.
+
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| OPTIONS                  | AUGMENTATION                                                                                                                                                       |
++:=========================+:===================================================================================================================================================================+
+| RETINAL DISPLAY          | Nexus connection pin for augmented reality retinal display. Extremely common - ¥2 in most cyber shops, installation in minutes and 24 hours of scheduled exercise. |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| CAPILLILUMES             | Hair emits coloured lights                                                                                                                                         |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| CAPILLITECH              | The hair changes size and colour at will                                                                                                                           |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| CUSTOM HAIR              | Options: feathers, fur, quills, leaves, metal, optical fibres…                                                                                                     |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| PERFUME GLAND            | Programs can be purchased from major cosmetic companies according to your wishes and tastes. Can contain from one to five programs depending on the model.         |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IMPLANT SYNTHETICS       | Synthetics chip reader with fractal axon connections.                                                                                                              |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| VARIABLE BREAST IMPLANTS | Adjustable for all situations - love, sport, work, going out, etc.                                                                                                 |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| CHROMATIC LENSES         | Change eye colour at will                                                                                                                                          |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| NANO-GROOMS              | Sweat contains nano-machines that clean the skin and clothes so that you always look your best.                                                                    |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| CHROMATIC NAILS          | Nails that change colour and length                                                                                                                                |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| GLOWING TATTOO           | Luminous and moving dermal patterns                                                                                                                                |
++--------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+### Vehicles
+
+You can of course buy vehicles for yourself. For more information on vehicles, see page 167.
+
++--------+--------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| Price  | Vehicle                  | Speed          | Description                                                                                                                                      |
++=======:+:=========================+:===============+:=================================================================================================================================================+
+| 12¥    | CPA CIVIL                | Slow           | Civilian self-contained personal suit - big mecha for young thrill-seekers or for power workers, express deliverymen and other urban workers.    |
++--------+--------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| 4¥     | URBAN TWO-WHEELS         | Medium         | Scooters and other small motorbikes.                                                                                                             |
++--------+--------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| 8¥     | FAST MOTORCYCLE          | Fast           | Racing motorbikes for messengers and gangsters.                                                                                                  |
++--------+--------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| 8¥     | URBAN ELECTRIC CAR       | Slow           | Two seats, no trunk, easy to park in the city's vertical car parks.                                                                              |
++--------+--------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| 12¥    | SUBURBAN CAR             | Medium         | Four-seater, tight, easy for drive-by-shooting and beach trips.                                                                                  |
++--------+--------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| 14¥    | ROAD CAR                 | Fast           | Five seats, powerful engine, aerodynamic bodywork.                                                                                               |
++--------+--------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| 18¥    | DRIFT/FAST & FURIOUS CAR | Very fast      | The colourful kind with extra nitro and excess testosterone.                                                                                     |
++--------+--------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| 16¥    | SUV                      | Fast           | Heavy, polluting, powerful, efficient, with plenty of room inside. For security officers and big bad guys with dark glasses. Baby seat optional. |
++--------+--------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| 15¥    | VAN                      | Medium         | Three seats in the front and a huge boot in the back. For kidnappings, stakeouts, setting up a workshop and, why not, removals.                  |
++--------+--------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| 25¥    | TRUCK                    | Slow to medium | Big, heavy, with enough power to carry several tons of goods.                                                                                    |
++--------+--------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+| 4¥     | DRONES                   | Slow to fast   | Small remote-controlled robots with various functions.                                                                                           |
++--------+--------------------------+----------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
+
+### Options and other equipment
+
+If you want to play fast, stick with the above. Choose your weapons and possibly some cybernetics.
+
+Nevertheless, at the end of this book, you will find many additional options to improve your equipment - be it weapons, protection or augmentations - but also new toys such as vehicles, mechas and drug… sorry, chems. Beware, these are catalogues, which means that players will waste time searching and choosing. Only give them these lists if you have the time or if you play in a campaign.
+
+### The ¥
+
+Characters earn ¥ every time they do a job (see page 244), pick an opponent's pocket, negotiate the sale of recovered material, etc. It is always possible to create a fund for the sale of goods. It is always possible to create a common fund for all characters or to keep full possession of your ¥. You can either use the ¥ as you go along or keep them, for example by placing them in an account.
+
+A job well done should never yield more than ¥2 or ¥3 per character (pooled amount), but characters are encouraged to scrape what they can whenever possible - after all, fences are not for dogs. On the other hand, if they start looting anything and everything, the aftermath can get very interesting, when the authorities get involved or a powerful person tries to get their property back the hard way (have you seen Guy Ritchie's films?).
+
++-------------+------------------------------------------------------------------------------+
+| Price       | Effect                                                                       |
++============:+:=============================================================================+
+| 1¥          | You gain +10 XP (see page 102)                                               |
++-------------+------------------------------------------------------------------------------+
+| 1¥          | You buy a dose of accelerator (see page 372)                                 |
++-------------+------------------------------------------------------------------------------+
+| 2¥          | You regain one luck point (see page 101)                                     |
++-------------+------------------------------------------------------------------------------+
+| 3¥          | You find temporary equipment, such as a disposable weapon or nanodrones      |
++-------------+------------------------------------------------------------------------------+
+| 4¥          | You buy an option for a vehicle or a increase                                |
++-------------+------------------------------------------------------------------------------+
+| 6¥          | AND MORE You find important information about the following of the adventure |
++-------------+------------------------------------------------------------------------------+
+| 8¥          | You buy a weapon or medium protection                                        |
++-------------+------------------------------------------------------------------------------+
+| 12¥         | You buy a new cybernetic augmentation or a vehicle                           |
++-------------+------------------------------------------------------------------------------+
+
+> Losing your equipment
+>
+> Characters will gradually invest a lot of ¥ in their equipment. Generally speaking, consider that they don't lose it easily, that they find it in nearby cupboards when they have been captured by enemies or that they can replace it identically via their contacts. Nevertheless, make them understand that the loss of equipment is a possible sanction if they do something stupid or if you are in a bad mood. And there, it doesn't matter that they invested 50 ¥ in their Arcatech Grendel-6 to have all the options and the elephant ivory handle… And then, it can give rise to beautiful adventures when it will be necessary to go to recover the invaluable one at a big well protected villain.
+
+## Relationships
+
+Your character is not alone in life. He has many contacts, perhaps a few friends and possibly intimates. You will find all the specific rules for managing relationships on page 155 (asking for a favour, creating extras) and page 246 (returning the favour).
+
+You have five relationship points that you can distribute among the different extras that the host suggests (or that you have created as a group) - each point allows you to increase a relationship to the chosen rank.
+
+| Rank         | 1       | 2      | 3        |
+|:-------------|:--------|:-------|:---------|
+| RELATIONSHIP | Contact | Friend | Intimate |
+
+During the course of the game you will gain additional relationship ranks, either to open new contacts or to increase the rank of an existing relationship. The leader of the game distributes these ranks, taking into account your actual relationship, the way you behave, the help and services you provide to your contacts and friends, etc. A relationship may distance itself or disappear if you betray it or behave badly with it.
+
+Usually, gaining a first rank is quite easy: just meet the person, spend some time with them, do them a favour or simply make a good initial contact. It is the equivalent of exchanging phone numbers or virtual contact details. It's likely that characters will quickly have a pretty impressive list of contacts - in fact, it's often enough to decide to write the person's name on the back of their character sheet - but that's perfectly normal: a good cyberpunk's first weapon is their nexus anyway. Once noted, it is often difficult to lose a contact.
+
+Gaining the second rank is often a bit more difficult. The character needs to build trust and security with the relationship. They must have experienced things together, done favours for each other or shared common interests. This can happen quickly, and disappear just as quickly if the relationship is not maintained by regular contact that reinforces the impression of sharing a common living space. And at the slightest betrayal, things can fall apart.
+
+Winning the third rank requires a very significant personal investment. We are talking about intimacy here, because a character is willing to entrust his or her most personal secrets, his or her very life, to the relationship. As it is a relationship that requires a lot of investment in time and affect, it is likely that the character will have no more than one or two relationships at this level: a childhood friend, a life partner, a close relative, a mentor… Beware, an intimate relationship is often very solid and can withstand most of the blows of fate, but when it breaks, it is usually permanent and with heavy consequences for everyone.
+
+## Skills
+
+Your character may have one or more skills. Each skill gives you a +4 bonus to all rolls where it can be used.
+
+### Stats and old grunts
+
+The +4 bonus on skills is huge. If you compare the 3d6 roll and the action difficulty scale (see page 111), it's a really big advantage that might seem to throw the game off balance. In reality, this is not the case.
+
+On the one hand, the skills are highly specialised. You don't have Stealth, you have Hide in the Shadows, Blend in with the scenery or Move silently! The bonus only applies to very small slices of action.
+
+On the other hand, the action success mechanic allows you to take advantage of very good successes to add "matrix" effects to the game (see Keeping the Show Going, page 115). And the opponents are not left out and benefit from the same advantages. Finally, let's be clear: when you're a player, you like to make big successes and explode everything, don't you? What always limits this kind of fun in the game is the timidity of the game leader who simply doesn't dare let go of the power of the characters for fear of losing control. But in reality, if he inscribes this apparent over-power in his game process, the leader risks absolutely nothing apart from a few beautiful over-the-top scenes and frank smiles from his players (who will fall all the more over the top when the harsh reality of the stories they are living and the Cornelian choices they have to make come to their attention).
+
+-   Acting out
+-   Avoiding a nasty surprise
+-   Bargaining with your fellow man
+-   Be convincing
+-   Being brave
+-   Blend in with the background
+-   Caring for animals
+-   Climbing and climbing
+-   Coding and decoding
+-   Comforting and consoling
+-   Cook drugs
+-   Cooking and seasoning
+-   Deciphering an architect's plan
+-   Disarming security systems
+-   Disguise yourself skilfully
+-   Doing acrobatics
+-   Drawing and painting
+-   Driving a heavy vehicle
+-   Driving a light vehicle
+-   Evaluating an object
+-   Falsifying documents
+-   Filming and photographing
+-   Finding information
+-   Finding your way
+-   Fly a flying machine
+-   Flying a mecha
+-   Following a lead
+-   Haggle hard
+-   Healing and sewing
+-   Hiding in the shadows
+-   Hold the pain
+-   Interrogating and questioning
+-   Intimidating and driving a car
+-   Jumping high and far
+-   Know a neighbourhood like the back of your hand
+-   Knowing about biology
+-   Knowing maths and physics
+-   Knowing your rights and navigating the legal system
+-   Listening and hearing
+-   Locating an escape route
+-   Looking and spotting
+-   Mounting a guard
+-   Move silently
+-   Negotiating a contract
+-   Opening locks
+-   Picking pockets
+-   Playing an instrument
+-   Prescribing medicine
+-   Reading emotions
+-   Reading lips
+-   Resisting toxins
+-   Riding a horse
+-   Riding a two-wheeler
+-   Run fast and long
+-   Searching a place
+-   Seduce and simper
+-   Swimming and diving
+-   Tailgating
+-   Tinkering with an electrical network
+-   Tinkering with drones and mechas
+-   Tinkering with electronic things
+-   Tinkering with explosives
+-   Tinkering with mechanical devices
+-   Touching a bit in IT
+-   Working with plastec and carboconcrete
+-   Working with wood, concrete and metal
+-   Writing legible texts
+-   Yelling the loudest
+
+## Abilities
+
+Your character has one or more abilities. Abilities marked with an \* can be can be purchased more than once either to increase their power, or so that you can activate them more than once per cycle.
+
+The damage dice offered by the abilities are never explosive.
+
+ASSISTANCE: When you use a manoeuvre to help a comrade, you grant a bonus equal to your Wisdom instead of the simple +1.
+
+RECOVERY INSURANCE: You have full life insurance. The company that insures you will come and get you wherever you are if your vital functions drop - for example when you remain at 0 life points for more than a few minutes in a row or when you suffer your third injury (you set the level of sensitivity of the alarm).
+
+HEALTH INSURANCE \*: Your insurance covers the hospital costs of one injury per cycle.
+
+SNEAK ATTACK \*: Once per battle, double the damage you inflict in close combat or at a distance (the result of the die plus the bonus). You can announce the use of this ability after making the attack roll.
+
+ATTENTION TO DETAIL: This ability is permanent. When a security system goes off because you weren't paying attention properly, roll 1d6: on 4 or more, you've spotted the system in time and it doesn't go off before you can do something about it.
+
+AUTHORITY: You have a position of responsibility in an organisation - corporation, criminal organisation, NGO, security services, etc. You have all the prerogatives of an authority. You have all the prerogatives of an executive, but also the obligations to the hierarchy and internal rules.
+
+INVISIBLE BULLET \*: once per combat, you can fire a projectile at a hidden or invisible target, within sight (and therefore possibly beyond the range of the weapon). The projectile ignores obstacles (such as a door, wall or billboard).
+
+TINKERER: You're always in your workshop tinkering with stuff and you never go out without a whole range of useful little gadgets. Spend a connection point to gain a +1 bonus on a roll that may involve the use of technology; to dig up a little something to trade for information or a service; or to quickly (and temporarily) repair a broken item.
+
+CHIP BURNER: you spend your time modifying your nexus to make it more efficient. You get two extra connection points per day.
+
+CELEBRITY *: You are famous. This allows you to earn 1d6 ¥ per* at the end of each cycle, thanks to advertising contracts. People recognise you on 1d6 if the result is equal to or less than the number of \* - which can be an advantage in many situations.
+
+INSOLENT LUCK: You have insolent luck. You get two extra luck points each round.
+
+TWO-WEAPON FIGHTING: You are able to handle two weapons at the same time (e.g. pistol and/or blade). This gives you a +1 bonus to defence and a +3 bonus to damage - your attacks make enemies look down and you provide good group shots.
+
+CONTACTS \*: You have contacts in one of the following circles - security forces, administration, criminal organisations, health services, transport authorities, media and entertainment, corporations, magical orders. Once per cycle, you can call on a service or information in the environment for free, as if it were an intimate relationship - the rest of the time, spend connection points as normal for a single contact.
+
+MULTIPLE DRONES \*: If you are a wired person, you may simultaneously ride an additional drone for each ability you take. In all cases, you can only wire to one vehicle at a time, but with this ability, you can ride both a vehicle and one or more drones.
+
+DESERTED PLACE: You have the keys to a quiet place, whether it's deserted or the people there don't care what you're up to. It can be abandoned warehouses, the underground vaults of the giant rainwater system, a slum under the bridges. You can solve all your problems there, invite people, hide things, store goods. As long as you don't leave a corpse behind, you're pretty much free to do whatever you want there - including making said corpses.
+
+AKASHIK SPIRIT: You can choose an akashic spirit - a digital entity that hangs out in the matrix and follows, helps and sometimes protects you. However, it tends to require some regular service - simple suggestions, mind you, but from someone you feel obliged to oblige (see page 149).
+
+FORTUNATE \*: You have access to large amounts of money for specific expenditures, whether it be through a pension fund, loans from an overly kind grandmother, a helping hand from an underworld kingpin who has you on the hook… Once a cycle, you may make a very large expenditure - renting a race car, a small boat or a large luxury flat, hosting a large reception, buying a valuable present for someone, etc. What you buy or rent disappears at the end of the cycle.
+
+WARDROBE: you always have the right clothes for every occasion - whether it's a dinner at the CEO's house of a big corporation or an expedition to the mountains in winter. You're never caught unprepared and when you take care of yourself, you get a +2 bonus to your rolls.
+
+DEADLY GRACE: You add twice your Dexterity bonus to the damage you inflict at range.
+
+BIG BULLY: Add twice your Strength bonus to the damage you deal in close combat.
+
+MULTITOOL: You have a very useful universal tool. You have a +2 circumstantial bonus when the tool can be used - to fix something, tinker with a junction box, tamper with an engine or sabotage a machine.
+
+NANODRONES: You have an army of nanodrones that you can unleash at any time to perform certain tasks: environmental analysis, beaconing, microcavity exploration, spying, etc. The results of their operations are left to your discretion. The outcome of their operations is left to the discretion of the game leader, who may or may not use the golden rule - there are too many variables and possible cases to attempt to write exhaustive rules here about these machines and the countermeasures that can be applied to them (EMP discharges, faraday cages and other nanodrones, for example).
+
+NANOPRINTER: You have a portable 3D printer. You can create objects or tools with nanoparticles, if you already have the design or if you can scan a model. The printing time is usually quite short, but still counts in minutes. After each use, roll 1d6 - on a result of 1, you cannot use the nanoprint until the end of the cycle, while it recharges.
+
+ENHANCED NEXUS \[attack\]: when rolling to test an opponent's firewall, roll two dice instead of one and consider which one you want.
+
+ENHANCED NEXUS \[biomonitor\]: You have 10 extra hit points.
+
+ENHANCED NEXUS \[environmental filters\]: Your nexus allows you to analyse a scene or situation using a variety of filters - crime scene analysis, searching for details in a crowd, searching a location, etc. You have a +2 bonus to the environmental filter. You have a +2 bonus to Wisdom rolls.
+
+ENHANCED NEXUS \[firewall\]\*: Your nexus and wired systems are protected with a level 2 firewall. You can use this ability multiple times to increase your firewall by 1, to a maximum of 5.
+
+EHANCED NEXUS [hacker]\*: Your nexus is equipped to hack systems. For one point of connection, you can decrease the value of an opposing firewall by 1. You can take this ability up to three times in total, allowing you to decrease the value of a firewall by 3 for one connection point.
+
+ENHANCED NEXUS \[facial recognition\]: When facing someone you don't know, roll 1d6. On a result of 4+, your nexus tells you some information available on social networks about them.
+
+EHANCED NEXUS \[universal translator\]: your nexus translates for you all conversations in languages you don't understand. It's not always pretty or even very accurate, but it gets you by.
+
+PARKOUR: You have learned the secret arts of urban travel, the subtle way of dashing through streets and buildings using every obstacle to propel yourself and change direction. In dense urban environments, you move at the average speed of a civilian vehicle - this counts mainly for long journeys, thanks to the shortcuts you can afford to take. For short or tactical moves, double your movement speed.
+
+LIGHT STEPS: This ability is permanent. You move with a light step. You are naturally quite quiet when you move; you can go where others who are heavier would never venture; you can walk or run longer with less fatigue…
+
+CORPORATE PORTFOLIO *: You invest in the stock market. This allows you to earn ¥1d6 per* at the end of each cycle, thanks to your judicious investments and depending on the behaviour of the markets.
+
+FIRST AID \*: Spend one life point and heal two of your companions. This is not an action, but you must be by their side. Each time you buy this ability again, you heal two extra hit points for every one spent. If you have the Heal and Stitch skill, add 1d6 hit points to those you confer with this ability.
+
+EMP PROTECTION \*: Your entire electronic and cybernetic team is protected from one EMP discharge per cycle. When you suffer the effects of such an attack, it simply ceases to function until the end of the scene, with no further damage.
+
+SAFE HAVEN: You have a safe haven where no one will ever come looking for you - a hideout in the depths of the slums, a flat in someone else's name in the middle of an enclave. It's up to you what you leave behind in terms of useful materials and resources, just in case. It's also up to you whether you leave a spare key with someone you trust or not.
+
+STORAGE CACHE: you have a well-protected place where you can leave resources, unique equipment, valuable items - the kind of little things you don't leave lying around. It could be a trunk in the back of a drugstore, or it could be in the care of the foster uncle who raised you and won't tell anyone, or it could be in the trunk of a very specific wreck in the middle of a huge junkyard. What is certain is that you have several routes to and from it and that you have systems in place to prevent your cache from being discovered.
+
+RETREAT: there's a place you go to rest, recharge, catch up with old friends who are outside your current life - a bar, a strip joint, a barber's waiting room, a bathhouse, your booty call's bedroom. When you can spend some time there, regain a point of luck.
+
+VIRTUAL LIVING ROOM: you have a virtual living room on the matrix, well protected by the necessary means. You don't have to worry about being discovered or spied on. You can meet up with people via the matrix and discuss whatever you want in peace.
+
+CONSULTANCY SERVICES \*: you have access to a firm of specialists who can provide you with specific but pointed assistance, once a cycle, in any of the following areas: legal representation, contract negotiations, close protection services, event organisation, documentary research, file analysis, transport logistics, etc.
+
+PIRATE IDC \*: You have a pirate IDC that transmits a false identity. Each time you are caught and this identity is compromised or destroyed, you must pay ¥4 to restore it at the end of the cycle. This ability works whether you already have an official IDC or IDO or not. It's not usually possible to make a fake IDO - but that can be an adventure in itself if you really need it, for example to go incognito in the moon islands…
+
+LIGHT SLEEP: This power is permanent. You sleep with one eye open. No one can catch you sleeping and you are always fresh and alert when you wake up.
+
+TOUGHNESS: If you fall to 0 hit points, you do not fall unconscious and can continue to act. However, each additional attack that hits you automatically inflicts a point of injury as long as you remain at 0 hit points or if you fall back to 0 hit points.
+
+## Hit points
+
+Your character has 5 hit points plus 5 per Constitution rank. You recover all your hit points after each night of sleep.
+
+Wounds: If you fall to 0 hit points, you take a hit point and fall unconscious until you recover (by healing, resting or spending a luck point). Each point of injury reduces your maximum hit points by 5. If you have no life points left because of your wounds, you are dead - or else you are forced to take a new, adapted cybernetic augmentation! (Installing a cybernetic augmentation clears all current wounds).
+
+Wounds disappear:
+
+-   After a trip to the clinic at a cost of ¥4 each. Of course, characters can always try to negotiate the cost with their employers.
+-   When a cycle passes (see page 102), each character clears 1d3 wounds.
+
+Healing: a character can always attempt an Intelligence roll, with the appropriate skill bonuses, against a difficulty of 15. The result of the coloured die indicates the number of hit points recovered. Each connection point spent on the roll increases this result by 2. Each ¥ increases the result by 5. A character cannot be healed more than once per day.
+
+## Connection points
+
+Your character has one connection point per Intelligence rank. You use them to run programs in the matrix, get services from your connections, get your hands on special equipment or get out of complicated situations. You get all your connection points back after a full night's sleep (when the matrix alerts die down and friends get some rest). If you drop to 0, you can't use any more programs or call on your connections - at least as long as you don't rest. However, you can also spend a luck point to get all your connection points back on the spot.
+
+## Defence
+
+Defence indicates the difficulty of hitting you in combat, whether in close combat or at a distance. It is equal to 7 + your Wisdom rank + your protection bonus. Choose one of the equipment packs or buy armour to find out this (see pages 68 and 71).
+
+## Luck points
+
+At creation and at the beginning of each cycle, your character receives one Luck Point per Charisma rank. You can spend these points whenever you want to get one of the following effects:
+
+-   Raise a failed roll.
+-   Undo an attack.
+-   Recover 5 hit points.
+-   Recover all your connection points.
+-   Invent a story element.
+-   Use an ability you have already used this cycle.
+
+During the course of an adventure, your character can recover Luck Points in the following cases:
+
+-   For having a very good idea or an excellent intuition (at the discretion of the game leader).
+-   For performing a heroic and selfless action that put you in danger.
+-   For rolling a triple-6 or triple-1 on a roll.
+-   By spending ¥2.
+
+## Experience
+
+### Cycles
+
+On the table, the rhythm of play is mechanically structured in cycles. A cycle represents a time interval of variable length - from a few hours to a few weeks. It is the players themselves who decide when they change the cycle and its actual duration in play and on the table is not so important in itself.
+
+At the change of cycle:
+
+-   Characters gain 100 XP which they can spend immediately, as well as any bonuses granted by spending ¥.
+-   They regain all their connection points, luck points and hit points - as well as magic points if the option is activated.
+-   They clear 1d3 serious wounds.
+
+However, the opposing factions and the Other take advantage of the respite the characters have given themselves to act. They advance their own plans and progress towards their objectives.
+
+It is therefore a double-edged sword: a lull for the characters, who can breathe, heal, regroup and recover their resources; and a boon for the villain, who has who has plenty of time to act.
+
+### Spending your experience
+
+Each time your character gains 100 experience points, you can choose one of the following progressions:
+
+-   Gain one characteristic point. You can gain a maximum of 4 ranks in any one characteristic. If you start with a +1 bonus, you will reach +5 at maximum, while a +3 characteristic at creation will allow you to reach the mythical +7 of true urban legends!
+-   Buy a new skill.
+-   Buy a new ability.
+
+## Small questions between friends
+
+When the characters have been created, ask each player to ask one of the other players a question about their character. Depending on how much time you have available, go around the table several times and make sure that each character has answered at least once. A player can of course refuse a question, go around it or twist it if they think it doesn't fit their character's image.
+
+-   How did you get infected by the neosyph? Do you protect your partners?
+-   How did your parents die?
+-   How long have you been sober?
+-   How long have you been playing the tuba? Are you any good?
+-   Tell me the initials of your five closest friends. Where are they now?
+-   The mental health of your family members is often fragile. Who in your family has been interned? Aren't you afraid that this will happen to you?
+-   The colleague who taught you everything died of a heart attack at work. How did you take it? Do you still see his widow and children?
+-   Officially, you were dead for four minutes, before they could bring you back. But you know that you were in the matrix the whole time. What did you did you do or see? Did you encounter anything or someone?
+-   We grew up together in the same foster homes. Does that make us brothers and sisters?
+-   Where does your wife/husband live now? Did he/she leave with the dog?
+-   Why were you fired from your last job? How did it happen?
+-   Why did your first girlfriend/boyfriend end up in prison?
+-   Why did you do six months in juvenile detention for violence? Were you alone guilty?
+-   Why do you have all these scars on your arms?
+-   Why do you have a record with the cops?
+-   Why do you hate your sister?
+-   What are you planning for your girlfriend's/boyfriend's birthday next month?
+-   What does your neck tattoo represent? Is it a gang thing?
+-   What is the colour and name of your cat? Who looks after it when you're not around?
+-   What is the highest degree you have? Why did you stop there? Does it serve you?
+-   What is your favourite sport?
+-   What is your nickname? Who gave it to you?
+-   What is the make of your van?
+-   Who was driving the car your best friend died in?
+-   Who gave you that package wrapped in craft paper? Why you? How long do you have to keep it? Do you know what's in it?
+-   Your family used to be rich. Why did they go bankrupt? Is it your father's fault? How did you live afterwards?
+-   Your sister has cancer. Who will look after her children after she dies?
+-   Your brother hasn't been seen in a while, but he called you last night. What did he ask you? What's he running from?
+-   Your best mate is getting married to the girl you love secretly. Do you have a problem with that? You gonna tell him?
+-   Your little brother's been pulling some of shit and now he's made a real mess. Are you going to help him or have you been fed up for a long time?
+-   You have gunshot scars on your back. Who shot you? Under what conditions? How old were you?
+-   You disappeared for six months and never said what you did. Would you tell us now?
+-   You were mugged once and ended up in hospital. Do you remember anything? Were you the target or was it pure bad luck? What happened to your attackers?
+-   You were a juror once in a big trial. What happened to the defendant? What was he accused of?
+-   You were once paid to get information out of your job. What information? Who was asking you for it?
+-   You've lost a lot of money at the tables lately. How are you going to pay it back? And to whom?
+-   You're pregnant. Who's the father? Are you going to keep it?
+-   You are angry with your father. What does he blame you for? Or conversely, what do you blame him for?
+-   You saved my life once. Do you remember that story and what happened?
+-   You betrayed me once. I forgave you, but do you remember that story and what happened?
+-   You're involved in an organisation. What organisation? Why do you do it? What do you do?
+-   You never take your medallion off. Who gave it to you? When did you get it? Why do you want it?
+-   You come from another country. Why did you leave it?
+-   You have just been dumped. How do you deal with the the separation? How long were you two together?
+-   One of your brothers or sisters has become someone very important in a corporation. Do you still have a relationship? Do you ignore each other? What does he/she do?
+-   One of your school friends hates you. He/she now has a position of responsibility. What does he/she do? Why doesn't he/she like you?
+-   A girl is pregnant by you. Do you love her or is it just an accident? What about the baby?
