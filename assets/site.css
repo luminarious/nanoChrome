@@ -1,8 +1,25 @@
+.quarto-title-meta {
+	display: none;
+}
+
+.is-home {
+	#title-block-header {
+		display: none;
+	}
+	h1 {
+		margin-top: 0;
+	}
+}
+
 .table {
+	table-layout: fixed;
+	width: auto;
+
 	td, th {
-	  padding: 0.1ex 0.5ex;
+		padding: 0.1ex 0.5ex;
 	}
 	:is(td, th):first-child {
-		width: min-content;
+		width: fit-content;
+		min-width: 8ex;
 	}
 }

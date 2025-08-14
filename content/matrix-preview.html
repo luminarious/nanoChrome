@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="generator" content="quarto-1.7.32">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+    <title>matrix</title>
+    <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      div.columns{display: flex; gap: min(4vw, 1.5em);}
+      div.column{flex: auto; overflow-x: auto;}
+      div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+      ul.task-list{list-style: none;}
+      ul.task-list li input[type="checkbox"] {
+        width: 0.8em;
+        margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+        vertical-align: middle;
+      }
+    </style>
+
+    <style>
+      body.hypothesis-enabled #quarto-embed-header {
+        padding-right: 36px;
+      }
+
+      #quarto-embed-header {
+        height: 3em;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: solid 1px;
+      }
+
+      #quarto-embed-header h6 {
+        font-size: 1.1em;
+        padding-top: 0.6em;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-weight: 400;
+      }
+
+      #quarto-embed-header a.quarto-back-link,
+      #quarto-embed-header a.quarto-download-embed {
+        font-size: 0.8em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+
+      .quarto-back-container {
+        padding-left: 0.5em;
+        display: flex;
+      }
+
+      .headroom {
+          will-change: transform;
+          transition: transform 200ms linear;
+      }
+
+      .headroom--pinned {
+          transform: translateY(0%);
+      }
+
+      .headroom--unpinned {
+          transform: translateY(-100%);
+      }      
+    </style>
+
+    <script>
+    window.document.addEventListener("DOMContentLoaded", function () {
+
+      var header = window.document.querySelector("#quarto-embed-header");
+      const titleBannerEl = window.document.querySelector("body > #title-block-header");
+      if (titleBannerEl) {
+        titleBannerEl.style.paddingTop = header.clientHeight + "px";
+      }
+      const contentEl = window.document.getElementById('quarto-content');
+      for (const child of contentEl.children) {
+        child.style.paddingTop = header.clientHeight + "px";
+        child.style.marginTop = "1em";
+      }
+
+      // Use the article root if the `back` call doesn't work. This isn't perfect
+      // but should typically work
+      window.quartoBackToArticle = () => {
+        var currentUrl = window.location.href;
+        window.history.back();
+        setTimeout(() => {
+            // if location was not changed in 100 ms, then there is no history back
+            if(currentUrl === window.location.href){              
+                // redirect to site root
+                window.location.href = "...html";
+            }
+        }, 100);
+      }
+
+      const headroom = new window.Headroom(header, {
+        tolerance: 5,
+        onPin: function () {
+        },
+        onUnpin: function () {
+        },
+      });
+      headroom.init();
+    });
+    </script>
+
+    
+<script src="../site_libs/manuscript-notebook/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-813c323200a87c37e262811031999de4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+     
+        <link rel="stylesheet" href="../assets/site.css">
+      </head>
+
+  <body class="quarto-notebook quarto-light">
+    <div id="quarto-embed-header" class="headroom fixed-top bg-primary">
+      
+      <a onclick="window.quartoBackToArticle(); return false;" class="btn btn-primary quarto-back-link" href=""><i class="bi bi-caret-left"></i> Back to Article</a>
+      <h6><i class="bi bi-journal-code"></i> Matrix</h6>
+
+            <a href="../content/matrix.qmd" class="btn btn-primary quarto-download-embed" download="matrix.qmd">Download Source</a>
+          </div>
+
+     <div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#matrix" id="toc-matrix" class="nav-link active" data-scroll-target="#matrix">Matrix</a>
+  <ul class="collapse">
+  <li><a href="#firewalls-and-alarms" id="toc-firewalls-and-alarms" class="nav-link" data-scroll-target="#firewalls-and-alarms">Firewalls and alarms</a>
+  <ul class="collapse">
+  <li><a href="#firewalls" id="toc-firewalls" class="nav-link" data-scroll-target="#firewalls">Firewalls</a></li>
+  <li><a href="#alarms" id="toc-alarms" class="nav-link" data-scroll-target="#alarms">Alarms</a></li>
+  <li><a href="#fighting-in-the-matrix" id="toc-fighting-in-the-matrix" class="nav-link" data-scroll-target="#fighting-in-the-matrix">Fighting in the Matrix!</a></li>
+  </ul></li>
+  <li><a href="#programs" id="toc-programs" class="nav-link" data-scroll-target="#programs">Programs</a>
+  <ul class="collapse">
+  <li><a href="#level-1" id="toc-level-1" class="nav-link" data-scroll-target="#level-1">Level 1</a></li>
+  <li><a href="#level-2" id="toc-level-2" class="nav-link" data-scroll-target="#level-2">Level 2</a></li>
+  <li><a href="#level-3" id="toc-level-3" class="nav-link" data-scroll-target="#level-3">Level 3</a></li>
+  <li><a href="#level-4" id="toc-level-4" class="nav-link" data-scroll-target="#level-4">Level 4</a></li>
+  <li><a href="#level-5" id="toc-level-5" class="nav-link" data-scroll-target="#level-5">Level 5</a></li>
+  <li><a href="#special-programs" id="toc-special-programs" class="nav-link" data-scroll-target="#special-programs">Special programs</a></li>
+  </ul></li>
+  <li><a href="#akashic-spirits" id="toc-akashic-spirits" class="nav-link" data-scroll-target="#akashic-spirits">Akashic spirits</a>
+  <ul class="collapse">
+  <li><a href="#the-artist" id="toc-the-artist" class="nav-link" data-scroll-target="#the-artist">The Artist</a></li>
+  <li><a href="#the-assassin" id="toc-the-assassin" class="nav-link" data-scroll-target="#the-assassin">The Assassin</a></li>
+  <li><a href="#the-investigator" id="toc-the-investigator" class="nav-link" data-scroll-target="#the-investigator">The Investigator</a></li>
+  <li><a href="#the-officer" id="toc-the-officer" class="nav-link" data-scroll-target="#the-officer">The Officer</a></li>
+  <li><a href="#the-dilettante" id="toc-the-dilettante" class="nav-link" data-scroll-target="#the-dilettante">The Dilettante</a></li>
+  <li><a href="#the-businessman" id="toc-the-businessman" class="nav-link" data-scroll-target="#the-businessman">The Businessman</a></li>
+  <li><a href="#the-scientist" id="toc-the-scientist" class="nav-link" data-scroll-target="#the-scientist">The Scientist</a></li>
+  <li><a href="#the-seducer" id="toc-the-seducer" class="nav-link" data-scroll-target="#the-seducer">The Seducer</a></li>
+  <li><a href="#the-thief" id="toc-the-thief" class="nav-link" data-scroll-target="#the-thief">The Thief</a></li>
+  <li><a href="#the-traveller" id="toc-the-traveller" class="nav-link" data-scroll-target="#the-traveller">The Traveller</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+</div>
+<main class="content" id="quarto-document-content">      <section id="matrix" class="level1">
+<h1>Matrix</h1>
+<blockquote class="blockquote">
+<p>“Cyberspace. A consensual hallucination experienced daily and legally by tens of millions of operators, in all countries, by kids who are taught mathematical concepts … A graphic representation of data extracted from the memories of all the computers in the human system. An unthinkable complexity. Lines of light arranged in the non-space of the mind, clusters and constellations of data. Like the lights of cities in the distance…”</p>
+<p>—William Gibson, Neuromancer</p>
+</blockquote>
+<p>All characters have a nexus to connect to the Matrix and, through forbidden programs well hidden in the machine’s memories, to hack into it. To engage a program, you must spend one or more connection points - this is how you defeat the safeties and alarms of the matrix itself. When you run out of connection points, any use of a program will inexorably trigger an alarm if you decide to run it anyway.</p>
+<p>You get all your connection points back after a night of rest, when the matrix stops being interested in you and your connection address has been reset.</p>
+<blockquote class="blockquote">
+<p>Program or skill?</p>
+<p>Most character actions in the matrix can take the form of a com skill, especially when you have to code a very specific program or do research to file information or to classify information or find it in the middle of a information or find it in the middle of a pile of material. The programs, on the other hand, are self-matizing routines that are launched by touching an icon in reality icon or by dragging it over the target object - For example, dragging the small icon of the Symbiose on a camera visible in its field of view of vision to receive all the images it captures live. that it captures. These are very specific things that require a live presence in the area, to manipulate the matrix or the connected objects live. At home, these programs are sometimes useful, but most coders do things by hand. This is the popular difference between spiders, which glide along the web lightly and turtles, which move forward heavily but with an iron will (the turtle also refers to the small cursor in LOGO programs that could be programmed to perform specific tasks).</p>
+</blockquote>
+<section id="firewalls-and-alarms" class="level2">
+<h2 class="anchored" data-anchor-id="firewalls-and-alarms">Firewalls and alarms</h2>
+<section id="firewalls" class="level3">
+<h3 class="anchored" data-anchor-id="firewalls">Firewalls</h3>
+<p>Each time you attack a system with a firewall, roll 1d6. If the result is equal to or less than the level of the firewall, the program does not pass directly, but you must still spend the connection points.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D6</th>
+<th style="text-align: left;">EXAMPLES</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">0</td>
+<td style="text-align: left;">A nexus or completely unprotected machine</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1-2</td>
+<td style="text-align: left;">Most automated systems and consumer nexuses</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3-4</td>
+<td style="text-align: left;">The most common nexuses and corporate systems</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">The most secure nexuses and systems available for corporations and security services</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">The legendary corporate anti-zones impossible to hack</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="alarms" class="level3">
+<h3 class="anchored" data-anchor-id="alarms">Alarms</h3>
+<p>If a firewall blocks you, you can give up (and why not re-spend connection points to start again immediately) or you can choose to force your way through. Your program works, but you trigger an alarm and roll 1d6 in the following table. Depending on the area, the alarm die may receive a variable bonus - usually equal to half the local security level (see page 273). Some abilities or nexus modifications allow the alarm die to be reduced.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D6</th>
+<th style="text-align: left;">EFFECT</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">The alarm must sound in a vacuum somewhere. This is obviously the coffee break in the security office.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">For the rest of the current cycle, all your connection costs are increased by 1 - the matrix is watching you without being able to find you.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">No one seems to react, but it is best to consider that the Matrix is off limits for the rest of the current scene.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">The Matrix is off limits to you for the rest of the cycle, unless you can find a way to change your login identity. If you stick around, you’ll get hit.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">Opposing programmes have indeed spotted you. The host can roll 1d6 (rounded down) to see how many connection points you can still use before you are fully identified. Then, anyway, you will be traced.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">Corporate forces are in the area in 1d2 minutes. You are spotted and marked by the opposing programs who are tracking you.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">7+</td>
+<td style="text-align: left;">A counter-intrusion program is triggered which attacks you directly with somatic biofeedback loops.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="fighting-in-the-matrix" class="level3">
+<h3 class="anchored" data-anchor-id="fighting-in-the-matrix">Fighting in the Matrix!</h3>
+<p>Depending on the effects you want to achieve, we offer two ways to handle counter-intrusion programs that can attack an encoder in the matrix.</p>
+<p>If you want something a little tense, set up a fight using the normal rules and the following characteristics for the programs. The coder fights using Intelligence as a guiding characteristic, both to attack and to inflict damage. The other characters can intervene in the matrix by spending a number of connection points equal to the power of the enemy program. The damage is real - neurons frying one after another.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;"></th>
+<th style="text-align: left;">PROGRAM</th>
+<th style="text-align: left;">DESCRIPTION</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">Cerberus</td>
+<td style="text-align: left;">Defence 9; hp 15; attack +2; initiative +1d6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">Droïdeka</td>
+<td style="text-align: left;">Defence 12; hp 15; attack +2; damage +4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">Flamer</td>
+<td style="text-align: left;">Defence 10; hp 25; attack +2; damage +3 (area); initiative +2d6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">Guivre</td>
+<td style="text-align: left;">Defence 11; hp 30; attack +2; initiative +1d6; steals 1 connection point or 1d6 extra hp per attack (successful or not).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">Golem</td>
+<td style="text-align: left;">Defence 15; hp 40; attack +2; damage +4; each attack made steals one manoeuvre from the coder, to prevent him from fleeing while the security forces intervene.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">6</td>
+<td style="text-align: left;">Hydra</td>
+<td style="text-align: left;">Defence 13; hp 30; attack +2; damage +4; initiative +4d6. A hydra gains 5 hit points for each point of connection spent by the coder or his allies.</td>
+</tr>
+</tbody>
+</table>
+<p>The other solution, quicker and more random, is to call for an intelligence saving throw from the coder. The coder can ‘bet’ connection points, before the roll, to increase the result of the roll - each point invested brings a +1 bonus. Difficulty varies - but you can start with 12 + 1d6 (the d6 representing the type of program being activated, from cerberus to hydra). If the saving throw is successful, all is well. If not, draw a random event from the table on the next page:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D26</th>
+<th style="text-align: left;">COUNTER-INTRUSION EFFECTS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">The character is ejected from the matrix until the end of the scene, with or without an alternate identity.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">The character suffers 1d6 (explosive) damage per power rank of the counter-intrusion program they are facing.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">The character is ejected from the matrix until the end of the cycle, with or without an alternate identity.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">The character loses 1d6 hit points.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">The character loses all connection points.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">The program follows the character’s footsteps and monitors his every move for 1d6 cycles, immediately alerting the security forces or adding half its power to any firewalls attacked by the character.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">The character suffers an EMP attack on any of his hardware (physical or cyber).</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">The character’s nexus is completely hacked and all his data is recovered by local security (it remains to be seen what they will do with the information).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">The character’s nexus is destroyed (on 4+ on 1d6, the data is destroyed at the same time).</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">The character suffers an EMP attack on all his equipment (physical or cyber).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">The character’s nexus permanently loses one of its abilities.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">The program inflicts 1d6 wounds in the form of neural damage.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="programs" class="level2">
+<h2 class="anchored" data-anchor-id="programs">Programs</h2>
+<p>You can run any of the following programs by spending a number of connection points equal to the level of the program. Using a program is an action.</p>
+<section id="level-1" class="level3">
+<h3 class="anchored" data-anchor-id="level-1">Level 1</h3>
+<ul>
+<li>SECURITY SYSTEM CONTROL: You take temporary control of a local security system (a door locked with an electronic lock, a detection portal, etc.).</li>
+<li>EMERGENCY DISCONNECT: If you need to trigger an alarm to force a program to run, you disconnect in time to avoid the consequences. The program runs and the alarm ignores you. Nevertheless, you lose all your remaining connection points.</li>
+<li>DIVERSION OF COMMUNICATIONS: You misuse a communication in such a way that you answer it yourself or do not complete it.</li>
+<li>GEOLOCATION: You divert the target’s geolocation information so that you always know their location.</li>
+<li>QUICK GLANCE: You access a person’s personal information recorded on their nexus. The amount of information naturally depends on the target’s attitude towards his presence (or discretion) on the matrix.</li>
+<li>METAMORPHOSIS: You change your appearance in augmented reality - costume, appearance, size, gender, etc. The illusion only works for those who see the world in this way. The program is passive and everyone is affected.</li>
+<li>SYMBIOSIS: You are piggybacking on the signals of another user or system. You cannot control what he does, but you receive all the data at the same time.</li>
+</ul>
+</section>
+<section id="level-2" class="level3">
+<h3 class="anchored" data-anchor-id="level-2">Level 2</h3>
+<ul>
+<li>ACCREDITATION: You grant temporary accreditation to a specific person. This person can pass a checkpoint without any problems. Each person beyond the first one costs an additional connection point.</li>
+<li>ANONYMAT: You camouflage your identity in the crowd. Surveillance programs waste time tracking you down. The alarm roll receives a -1 modifier.</li>
+<li>CONTROL OF A MACHINE: You take control of a local machine (manipulator arm, vehicle, robot, etc.) to make it perform simple tasks.</li>
+<li>LISTEN: After hacking into the target’s nexus, you can listen in on their live conversations as long as you are within range.</li>
+<li>ILLUSION: You change the perceptions of a person connected to the augmented reality to add or remove elements of the setting - the details must be minor and consistent.</li>
+<li>CAMERA PLAYBACK: You retrieve recent data from local cameras (up to hours earlier). The retrieval concerns cameras of all kinds present in an area not exceeding the size of a block.</li>
+<li>SECURITY RESET: You reboot your nexus at maximum speed to cancel all programs that target or affect you - you need a full turn during which you are no longer connected to the matrix.</li>
+<li>DECOY: You send false data to machines or cameras that get false information and act accordingly.</li>
+<li>TAMPERED SIGNAL: You add data to a communication signal.</li>
+<li>NETWORK MONITORING: You display in augmented reality the communication patterns between individuals and between individuals and machines, in order to identify functional groups. You need to be in the area and the links are displayed live in your field of view.</li>
+</ul>
+</section>
+<section id="level-3" class="level3">
+<h3 class="anchored" data-anchor-id="level-3">Level 3</h3>
+<ul>
+<li>ANONYMISATION: An alarm roll receives a modifier of -3.</li>
+<li>JAMMING: You saturate or jam communications in the area, causing a mess. You automatically trigger an alarm (roll 1d6 with a -3 modifier).</li>
+<li>EMBEZZLEMENT: You transfer funds from one account to another. Beware, this is the kind of operation that is anything but discreet and leaves traces for other coders like you. Sound the alarm immediately.</li>
+<li>INVISIBILITY: You disappear from the target’s augmented reality devices. The target has to switch back to normal vision, disconnect from the matrix or trigger specific monitoring programs to become aware of your real presence - but if they were unaware of your presence, they are unlikely to think about it.</li>
+<li>ACCESS RESTRICTED DATA: The programme allows you to access databases normally out of reach of the public - administrative files, corporate files, etc. Beware: the program grants you access but does not carry out searches for you (make a skill roll); moreover, this is always a time-consuming operation and can block you for several turns, minutes or even hours.</li>
+<li>HACKING OF INTERFACED SYSTEMS: You take control of an interfaced system at an opponent’s location. The target is forced to use this hardware until they can perform a reset (they only roll 2d6 for all related rolls).</li>
+</ul>
+</section>
+<section id="level-4" class="level3">
+<h3 class="anchored" data-anchor-id="level-4">Level 4</h3>
+<ul>
+<li>NETWORK CONTROL: You take control of the network and can allow or disallow communications and data transfers according to the filters you set up. Roll 1d6 every minute below the number of minutes to see if you trigger an alarm.</li>
+<li>DECRYPTAGE: You decrypt passwords, encrypted files, etc. - the firewall of an opposing system has a -1 malus for the rest of the scene, allowing you to control it more easily. You can activate this program several times to cumulate its effects, including from several different consoles (if several characters act together).</li>
+<li>PROTECTED IDENTITY: In addition to its normal activation cost, this programme costs ¥5 each time it is activated. As long as the programme is activated (including over several successive cycles), you benefit from a secondary protected identity on the matrix. Any request for identification or data about you is directed to this secondary identity. If adversary programs identify you, they burn this identity and you escape prosecution - you will have to restart the program and pay for its use.</li>
+<li>SATURATION: You saturate a person’s augmented reality receivers by drowning them in spam and attack ads. They must log out for the rest of the scene to reset their connection.</li>
+</ul>
+</section>
+<section id="level-5" class="level3">
+<h3 class="anchored" data-anchor-id="level-5">Level 5</h3>
+<ul>
+<li>COUNTERORDER: You cancel an alarm that has just been triggered.</li>
+<li>DESTRUCTION: You operate a complete network collapse over an area equivalent to a block. All communications are interrupted and the secondary and alert management systems start up.</li>
+<li>WORM: You install a worm in a system. The worm performs one of the following tasks, defined during installation:
+<ul>
+<li>BACKDOOR: If you return to this system, the firewall is lowered by one level - even after several cycles. You should still activate your programs normally.</li>
+<li>SCREENING: The worm installs itself on the passage of wealth and takes a tiny part of it and gives it back to you at the end of the cycle - in the form of 1d6 ¥. Beware: this worm is particularly visible and corporations always react extremely badly when they discover the theft.</li>
+<li>SUPERVISION: The worm records all changes to the system files and sends a report at the end of each scene if necessary.</li>
+</ul></li>
+</ul>
+</section>
+<section id="special-programs" class="level3">
+<h3 class="anchored" data-anchor-id="special-programs">Special programs</h3>
+<p>CHANGING DATA: You change data in the memories of a system, either to erase it or to corrupt it. The cost depends on the type of data and the type of changes - from 2 to 5 connection points.</p>
+<p>DATA FUNNEL: You run a program with specific instructions to sort and capture the most interesting data in a system. The cost is variable depending on the purpose of the searches. This program is often used in conjunction with Read Reserved Data.</p>
+</section>
+</section>
+<section id="akashic-spirits" class="level2">
+<h2 class="anchored" data-anchor-id="akashic-spirits">Akashic spirits</h2>
+<p>A character with the appropriate ability (see page 90) can attach a special Akashic Spirit to themselves, a mentor who accompanies them everywhere and watches over them from the matrix, granting them special abilities and a disadvantage specific to their nature. You can ignore the effects of a disadvantage by spending a luck point.</p>
+<section id="the-artist" class="level3">
+<h3 class="anchored" data-anchor-id="the-artist">The Artist</h3>
+<p>SPEND ONE POINT OF LUCK - you create a complex digital work in a short time - background music, painting, dress design or costume in virtual reality, etc. - you assess the value of a work and learn what there is to know about its about its author.</p>
+<p>DISADVANTAGE You must practice an artistic activity every day, such as music or painting. You never turn down a concert, an exhibition a museum visit.</p>
+</section>
+<section id="the-assassin" class="level3">
+<h3 class="anchored" data-anchor-id="the-assassin">The Assassin</h3>
+<p>SPEND ONE POINT OF LUCK - you erase all images of you on the surveillance systems. - you find a quick way out of a place without getting caught.</p>
+<p>DISADVANTAGE You must not refuse to cause death when you have the opportunity to go through with it or when you could prevent it by some action.</p>
+</section>
+<section id="the-investigator" class="level3">
+<h3 class="anchored" data-anchor-id="the-investigator">The Investigator</h3>
+<p>SPEND ONE POINT OF LUCK - you access police or security databases to get useful information. - you record the entire crime scene in 3D to study it later.</p>
+<p>DISADVANTAGE You must not leave a mystery unsolved.</p>
+</section>
+<section id="the-officer" class="level3">
+<h3 class="anchored" data-anchor-id="the-officer">The Officer</h3>
+<p>SPEND ONE POINT OF LUCK - you get the positions at that moment of all the security units on an area equivalent to a block. - you and your companions pass a security checkpoint by simply showing your identity</p>
+<p>DISADVANTAGE You give orders and do not accept disobedience. Similarly, if a superior orders you to do something, you do it.</p>
+</section>
+<section id="the-dilettante" class="level3">
+<h3 class="anchored" data-anchor-id="the-dilettante">The Dilettante</h3>
+<p>SPEND ONE POINT OF LUCK - you create a complete virtual universe in a few moments to welcome visitors to the matrix. - you know enough about a particular subject to fool an expert in that field for a few moments.</p>
+<p>DISADVANTAGE You have to try new things - culture, food, drink, sex, drugs, etc. - as often as possible and you do not resist such an offer.</p>
+</section>
+<section id="the-businessman" class="level3">
+<h3 class="anchored" data-anchor-id="the-businessman">The Businessman</h3>
+<p>SPEND ONE POINT OF LUCK - you get ¥2. - you completely conceal a financial transaction and prevent any possibility of a payment being discovered or tracked.</p>
+<p>DISADVANTAGE You have to invest a significant part of your income in corporate interests - at the discretion of the game leader.</p>
+</section>
+<section id="the-scientist" class="level3">
+<h3 class="anchored" data-anchor-id="the-scientist">The Scientist</h3>
+<p>SPEND ONE LUCK POINT - you get a scientific assessment of a situation and insights. - you get a mathematical analysis of the data in your possession to infer useful information.</p>
+<p>DISADVANTAGE You need to keep up to date with scientific information and spend a significant amount of time reading various journals and books.</p>
+</section>
+<section id="the-seducer" class="level3">
+<h3 class="anchored" data-anchor-id="the-seducer">The Seducer</h3>
+<p>SPEND ONE LUCK POINT - you get all the information available on the matrix about your target. - you control elements of your AR and physical environment - music, lights, advertisements, etc. - to favour or hinder competitors.</p>
+<p>DISADVANTAGE You have to change partners regularly and organise days that are entirely dedicated to them (outings, restaurants, walks, shows, etc.)</p>
+</section>
+<section id="the-thief" class="level3">
+<h3 class="anchored" data-anchor-id="the-thief">The Thief</h3>
+<p>SPEND ONE LUCK POINT - you get the positions of all security systems in an area equivalent to a block. - You get contacts to fences to sell or buy goods or to get commissions for specific thefts.</p>
+<p>DISADVANTAGE You have to steal a valuable object per cycle and sell it. What you do with you do with the ¥ is your own business.</p>
+</section>
+<section id="the-traveller" class="level3">
+<h3 class="anchored" data-anchor-id="the-traveller">The Traveller</h3>
+<p>SPEND ONE LUCK POINT - you get simultaneous translations of foreign languages. - you can organise public transport connections during a journey to shorten the journey or to lose pursuers.</p>
+<p>DISADVANTAGE You must regularly travel to distant destinations - both within the city and destinations - within the city or out of town.</p>
+</section>
+</section>
+</section>
+     </main>
+<!-- /main column -->  <script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>  </div> <!-- /content --> 
+  
+</body></html>

@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="generator" content="quarto-1.7.32">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+    <title>magic</title>
+    <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      div.columns{display: flex; gap: min(4vw, 1.5em);}
+      div.column{flex: auto; overflow-x: auto;}
+      div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+      ul.task-list{list-style: none;}
+      ul.task-list li input[type="checkbox"] {
+        width: 0.8em;
+        margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+        vertical-align: middle;
+      }
+    </style>
+
+    <style>
+      body.hypothesis-enabled #quarto-embed-header {
+        padding-right: 36px;
+      }
+
+      #quarto-embed-header {
+        height: 3em;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: solid 1px;
+      }
+
+      #quarto-embed-header h6 {
+        font-size: 1.1em;
+        padding-top: 0.6em;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-weight: 400;
+      }
+
+      #quarto-embed-header a.quarto-back-link,
+      #quarto-embed-header a.quarto-download-embed {
+        font-size: 0.8em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+
+      .quarto-back-container {
+        padding-left: 0.5em;
+        display: flex;
+      }
+
+      .headroom {
+          will-change: transform;
+          transition: transform 200ms linear;
+      }
+
+      .headroom--pinned {
+          transform: translateY(0%);
+      }
+
+      .headroom--unpinned {
+          transform: translateY(-100%);
+      }      
+    </style>
+
+    <script>
+    window.document.addEventListener("DOMContentLoaded", function () {
+
+      var header = window.document.querySelector("#quarto-embed-header");
+      const titleBannerEl = window.document.querySelector("body > #title-block-header");
+      if (titleBannerEl) {
+        titleBannerEl.style.paddingTop = header.clientHeight + "px";
+      }
+      const contentEl = window.document.getElementById('quarto-content');
+      for (const child of contentEl.children) {
+        child.style.paddingTop = header.clientHeight + "px";
+        child.style.marginTop = "1em";
+      }
+
+      // Use the article root if the `back` call doesn't work. This isn't perfect
+      // but should typically work
+      window.quartoBackToArticle = () => {
+        var currentUrl = window.location.href;
+        window.history.back();
+        setTimeout(() => {
+            // if location was not changed in 100 ms, then there is no history back
+            if(currentUrl === window.location.href){              
+                // redirect to site root
+                window.location.href = "...html";
+            }
+        }, 100);
+      }
+
+      const headroom = new window.Headroom(header, {
+        tolerance: 5,
+        onPin: function () {
+        },
+        onUnpin: function () {
+        },
+      });
+      headroom.init();
+    });
+    </script>
+
+    
+<script src="../site_libs/manuscript-notebook/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-813c323200a87c37e262811031999de4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+     
+        <link rel="stylesheet" href="../assets/site.css">
+      </head>
+
+  <body class="quarto-notebook quarto-light">
+    <div id="quarto-embed-header" class="headroom fixed-top bg-primary">
+      
+      <a onclick="window.quartoBackToArticle(); return false;" class="btn btn-primary quarto-back-link" href=""><i class="bi bi-caret-left"></i> Back to Article</a>
+      <h6><i class="bi bi-journal-code"></i> Chrome Dragon</h6>
+
+            <a href="../content/magic.qmd" class="btn btn-primary quarto-download-embed" download="magic.qmd">Download Source</a>
+          </div>
+
+     <div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#chrome-dragon" id="toc-chrome-dragon" class="nav-link active" data-scroll-target="#chrome-dragon">Chrome Dragon</a>
+  <ul class="collapse">
+  <li><a href="#magic" id="toc-magic" class="nav-link" data-scroll-target="#magic">Magic</a></li>
+  <li><a href="#races-of-the-æther" id="toc-races-of-the-æther" class="nav-link" data-scroll-target="#races-of-the-æther">Races of the Æther</a></li>
+  <li><a href="#new-classes" id="toc-new-classes" class="nav-link" data-scroll-target="#new-classes">New classes</a>
+  <ul class="collapse">
+  <li><a href="#alchemist" id="toc-alchemist" class="nav-link" data-scroll-target="#alchemist">Alchemist</a></li>
+  <li><a href="#hermetic" id="toc-hermetic" class="nav-link" data-scroll-target="#hermetic">Hermetic</a></li>
+  <li><a href="#orphist" id="toc-orphist" class="nav-link" data-scroll-target="#orphist">Orphist</a></li>
+  </ul></li>
+  <li><a href="#additional-rules" id="toc-additional-rules" class="nav-link" data-scroll-target="#additional-rules">Additional rules</a>
+  <ul class="collapse">
+  <li><a href="#magic-points" id="toc-magic-points" class="nav-link" data-scroll-target="#magic-points">Magic points</a></li>
+  <li><a href="#physical-and-magical-defences" id="toc-physical-and-magical-defences" class="nav-link" data-scroll-target="#physical-and-magical-defences">Physical and magical defences</a></li>
+  <li><a href="#new-abilities" id="toc-new-abilities" class="nav-link" data-scroll-target="#new-abilities">New abilities</a></li>
+  </ul></li>
+  <li><a href="#magic-powers" id="toc-magic-powers" class="nav-link" data-scroll-target="#magic-powers">Magic powers</a>
+  <ul class="collapse">
+  <li><a href="#spells" id="toc-spells" class="nav-link" data-scroll-target="#spells">Spells</a></li>
+  <li><a href="#summoning" id="toc-summoning" class="nav-link" data-scroll-target="#summoning">Summoning</a></li>
+  <li><a href="#guide" id="toc-guide" class="nav-link" data-scroll-target="#guide">Guide</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+</div>
+<main class="content" id="quarto-document-content">      <section id="chrome-dragon" class="level1">
+<h1>Chrome Dragon</h1>
+<blockquote class="blockquote">
+<p>As he dug, Cal thought about how many times the Fugue and its inhabitants had foiled his preconceptions. Here he was on his knees, digging a grave with a bunch of laughing kids: not the kind of situation his dreams had prepared him for. But this situation was, in its own way, more real than he had dared to hope for - dirt under his fingernails and a snotty child happily devouring a worm beside him. It was not a dream, but an awakening.</p>
+<p>—Clive Barker, Kingdom of the Diviners</p>
+</blockquote>
+<p>The next chapter, which is completely optional, offers you the chance to add a little magic and fantasy to your cyberpunk. This is not a new idea, we agree - there are plenty of Urban Fantasy worlds, but very few with a cyberpunk setting. Nevertheless, what we wouldn’t do for a little exoticism?</p>
+<p>See what your players think of the idea and if everyone agrees, go for it. Beware though, the appearance of magic does not mean that the world will be all pastel, unicorns and rainbows. Magic can be a nasty thing and no one can trust a dragon!</p>
+<section id="magic" class="level2">
+<h2 class="anchored" data-anchor-id="magic">Magic</h2>
+<p>Add the following fundamental to the first three given in the first chapter (page 13).</p>
+<p>It had to happen sometime. By dint of playing with ever longer subatomic racetracks to observe Higgs bosons and tobacco pot gluons, researchers blew it up. One chance in a million, they said.</p>
+<p>What happened? A coiled dimension suddenly unfolded - physicists know that extra dimensions (beyond the first four) do exist, in the form of microscopic toroids that were formed just after the Big Bang. What was not known was that the dimension in question had an existence of its own and that it was home to particular energies and fauna.</p>
+<p>In short, overnight this new dimension was imposed on the world - so that we had to deal with the three physical dimensions, a fourth time dimension and a fifth, very real dimension, which was soon called the Æther.</p>
+<p>The Æther caused some major upheavals in the world:</p>
+<ul>
+<li>First, people started practicing magic - not silly Las Vegas-style prestidigitation - but real magic. Of course, in the beginning it was complicated and there were many accidents. But from learning came mastery, and from mastery came the traditions that are now well known.</li>
+<li>Then strange people appeared - gnomes, ogres, sidhes, but also trolls, goblins, mandrakes and ulfurs. It wasn’t easy to make a place for them in the world and people were very afraid of them at first (and still are); but, as generations passed, everything was more or less settled…</li>
+<li>Finally, other, much more dangerous creatures arrived: the dragons. Believe me, these are quite a few, rare but powerful, and they quickly understood the interest they had in getting involved in human affairs to build up their fortunes.</li>
+</ul>
+</section>
+<section id="races-of-the-æther" class="level2">
+<h2 class="anchored" data-anchor-id="races-of-the-æther">Races of the Æther</h2>
+<p>In addition to your affiliation, choose a race.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">RACE</th>
+<th style="text-align: left;">DESCRIPTION</th>
+<th style="text-align: left;">ADVANTAGES</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">GNOME</td>
+<td style="text-align: left;">Gnomes are telluric creatures, slow and tireless.</td>
+<td style="text-align: left;">You have 10 additional hit points and you see in the dark.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GOBLIN</td>
+<td style="text-align: left;">Goblins are small, industrious, and cunning.</td>
+<td style="text-align: left;">You have an additional point of Intelligence (which will allow you to reach +8 one day in this characteristic) and you see in the dark.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">HUMAN</td>
+<td style="text-align: left;">The people of the original land, mixed with other humans who are sometimes a bit strange.</td>
+<td style="text-align: left;">You have two additional skills.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MANDRAKE</td>
+<td style="text-align: left;">The root people have surprisingly adapted to immense human megacities, but they still dislike fire.</td>
+<td style="text-align: left;">You have an additional point of Charisma (which will allow you to reach +8 one day in this characteristic) and you see in the dark.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">OGRE</td>
+<td style="text-align: left;">Ogres are immense and very strong, wrathful and uncontrollable like fire.</td>
+<td style="text-align: left;">You have 2 additional luck points and one point of Strength (which will allow you to reach +8 one day in this characteristic).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SIDHE</td>
+<td style="text-align: left;">Sidhe are aerial, light, haughty, and indifferent to material possessions.</td>
+<td style="text-align: left;">You have 2 additional magic points and you see in the dark.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">TROLL</td>
+<td style="text-align: left;">Trolls are hirsute and fierce, proud of their independence and savagery.</td>
+<td style="text-align: left;">You have one skill and 10 additional hit points.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ULFUR</td>
+<td style="text-align: left;">These enormous and powerful wolves live in nomadic, territorial, and aggressive packs. They can only use tools and weapons if they are interfaced – but they are often effective wired individuals.</td>
+<td style="text-align: left;">You have an additional point of Wisdom (which will allow you to reach +8 one day in this characteristic) and a +1d6 bonus to melee damage when you use your claws and teeth.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="new-classes" class="level2">
+<h2 class="anchored" data-anchor-id="new-classes">New classes</h2>
+<section id="alchemist" class="level3">
+<h3 class="anchored" data-anchor-id="alchemist">Alchemist</h3>
+<p>Alchemists tinker with very powerful magic drugs and inject them into themselves to give themselves considerable powers. It’s a long, painful apprenticeship to master the strange effects of these alchemical potions, but what one wouldn’t do to achieve perfection.</p>
+<p>ACCELERATION: By spending one point of magic, you can perform a superhuman physical act - move faster, lift a heavy load, jump high and far, etc.</p>
+<p>FORTRESS: For one magic point, you ignore 1d6 points of damage. You can spend as many magic points as you like on the same hit.</p>
+</section>
+<section id="hermetic" class="level3">
+<h3 class="anchored" data-anchor-id="hermetic">Hermetic</h3>
+<p>Hermetics study magic and its effects with a scientific, pragmatic eye. It is a physical science, nothing more, a derivative of the laws of thermodynamics - what happens when you change mass into energy and back again.</p>
+<p>FOCUS: You have a magical focus - staff, talisman, ring - which gives you 3 extra magic points.</p>
+<p>MAGIC: You can cast spells and summon spirits. You can also project your perception into the Æther.</p>
+</section>
+<section id="orphist" class="level3">
+<h3 class="anchored" data-anchor-id="orphist">Orphist</h3>
+<p>For the Orphists, the appearance of the Æther marks the beginning of the great reunification of the world. They seek to break the cycle of creation/destruction, birth/death, that humans experience, so that time and all dimensions become one.</p>
+<p>GUIDE: A spirit of the Æther accompanies you wherever you go and gives you considerable magical powers. Choose your guide from the list provided.</p>
+<p>MAGIC: You can cast spells and summon spirits. You can also project your perception into the Æther.</p>
+</section>
+</section>
+<section id="additional-rules" class="level2">
+<h2 class="anchored" data-anchor-id="additional-rules">Additional rules</h2>
+<section id="magic-points" class="level3">
+<h3 class="anchored" data-anchor-id="magic-points">Magic points</h3>
+<p>If you are an alchemist, hermeticist or orphist, you have a number of magic points equal to your Constitution rank. This total is reduced for each item of cybernetics you wear, including cosmetic prosthetics, and for each wound you suffer. The use of magic is limited by pain and all things that tie the body to its own sensations. You recover all your magic points after a full night’s sleep.</p>
+</section>
+<section id="physical-and-magical-defences" class="level3">
+<h3 class="anchored" data-anchor-id="physical-and-magical-defences">Physical and magical defences</h3>
+<p>There are two different defences - physical and magical - which are calculated in the same way (Wisdom + 7). However, physical protections do not increase magical defence and conversely, magical protections have no effect against physical attacks. When a wizard casts an Ethereal Barrier spell, for example, he must choose whether to affect one or the other defence, but he can cast the spell twice to cover all options.</p>
+<p>Similarly, some creatures have only one magical defence. It is impossible to hit them with physical attacks. Conversely, physical objects have no magical defence and magical attacks have no effect on them.</p>
+</section>
+<section id="new-abilities" class="level3">
+<h3 class="anchored" data-anchor-id="new-abilities">New abilities</h3>
+<p>MYSTIC ADEPT: You must be an alchemist to choose this ability. You can cast spells like hermeticists and orphists. However, you have two limitations: you can only cast spells whose level is equal to or lower than your Intelligence rank; you cannot summon spirits.</p>
+<p>ÆTHERIC AFFINITY: You have two extra magic points per day.</p>
+<p>SPEED: You must be an alchemist to choose this ability. Add twice your Dexterity rank to your initiative. It does not cost any magic points. You can gain 1d6 extra initiative points for each magic point you invest.</p>
+<p>CONTROL: You must be an alchemist to choose this ability. You can impose major deprivations on your body by spending magic points: one point per minute to stop breathing, one per hour to remain completely immobile, two per night to not sleep (but you don’t get any magic or life points back in the morning), etc. You can go several days without eating and drinking very little.</p>
+<p>MAGIC FORTRESS: you must be an alchemist to choose this ability. The resistances and defences you gain also apply to your magic defence.</p>
+<p>RAPID HEALING: You must be an alchemist to choose this ability. You regain 1d6 hit points for every hour of rest or quiet activity. In addition, you recover 2d3 wounds each round instead of 1d3.</p>
+<p>MAGE OF HERMES: If you are a hermeticist, you belong to the Order of Hermes and can use its facilities and libraries.</p>
+<p>BATTLE MAGE: Add 1d6 to all damage you inflict with magic.</p>
+<p>INSTICTIVE MAGE: If you are a hermeticist or orphist, you can make magical attacks without spending any magic. Make an Intelligence roll to hit, against the target’s (magical) defence, and calculate the damage normally.</p>
+<p>LODGE MEMBER: You belong to a major Orphic lodge and can use its facilities and libraries.</p>
+<p>POWER: You must be an alchemist to choose this ability. Add 1d6 (explosive) to all damage you deal in close combat. This does not cost a magic point. You can add 1d6 (non-explosive) damage for each point of magic you invest in the move.</p>
+<p>RAMPART: You must be an alchemist to choose this ability. Add your Constitution to your defence. This does not cost any magic points. You can gain +1 defence for the round for each magic point you invest.</p>
+<p>SAIL: You must be an alchemist to choose this ability. For 1 magic point, you go unnoticed and people ignore you.</p>
+</section>
+</section>
+<section id="magic-powers" class="level2">
+<h2 class="anchored" data-anchor-id="magic-powers">Magic powers</h2>
+<p>Hermetics and Orphists both possess the ability to cast spells and summon ethereal spirits.</p>
+<section id="spells" class="level3">
+<h3 class="anchored" data-anchor-id="spells">Spells</h3>
+<p>The magic still works and you do not have to make any rolls. Use an action and spend one magic point per spell level. If you do not have enough magic points, the spell does not work.</p>
+<p>Generally speaking, the effects of spells are instantaneous (or very short) or end with the next dawn or dusk. Most spells work on contact (including all spells intended to aid one’s allies) or on sight; a few spells, such as Message, work beyond the normal range of perception.</p>
+<p>If a creature can make a saving throw to escape one of your spells, the difficulty of the saving throw is equal to 10 + your Wisdom. If you are wearing a magical focuser (staff, magic symbol, etc), add the bonus of that to the difficulty.</p>
+<section id="level-1" class="level4">
+<h4 class="anchored" data-anchor-id="level-1">Level 1</h4>
+<ul>
+<li>ASSISTANCE: You grant a +4 bonus to a roll that you or a companion must make. This bonus does not stack with the use of a skill.</li>
+<li>MINOR ILLUSION: You create a small auditory or visual illusion within sight. Onlookers can make a saving throw to ignore the illusion, but only if they suspect it is something abnormal.</li>
+<li>LIGHT: A bright light appears that follows you everywhere and illuminates like a beautiful lamp until you extinguish it. You can concentrate it to give it the appearance and use of a high-power directional flash-light.</li>
+<li>MESSAGE: You send a short message to a person you know.</li>
+<li>ÆTHERIC PERCEPTION: You detect magic and see into the Æther up to your Intelligence in meters. You can also use this spell to analyse a scene from a magical point of view.</li>
+</ul>
+</section>
+<section id="level-2" class="level4">
+<h4 class="anchored" data-anchor-id="level-2">Level 2</h4>
+<ul>
+<li>ÆTHERIC BARRIER: You grant a +1 defence bonus to yourself or a companion for the duration of one combat. Each person can only receive one Ætheric barrier of a specific type at a time, but you can cast it on multiple people if you have enough magic points. You must choose whether the barrier applies to physical defence or magical defence.</li>
+<li>MAGIC SHOCK: One of your opponents loses their next action.</li>
+<li>MANIPULATION: You can activate any mechanical system at close range and within sight – locks, switches, levers, etc.</li>
+<li>MAGIC MISSILE: You inflict 1d6 + Wisdom damage points on a target within sight. You automatically hit without a saving throw.</li>
+<li>MINOR HEALING: You restore 1d6 + Wisdom hit points to an ally within sight.</li>
+</ul>
+</section>
+<section id="level-3" class="level4">
+<h4 class="anchored" data-anchor-id="level-3">Level 3</h4>
+<ul>
+<li>MAGIC AUGMENTATION: You grant a +1 bonus to all actions of your allies for the duration of one combat.</li>
+<li>ANTIDOTE: You cancel the effects of a pathogen, toxin, or nanodrug, including accelerators.</li>
+<li>INFLUENCE: A person of your choice finds you very likeable, even if they did not like you before. They will do you a service, but will not put their life in danger for you. The target can make a saving throw to cancel the spell’s effects.</li>
+<li>INVISIBILITY: You remain invisible (including on video monitors not protected against magic) as long as you perform no other action than moving.</li>
+<li>MAGIC MECHANICS: You temporarily enchant electronic equipment so that it works even against magic (for example, a pistol that can hit an Ætheric spirit or a motion detector that works on the Æther). Nevertheless, it simultaneously gains a magical defence and becomes sensitive to magical attacks.</li>
+</ul>
+</section>
+<section id="level-4" class="level4">
+<h4 class="anchored" data-anchor-id="level-4">Level 4</h4>
+<ul>
+<li>ÆTHERIC SEAL: You mark the lintel of a door or an opening with an invisible sign that prohibits Ætheric creatures from passing through for the entire current cycle.</li>
+<li>MAGIC EXPLOSION: You inflict 3d6 + Wisdom damage points on all people present within a radius equal to your Intelligence rank in meters, originating from the centre of the effect which must be in sight. The damage affects everyone, including yourself or your companions if you are in the area. Everyone can make a saving throw to halve the damage.</li>
+<li>SPIRIT FORM: You can take the form of an animal of your choice and benefit from its natural abilities.</li>
+<li>LEVITATION: You fly a few meters above the ground and move at a maximum speed close to running. If you were falling, you recover without damage a few decimetres from the ground.</li>
+<li>SURVIVAL: You resist the heat of a blaze, the cold of a blizzard, the pressure of a landslide, asphyxiation underwater or in foul air, etc.</li>
+</ul>
+</section>
+<section id="level-5" class="level4">
+<h4 class="anchored" data-anchor-id="level-5">Level 5</h4>
+<ul>
+<li>COUNTERMAGIC: You immediately cancel a spell or magical effect. You cannot send back an Ætheric spirit this way.</li>
+<li>INVOCATION: You summon a hermetic or orphic spirit (according to your tradition) that you can control for a time. Alchemists can never cast this spell.</li>
+<li>COMBAT TELEPORTATION: You instantly teleport to a clear area that you can see live, including by electronic means.</li>
+<li>MANA STORM: You inflict 2d6 + Wisdom damage points on a number of enemies equal to 1d6 + Intelligence present on the battlefield – they can make a saving throw to halve the damage. Your companions are not affected.</li>
+<li>ÆTHERIC TRAVEL: You leave your body, which falls inanimate, and you go wandering in the Æther. You perceive the real world within a 10-meter radius per rank of Wisdom, and no physical barrier can stop you from passing, unless it is a force field or an Ætheric seal. Nevertheless, while you float slightly, you cannot fly and you remain unconsciously bound to physically possible movements (you do not climb walls unless you use a ladder or proper handholds).</li>
+</ul>
+</section>
+</section>
+<section id="summoning" class="level3">
+<h3 class="anchored" data-anchor-id="summoning">Summoning</h3>
+<p>With the level 5 Convocation spell, magicians can summon particular etheric spirits - hermetic or orphic. When performing the short ritual to summon the spirit, you must decide its power - from 1 to 5, but it can never be greater than your Intelligence. The more powerful a spirit is, the greater its abilities and services, but the harder it is to control.</p>
+<p>A summoned spirit stays until its summoner sends it away, until it has completed all its services or until the next dawn or dusk - whichever comes first.</p>
+<section id="controlling-a-spirit" class="level4">
+<h4 class="anchored" data-anchor-id="controlling-a-spirit">Controlling a spirit</h4>
+<p>When the spirit appears, make an Intelligence (Knowing Spirits) roll against a difficulty equal to 5 + 5 per level of the spirit’s power - the difficulty of controlling a level 5 spirit is thus equal to 30! You can invest additional magic points, on a 1:1 basis, to increase the result of your roll.</p>
+<p>If you succeed in controlling the spirit, it owes you a number of services equal to its level plus the result of the coloured die. If you fail to control the spirit, it may, at the discretion of the host:</p>
+<ul>
+<li>Return immediately to the Æther.</li>
+<li>Attack you, because it did not like being disturbed.</li>
+<li>Agree to discuss and negotiate one or more services in exchange for something. Generally, the more powerful a spirit is, the more willing it is to negotiate. Payment can be magic points, physical offerings (with a variable cost in ¥) or one or more services in exchange.</li>
+</ul>
+</section>
+<section id="services" class="level4">
+<h4 class="anchored" data-anchor-id="services">Services</h4>
+<p>Spirits can perform several types of service. Each use of a service decreases the level of control - when all services have been used, the spirit disappears into the Æther.</p>
+<ul>
+<li>PERFORM A PHYSICAL ACTION: The spirit performs a physical action related to its nature. A fire spirit can burn something; a mountain spirit can carry a heavy load; a desert spirit can protect from the sun…</li>
+<li>ACT AT A DISTANCE: The spirit agrees to perform a task entrusted to it by the hermetic or orphist and to leave for that purpose. It will do everything possible to accomplish its task before the end of its presence in the physical world, undoubtedly in a somewhat stubborn manner. Once this task is completed, the spirit disappears even if it had services left to perform.</li>
+<li>FIGHT: The spirit fights alongside the hermetic or orphist to the best of its abilities and until it is banished or the combat ends.</li>
+<li>CAST A SPELL: The spirit can authorise the character to cast a particular spell from the spirit’s list by normally spending the character’s magic points.</li>
+</ul>
+</section>
+<section id="minor-spirits" class="level4">
+<h4 class="anchored" data-anchor-id="minor-spirits">Minor spirits</h4>
+<p>Hermetics and orphists can summon, without great constraint, those simple spirits that populate the edges of the Æther. A minor spirit is always of power 1. They can perform the following services:</p>
+<ul>
+<li>ALARM: The spirit monitors or patrols a specific section of the Æther and warns a specific person in case of intrusion.</li>
+<li>ESPIONNAGE: The spirit can follow and spy on someone from the Æther and return to report to the summoner. It is limited by Ætheric seals and other magical protections.</li>
+<li>HARASSMENT: In combat, a watchful spirit inflicts a malus of -1 to the physical and magical defences of a specific target. The target must be specified each round by the summoner.</li>
+<li>MESSAGE: The spirit carries a message to a known person from the summoner and brings back a response if necessary.</li>
+<li>TRACKING Ætheric: The spirit attempts to find an object, person or a place, in the Æther or on the physical world. It must be given a precise image or impression of what it is looking for.</li>
+</ul>
+</section>
+<section id="the-hermetic-spirits" class="level4">
+<h4 class="anchored" data-anchor-id="the-hermetic-spirits">The Hermetic Spirits</h4>
+<p>Only Hermeticists can summon these ætheric spirits. The wizard must be near a significant source of raw material for the summoning to work properly - if not, the host may deem the action impossible or increase the number of magic points needed to cast the spell.</p>
+<section id="air-spirit" class="level5">
+<h5 class="anchored" data-anchor-id="air-spirit">Air Spirit</h5>
+<p>LIGHTNESS (1): You or an ally gain an additional 1d6 initiative points.</p>
+<p>SILENCE (2): You spread an aura of silence around you. You can act normally, speak inside the bubble and even hear what is being said outside, but no one will hear you outside the area.</p>
+<p>ALTERED SENSES (3): You alter your senses to hear whispers from a great distance or to see silhouettes through a stone wall.</p>
+<p>BREATH (4): You enter into silent communication (questions and answers) with a number of people equal to your Charisma rank. They must be present when you cast the spell, but may separate afterwards.</p>
+<p>BOUCLIER OF WIND (5): You and all your allies gain a +2 bonus to physical defence. This spell does not stack with a Physical Ethereal Barrier.</p>
+</section>
+<section id="water-spirit" class="level5">
+<h5 class="anchored" data-anchor-id="water-spirit">Water Spirit</h5>
+<p>ENCHANT (1): You enchant a melee weapon or a clip of projectiles by dipping them in water. The weapon becomes magical until the next short rest and allows you to hit creatures immune to physical attacks.</p>
+<p>DISGUISE (2): You quickly change your general appearance and silhouette, changing the shape or colour of your clothes, your stature, or your gait. Disguise does not deceive close examination, but also affects Augmented Reality.</p>
+<p>WALL (3): You raise a wall of water sufficient to obscure the doors to a room and its windows. Bullets are very strongly slowed down and deflected, sounds are distorted, infrared perceptions blurred…</p>
+<p>SLEEP (4): By placing your hands on a person, you put him/her into a deep sleep for several hours. This only works on physical creatures whose power is equal to or less than your Wisdom.</p>
+<p>TRICK (5): You automatically win at games of chance or you get a triple-6 on a roll of your choice - you do not gain a Heroic point for this one.</p>
+</section>
+<section id="earth-spirit" class="level5">
+<h5 class="anchored" data-anchor-id="earth-spirit">Earth Spirit</h5>
+<p>LAY ON HANDS (1): For each additional magic point you spend, you heal 2 + Wisdom life points by laying on your hands. You can spend multiple magic points on the same action.</p>
+<p>BLINDING (2): By placing your hand on a wall (wall, door, etc.), you grant it the ability to resist any projectile, including armour piercing or anti-tank. The ability ceases as soon as you remove your hand.</p>
+<p>FORTIFICATIONS (3): You build earthen embankments and ditches in a few minutes, providing good protection against projectiles and a tactically favourable position for some fighters (defence increased by the magician’s Intelligence for Wisdom fighters).</p>
+<p>STONE SKIN (4): You can place, on touch, a number of stone skins equal to your Intelligence rank on one or more targets. Each stone skin negates a subsequent successful attack with a loud bang. You cannot reroll this spell as long as one or more stone skins remain active.</p>
+<p>PASS-WALL (5): You can physically pass through any wall made of stone, concrete, or brick, up to one metre thickness per rank of Wisdom. The passage is impossible if the wall is lined with metal or protected by an etheric seal.</p>
+</section>
+<section id="fire-spirit" class="level5">
+<h5 class="anchored" data-anchor-id="fire-spirit">Fire Spirit</h5>
+<p>COMFORT (1): You extend an aura of comfort around you that warms or cools a room, calms fears and anxieties, soothes nerves, or keeps you awake.</p>
+<p>KINETIC RECOVERY (2): Every attack on you - whether it hits or not - causes you to regain one point of magic.</p>
+<p>FLAMING WHIP (3): You create a flaming whip that can be used in close combat or at a distance, against physical or magical creatures. Choose the characteristic you use to wield it.</p>
+<p>FUGUE (4): You and all your companions immediately gain 1d6 initiative points.</p>
+<p>CONCEALMENT (5): You burn a combustible object of your choice, of a reasonable size (say, the equivalent of a large chest). At the moment of your choice, later on, light a fire and take the object out of the fire, perfectly intact (with a smell of smoke).</p>
+</section>
+</section>
+<section id="the-orphic-spirits" class="level4">
+<h4 class="anchored" data-anchor-id="the-orphic-spirits">The Orphic Spirits</h4>
+<p>Only orphists can summon spirits of this type, which are deeply connected to the oneness of the world. You must be in a suitable environment to perform the summoning - if not, the host may deem the action impossible or increase the number of magic points needed to cast the spell. A suitable environment can be purely symbolic: the top of a tower for a mountain spirit, in a public park for a woodland spirit, in a UV cabin for a desert spirit…</p>
+<section id="city-spirit" class="level5">
+<h5 class="anchored" data-anchor-id="city-spirit">City Spirit</h5>
+<p>PASS FAST (1): You take the fastest streets and lanes, the least crowded or safest for you, to get where you need to go, speeding up your travel time considerably.</p>
+<p>RESCUE (2): If you are in a complicated situation, get out of it quickly - it’s easy to find a way out, even if it means breaking the law or taking physical risks.</p>
+<p>CAMOUFLAGE (3): You blend in with the background or the crowd, becoming unseen or unknown. No one pays any attention to you. For every extra point of magic you invest, you can extend the effects to another person.</p>
+<p>PASS THROUGH SHADOWS (4): You use shadows to slip from one person to another, to another place in sight.</p>
+<p>RUMOUR (5): Ask the host a question about the adventure. He will answer you simply and without lying.</p>
+</section>
+<section id="mountain-spirit" class="level5">
+<h5 class="anchored" data-anchor-id="mountain-spirit">Mountain Spirit</h5>
+<p>BRUTE STRENGTH (1): You or an ally deal an additional 1d6 melee damage in close combat for the duration of a fight.</p>
+<p>ABRI (2): If you are within four walls, no one can enter the room you are protecting, nor send missiles of any kind into it, unless you allow it. You must cast the spell a second time for the same limits to apply to the Æther.</p>
+<p>OBSERVATION (3): You split your vision by placing part of your perceptions up to several metres away, or by placing part of your perception up to several tens of metres above you to observe a scene from the sky.</p>
+<p>STONE CROCS (4): All people present in an Intelligence radius around you at the time you cast the spell must give up moving or take 1d6 damage per manoeuvre. Vehicle tyres don’t like this at all either.</p>
+<p>CHAIN REACTION (5): You cause a chain reaction of coincidences and chance events that serve your immediate purposes. Describe how things happen - the leader will be happy to add to it.</p>
+</section>
+<section id="wood-spirit" class="level5">
+<h5 class="anchored" data-anchor-id="wood-spirit">Wood Spirit</h5>
+<p>PASS WITHOUT TRACE (1): You leave no trace behind you - smells, DNA, fingerprints, RFID identification, etc. The spell only works for a limited geographical area: a room, a piece of pavement, etc. You can cast it before or after acting on it, depending on your needs. You must cast it a second time to protect yourself from detection.</p>
+<p>SPINES (2): Opponents engaged in hand-to-hand combat with you take 1d6 damage (minus their protection value) at the start of their turn.</p>
+<p>POTION (3): You can prepare a magic potion with the effect of your choice. The operation takes a day’s work and a night’s rest; on the other hand, it is likely that you will have to spend ¥1 or more on ingredients. The potion can be used until the end of the cycle.</p>
+<p>SPEAK WITH ANIMALS (4): You speak to vertebrate creatures and make yourself understood by them. They can respond to the extent of their intelligence and abilities.</p>
+<p>ANIMATE PLANTS (5): You control the natural movement of plants to move brambles and bushes, make grasses cling to boots, and have nettles and sumac whip exposed skin. Your enemies suffer in many ways - loss of time and manoeuvres, damage, etc. Choose a different effect and target each turn.</p>
+</section>
+<section id="spirit-of-the-rivers-and-seas" class="level5">
+<h5 class="anchored" data-anchor-id="spirit-of-the-rivers-and-seas">Spirit of the Rivers and Seas</h5>
+<p>IMMERSION (1): When you immerse yourself in a body of water, you breathe perfectly and swim like a fish. Alternatively, you can even metamorphose into a fish.</p>
+<p>SMOKE (2): You deposit a certain undetectable smell on an object or person. You can follow this smell until the next dawn or dusk, even through a crowd or a complicated environment.</p>
+<p>TRANSPORT (3): You use rivers to travel from one point in their course to another, upstream or downstream. The journey is not instantaneous, but it is extremely fast.</p>
+<p>MAJOR CARE (4): By immersing yourself for several hours in a natural body of water, you heal a wound.</p>
+<p>PUPPET (5): You take possession of the water that makes up an individual and you make them perform the actions of your choice for a number of minutes equal to your Intelligence. For each action that is contrary to their interests, the subject may make a saving throw to resist.</p>
+</section>
+<section id="desert-spirit" class="level5">
+<h5 class="anchored" data-anchor-id="desert-spirit">Desert Spirit</h5>
+<p>PURIFY (1): You purify a supply of food or water, removing toxins and dangerous pathogens.</p>
+<p>FARSIGHT (2): You expand your vision at will, as if you were using a pair of binoculars at high magnification or a microscope.</p>
+<p>MOUNT (3): You call to you a spirit that takes the form of a horse and can carry you away at the speed of a motor vehicle.</p>
+<p>DUST (4): Your body (and everything you wear) becomes a cloud of intangible dust. You can no longer interact with the physical world and vice versa. You can slip into narrow gaps.</p>
+<p>TORNADO (5): You deal 1d6 damage to all enemies in the area. In addition, they are pushed back several metres and fall to the ground.</p>
+</section>
+</section>
+</section>
+<section id="guide" class="level3">
+<h3 class="anchored" data-anchor-id="guide">Guide</h3>
+<p>The orphist who awakens to magic understands that he is one with the universe and, at the heart of this universe, he finds a kindred spirit who will guide him and help him on the long initiatory path that will lead him to absolute unification, granting him special abilities and a disadvantage specific to his nature. You can ignore the effects of a disadvantage by spending a point of luck. If you are playing an orphist, choose a guide from the following list:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Guide</th>
+<th style="text-align: left;">Advantage</th>
+<th style="text-align: left;">Disadvantage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">ANANKÉ</td>
+<td style="text-align: left;">You have a +4 bonus to resist poisons and diseases. Spend a luck point, you suddenly disappear, even before the eyes of witnesses.</td>
+<td style="text-align: left;">You systematically avoid all conflicts and fights. You flee or find shelter. You only fight if your back is against the wall.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ASCLÉPIOS</td>
+<td style="text-align: left;">You have a +4 bonus to heal people. Spend a luck point, you restore all hit points to a person you touch.</td>
+<td style="text-align: left;">You enter a terrible rage when you, or a person you are protecting, fall to 0 hit points and suffer an injury. You then attack without regard for the consequences.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ATÉ</td>
+<td style="text-align: left;">You have a +4 bonus to sweet-talk/con people. By spending a luck point, you can palm, make disappear, and steal any object that fits in a pocket or bag, right under the noses of everyone who can see you.</td>
+<td style="text-align: left;">Every time you see an opportunity to make fun of someone or play a trick on them, even if it’s a friend or to the detriment of your interests, you go for it.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">BIA</td>
+<td style="text-align: left;">You have a +2 bonus to all attack and damage rolls in melee or at a distance. Spend a luck point, you inevitably have a useful item on you that you need immediately.</td>
+<td style="text-align: left;">You have a taste for blood and you don’t let go of prey until it is on the ground. Permanently.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">CRATOS</td>
+<td style="text-align: left;">You have a +4 bonus to intimidate. Spend a luck point, you provoke a primal, irrational fear in a person.</td>
+<td style="text-align: left;">You leave no insult unpunished and you attack people when you feel offended.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ÉROS</td>
+<td style="text-align: left;">You have a +4 bonus in seduction. Spend a luck point, a person sexually attracted to you agrees to do you a favor. Any favor… or almost.</td>
+<td style="text-align: left;">You do not resist the temptation to indulge your vices and pleasures – drugs, sex, alcohol – whenever you have the opportunity.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FIDÈS</td>
+<td style="text-align: left;">You have a +4 bonus to your willpower rolls. You can spend a luck point and designate a person of your choice. You take all damage in their place for as long as you wish – furthermore, subtract 1d6 from the damage for each attack suffered this way.</td>
+<td style="text-align: left;">You are stubbornly loyal, faithful to your friends. You cannot abandon or betray anyone, nor let someone sacrifice themselves in your place.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GAÏA</td>
+<td style="text-align: left;">You have a +4 bonus to all your perception rolls. You can spend a luck point to make a technological object inoperative for a few seconds or minutes – it simply stops working.</td>
+<td style="text-align: left;">You are slightly allergic to atmospheric pollutants and easily get asthma when traffic peaks – which diminishes your athletic abilities.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">MNÉMOSYNE</td>
+<td style="text-align: left;">You have a +4 bonus to lie and hide information. By spending a luck point, you know what you have to do to find ¥ quickly – all you have to do is get moving.</td>
+<td style="text-align: left;">You don’t like to negotiate. Things are your way or not at all. And that’s it.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">MOÏRA</td>
+<td style="text-align: left;">You have a +4 bonus in empathy. Spend a luck point, you cancel any attack against one of your allies, and the attacker immediately takes 1d6 damage.</td>
+<td style="text-align: left;">You refuse to participate in any physical combat, but you stay to help and protect those who are attacked.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">NÉMÉSIS</td>
+<td style="text-align: left;">You have a +2 bonus to all attack and damage rolls in melee or at a distance. Spend a luck point, you know everything about your opponent, their strengths and weaknesses, and you can take advantage of it.</td>
+<td style="text-align: left;">You do not commit any dishonorable acts nor behave in a way that attracts opprobrium.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">NIKÉ</td>
+<td style="text-align: left;">You have a +2 bonus to all attack and damage rolls in melee or at a distance. Spend a luck point, all your allies get a +4 bonus to their next roll.</td>
+<td style="text-align: left;">You never break a promise, by choice or accident, without paying a heavy price – you immediately suffer 1d3 injuries.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">NYX</td>
+<td style="text-align: left;">You have a +4 bonus to read people’s emotions. By spending a luck point, you immediately gain 2 ¥.</td>
+<td style="text-align: left;">Every time you see an opportunity to exploit a situation or a person who shows the slightest weakness, you go for it.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">OURANOS</td>
+<td style="text-align: left;">You have a +4 bonus to resist spells of all kinds. Spend a luck point, you automatically succeed on a die roll outside of combat.</td>
+<td style="text-align: left;">Once a decision has been made, you stick to it no matter what. No improvising, ever!</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">PANDORE</td>
+<td style="text-align: left;">You have a +4 bonus in negotiation. Spend a luck point, you know the superficial thoughts of your interlocutor.</td>
+<td style="text-align: left;">You do not resist curiosity and the need to know, regardless of the risks.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PROMÉTHÉE</td>
+<td style="text-align: left;">You have a +4 bonus to tinker and repair things. Spend a luck point, you completely renovate a broken object by blowing gently on it – the pieces repair or stick back together on their own.</td>
+<td style="text-align: left;">When you embrace a cause, you go all the way and are ready to sacrifice your life. Choose a cause.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SOPHIA</td>
+<td style="text-align: left;">You have a +4 bonus to all your stealth rolls. If you spend a luck point, Sophia can whisper a little secret in your ear concerning one of your interlocutors.</td>
+<td style="text-align: left;">As long as you have not suffered direct damage, you do not attack your opponents, but you use various means to hinder, distract, divert them, etc.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">THANATOS</td>
+<td style="text-align: left;">You have a +4 bonus to all erudition (lore/knowledge) rolls. Spend a luck point, you ask a question to a corpse deceased for less than a day, and it answers you.</td>
+<td style="text-align: left;">You are fragile. When an opponent rolls a 1 on the damage die, they can reroll the die and keep the new result.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">ZÉLOS</td>
+<td style="text-align: left;">You have a +2 bonus to all attack and damage rolls in melee or at a distance. By spending a luck point, you instantly regain all your hit points.</td>
+<td style="text-align: left;">You never retreat and you never refuse a fight.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+     </main>
+<!-- /main column -->  <script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>  </div> <!-- /content --> 
+  
+</body></html>

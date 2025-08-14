@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Description">
 
 <title>Chrome Dragon – nanoChrome</title>
 <style>
@@ -42,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-c39790739b795761a025db3e98f5af6a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-a34d23e6026824af7d7a158d5cbbe67b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -192,6 +191,11 @@ ul.task-list li input[type="checkbox"] {
   <a href="../content/charsheet.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Character sheet</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/license.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Terms of Use</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -272,11 +276,6 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="races-of-the-æther">Races of the Æther</h2>
 <p>In addition to your affiliation, choose a race.</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 3%">
-<col style="width: 51%">
-<col style="width: 45%">
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">RACE</th>
@@ -556,11 +555,6 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="guide">Guide</h3>
 <p>The orphist who awakens to magic understands that he is one with the universe and, at the heart of this universe, he finds a kindred spirit who will guide him and help him on the long initiatory path that will lead him to absolute unification, granting him special abilities and a disadvantage specific to his nature. You can ignore the effects of a disadvantage by spending a point of luck. If you are playing an orphist, choose a guide from the following list:</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 2%">
-<col style="width: 58%">
-<col style="width: 38%">
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Guide</th>
@@ -758,6 +752,8 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

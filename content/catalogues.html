@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Description">
 
 <title>Catalogues – nanoChrome</title>
 <style>
@@ -42,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-c39790739b795761a025db3e98f5af6a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-a34d23e6026824af7d7a158d5cbbe67b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -190,6 +189,11 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/charsheet.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Character sheet</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/license.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Terms of Use</span></a>
   </div>
 </li>
       </ul>
@@ -458,11 +462,6 @@ Cyberpsychosis
 <h3 class="anchored" data-anchor-id="ammunition">Ammunition</h3>
 <p>Special ammunition costs connection points which you spend for each combat. However, once the cost is paid, you can use the ammunition for the duration of the fight.</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>AMMUNITION</th>
@@ -505,11 +504,6 @@ Cyberpsychosis
 </table>
 <p>EMP ammunition or darts do not deal damage to hit points. You simply read the result of the damage die, with any bonuses, and apply the effects shown in the table opposite.</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 6%">
-<col style="width: 64%">
-<col style="width: 28%">
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">DAMAGE</th>
@@ -670,12 +664,6 @@ Table&nbsp;13.1: Drone types
 </figcaption>
 <div aria-describedby="tbl-drone-types-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
-<colgroup>
-<col style="width: 5%">
-<col style="width: 6%">
-<col style="width: 3%">
-<col style="width: 84%">
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">DRONE TYPE</th>
@@ -841,6 +829,8 @@ Table&nbsp;13.1: Drone types
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

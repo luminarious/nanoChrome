@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Description">
 
 <title>Matrix – nanoChrome</title>
 <style>
@@ -42,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-c39790739b795761a025db3e98f5af6a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-a34d23e6026824af7d7a158d5cbbe67b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -192,6 +191,11 @@ ul.task-list li input[type="checkbox"] {
   <a href="../content/charsheet.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Character sheet</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/license.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Terms of Use</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -273,10 +277,6 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="firewalls">Firewalls</h3>
 <p>Each time you attack a system with a firewall, roll 1d6. If the result is equal to or less than the level of the firewall, the program does not pass directly, but you must still spend the connection points.</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 13%">
-<col style="width: 87%">
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: center;">1D6</th>
@@ -311,10 +311,6 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="alarms">Alarms</h3>
 <p>If a firewall blocks you, you can give up (and why not re-spend connection points to start again immediately) or you can choose to force your way through. Your program works, but you trigger an alarm and roll 1d6 in the following table. Depending on the area, the alarm die may receive a variable bonus - usually equal to half the local security level (see page 273). Some abilities or nexus modifications allow the alarm die to be reduced.</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 4%">
-<col style="width: 95%">
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: center;">1D6</th>
@@ -358,11 +354,6 @@ ul.task-list li input[type="checkbox"] {
 <p>Depending on the effects you want to achieve, we offer two ways to handle counter-intrusion programs that can attack an encoder in the matrix.</p>
 <p>If you want something a little tense, set up a fight using the normal rules and the following characteristics for the programs. The coder fights using Intelligence as a guiding characteristic, both to attack and to inflict damage. The other characters can intervene in the matrix by spending a number of connection points equal to the power of the enemy program. The damage is real - neurons frying one after another.</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 4%">
-<col style="width: 6%">
-<col style="width: 89%">
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;"></th>
@@ -405,10 +396,6 @@ ul.task-list li input[type="checkbox"] {
 </table>
 <p>The other solution, quicker and more random, is to call for an intelligence saving throw from the coder. The coder can ‘bet’ connection points, before the roll, to increase the result of the roll - each point invested brings a +1 bonus. Difficulty varies - but you can start with 12 + 1d6 (the d6 representing the type of program being activated, from cerberus to hydra). If the saving throw is successful, all is well. If not, draw a random event from the table on the next page:</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 4%">
-<col style="width: 95%">
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: center;">1D26</th>
@@ -681,6 +668,8 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

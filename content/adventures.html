@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Description">
 
 <title>Adventures – nanoChrome</title>
 <style>
@@ -42,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-c39790739b795761a025db3e98f5af6a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-a34d23e6026824af7d7a158d5cbbe67b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -190,6 +189,11 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/charsheet.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Character sheet</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/license.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Terms of Use</span></a>
   </div>
 </li>
       </ul>
@@ -1058,10 +1062,6 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="would-the-characters-have-a-good-reason-to-abandon-the-mission-or-change-its-terms">3. Would the characters have a good reason to abandon the mission or change its terms?</h3>
 <p>Characters are not always able to complete their mission - unless they perform extraordinary feats (but that is what is expected of them). Sometimes they have to choose between their safety and that of their allies, between their lives and their ideals. What will their choice be?</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 9%">
-<col style="width: 90%">
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: center;">1D6</th>
@@ -1115,10 +1115,6 @@ ul.task-list li input[type="checkbox"] {
 <li>A secondary objective to be completed at the same time: unmask the traitor in the entourage of the leader of an allied faction, free prisoners, find an important object or destroy it, etc.</li>
 </ul>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 9%">
-<col style="width: 90%">
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: center;">1D26</th>
@@ -1271,6 +1267,8 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

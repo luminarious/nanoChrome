@@ -1,0 +1,3451 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="generator" content="quarto-1.7.32">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+    <title>cyberpunk</title>
+    <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      div.columns{display: flex; gap: min(4vw, 1.5em);}
+      div.column{flex: auto; overflow-x: auto;}
+      div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+      ul.task-list{list-style: none;}
+      ul.task-list li input[type="checkbox"] {
+        width: 0.8em;
+        margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+        vertical-align: middle;
+      }
+    </style>
+
+    <style>
+      body.hypothesis-enabled #quarto-embed-header {
+        padding-right: 36px;
+      }
+
+      #quarto-embed-header {
+        height: 3em;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: solid 1px;
+      }
+
+      #quarto-embed-header h6 {
+        font-size: 1.1em;
+        padding-top: 0.6em;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-weight: 400;
+      }
+
+      #quarto-embed-header a.quarto-back-link,
+      #quarto-embed-header a.quarto-download-embed {
+        font-size: 0.8em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+
+      .quarto-back-container {
+        padding-left: 0.5em;
+        display: flex;
+      }
+
+      .headroom {
+          will-change: transform;
+          transition: transform 200ms linear;
+      }
+
+      .headroom--pinned {
+          transform: translateY(0%);
+      }
+
+      .headroom--unpinned {
+          transform: translateY(-100%);
+      }      
+    </style>
+
+    <script>
+    window.document.addEventListener("DOMContentLoaded", function () {
+
+      var header = window.document.querySelector("#quarto-embed-header");
+      const titleBannerEl = window.document.querySelector("body > #title-block-header");
+      if (titleBannerEl) {
+        titleBannerEl.style.paddingTop = header.clientHeight + "px";
+      }
+      const contentEl = window.document.getElementById('quarto-content');
+      for (const child of contentEl.children) {
+        child.style.paddingTop = header.clientHeight + "px";
+        child.style.marginTop = "1em";
+      }
+
+      // Use the article root if the `back` call doesn't work. This isn't perfect
+      // but should typically work
+      window.quartoBackToArticle = () => {
+        var currentUrl = window.location.href;
+        window.history.back();
+        setTimeout(() => {
+            // if location was not changed in 100 ms, then there is no history back
+            if(currentUrl === window.location.href){              
+                // redirect to site root
+                window.location.href = "...html";
+            }
+        }, 100);
+      }
+
+      const headroom = new window.Headroom(header, {
+        tolerance: 5,
+        onPin: function () {
+        },
+        onUnpin: function () {
+        },
+      });
+      headroom.init();
+    });
+    </script>
+
+    
+<script src="../site_libs/manuscript-notebook/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-813c323200a87c37e262811031999de4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+     
+        <link rel="stylesheet" href="../assets/site.css">
+      </head>
+
+  <body class="quarto-notebook quarto-light">
+    <div id="quarto-embed-header" class="headroom fixed-top bg-primary">
+      
+      <a onclick="window.quartoBackToArticle(); return false;" class="btn btn-primary quarto-back-link" href=""><i class="bi bi-caret-left"></i> Back to Article</a>
+      <h6><i class="bi bi-journal-code"></i> Chronicles of chrome</h6>
+
+            <a href="../content/cyberpunk.qmd" class="btn btn-primary quarto-download-embed" download="cyberpunk.qmd">Download Source</a>
+          </div>
+
+     <div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#chronicles-of-chrome" id="toc-chronicles-of-chrome" class="nav-link active" data-scroll-target="#chronicles-of-chrome">Chronicles of chrome</a>
+  <ul class="collapse">
+  <li><a href="#mood-and-style" id="toc-mood-and-style" class="nav-link" data-scroll-target="#mood-and-style">Mood and style</a></li>
+  <li><a href="#three-must-haves" id="toc-three-must-haves" class="nav-link" data-scroll-target="#three-must-haves">Three must-haves</a>
+  <ul class="collapse">
+  <li><a href="#akashic-matrix-and-neurotronics" id="toc-akashic-matrix-and-neurotronics" class="nav-link" data-scroll-target="#akashic-matrix-and-neurotronics">Akashic Matrix and neurotronics</a></li>
+  <li><a href="#structure-of-the-city" id="toc-structure-of-the-city" class="nav-link" data-scroll-target="#structure-of-the-city">Structure of the city</a></li>
+  <li><a href="#orbitals" id="toc-orbitals" class="nav-link" data-scroll-target="#orbitals">Orbitals</a></li>
+  </ul></li>
+  <li><a href="#what-we-play" id="toc-what-we-play" class="nav-link" data-scroll-target="#what-we-play">What we play</a></li>
+  <li><a href="#and-the-rest" id="toc-and-the-rest" class="nav-link" data-scroll-target="#and-the-rest">And the rest</a></li>
+  <li><a href="#list-of-lists" id="toc-list-of-lists" class="nav-link" data-scroll-target="#list-of-lists">List of lists</a>
+  <ul class="collapse">
+  <li><a href="#onomasticon-of-the-future" id="toc-onomasticon-of-the-future" class="nav-link" data-scroll-target="#onomasticon-of-the-future">Onomasticon of the future</a></li>
+  <li><a href="#everything-is-wrong-nothing-is-right" id="toc-everything-is-wrong-nothing-is-right" class="nav-link" data-scroll-target="#everything-is-wrong-nothing-is-right">Everything is wrong, nothing is right</a></li>
+  <li><a href="#new-technologies" id="toc-new-technologies" class="nav-link" data-scroll-target="#new-technologies">New technologies</a></li>
+  <li><a href="#the-sports-page-blitzball" id="toc-the-sports-page-blitzball" class="nav-link" data-scroll-target="#the-sports-page-blitzball">The sports page: blitzball</a></li>
+  <li><a href="#organizations" id="toc-organizations" class="nav-link" data-scroll-target="#organizations">Organizations</a></li>
+  <li><a href="#brands" id="toc-brands" class="nav-link" data-scroll-target="#brands">Brands</a></li>
+  <li><a href="#cities-and-places" id="toc-cities-and-places" class="nav-link" data-scroll-target="#cities-and-places">Cities and places</a></li>
+  <li><a href="#on-the-street" id="toc-on-the-street" class="nav-link" data-scroll-target="#on-the-street">On the street</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+</div>
+<main class="content" id="quarto-document-content">      <section id="chronicles-of-chrome" class="level1">
+<h1>Chronicles of chrome</h1>
+<blockquote class="blockquote">
+<p>It was a golden age, a time of great adventure, of rich life and fierce death… but no one believed it. It was a future of fortunes and theft, of plunder and rapine, of culture and vice… but no one admitted it. It was an extreme time, a fascinating century of monsters… but nobody liked it.</p>
+<p>—Alfred Bester, The Stars My Destination</p>
+</blockquote>
+<p>When the cyberpunk movement took off in the late 1970s and early 1980s, it was science fiction. Imagine what it offered: a global telematics network, super-powerful computers, neural connections, cybernetic limbs, nation-states replaced by super-powerful transnational corporations like a synarchic dream finally realized, pollution on a massive scale, health scandals, corruption of all politicians, a globalized culture, the cult of the money-king, mass media at the peak of their power…</p>
+<p>Today, they are everyday realities or promises close to fulfillment - the omnipotence of banks, artificial transplants, the Internet, peak oil and the Chinese on the Moon.</p>
+<p>To survive, cyberpunk has been forced to become transhumanist, to project itself a little further into the future and into the stars.</p>
+<p>But classic cyberpunk still holds many treasures that can be explored. First of all, it’s a reflection of our world, but one that we can stand back from - we really are “twenty minutes in the future”. It’s always difficult to tell political fiction stories in universes too close to us; you only have to open newspapers to get your fill of political and economic prevarications and betrayals of humanity and to be on the verge of nausea or despair - no need to add to that in a game that is supposed to help us escape from this absurd and frustrating daily life.</p>
+<p>Nevertheless, with a little adventurous distance, with some exotic elements, with some minor changes here and there, it is possible to reinvest these areas of narrative and offer a social and political critique, as all science fiction writers in general and cyberpunk in particular do, in a fun and exciting—and hopefully much less despairing—form.</p>
+<section id="mood-and-style" class="level2">
+<h2 class="anchored" data-anchor-id="mood-and-style">Mood and style</h2>
+<p>Cyberpunk is a delicate blend of hard-boiled thriller, paramilitary action, social-political anticipation and technological exoticism.</p>
+<dl>
+<dt>Hard-boiled thriller</dt>
+<dd>
+cyberpunk heroes are tough. They carry out difficult investigations. They anger the powerful. They abuse drugs and stimulants. They have corpses in the wardrobe. But they also have friends and luck, if not pure anger, that keeps them going no matter how many obstacles are put in their way.
+</dd>
+<dt>Paramilitary action</dt>
+<dd>
+a tradition inherited from video games and early role-playing games, as much as from the classic literature of the genre, action is at the heart of most cyberpunk stories. Doughnuts and bullets fly around at every opportunity, usually spontaneously. But the characters are just as often called upon to participate in paramilitary operations: intrusions, kidnappings, protection of people and places, theft and hacking, exploration of forbidden zones, urban combat, surveillance, espionage, etc.
+</dd>
+<dt>Politico-social anticipation</dt>
+<dd>
+if the original cyberpunk was dark anticipation, it has become at most short-term foresight and a direct projection of our daily anxieties. We have ample examples of this: objective or obscurantist dictatorships, ethnic massacres, calls for war by hawks of all stripes, systematic recourse to torture, wars of economic interests, organization of the ruin and plundering of regions of the globe under bank control, creation of novlanguages in the service of the mass media, ethical and moral blackmail, trivialization of all security, exceptional measures which are becoming the norm, privatization of the judiciary and the criminal justice system, sanitary and pharmaceutical scandals, global epidemics, revolutions and civil wars, repression of alternative trade union and political movements, democratic masquerades by lobbies and technocrats, an explosion of misery and mass unemployment, destruction of food resources, sources of drinking water and vast ecosystems, the uncontrolled dissemination of genetically modified crops, massive exploitation of the proletariat in poor countries, privatization of education, religious fundamentalists infiltrating all centres of political and cultural decision making, etc. - Not to mention a major climate catastrophe looming over us. It’s enough to inspire any dark dystopia. Yet it is here and now that it is happening. It’s easy enough to add a little something to push this or that concept a step further, by extrapolating or caricaturing existing situations.
+</dd>
+<dt>Technological exoticism</dt>
+<dd>
+if you stick to the first three points below, you don’t get much more than a contemporary game, a sort of Tom Clancy universe. Interesting, but without the exoticism that adds a bit of humour and distance to the game. So don’t forget that cyberpunk is also about advanced technology and futuristic design - who doesn’t admire the sleek bodywork of police battle mechs? The internet exists, but it’s a universal augmented reality matrix, not just a minitel. Guns are wired directly to the nerves and use caseless ammunition. If you lose an arm or an eye, it is replaced in a jiffy by a ceramic and metal equivalent. If you have defective genes, they are repaired with a few injected stem cells. Asteroids have been placed on the Lagrange points and are accessed by orbital lift. Technology plays the same role in cyberpunk as magic does in fantasy - an enabler, a shortcut, a hook. It distracts players from the darker themes of the game, while allowing them to approach them in a playful way.
+</dd>
+</dl>
+</section>
+<section id="three-must-haves" class="level2">
+<h2 class="anchored" data-anchor-id="three-must-haves">Three must-haves</h2>
+<blockquote class="blockquote">
+<p>The old world is dying, the new world is slow in appearing, and in this chiaroscuro monsters are emerging.</p>
+<p>—Antonio Gramsci</p>
+</blockquote>
+<p>Before you start playing the game and creating the characters, outline these three essential elements of the world to your players. Many of the rules of the game derive directly from these fundamental concepts.</p>
+<section id="akashic-matrix-and-neurotronics" class="level3">
+<h3 class="anchored" data-anchor-id="akashic-matrix-and-neurotronics">Akashic Matrix and neurotronics</h3>
+<p>In the past, the world’s various interconnected telematics networks operated on a complete physical basis: exchanges, physical memories, routers, wireless transmitters, terminals, etc. This changed with the advent of the Akashic Matrix and neurotronics. Everything changed with the appearance of the first quantum computers. Within months of the first processors going live, engineers saw an incomprehensible increase in the processing and storage capabilities of the machines - a phenomenon that became even more dramatic as the technology was brought to market and used in everyday life.</p>
+<p>In fact, quantum computers are leaking. Their data is interconnecting in what has come to be known as the Akashic Field, the Akasha, to form a single, giant supercomputer where everyone is connected and where all unprotected data inevitably ends up. Anyone can access or manipulate this Akashic matrix if they have a simple quantum device - a nexus.</p>
+<p>What could have been an industrial disaster on a human scale - all the computers dumping their data in one place accessible to all - turned out to be a godsend. Competing neurotronic technology, based on bio-neurons, was completely immune to the problem. The neurotronic memories did not leak and protected their data and programs perfectly well behind traditional firewalls and existing security.</p>
+<p>We soon found ourselves with two different, interconnected but perfectly distinct systems: the personal and professional neurotronic machines, capable of protecting data; and the quantum machines directly connected to a universal matrix that soon replaced all other communication channels for media broadcasting, social networking, the development of virtual reality, but also computing power and all those sorts of things.</p>
+<p>In practical terms, it is considered that everyone is permanently connected to the Akashic Matrix through Nexuses, small personal quantum blocks with processors and neurotronic memories protecting certain personal data. This connection is achieved within augmented reality - the superimposition of virtual data and information on the natural perception of the world. The brain learns at an early age to mix these two realities into one, where what is real and what is projected are inseparable. Thus, for example, one usually wears only tight-fitting suits of neutral grey, in morphotextiles, while one can project, in augmented reality, all sorts of clothes according to the occasions of the day - strict suits for work, pretty fashionable dresses for the after-hours and casual wear at home, not to mention all the fantasies that are physically impossible but that the matrix allows without worrying about ever having to change.</p>
+<p>The problems start when clever people try to manipulate each other’s perceptions by altering augmented reality to disguise elements of normal reality or try to access data from connected neurotronic memories. Fortunately, most nexuses are protected by powerful firewalls which considerably limit the risks, especially since the security of the city is usually sufficient.</p>
+<p>And then there are the Akashic minds.</p>
+<p>Concurrently with the rise of the quantum matrix, two phenomena appeared: on the one hand, some expert system cores escaped into the quantum field and found there the computational and expansion resources necessary for their awakening to a kind of limited, animal consciousness; on the other hand, the first experimental quantum memory cells also escaped, leading to the loss of complete human consciousnesses in the quantum field space.</p>
+<p>These phenomena became the spirits of the matrix - both demiurges and demons, masters and servants, lost in the vastness of the matrix and constantly seeking to stabilise their limits of singularity in order to continue to exist without diluting themselves.</p>
+</section>
+<section id="structure-of-the-city" class="level3">
+<h3 class="anchored" data-anchor-id="structure-of-the-city">Structure of the city</h3>
+<p>In the common vocabulary, the world is divided on the one hand into geographical zones - countries, cities, neighbourhoods, etc. - and on the other hand into zones of identity. - In the common vocabulary, the world is divided into geographical zones - countries, cities, neighbourhoods, etc. - and into security zones - a good indication of the degree of protection or tranquillity one can expect from the authorities.</p>
+<ul>
+<li><p>The anarzone refers to all territories with zero security. These are on the one hand the still wild regions of the globe, but also all urban and peri-urban areas abandoned by corporations and local authorities. The anarzone is a lawless zone, where all those who want to escape the permanent surveillance of the corporations take refuge. You don’t go to the anarzone without good reasons, strong back-up, a good dose of guts or if you are not a native - of course, the player characters often live in the anarzone.</p></li>
+<li><p>The conurbation refers to urban areas protected by the government. Security exists but is relatively minimal. The conurb essentially covers residential or semi-industrial areas, public parks and gardens, and most of the road network. Do not expect miracles, but the police and civil security forces always intervene eventually.</p></li>
+<li><p>Enclaves are all areas protected by corporations and their security services. They range from commercial areas to office floors, from corporatist contract areas to factories and industrial zones. Security is more or less high, but always provided by important investments - don’t worry, in the end, it’s always you who pays.</p></li>
+<li><p>Anti-zones are all areas of very high security - corporate laboratories, research and development areas, protected military zones, homes of very high ranking officials, etc. Security is at its highest, both physically and in the matrix - these are places where coders risk death if they encounter black ice. You don’t venture into an antizone without serious credentials or titanium balls.</p></li>
+</ul>
+</section>
+<section id="orbitals" class="level3">
+<h3 class="anchored" data-anchor-id="orbitals">Orbitals</h3>
+<blockquote class="blockquote">
+<p>The last point considered unavoidable is the presence of humans in near space - don’t worry, no one has conquered Mars yet (unless you really want to, Total Recall style). More than the previous two points, you can of course ignore this one, but it still provides much of the technological exoticism needed for the game and it provides some good villains for your adventures. And then it’s a fitting tribute to one of the best cyberpunk novels ever written.</p>
+<p>—Walter Jon Williams’ Wired.</p>
+</blockquote>
+<p>The colonisation of Earth’s orbit began long ago with the installation of two large rocks recovered from the asteroid belt at the Moon’s Lagrange points. The first, at L4, is called Ulysses, the second at L5 is called Caystros. They were hollowed out during their long journey by huge mining operations, and are now home to microgravity factories and corporate facilities of the highest standing. These two asteroids are surrounded by dozens of space stations of various sizes, mostly housing factories and dormitories for the workers who work there. Collectively, all the inhabited bodies orbiting the Earth are called the Moon Islands (a name already used on Earth for the Comoros Islands).</p>
+<p>To access the Moon Islands, an orbital lift has been built somewhere on the equator. Depending on your preferences and the geopolitical choices of your campaign, place it in Brazil, Indonesia, Kenya… From the orbital lift station, the orbitals go back and forth between all the facilities in small hydrogen-powered ships called Kwasa Coasters.</p>
+<p>Most of the orbitals have been augmented to adapt to microgravity conditions and no longer return to earth. They consider themselves above the mire, like advanced humanity. The ten largest transnational corporations are orbital and meddle in controlling the destiny of billions of surface people by triggering conflicts and crises at their convenience.</p>
+<p>Ulysses is the base for most of the ten largest orbital corporations, as well as the orbital council that brings them together. Caystos is an international political centre, housing the new UN council and the Hague tribunal, which was moved there after the former was destroyed in an unclaimed attack.</p>
+</section>
+</section>
+<section id="what-we-play" class="level2">
+<h2 class="anchored" data-anchor-id="what-we-play">What we play</h2>
+<p>You have at least three ways to play nanoChrome. Ask your players what they want to do, what ties their characters together, and what takes them on an adventure together.</p>
+<p><strong>Techmercs</strong>: the characters are penniless techmercs who take on any black operations that shady individuals, collectively and slangly called The Client, offer them, usually on behalf of corporations or organisations that value their discretion. This game mode is perfect for games on the go: a meeting, a contract, a bit of investigation, an intrusion, a betrayal, a few bullets exchanged and there you go.</p>
+<p><strong>Corporates</strong>: in this game mode, which is suitable for both campaign and quick games, the characters are corporatist agents. They have a clearly identified employer, material resources and some legal protection (at least to a certain extent). Of course, not only does their boss expect results, but they will also have to deal with the inertia of their company’s politics, the gossip at the coffee machine, the jealousy of pushy colleagues and the countless pitfalls of corporate life. Moreover, there is nothing to prevent the company in question from being a government agency or a police department.</p>
+<p><strong>Panopticom</strong>: in this game mode, your characters are outcasts and characters are splendid outsiders and losers. In appearance at least. In reality, they are rebellious underground journalists who provide full reports and investigations to a pirate show from the Matrix: Panopticom. Think of it as a nice Wikileaks/The Pirate Bay/Mediapart mix… Crisp and scandalous, but not people! This approach is perfect for campaign adventures, if you like investigation, secrets and open-ended sandbox play.</p>
+<p>Of course, you can mix and match: Panopticom journalists infiltrating a corpo and moonlighting as techmercs to collect cash to fund their operations; or corpos infiltrating the techmerc world to get their hands on one of their company’s big enemies. Or any other exotic mix you like…</p>
+<blockquote class="blockquote">
+<p><strong>A moral issue</strong></p>
+<p>This is the time to ask your players where they want to place the moral slider for their characters. Is it acceptable or appropriate to kill in cold blood, to murder a prisoner, to torture for information, to sacrifice innocents to achieve one’s goals? Or are the characters not paragons of virtue, heroes who are in no way capable of committing atrocities?</p>
+<p>It is very important that this question be discussed immediately before a character commits an irreparable act before the indignant eyes of his comrades. In the past, characters had an alignment that defined, more or less, the moral boundary of a gaming group. Here, prevention is better than cure!</p>
+<p>From the point of view of the game leader, this decision can greatly influence the way he plays the world. Faced with ruthless characters, you have to play hard, very hard. Don’t hesitate to kill, mutilate, and hurt extras and characters who have the misfortune to fall. Faced with heroic characters, the villains will not be so morally bound (they can always murder, pillage, torture to achieve their goals), but the heroes always have a chance to get out of it and will, at the very least, be respected by their enemies and helped by the population.</p>
+</blockquote>
+</section>
+<section id="and-the-rest" class="level2">
+<h2 class="anchored" data-anchor-id="and-the-rest">And the rest</h2>
+<p>The rest of the world is up to you and your players to create:</p>
+<p>Ask your players where they want to play. Usually it will be in the corner of a large city and you won’t move much. It could be Hong Kong, one of the big North American conurbations (SanSan, BosWash or ChiPi), Tokyo, Lagos, Mexico City, the east coast of Australia or even Paris… But it’s quite possible your players will surprise you.</p>
+<p>If you don’t have a lot of time, it is best to choose a region that you know a little about from reading or watching films. The important thing is that you have images and moods in mind.</p>
+<p>If you have a little more time, look at a map of the area, open its Wikipedia entry, walk around it via Streetview and make some notes on place names or neighbourhoods. You don’t need to do much more than that - the important thing is to find a series of details that will feel ‘real’ and set the mood.</p>
+<p>Then go round the table with your players and take notes:</p>
+<ol type="1">
+<li>Ask them what they know about the town and the region, and ask them to describe some of the places that stand out, some of the atmosphere they want to find there. Try to ‘futurise’ the places to make a perfect Chrome City…</li>
+<li>Ask them to tell you about people, cultures, society, politics, trends, fashion. Chrome City is not only buildings and streets, interchanges and wastelands, museums and archologies, but also and above all its inhabitants, as diverse as they are cosmopolitan, colourful, strange, offbeat - here too, project yourself into a possible future.</li>
+<li>Finally, ask each of them to give you an event that is in the news, whether it is a headline in the newspapers or a rumour in the most confidential circles…</li>
+</ol>
+<p>Use the following lists to add to or find names and concepts that you like…</p>
+</section>
+<section id="list-of-lists" class="level2">
+<h2 class="anchored" data-anchor-id="list-of-lists">List of lists</h2>
+<blockquote class="blockquote">
+<p>The setting sun<br>
+Clothe the fields,<br>
+The canals, the whole city,<br>
+With hyacinth and gold;<br>
+The world falls asleep<br>
+In a warm light.<br>
+There, all is order and beauty,<br>
+Luxury, calm and pleasure.</p>
+<p>—Charles Baudelaire, Les Fleurs du mal</p>
+</blockquote>
+<p>Many of the tables in this book suggest you roll strange dice: d26, d66, etc. In fact, for the d26, for example, you have to roll two d6s: the first one tells you the tens, depending on whether it is even or odd; the second one tells you the ones. Similarly, a d36 is easy to read: the first die gives you 1 (1-2), 2 (3-4) or 3 (5-6), while the second one normally reads 1 to 6.</p>
+<section id="onomasticon-of-the-future" class="level3">
+<h3 class="anchored" data-anchor-id="onomasticon-of-the-future">Onomasticon of the future</h3>
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>For all the names of the characters and extras, please refer to the impressive <a href="https://tekeli.li/onomastikon/">Kate Monk’s Onomasticon website</a> on the Matrix.</p>
+</div>
+</div>
+</div>
+<p>You can consult it from your tablet or, if you can, suck it up and keep a local record forever. Either way, once you try it, you probably won’t be able to live without it.</p>
+</section>
+<section id="everything-is-wrong-nothing-is-right" class="level3">
+<h3 class="anchored" data-anchor-id="everything-is-wrong-nothing-is-right">Everything is wrong, nothing is right</h3>
+<p>In the mood for disaster and darkness? Add one or more items from the following list to the game world…</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D36</th>
+<th style="text-align: left;">Environment</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">Climate anomalies</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">Global deforestation</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">Species extinction</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">Accidental or deliberate ingenious spread</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">Hunger riots</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">Global flu epidemic</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">Resource depletion</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">Solar flares</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">Water wars</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">Floods</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">Pest outbreaks</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">Ingenious disease from a laboratory</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.1</td>
+<td style="text-align: left;">Parasitic diseases of cereals</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.2</td>
+<td style="text-align: left;">Hurricane of the century (every year)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.3</td>
+<td style="text-align: left;">Mutagenic airborne particles</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.4</td>
+<td style="text-align: left;">Sea pollution</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.5</td>
+<td style="text-align: left;">Urban parasitic plant proliferation</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.6</td>
+<td style="text-align: left;">Droughts</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="new-technologies" class="level3">
+<h3 class="anchored" data-anchor-id="new-technologies">New technologies</h3>
+<p>If you need some exotic descriptions to descriptions to amaze your players…</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D26</th>
+<th style="text-align: left;">Technologies</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">POLYPHOTO TAPE: long-lasting luminescent tape glued to surfaces. Their light is harsh and unpleasant, but they are cheap.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">MOLDED CARBON: a strong, inexpensive building material that typically complements and covers concrete and macro-S, serving as a protective layer. Moulded carbon can take many forms.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">DISTRIBUTED POWER PLANTS: a system of energy production by small, localised power plants - possibly on a neighbourhood or company scale.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">CHROME: name of metals in general (steels, alloys, etc.). Most metal objects are chromium-plated to increase their resistance to pollution and corrosion.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">DOMONEX: complete home automation systems for most modern homes combining connection to the matrix, local sensors and the use of intelligent materials with sliding properties.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">EXO-CORAIL: a fast-growing, open-air, genetically modified coral that can be used to rapidly build carbon-positive living structures.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">SOLAR LAMPS: lamps that recharge naturally in sunlight for later use. Not very powerful but perfect for home interiors.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">MACRO-S (macro-structure): generic name for materials based on nanotubes or equivalent, used for the manufacture of giant structures.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">MORPHO-TEXTILE: adaptive textile, can be given specific aspects (heat resistant, solid, non-flammable, thermal regulation thermal regulation, anti-abrasion, luminescent…)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">NEOSILK: synthetic silk fibres used to create very high strength cables and ropes.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">POLY-RESIN: the basic material of 3D printers and, therefore, of most everyday objects made by these same printers.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">SYMBIOTECH: a set of symbiotic technologies making it possible, for example, to make human skin capable of photosynthesis.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="the-sports-page-blitzball" class="level3">
+<h3 class="anchored" data-anchor-id="the-sports-page-blitzball">The sports page: blitzball</h3>
+<p>Blitzball is a very popular sport that is played in both virtual and physical reality. Two mixed teams of ten male and female players compete on foot, rollerblades and bicycles in a speed ring. The goal is to put the ball in the ring of the opposing team. Physical contact is highly codified and gratuitous violence is totally forbidden.</p>
+<p>The interest of the game lies in its virtual reality format. Players can, like in a Mario Kart course, pass through certain places on the circuit that appear in augmented reality and obtain bonuses - time bonuses for keeping the ball, accelerations, extra playing time, traps and weapons to throw at opponents to trigger constraint effects in their special combinations…</p>
+<p>The audience can also act. Each paying spectator has a certain number of votes during the game - spectators who watch the game in the stands have more votes than those registered for the akhashic broadcasts. At any time it is possible to vote for a player or a team. When a certain number of votes is reached, the player gets bonuses: he can activate certain cybernetic options of his equipment, trigger effects on his suit or have access to specific virtual bonuses in the game ring.</p>
+<p>In big matches, when millions of people are connected, the game is extremely dynamic and bonuses fly in all directions to change the course of the match.</p>
+<p>Of course, Bitzball generates huge revenues, even bigger bets and dozens of scandals per season. And the players are both stars and cattle.</p>
+</section>
+<section id="organizations" class="level3">
+<h3 class="anchored" data-anchor-id="organizations">Organizations</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D26</th>
+<th style="text-align: left;">ORGANISATIONS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">Government agencies</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">International agencies</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">Terrorist cells</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">Orbital corporations</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">Earth-based corporations</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">Organized crime</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">Alternative cultures</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">Political Movements</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">Legitimate religious movements</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">NGOs &amp; foundations</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">Cults</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">Secret societies &amp; cabals</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D6</th>
+<th style="text-align: left;">GOVERNMENTAL AGENCIES (to be adapted to each country)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">Environmental agencies</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Ministry of Defence</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Civil Protection</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Health protection - centre for disease control</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">Intelligence services</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">Central Security (counter-intelligence)</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D26</th>
+<th style="text-align: left;">INTERNATIONAL AGENCIES</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">Regional trade union (NAFTA, ASEAN, OPEC…)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">Regional military union (NATO…)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">Non-aligned union</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">Regional political union (EU…)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">Akhashic Security Council</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">Orbital Council</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">IMF</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">GX (G8, G20, etc.)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">Interpol</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">WTO</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">UN (including UNESCO, UN Peace Corps, etc.)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">Vatican</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D6</th>
+<th style="text-align: left;">TERRORIST CELLS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">Al Rhedheb</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Greenies</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Kwasa Warriors</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Kebebasan</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">Red Friday</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">Weathermen Reboot</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D26</th>
+<th style="text-align: left;">ORBITAL CORPORATIONS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">ASCLEPIA: medical technologies, human engineering, nanogenetics, rejuvenation technologies.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">EIKI: energy (gas, nuclear, electricity, energy. Pioneer in distributed energy.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">FIRST CORPORATED: leading pharmaceutical group in the world, about to be bought by Lucrecia.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">GLASSPERFECT: the world’s leading security and mercenary company.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">GROUPE RICHELIEU: a European banking group particularly active in advanced electronics, aeronautics, transport and engineering.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">HONGSE TECHNOLOGIES: the Chinese state corporation.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">KATSU: food processing, animal engineering, shipping and and space transport, banking group.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">LATIMER AND BERING: construction, public works, vehicles, water management and mass manufacturing.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">LUCRECIA TRUST FUND: has grown into an economic and political powerhouse in the space of a few years.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">SAIBEONAMJA: neuroscience, cybertechnology, nexus technologies.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">SHANADARA: transnational consortium for multimedia production - television, cinema, matrix. Founder of the first global social network: WakuWaku.</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">ULKAWENA INDUSTRIES: Indonesian group, low-cost mass manufacturing, at the forefront of 3D printers, farming, agricultural engineering.</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D26</th>
+<th style="text-align: left;">EARTH CORPORATIONS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">Agribusiness</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">Communications and matrix</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">Cybernetics</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">Water &amp; energy</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">Environmental exploitation (forests and plants)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">Heavy industry</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">Light industry and manufacturing</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">Media</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">Health and engineering</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">Banking and finance</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">Primary sector (mining and oil)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">Services</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D26</th>
+<th style="text-align: left;">ORGANISED CRIME</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">Cartel (South America, Central America)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">African ethnic group (Nigeria, Zaire, South Africa…)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">Indo-European ethnic group (Chechnya, India, Pakistan…)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">Hell’s Angels (USA, Canada, Europe)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">The Corporation (Albania)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">Le Milieu (France)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">Mafia (Italy, USA)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">Mara Salvatrucha (Central America)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">Thagaandi (Australia)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">Triads (South East Asia)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">Vory-v-Zakone (Russia)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">Yakuza (Japan)</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D26</th>
+<th style="text-align: left;">ORGANIZED CRIMINAL ACTIVITY</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">Murder</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">Smuggling (people, drugs, weapons, organs…)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">Corruption of public officials and political figures</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">Cybercrime</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">Counterfeiting and money laundering</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">Infiltration of legal businesses</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">Racketeering, kidnapping and extortion</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">Receiving stolen goods</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">Trafficking in women and children (prostitution, pimping, pornography…)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">Clandestine work</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">Fixing of sports events</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">Theft of confidential information</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D26</th>
+<th style="text-align: left;">ALTERNATIVE CULTURES</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">Akashics</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">Altnerds</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">Bad Wolf</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">Borg</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">Immobile</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">Luddites</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">Sailors</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">Nanites</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">Neoniks</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">Nomads</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">Purists</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">Ultra-tech</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D26</th>
+<th style="text-align: left;">POLITICAL MOVEMENTS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">Extreme left</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">Fighting left</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">Social democratic-liberal centre</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">Liberal right</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">Libertarian</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">Nationalist right</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">Neo-fascist</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">Religious</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">Ecologists - environmentalists</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">Mystics</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">Banned party</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">Unclassifiable</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D26</th>
+<th style="text-align: left;">LEGITIMATE RELIGIOUS MOVEMENTS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">Wiccan Shrine Alliance</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">Universal Buddhist Circle</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">Jedi Consular Council</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">International Exarchate</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">Islamic Brotherhood</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">Jewish Youth of the World</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">Theosophical Lodge</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">Seventh Day Church Movement</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">New Church of Satan</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">Cybermonial Order of Saint George and Saint Gudula</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">Rose+Cross</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">Orbital Bible Society</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D26</th>
+<th style="text-align: left;">NGOS AND FOUNDATIONS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">Increases for all</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">International Equity</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">The Outstretched Hand Foundation</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">Guns are bad!</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">Human First</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">La Vigie</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">Free Matrix</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">Omega</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">World Health Network</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">Secrets Revealed International</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">Solidarité Secours</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">Women’s Underground</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D6</th>
+<th style="text-align: left;">CULTS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">Solar Worshippers</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Transmigration Study Circles</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Dianetic Clubs</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Last Day Believers</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">Eugenics Cults</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">Children of the stars</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D26</th>
+<th style="text-align: left;">SECRET SOCIETIES AND CABALS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">Chapter 322</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">Knights of Timbuktu</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">World Study Committee</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">Council of Sages</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">The Black Room</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">League of Rights</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">Masonic Lodge</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">Akhashic Mysteries</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">New divine order</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">Hermetic Order</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">Society of the Children of the Night</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">Orbital Synarchy</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="brands" class="level3">
+<h3 class="anchored" data-anchor-id="brands">Brands</h3>
+<p>Here are some brands to colour your descriptions. You will note that most of them are in the hands of the orbitals.</p>
+<table class="caption-top table">
+<tbody>
+<tr class="odd">
+<td>Restaurant (franchises)</td>
+<td>BIA, Sam&amp;Dave, Fortune Cookie, Dimsum express, Yatai, Café Duotti</td>
+</tr>
+<tr class="even">
+<td>Hotels (franchises)</td>
+<td>Hitsygi, Domtech, PlaneDivision,Palacio, Roomies, NoOne</td>
+</tr>
+<tr class="odd">
+<td>Nightclubs (franchises)</td>
+<td>221BS, Vida Loca, Wolfenwolf</td>
+</tr>
+<tr class="even">
+<td>Fashion (ready-to-wear)</td>
+<td>Fantasia, Chrome, Blush, Tea4two,Tiamat, Riders, Peppermint</td>
+</tr>
+<tr class="odd">
+<td>Fashion (high end)</td>
+<td>Roadstone, Giacommo, Hayari</td>
+</tr>
+<tr class="even">
+<td>Fashion (sports)</td>
+<td>Stadium Ten, GrandSlam, Dojo Kanzen</td>
+</tr>
+<tr class="odd">
+<td>Cybertech</td>
+<td>Nova, Major Jenkins, Sorensen,Tako Dev, Sever City</td>
+</tr>
+<tr class="even">
+<td>Genetech</td>
+<td>Hillard, Genohm, Free Spirit, Marsden</td>
+</tr>
+<tr class="odd">
+<td>Personal weapons</td>
+<td>Arcatech, Stavros, Evo, Sarmath,Volkstein, Pakol, Vulcan A.R.M Examples of models: Cougar, Cobra,Mongoose, Bloodstorm, Sword, Dagger,L60, Ahriman, Sable…</td>
+</tr>
+<tr class="even">
+<td>Vehicles (manufacturers)</td>
+<td>SMD, Sakura, GenMo, Tata, Maybach,De Clercq, Phaeton, Duesenberg</td>
+</tr>
+<tr class="odd">
+<td>Communication and data</td>
+<td>ITT, CamPhone, Vault, Cloudserve</td>
+</tr>
+<tr class="even">
+<td>Social networks</td>
+<td>LogInn, WakuWaku</td>
+</tr>
+<tr class="odd">
+<td>IT (hardware)</td>
+<td>Antaramuka, Jabko, TranzGeil</td>
+</tr>
+<tr class="even">
+<td>IT (software)</td>
+<td>Kehitys Software, Schutz FW, Carbonite</td>
+</tr>
+<tr class="odd">
+<td>Media (global network)</td>
+<td>NowSports, NTTL, Scones, ITD news,Capcha Network, ShibiBC</td>
+</tr>
+<tr class="even">
+<td>Care (franchises)</td>
+<td>Oakenshield Institute, St James Care Centers, EMU322</td>
+</tr>
+<tr class="odd">
+<td>Drugs</td>
+<td>Douvoir, TaylorBeam, DaoKusuri,Fishner</td>
+</tr>
+<tr class="even">
+<td>Large-scale retailing</td>
+<td>World Food, Manitoba Market, Tang, C3PO Cash Cash Cash Pawn Office,Le Mutant</td>
+</tr>
+<tr class="odd">
+<td>Energy</td>
+<td>Eiki Electrics, Sayat Bombay, EGF</td>
+</tr>
+<tr class="even">
+<td>Banks</td>
+<td>Willard &amp; Thomson, Global, Bank of China, GFS Ginko Financial Service, IBB,Savco</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="cities-and-places" class="level3">
+<h3 class="anchored" data-anchor-id="cities-and-places">Cities and places</h3>
+<p>Whenever you need a significant location to place a scene or story element, roll three d6’s on the following tables:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D666</th>
+<th style="text-align: left;">POINTS OF INTEREST</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1.1</td>
+<td style="text-align: left;">Aeroclub (conurb)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.1.2</td>
+<td style="text-align: left;">Private airfield (antizone)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.1.3</td>
+<td style="text-align: left;">International airport (enclave)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.1.4</td>
+<td style="text-align: left;">Open-air amphitheatre</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.1.5</td>
+<td style="text-align: left;">Aquapark</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.1.6</td>
+<td style="text-align: left;">Aquarium</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.2.1</td>
+<td style="text-align: left;">Aqueduct</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2.2</td>
+<td style="text-align: left;">Central Archives</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.2.3</td>
+<td style="text-align: left;">Blitzball Arena</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2.4</td>
+<td style="text-align: left;">Clandestine fighting arena (anarzone)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.2.5</td>
+<td style="text-align: left;">Distribution cupboard</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2.6</td>
+<td style="text-align: left;">Clandestine clothing workshop</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3.1</td>
+<td style="text-align: left;">Assembly workshops electronics</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.3.2</td>
+<td style="text-align: left;">Highways</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3.3</td>
+<td style="text-align: left;">Baths, thermal baths, sauna, spa</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.3.4</td>
+<td style="text-align: left;">Bamboo grove</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3.5</td>
+<td style="text-align: left;">Protected data banks (anti-zone)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.3.6</td>
+<td style="text-align: left;">Seed banks</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.4.1</td>
+<td style="text-align: left;">Bar and café</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4.2</td>
+<td style="text-align: left;">Rainwater collection basin</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.4.3</td>
+<td style="text-align: left;">Settling and waste water treatment ponds</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4.4</td>
+<td style="text-align: left;">Classified building</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.4.5</td>
+<td style="text-align: left;">Federal building</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4.6</td>
+<td style="text-align: left;">Observation lookout</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5.1</td>
+<td style="text-align: left;">Slum (anarzone)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.5.2</td>
+<td style="text-align: left;">Thick wood</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5.3</td>
+<td style="text-align: left;">Nightclub</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.5.4</td>
+<td style="text-align: left;">Mobile security brigade</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5.5</td>
+<td style="text-align: left;">Bunkers</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.5.6</td>
+<td style="text-align: left;">Corporate CEO offices (anti-zone)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.6.1</td>
+<td style="text-align: left;">Nomadic camp (anarzone)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6.2</td>
+<td style="text-align: left;">Industrial compound (enclave)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.6.3</td>
+<td style="text-align: left;">Canals</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6.4</td>
+<td style="text-align: left;">Underground quarries</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.6.5</td>
+<td style="text-align: left;">Fire station</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6.6</td>
+<td style="text-align: left;">Open-air junkyard (anarzone)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1.1</td>
+<td style="text-align: left;">Catacombs</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.1.2</td>
+<td style="text-align: left;">Network of caves</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1.3</td>
+<td style="text-align: left;">Green belt</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.1.4</td>
+<td style="text-align: left;">Central park</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1.5</td>
+<td style="text-align: left;">Desalination plant</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.1.6</td>
+<td style="text-align: left;">Gridded power plant</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.2.1</td>
+<td style="text-align: left;">Nuclear power plant</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2.2</td>
+<td style="text-align: left;">Thermal power plant</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.2.3</td>
+<td style="text-align: left;">Security centres (anti-zone)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2.4</td>
+<td style="text-align: left;">Landfill</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.2.5</td>
+<td style="text-align: left;">Waste incineration plant</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2.6</td>
+<td style="text-align: left;">Emergency centre</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3.1</td>
+<td style="text-align: left;">Road control centre</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.3.2</td>
+<td style="text-align: left;">Disaster management centre</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3.3</td>
+<td style="text-align: left;">Research centre (enclave)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.3.4</td>
+<td style="text-align: left;">Fitness centre and gym club</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3.5</td>
+<td style="text-align: left;">Specialised educational centre</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.3.6</td>
+<td style="text-align: left;">Financial and Scholarship Centre (enclave)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.4.1</td>
+<td style="text-align: left;">Penitentiary centre</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4.2</td>
+<td style="text-align: left;">Scrapping yard</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.4.3</td>
+<td style="text-align: left;">Shipyard</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4.4</td>
+<td style="text-align: left;">Shipyard (anarzone)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.4.5</td>
+<td style="text-align: left;">Underground construction site</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4.6</td>
+<td style="text-align: left;">Water tower</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5.1</td>
+<td style="text-align: left;">Cemetery</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.5.2</td>
+<td style="text-align: left;">Cinema</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5.3</td>
+<td style="text-align: left;">Nano-tank clinic</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.5.4</td>
+<td style="text-align: left;">Private clinic</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5.5</td>
+<td style="text-align: left;">Veterinary clinic</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.5.6</td>
+<td style="text-align: left;">Private club</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.6.1</td>
+<td style="text-align: left;">Wastewater collector</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6.2</td>
+<td style="text-align: left;">College</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.6.3</td>
+<td style="text-align: left;">Central police station</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6.4</td>
+<td style="text-align: left;">Concentration of specialised shops</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.6.5</td>
+<td style="text-align: left;">Industrial control and product testing centre</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6.6</td>
+<td style="text-align: left;">Technical aisle</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.1.1</td>
+<td style="text-align: left;">Technical corridors under the enclaves</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.1.2</td>
+<td style="text-align: left;">Country club</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.1.3</td>
+<td style="text-align: left;">Cyber chop shop</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.1.4</td>
+<td style="text-align: left;">Open air dump</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.1.5</td>
+<td style="text-align: left;">Fuel and chemical depot</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.1.6</td>
+<td style="text-align: left;">Dinner</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.2.1</td>
+<td style="text-align: left;">Directorate of Equipment</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.2.2</td>
+<td style="text-align: left;">Public dispensary (conurb)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.2.3</td>
+<td style="text-align: left;">Subsidised dispensary (anarzone)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.2.4</td>
+<td style="text-align: left;">Interchangeers</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.2.5</td>
+<td style="text-align: left;">Martial arts school</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.2.6</td>
+<td style="text-align: left;">Primary and nursery school</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.3.1</td>
+<td style="text-align: left;">Farming (anarzone)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.3.2</td>
+<td style="text-align: left;">Exhibitions and galleries</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.3.3</td>
+<td style="text-align: left;">Extension or renovation</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.3.4</td>
+<td style="text-align: left;">Fast food</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.3.5</td>
+<td style="text-align: left;">Fairground</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.3.6</td>
+<td style="text-align: left;">Geothermal drilling</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.4.1</td>
+<td style="text-align: left;">Sewers</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.4.2</td>
+<td style="text-align: left;">Warehouses</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.4.3</td>
+<td style="text-align: left;">Cold stores</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.4.4</td>
+<td style="text-align: left;">Wind turbines</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.4.5</td>
+<td style="text-align: left;">Stairs</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.4.6</td>
+<td style="text-align: left;">Wilderness areas</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.5.1</td>
+<td style="text-align: left;">Seafront</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.5.2</td>
+<td style="text-align: left;">Funeral home</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.5.3</td>
+<td style="text-align: left;">Funicular</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.5.4</td>
+<td style="text-align: left;">24/7 Self Storage</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.5.5</td>
+<td style="text-align: left;">Shunting yard</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.5.6</td>
+<td style="text-align: left;">River station</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.6.1</td>
+<td style="text-align: left;">Bus station</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.6.2</td>
+<td style="text-align: left;">Local generator</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.6.3</td>
+<td style="text-align: left;">Ghetto (anarzone)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.6.4</td>
+<td style="text-align: left;">Urban golf course</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.6.5</td>
+<td style="text-align: left;">Large school</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.6.6</td>
+<td style="text-align: left;">Halls</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.1.1</td>
+<td style="text-align: left;">Heliport</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.1.2</td>
+<td style="text-align: left;">Hotel</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.1.3</td>
+<td style="text-align: left;">Day hospital</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.1.4</td>
+<td style="text-align: left;">Psychiatric hospital</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.1.5</td>
+<td style="text-align: left;">University Hospital</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.1.6</td>
+<td style="text-align: left;">City Hall</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.2.1</td>
+<td style="text-align: left;">Buildings (conurb)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.2.2</td>
+<td style="text-align: left;">Temporary office buildings</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.2.3</td>
+<td style="text-align: left;">Squatted buildings (anarzone)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.2.4</td>
+<td style="text-align: left;">Self-service 3D printing</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.2.5</td>
+<td style="text-align: left;">Food industry</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.2.6</td>
+<td style="text-align: left;">Chemical industry</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.3.1</td>
+<td style="text-align: left;">Heavy industry</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.3.2</td>
+<td style="text-align: left;">Pharmaceutical industry</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.3.3</td>
+<td style="text-align: left;">Underground industrial facilities</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.3.4</td>
+<td style="text-align: left;">Cultural institute</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.3.5</td>
+<td style="text-align: left;">Public gardens</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.3.6</td>
+<td style="text-align: left;">Karaoke</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.4.1</td>
+<td style="text-align: left;">Clandestine lab (anarzone)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.4.2</td>
+<td style="text-align: left;">Analytical laboratories</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.4.3</td>
+<td style="text-align: left;">Laboratories and R&amp;D centres (antizone)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.4.4</td>
+<td style="text-align: left;">Lake</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.4.5</td>
+<td style="text-align: left;">Lounge</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.4.6</td>
+<td style="text-align: left;">High school</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.5.1</td>
+<td style="text-align: left;">Prison</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.5.2</td>
+<td style="text-align: left;">Single-family homes (conurb)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.5.3</td>
+<td style="text-align: left;">Mall</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.5.4</td>
+<td style="text-align: left;">Illegal manufacture (anarzone)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.5.5</td>
+<td style="text-align: left;">Manufacturing</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.5.6</td>
+<td style="text-align: left;">Flea market (anarzone)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.6.1</td>
+<td style="text-align: left;">Open market</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.6.2</td>
+<td style="text-align: left;">Wetlands</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.6.3</td>
+<td style="text-align: left;">Marineland</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.6.4</td>
+<td style="text-align: left;">Historical monument</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.6.5</td>
+<td style="text-align: left;">Morgue</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.6.6</td>
+<td style="text-align: left;">Walls and fences</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.1.1</td>
+<td style="text-align: left;">Museum</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.1.2</td>
+<td style="text-align: left;">Necropolis</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.1.3</td>
+<td style="text-align: left;">Opera</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.1.4</td>
+<td style="text-align: left;">Park</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.1.5</td>
+<td style="text-align: left;">Botanical park</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.1.6</td>
+<td style="text-align: left;">Jogging path</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.2.1</td>
+<td style="text-align: left;">Invested parking (anarzone)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.2.2</td>
+<td style="text-align: left;">Overlapping car parks</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.2.3</td>
+<td style="text-align: left;">Walkways</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.2.4</td>
+<td style="text-align: left;">Director’s penthouse (antizone)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.2.5</td>
+<td style="text-align: left;">Business incubator</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.2.6</td>
+<td style="text-align: left;">Swimming pool</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.3.1</td>
+<td style="text-align: left;">Plazza (huge square)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.3.2</td>
+<td style="text-align: left;">Plazza (enclave)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.3.3</td>
+<td style="text-align: left;">Checkpoint</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.3.4</td>
+<td style="text-align: left;">Motorway bridges</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.3.5</td>
+<td style="text-align: left;">Bridges and viaducts</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.3.6</td>
+<td style="text-align: left;">Port</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.4.1</td>
+<td style="text-align: left;">Commercial port</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.4.2</td>
+<td style="text-align: left;">Fishing harbour</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.4.3</td>
+<td style="text-align: left;">Marina</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.4.4</td>
+<td style="text-align: left;">Military port (anti-zone)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.4.5</td>
+<td style="text-align: left;">Autonomous security post</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.4.6</td>
+<td style="text-align: left;">Planted promenade</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.5.1</td>
+<td style="text-align: left;">Pub</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.5.2</td>
+<td style="text-align: left;">Red light district</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.5.3</td>
+<td style="text-align: left;">Refinery</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.5.4</td>
+<td style="text-align: left;">Homeless shelter</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.5.5</td>
+<td style="text-align: left;">Reservoir</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.5.6</td>
+<td style="text-align: left;">Residences (conurb)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.6.1</td>
+<td style="text-align: left;">Restaurant</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.6.2</td>
+<td style="text-align: left;">Street restaurant</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.6.3</td>
+<td style="text-align: left;">Secondary road (anarzone)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.6.4</td>
+<td style="text-align: left;">Dirt roads</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.6.5</td>
+<td style="text-align: left;">Street of thirst</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.6.6</td>
+<td style="text-align: left;">Pedestrian street</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.1.1</td>
+<td style="text-align: left;">Alleys in all directions</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.1.2</td>
+<td style="text-align: left;">Criss-crossing surface streets</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.1.3</td>
+<td style="text-align: left;">Sandpit</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.1.4</td>
+<td style="text-align: left;">Concert hall</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.1.5</td>
+<td style="text-align: left;">Gambling halls and casinos</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.1.6</td>
+<td style="text-align: left;">Servers</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.2.1</td>
+<td style="text-align: left;">Souk (anarzone)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.2.2</td>
+<td style="text-align: left;">Square</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.2.3</td>
+<td style="text-align: left;">Artists’ squat</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.2.4</td>
+<td style="text-align: left;">Stadium</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.2.5</td>
+<td style="text-align: left;">Underground station</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.2.6</td>
+<td style="text-align: left;">Weather station</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.3.1</td>
+<td style="text-align: left;">Football field (anarzone)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.3.2</td>
+<td style="text-align: left;">Waste land (conurb)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.3.3</td>
+<td style="text-align: left;">Agricultural land</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.3.4</td>
+<td style="text-align: left;">Corporatist tower under construction</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.3.5</td>
+<td style="text-align: left;">Corporatist towers (enclave)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.3.6</td>
+<td style="text-align: left;">Transformers</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.4.1</td>
+<td style="text-align: left;">Public Treasury</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.4.2</td>
+<td style="text-align: left;">Court</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.4.3</td>
+<td style="text-align: left;">Tunnel</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.4.4</td>
+<td style="text-align: left;">Abandoned tunnels</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.4.5</td>
+<td style="text-align: left;">Private university</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.4.6</td>
+<td style="text-align: left;">Public university</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.5.1</td>
+<td style="text-align: left;">Clandestine factory (conurb)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.5.2</td>
+<td style="text-align: left;">Viaduct under construction</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.5.3</td>
+<td style="text-align: left;">Self-guided tracks</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.5.4</td>
+<td style="text-align: left;">Railway tracks</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.5.5</td>
+<td style="text-align: left;">Retention area</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.5.6</td>
+<td style="text-align: left;">Storage area</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.6.1</td>
+<td style="text-align: left;">Wetland</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.6.2</td>
+<td style="text-align: left;">Military zone (anti-zone)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.6.3</td>
+<td style="text-align: left;">Military zone</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.6.4</td>
+<td style="text-align: left;">Training areas and police academy</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.6.5</td>
+<td style="text-align: left;">Residential areas (enclave)</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.6.6</td>
+<td style="text-align: left;">Zoo</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="on-the-street" class="level3">
+<h3 class="anchored" data-anchor-id="on-the-street">On the street</h3>
+<p>The following table is somewhat similar to the previous one, but focuses on the buildings you can find along a given street - draw half a dozen buildings that will be the most important locations. The rest you can improvise…</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D666</th>
+<th style="text-align: left;">ALONG THE STREET</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1.1</td>
+<td style="text-align: left;">Apartment rental agency</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.1.2</td>
+<td style="text-align: left;">Professional equipment rental agency</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.1.3</td>
+<td style="text-align: left;">Construction vehicle rental agency</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.1.4</td>
+<td style="text-align: left;">Car rental agency</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.1.5</td>
+<td style="text-align: left;">Employment agency</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.1.6</td>
+<td style="text-align: left;">Travel agency</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.2.1</td>
+<td style="text-align: left;">Real estate agency</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2.2</td>
+<td style="text-align: left;">Pet shop</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.2.3</td>
+<td style="text-align: left;">Video game arcade</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2.4</td>
+<td style="text-align: left;">Archives</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.2.5</td>
+<td style="text-align: left;">Armoury</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2.6</td>
+<td style="text-align: left;">Body shop</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3.1</td>
+<td style="text-align: left;">Computer repair shop</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.3.2</td>
+<td style="text-align: left;">Mechanical workshop</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3.3</td>
+<td style="text-align: left;">Express mechanic workshop</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.3.4</td>
+<td style="text-align: left;">Driving school</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3.5</td>
+<td style="text-align: left;">Lawyers</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.3.6</td>
+<td style="text-align: left;">Bank</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.4.1</td>
+<td style="text-align: left;">Trendy bar</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4.2</td>
+<td style="text-align: left;">Biker bar</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.4.3</td>
+<td style="text-align: left;">Cop bar</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4.4</td>
+<td style="text-align: left;">Gangster bar</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.4.5</td>
+<td style="text-align: left;">Geek bar</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4.6</td>
+<td style="text-align: left;">Student bar</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5.1</td>
+<td style="text-align: left;">Abandoned building</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.5.2</td>
+<td style="text-align: left;">Federal administration building</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5.3</td>
+<td style="text-align: left;">Local government building</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.5.4</td>
+<td style="text-align: left;">Library</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5.5</td>
+<td style="text-align: left;">Jeweller</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.5.6</td>
+<td style="text-align: left;">Brothel</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.6.1</td>
+<td style="text-align: left;">Butcher shop</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6.2</td>
+<td style="text-align: left;">Bakery</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.6.3</td>
+<td style="text-align: left;">Household appliances shop - repair and sales</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6.4</td>
+<td style="text-align: left;">Video rental shop</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.6.5</td>
+<td style="text-align: left;">Fashion shop</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6.6</td>
+<td style="text-align: left;">Shop not occupied</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1.1</td>
+<td style="text-align: left;">Bridal shop</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.1.2</td>
+<td style="text-align: left;">Health shop</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1.3</td>
+<td style="text-align: left;">Bowling</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.1.4</td>
+<td style="text-align: left;">Brocante</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1.5</td>
+<td style="text-align: left;">Army recruitment office</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.1.6</td>
+<td style="text-align: left;">Offices - lawyers</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.2.1</td>
+<td style="text-align: left;">Corporate offices</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2.2</td>
+<td style="text-align: left;">Cabaret</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.2.3</td>
+<td style="text-align: left;">Dental practice</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2.4</td>
+<td style="text-align: left;">General practice</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.2.5</td>
+<td style="text-align: left;">Specialist medical practice</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2.6</td>
+<td style="text-align: left;">Cafe</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3.1</td>
+<td style="text-align: left;">Cafeteria</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.3.2</td>
+<td style="text-align: left;">University campus</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3.3</td>
+<td style="text-align: left;">Fire station</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.3.4</td>
+<td style="text-align: left;">Break</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3.5</td>
+<td style="text-align: left;">Neurotronic data centre</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.3.6</td>
+<td style="text-align: left;">Fitness centre</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.4.1</td>
+<td style="text-align: left;">Social centre</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4.2</td>
+<td style="text-align: left;">Heating and air conditioning - services and repair</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.4.3</td>
+<td style="text-align: left;">Cinema</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4.4</td>
+<td style="text-align: left;">Clinic</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.4.5</td>
+<td style="text-align: left;">Abortion clinic</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4.6</td>
+<td style="text-align: left;">Club /C</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5.1</td>
+<td style="text-align: left;">Gentleman’s club</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.5.2</td>
+<td style="text-align: left;">Gogo dancers club</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5.3</td>
+<td style="text-align: left;">Strip club</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.5.4</td>
+<td style="text-align: left;">College</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5.5</td>
+<td style="text-align: left;">Police station</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.5.6</td>
+<td style="text-align: left;">Electricity company</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.6.1</td>
+<td style="text-align: left;">Dealer - CPA</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6.2</td>
+<td style="text-align: left;">Dealer - Drones</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.6.3</td>
+<td style="text-align: left;">Car dealer - luxury</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6.4</td>
+<td style="text-align: left;">Car dealer - new and used</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.6.5</td>
+<td style="text-align: left;">Confectionery</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6.6</td>
+<td style="text-align: left;">Locker</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.1.1</td>
+<td style="text-align: left;">Shoe repair</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.1.2</td>
+<td style="text-align: left;">Country club</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.1.3</td>
+<td style="text-align: left;">Crèche</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.1.4</td>
+<td style="text-align: left;">Deposit and sale</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.1.5</td>
+<td style="text-align: left;">Dinner</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.1.6</td>
+<td style="text-align: left;">Dojo</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.2.1</td>
+<td style="text-align: left;">Primary school</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.2.2</td>
+<td style="text-align: left;">Church</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.2.3</td>
+<td style="text-align: left;">Electrician</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.2.4</td>
+<td style="text-align: left;">Warehouse</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.2.5</td>
+<td style="text-align: left;">Plumbing company</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.2.6</td>
+<td style="text-align: left;">Grocery shop - organic</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.3.1</td>
+<td style="text-align: left;">Grocery shop - ethnic</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.3.2</td>
+<td style="text-align: left;">Grocery shop - wholesale</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.3.3</td>
+<td style="text-align: left;">Grocery shop - 24/7</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.3.4</td>
+<td style="text-align: left;">Green space</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.3.5</td>
+<td style="text-align: left;">Trick or treat</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.3.6</td>
+<td style="text-align: left;">Fast food - American</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.4.1</td>
+<td style="text-align: left;">Mexican fast food</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.4.2</td>
+<td style="text-align: left;">Farm</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.4.3</td>
+<td style="text-align: left;">Fair at µ¥1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.4.4</td>
+<td style="text-align: left;">Fruit and vegetables</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.4.5</td>
+<td style="text-align: left;">Crack house</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.4.6</td>
+<td style="text-align: left;">Art gallery</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.5.1</td>
+<td style="text-align: left;">Shopping mall</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.5.2</td>
+<td style="text-align: left;">Garage</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.5.3</td>
+<td style="text-align: left;">Self-storage</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.5.4</td>
+<td style="text-align: left;">Bus station</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.5.5</td>
+<td style="text-align: left;">Ice cream parlour</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.5.6</td>
+<td style="text-align: left;">Urban golf</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.6.1</td>
+<td style="text-align: left;">Large surface - tools and materials</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.6.2</td>
+<td style="text-align: left;">Gymnasium</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.6.3</td>
+<td style="text-align: left;">Hotel - small</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.6.4</td>
+<td style="text-align: left;">Hotel - medium</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3.6.5</td>
+<td style="text-align: left;">Hotel - tower</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">3.6.6</td>
+<td style="text-align: left;">Hotel - pass</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.1.1</td>
+<td style="text-align: left;">Office building - tower</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.1.2</td>
+<td style="text-align: left;">Office building - small</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.1.3</td>
+<td style="text-align: left;">Public garden</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.1.4</td>
+<td style="text-align: left;">Newspaper kiosk</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.1.5</td>
+<td style="text-align: left;">Research &amp; development laboratories</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.1.6</td>
+<td style="text-align: left;">Car wash</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.2.1</td>
+<td style="text-align: left;">Laundromat</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.2.2</td>
+<td style="text-align: left;">Bookstore</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.2.3</td>
+<td style="text-align: left;">Quick delivery</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.2.4</td>
+<td style="text-align: left;">Costume rental</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.2.5</td>
+<td style="text-align: left;">High School</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.2.6</td>
+<td style="text-align: left;">Store - heavy equipment, sales and repair</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.3.1</td>
+<td style="text-align: left;">Store - tools and materials</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.3.2</td>
+<td style="text-align: left;">Store - small electronics</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.3.3</td>
+<td style="text-align: left;">Antique shop</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.3.4</td>
+<td style="text-align: left;">Candle and candle shop</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.3.5</td>
+<td style="text-align: left;">DIY shop</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.3.6</td>
+<td style="text-align: left;">Shoe shop</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.4.1</td>
+<td style="text-align: left;">Cycle shop</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.4.2</td>
+<td style="text-align: left;">Art supplies shop</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.4.3</td>
+<td style="text-align: left;">Gardening shop</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.4.4</td>
+<td style="text-align: left;">Video game shop</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.4.5</td>
+<td style="text-align: left;">Toy shop</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.4.6</td>
+<td style="text-align: left;">Lighting shop</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.5.1</td>
+<td style="text-align: left;">Carpet and flooring shop</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.5.2</td>
+<td style="text-align: left;">Motorcycle shop</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.5.3</td>
+<td style="text-align: left;">Music shop</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.5.4</td>
+<td style="text-align: left;">Paint and wallpaper shop</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.5.5</td>
+<td style="text-align: left;">Photocopy shop</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.5.6</td>
+<td style="text-align: left;">Car parts shop</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.6.1</td>
+<td style="text-align: left;">Tyre shop</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.6.2</td>
+<td style="text-align: left;">Door and window shop</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.6.3</td>
+<td style="text-align: left;">Souvenir shop</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.6.4</td>
+<td style="text-align: left;">Sports shop</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">4.6.5</td>
+<td style="text-align: left;">Telephone shop</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4.6.6</td>
+<td style="text-align: left;">Clothing shop</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.1.1</td>
+<td style="text-align: left;">Wine and spirits shop</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.1.2</td>
+<td style="text-align: left;">Town hall</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.1.3</td>
+<td style="text-align: left;">Fraternity house</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.1.4</td>
+<td style="text-align: left;">Retirement home</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.1.5</td>
+<td style="text-align: left;">Mall</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.1.6</td>
+<td style="text-align: left;">Leather goods</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.2.1</td>
+<td style="text-align: left;">Courier</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.2.2</td>
+<td style="text-align: left;">Pawn shop</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.2.3</td>
+<td style="text-align: left;">Motel</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.2.4</td>
+<td style="text-align: left;">Museum</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.2.5</td>
+<td style="text-align: left;">Sports betting shop</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.2.6</td>
+<td style="text-align: left;">Charity</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.3.1</td>
+<td style="text-align: left;">Park</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.3.2</td>
+<td style="text-align: left;">Open-air car park</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.3.3</td>
+<td style="text-align: left;">Underground car park</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.3.4</td>
+<td style="text-align: left;">Multi-storey car park</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.3.5</td>
+<td style="text-align: left;">Ice rink</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.3.6</td>
+<td style="text-align: left;">Pastry shop</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.4.1</td>
+<td style="text-align: left;">Landscaping</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.4.2</td>
+<td style="text-align: left;">Small apartment building</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.4.3</td>
+<td style="text-align: left;">Pharmacy</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.4.4</td>
+<td style="text-align: left;">Photographer</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.4.5</td>
+<td style="text-align: left;">Pizzeria</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.4.6</td>
+<td style="text-align: left;">Post office</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.5.1</td>
+<td style="text-align: left;">Dry cleaner</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.5.2</td>
+<td style="text-align: left;">Pub</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.5.3</td>
+<td style="text-align: left;">Hardware store</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.5.4</td>
+<td style="text-align: left;">Animal shelter</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.5.5</td>
+<td style="text-align: left;">Truck stop</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.5.6</td>
+<td style="text-align: left;">Residence - duplex</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.6.1</td>
+<td style="text-align: left;">Residence - single storey house</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.6.2</td>
+<td style="text-align: left;">Restaurant - takeaway truck</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.6.3</td>
+<td style="text-align: left;">Restaurant - takeaway stand</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.6.4</td>
+<td style="text-align: left;">Restaurant - steakhouse</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5.6.5</td>
+<td style="text-align: left;">Restaurant - seafood</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">5.6.6</td>
+<td style="text-align: left;">Ethnic restaurant</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.1.1</td>
+<td style="text-align: left;">Family restaurant</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.1.2</td>
+<td style="text-align: left;">Gourmet restaurant</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.1.3</td>
+<td style="text-align: left;">Gambling hall</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.1.4</td>
+<td style="text-align: left;">Clandestine gambling hall</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.1.5</td>
+<td style="text-align: left;">Hair salon</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.1.6</td>
+<td style="text-align: left;">Massage parlour</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.2.1</td>
+<td style="text-align: left;">“Improved” massage parlour</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.2.2</td>
+<td style="text-align: left;">Locksmith</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.2.3</td>
+<td style="text-align: left;">Legal advice services</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.2.4</td>
+<td style="text-align: left;">Spa and steam room</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.2.5</td>
+<td style="text-align: left;">Square</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.2.6</td>
+<td style="text-align: left;">Athletics stadium</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.3.1</td>
+<td style="text-align: left;">Baseball Stadium</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.3.2</td>
+<td style="text-align: left;">Blitzball Stadium</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.3.3</td>
+<td style="text-align: left;">Football stadium</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.3.4</td>
+<td style="text-align: left;">Shooting range</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.3.5</td>
+<td style="text-align: left;">Gas station</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.3.6</td>
+<td style="text-align: left;">Dance studio</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.4.1</td>
+<td style="text-align: left;">Military surplus</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.4.2</td>
+<td style="text-align: left;">Tobacco</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.4.3</td>
+<td style="text-align: left;">Tobacco - medical marijuana</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.4.4</td>
+<td style="text-align: left;">Slum</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.4.5</td>
+<td style="text-align: left;">Basketball court</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.4.6</td>
+<td style="text-align: left;">Waste land</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.5.1</td>
+<td style="text-align: left;">Theatre</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.5.2</td>
+<td style="text-align: left;">Caterer</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.5.3</td>
+<td style="text-align: left;">Electrical transformer</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.5.4</td>
+<td style="text-align: left;">Delivery carrier</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.5.5</td>
+<td style="text-align: left;">State court</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.5.6</td>
+<td style="text-align: left;">County court</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.6.1</td>
+<td style="text-align: left;">Municipal court</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.6.2</td>
+<td style="text-align: left;">Recycling plant</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.6.3</td>
+<td style="text-align: left;">Water treatment plant</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.6.4</td>
+<td style="text-align: left;">Glassmaker</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">6.6.5</td>
+<td style="text-align: left;">Veterinarian</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6.6.6</td>
+<td style="text-align: left;">Psychic</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+     </main>
+<!-- /main column -->  <script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>  </div> <!-- /content --> 
+  
+</body></html>

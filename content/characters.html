@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Description">
 
 <title>Characters – nanoChrome</title>
 <style>
@@ -42,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-c39790739b795761a025db3e98f5af6a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-a34d23e6026824af7d7a158d5cbbe67b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -190,6 +189,11 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/charsheet.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Character sheet</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/license.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Terms of Use</span></a>
   </div>
 </li>
       </ul>
@@ -458,11 +462,6 @@ Add your rank for chatting, convincing, seducing, sensing emotions and lying. Ea
 <p>Note: normal weapons are effective against physical defence; similarly, the protections given here are physical protections and do not protect against magical attacks (if you use this game option, see page 303).</p>
 <p>Depending on your initial holdings, choose a ranged weapon from one of the following categories. Each additional weapon costs ¥8:</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 38%">
-<col style="width: 14%">
-<col style="width: 45%">
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">FIREARM</th>
@@ -587,10 +586,6 @@ Add your rank for chatting, convincing, seducing, sensing emotions and lying. Ea
 <h4 class="anchored" data-anchor-id="cosmetic">Cosmetic</h4>
 <p>Cosmetic augmentations simply cost ¥2-4. There is no basic implant - it’s the equivalent of an ancient piercing or tattoo. All you need is a good address, a little time and a lot of money, at least if you want quality. Chrome eyes, electroluminescent tattoos, living inks, variable breast implants, hair modifications and other fashionable effects are all yours.</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 14%">
-<col style="width: 85%">
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">OPTIONS</th>
@@ -650,12 +645,6 @@ Add your rank for chatting, convincing, seducing, sensing emotions and lying. Ea
 <h3 class="anchored" data-anchor-id="vehicles">Vehicles</h3>
 <p>You can of course buy vehicles for yourself. For more information on vehicles, see page 167.</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 4%">
-<col style="width: 13%">
-<col style="width: 8%">
-<col style="width: 72%">
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: right;">Price</th>
@@ -744,10 +733,6 @@ Add your rank for chatting, convincing, seducing, sensing emotions and lying. Ea
 <p>Characters earn ¥ every time they do a job (see page 244), pick an opponent’s pocket, negotiate the sale of recovered material, etc. It is always possible to create a fund for the sale of goods. It is always possible to create a common fund for all characters or to keep full possession of your ¥. You can either use the ¥ as you go along or keep them, for example by placing them in an account.</p>
 <p>A job well done should never yield more than ¥2 or ¥3 per character (pooled amount), but characters are encouraged to scrape what they can whenever possible - after all, fences are not for dogs. On the other hand, if they start looting anything and everything, the aftermath can get very interesting, when the authorities get involved or a powerful person tries to get their property back the hard way (have you seen Guy Ritchie’s films?).</p>
 <table class="caption-top table">
-<colgroup>
-<col style="width: 15%">
-<col style="width: 84%">
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: right;">Price</th>
@@ -1155,6 +1140,8 @@ Add your rank for chatting, convincing, seducing, sensing emotions and lying. Ea
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // default icon
+            link.classList.add("external");
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

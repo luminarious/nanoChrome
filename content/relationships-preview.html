@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="generator" content="quarto-1.7.32">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+    <title>relationships</title>
+    <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      div.columns{display: flex; gap: min(4vw, 1.5em);}
+      div.column{flex: auto; overflow-x: auto;}
+      div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+      ul.task-list{list-style: none;}
+      ul.task-list li input[type="checkbox"] {
+        width: 0.8em;
+        margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+        vertical-align: middle;
+      }
+    </style>
+
+    <style>
+      body.hypothesis-enabled #quarto-embed-header {
+        padding-right: 36px;
+      }
+
+      #quarto-embed-header {
+        height: 3em;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: solid 1px;
+      }
+
+      #quarto-embed-header h6 {
+        font-size: 1.1em;
+        padding-top: 0.6em;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-weight: 400;
+      }
+
+      #quarto-embed-header a.quarto-back-link,
+      #quarto-embed-header a.quarto-download-embed {
+        font-size: 0.8em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+
+      .quarto-back-container {
+        padding-left: 0.5em;
+        display: flex;
+      }
+
+      .headroom {
+          will-change: transform;
+          transition: transform 200ms linear;
+      }
+
+      .headroom--pinned {
+          transform: translateY(0%);
+      }
+
+      .headroom--unpinned {
+          transform: translateY(-100%);
+      }      
+    </style>
+
+    <script>
+    window.document.addEventListener("DOMContentLoaded", function () {
+
+      var header = window.document.querySelector("#quarto-embed-header");
+      const titleBannerEl = window.document.querySelector("body > #title-block-header");
+      if (titleBannerEl) {
+        titleBannerEl.style.paddingTop = header.clientHeight + "px";
+      }
+      const contentEl = window.document.getElementById('quarto-content');
+      for (const child of contentEl.children) {
+        child.style.paddingTop = header.clientHeight + "px";
+        child.style.marginTop = "1em";
+      }
+
+      // Use the article root if the `back` call doesn't work. This isn't perfect
+      // but should typically work
+      window.quartoBackToArticle = () => {
+        var currentUrl = window.location.href;
+        window.history.back();
+        setTimeout(() => {
+            // if location was not changed in 100 ms, then there is no history back
+            if(currentUrl === window.location.href){              
+                // redirect to site root
+                window.location.href = "...html";
+            }
+        }, 100);
+      }
+
+      const headroom = new window.Headroom(header, {
+        tolerance: 5,
+        onPin: function () {
+        },
+        onUnpin: function () {
+        },
+      });
+      headroom.init();
+    });
+    </script>
+
+    
+<script src="../site_libs/manuscript-notebook/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-813c323200a87c37e262811031999de4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+     
+        <link rel="stylesheet" href="../assets/site.css">
+      </head>
+
+  <body class="quarto-notebook quarto-light">
+    <div id="quarto-embed-header" class="headroom fixed-top bg-primary">
+      
+      <a onclick="window.quartoBackToArticle(); return false;" class="btn btn-primary quarto-back-link" href=""><i class="bi bi-caret-left"></i> Back to Article</a>
+      <h6><i class="bi bi-journal-code"></i> Relationships</h6>
+
+            <a href="../content/relationships.qmd" class="btn btn-primary quarto-download-embed" download="relationships.qmd">Download Source</a>
+          </div>
+
+     <div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#relationships" id="toc-relationships" class="nav-link active" data-scroll-target="#relationships">Relationships</a>
+  <ul class="collapse">
+  <li><a href="#building-relationships" id="toc-building-relationships" class="nav-link" data-scroll-target="#building-relationships">Building relationships</a></li>
+  <li><a href="#spiel-and-eloquence" id="toc-spiel-and-eloquence" class="nav-link" data-scroll-target="#spiel-and-eloquence">Spiel and eloquence</a>
+  <ul class="collapse">
+  <li><a href="#the-player-and-the-character" id="toc-the-player-and-the-character" class="nav-link" data-scroll-target="#the-player-and-the-character">The Player and The Character</a></li>
+  <li><a href="#nature-of-social-conflict" id="toc-nature-of-social-conflict" class="nav-link" data-scroll-target="#nature-of-social-conflict">Nature of social conflict</a></li>
+  <li><a href="#go-fast-dont-play-everything" id="toc-go-fast-dont-play-everything" class="nav-link" data-scroll-target="#go-fast-dont-play-everything">Go fast, don’t play everything</a></li>
+  <li><a href="#small-talk" id="toc-small-talk" class="nav-link" data-scroll-target="#small-talk">Small talk</a></li>
+  <li><a href="#between-dog-and-wolf" id="toc-between-dog-and-wolf" class="nav-link" data-scroll-target="#between-dog-and-wolf">Between dog and wolf</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+</div>
+<main class="content" id="quarto-document-content">      <section id="relationships" class="level1">
+<h1>Relationships</h1>
+<blockquote class="blockquote">
+<p>It was in sexual relationships that things things started to get strange, that I realised that I might not have the upper hand, shall we say, on this that I might not have control, shall we say, over what I might feel. I now knew everything that Elaine liked and everything that she didn’t like. I wasn’t trying anything different, nothing that would make me imagine that she was someone else or anything like that. It was more perverse than that. I just remember feeling that Elaine was wearing some kind of mask that night, a mask that she couldn’t take off, and that the mask was her own face.</p>
+<p>—Jonathan Dee, The Factory of Illusions</p>
+</blockquote>
+<p>Characters have one or more relationships (see page 80) and can spend their connection points to activate them, in order to get their help. You can, of course, modulate the spending of connection points according to the circumstances: have the characters helped the relationship lately or done it a favour? Is the service a little more or less important than expected, etc.? If the request is directly related to the services offered by the contact (see page 158), feel free to lower the price a notch.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">RELATIONSHIP INTERVENTION</th>
+<th style="text-align: right;">Contacts</th>
+<th style="text-align: right;">Friends</th>
+<th style="text-align: right;">Intimate</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">A minor service, such as a trivial (but important) information important for the characters) or a material help that does not require effort.</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">An important service, such as crucial information or time-consuming material help.</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">A major service, which puts the relationship at odds with people they otherwise know.</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">A unique service, which puts the relationship at great personal risk - whether it is providing strategic information or showing up in the field at the risk of exposing oneself to all one’s enemies.</td>
+<td style="text-align: right;">-</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">5</td>
+</tr>
+</tbody>
+</table>
+<section id="building-relationships" class="level2">
+<h2 class="anchored" data-anchor-id="building-relationships">Building relationships</h2>
+<p>Print and cut out the portraits of the extras at the end of this booklet.</p>
+<p>When creating the group (see page 21), the leader divides these portraits among the players present. Each player eliminates a figure that he or she does not like, and then distributes his or her cards among his or her neighbours in order to repeat the elimination process. When each player has only two portraits left, the leader shuffles them and deals them out again.</p>
+<p>The players then write down a trait for each portrait - it is best to use a post-it note. A line can be an adjective, an opinion, a complete sentence, a quote, etc. The idea is to characterise as best you can what the portrait inspires. When each picture has received a first trait, the players distribute the cards between their neighbours (one card to the right, one card to the left) and then define new traits for the figures they have chosen. new lines for the figures they have received.</p>
+<p>When all portraits have received two strokes, they are placed in the middle of the table. The players take each figure one after the other and, together, give it a name, an occupation, a short story, psychological traits and the reason why the characters might know it. You can also associate between one and three services with him, specifying his areas of activity and intervention in a specific way, in order to link them to the activities of the characters (see the following table).</p>
+<blockquote class="blockquote">
+<p>It is very funny, before starting to define each relationship together, to mix up the post-it notes bearing the traits and reassign them at random. Very often, the players’ choices are based very heavily on the appearance of the portrait. By mixing the post-it notes and therefore the proposed traits, we end up with things that are much more exciting, amusing and interesting, and that open up the perspectives even more.</p>
+</blockquote>
+<p>The game leader can then complete these portraits on his own, on the spot or at rest, by developing a history of the relationship - its secrets, its motivations, its links with other extras, its allegiances to certain factions, its short or long term objectives, etc. He can then give the additional information that he wants to know about the relationship. He can then give the players any additional information he wishes or keep it to himself.</p>
+<p>BLACK MARKET: The relationship can supply or sell materials to the characters - illicit materials, discounted prices, usually specialising in one or two specific areas, but the black market as a whole remains accessible.</p>
+<p>ENTRANCES: The relationship has entrances to all the important places in the city and can lead you there - a backstage pass, a corporate luncheon, a meeting at the town hall…</p>
+<p>INFORMATION: The relationship may provide information in one or more areas - it may be technical information or news about news about factions or neighbourhoods.</p>
+<p>INTERVENTION: The relationship is ready to give you a hand in the field, even if it means getting a little dirty. The more dangerous it is, the more compensation it will demand, but it knows how to behave and knows a few useful tricks.</p>
+<p>TRANSPORT: The relationship can transport characters from one point to another in various conditions, whether it is to go fast or to be discreet. It can also transport equipment, messages and cargo. It has, of course, specialities that influence its preparation or its prices.</p>
+<p>MATRIX: The relationship works in the matrix from home - or a secure location. If you don’t have a coder in the team or if you want to support them, the programmer can do the work remotely, unless you give them a more specific job.</p>
+<p>FENCE: The relationship can buy back material from characters - weapons, vehicles, jewellery, credit card laundering, etc. Fences are rarely fussy, but they will pay more in areas they are good at and less in areas where their costs will rise quickly due to lack of quick and easy outlets.</p>
+<p>REFUGE: The relationship can provide you with a safe haven for a variable amount of time, with all the comforts if you are wealthy enough and even medical facilities in case of major concern. As long as you are under his protection, no one will find you unless he betrays you.</p>
+<p>CONNECTIONS: The relationship is a node in a complex and extensive social network. His job is to connect people with each other, either on his own or on request. If you want to meet a particular person, that’s who you should go to.</p>
+<p>ADVICE: The relationship is a mentor and protector for the characters.</p>
+</section>
+<section id="spiel-and-eloquence" class="level2">
+<h2 class="anchored" data-anchor-id="spiel-and-eloquence">Spiel and eloquence</h2>
+<p>Role-playing is a dialectic game, even a maieutic one, since the entire table gives birth to a story that no one knows what it will be a priori. It is a game in which language, speech, plays a decisive role. This is not without its paradoxes. Indeed, one rarely expects a player playing the role of a knight armed to the teeth to know how to handle a sword and lead a horse into battle - he describes his attacks verbally and it is the dice that decide the final result. But what about when the action in play, such as chatting up a security guard, can also be an action around the table, with the player speaking through his character’s mouth to bamboozle the guard, and thus performing the manoeuvre himself - the player is of course in charge of the content of the chat, but it is the character who is the medium in play: he is the one who has the body language, the ability to lie straight to his face, etc.</p>
+<p>This is an extremely thorny issue that has occupied pages and pages of discussion since the origin of role-playing. Everyone has their own opinions, solutions and practices. In fact, there is one specific term, which sums up all these discussions: it is roleplay - and, of course, no one agrees on its exact definition but everyone uses it to describe their ideal way of playing.</p>
+<p>It is not our intention to resolve these paradoxes or even to give a definitive opinion, just to draw your attention to a few concerns you may have in play and to sketch out some answers that you can take hold of.</p>
+<section id="the-player-and-the-character" class="level3">
+<h3 class="anchored" data-anchor-id="the-player-and-the-character">The Player and The Character</h3>
+<p>The first paradox of roleplay is that the player both directs and embodies his character. He directs it by indicating to the game leader all his actions; he embodies it by speaking through his mouth. In the first case, it is the character’s abilities and the result of the dice that indicate how things are done; in the second case, it is often the player’s own oratory abilities that count. But what if a shy or less articulate player wants to play a barrister capable of great oratory? What do you do when a player with a highly-developed oratory skills plays an illiterate bullhead who is unable to chat? Certainly not forbidding it; and you will probably find it very difficult to compensate for natural tendencies.</p>
+<p>Nevertheless, there are several possibilities: the first is to listen first and foremost to the arguments put forward and not to the way they are said. Sometimes a simple, decisive word or phrase is enough to turn a discussion on its head; conversely, beware of tautology, bluster and obvious sophistry.</p>
+<p>The second is to index the rolls (the character’s abilities) to the roleplay (the player’s words). Basically, if a player has glibness, take the difficulty of the rolls down a notch - a good player can eventually make up for his character’s crass incompetence, but that won’t do it. And don’t forget that a simple argument at the right moment sometimes counts for more than a very impressive one-man show.</p>
+</section>
+<section id="nature-of-social-conflict" class="level3">
+<h3 class="anchored" data-anchor-id="nature-of-social-conflict">Nature of social conflict</h3>
+<p>Where it gets tricky is that not all social situations are equal in terms of storytelling, and not all have the same stakes. The situations are extremely varied - from buying something on the black market to a ‘legal’ tussle in front of a yakuza oyabun, with the risk of having one’s little finger rolled in the sand, if not one’s head.</p>
+</section>
+<section id="go-fast-dont-play-everything" class="level3">
+<h3 class="anchored" data-anchor-id="go-fast-dont-play-everything">Go fast, don’t play everything</h3>
+<p>Not every situation is worth five minutes of show and tell that will involve one or two players and leave the rest idle. Bribing a guard to get into the museum just before closing time, convincing the intern at the hotel desk to show you the bad guy’s room, or getting hired as a bodyguard to watch over the backstage area of a mega-concert only requires a quick roll and sometimes no roll at all. These are actions that just indicate the direction the story is taking: you either get into the museum or not, you either get the location of the room or not, you either get hired or not. Of course, if you’re having fun, play the whole scene - sometimes that’s even the best thing to do (we told you it was sometimes paradoxical) - but frankly, don’t waste time.</p>
+</section>
+<section id="small-talk" class="level3">
+<h3 class="anchored" data-anchor-id="small-talk">Small talk</h3>
+<p>At the other end of the spectrum are all the exchanges that absolutely must be played in full to achieve their purpose: what information is actually being dropped by each party? What do we learn from a slip of the tongue or a clever innuendo? What do they reveal that they wanted to keep secret? These informal conversations have an unparalleled evocative power - the impression for the players that the world is truly alive, deep. Nevertheless, the game leader has to pay attention to several things: What does the person he is playing know and what does he not know during the conversation? What are his personal objectives, his fears, his desires, the means of compelling or seducing him? What is his real social power, his networks, his supports, his safeguards, his own means of pressure or seduction? What does he know about the characters and how does he view them? As dangerous adversaries? As mere transients who can take the blame for his own misdeeds? Likely allies whom it is good policy to support for the moment? During these conversations, feel free to put the rest of the world on stage around them - the servants coming and going, the children and family bustling about nearby, the staff taking notes and nodding knowingly, the little glances exchanged backstage, etc.</p>
+</section>
+<section id="between-dog-and-wolf" class="level3">
+<h3 class="anchored" data-anchor-id="between-dog-and-wolf">Between dog and wolf</h3>
+<p>There are still circumstances in which the conversation and the throw are equally important. Here you have to find the right balance. There are no precise rules like those of combat to manage social conflicts which must decide between two speakers - first and foremost because the player’s word counts and he will never be satisfied with a “And now it’s my turn to throw my argument in his face, 7 points of damage with the sarcastic smile bonus!</p>
+<p>So how do you do it? You can manage everything in a Charisma roll, with a variable bonus or malus depending on the social or political position of each party, on the arguments put forward, on the weapons present, on the number of allies in the room, etc. You can make several rolls - the best of three or five rounds, for example. You can bring in outside referees - an influential corporatist, an ambitious gang leader, a well-connected cop - who listen to no one and push their own agenda. Use white and black tokens to count the arguments. Involve the crowd. Ask someone from outside the game table to sit in on the discussion and make a decision.</p>
+<p>There is no single solution because there is no single social situation. Where combat always involves the use of weapons and well-defined physical tactical objectives, social conflict is highly subjective and therefore subject to all kinds of arbitration - so the game leader must always consider whether or not an extra is sensitive to arguments without stopping to consider whether or not he or she, as an individual, is sensitive to them.</p>
+</section>
+</section>
+</section>
+     </main>
+<!-- /main column -->  <script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>  </div> <!-- /content --> 
+  
+</body></html>

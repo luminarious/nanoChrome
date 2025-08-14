@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="generator" content="quarto-1.7.32">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+    <title>rules</title>
+    <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      div.columns{display: flex; gap: min(4vw, 1.5em);}
+      div.column{flex: auto; overflow-x: auto;}
+      div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+      ul.task-list{list-style: none;}
+      ul.task-list li input[type="checkbox"] {
+        width: 0.8em;
+        margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+        vertical-align: middle;
+      }
+    </style>
+
+    <style>
+      body.hypothesis-enabled #quarto-embed-header {
+        padding-right: 36px;
+      }
+
+      #quarto-embed-header {
+        height: 3em;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: solid 1px;
+      }
+
+      #quarto-embed-header h6 {
+        font-size: 1.1em;
+        padding-top: 0.6em;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-weight: 400;
+      }
+
+      #quarto-embed-header a.quarto-back-link,
+      #quarto-embed-header a.quarto-download-embed {
+        font-size: 0.8em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+
+      .quarto-back-container {
+        padding-left: 0.5em;
+        display: flex;
+      }
+
+      .headroom {
+          will-change: transform;
+          transition: transform 200ms linear;
+      }
+
+      .headroom--pinned {
+          transform: translateY(0%);
+      }
+
+      .headroom--unpinned {
+          transform: translateY(-100%);
+      }      
+    </style>
+
+    <script>
+    window.document.addEventListener("DOMContentLoaded", function () {
+
+      var header = window.document.querySelector("#quarto-embed-header");
+      const titleBannerEl = window.document.querySelector("body > #title-block-header");
+      if (titleBannerEl) {
+        titleBannerEl.style.paddingTop = header.clientHeight + "px";
+      }
+      const contentEl = window.document.getElementById('quarto-content');
+      for (const child of contentEl.children) {
+        child.style.paddingTop = header.clientHeight + "px";
+        child.style.marginTop = "1em";
+      }
+
+      // Use the article root if the `back` call doesn't work. This isn't perfect
+      // but should typically work
+      window.quartoBackToArticle = () => {
+        var currentUrl = window.location.href;
+        window.history.back();
+        setTimeout(() => {
+            // if location was not changed in 100 ms, then there is no history back
+            if(currentUrl === window.location.href){              
+                // redirect to site root
+                window.location.href = "...html";
+            }
+        }, 100);
+      }
+
+      const headroom = new window.Headroom(header, {
+        tolerance: 5,
+        onPin: function () {
+        },
+        onUnpin: function () {
+        },
+      });
+      headroom.init();
+    });
+    </script>
+
+    
+<script src="../site_libs/manuscript-notebook/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-813c323200a87c37e262811031999de4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+     
+        <link rel="stylesheet" href="../assets/site.css">
+      </head>
+
+  <body class="quarto-notebook quarto-light">
+    <div id="quarto-embed-header" class="headroom fixed-top bg-primary">
+      
+      <a onclick="window.quartoBackToArticle(); return false;" class="btn btn-primary quarto-back-link" href=""><i class="bi bi-caret-left"></i> Back to Article</a>
+      <h6><i class="bi bi-journal-code"></i> Rules of the game</h6>
+
+            <a href="../content/rules.qmd" class="btn btn-primary quarto-download-embed" download="rules.qmd">Download Source</a>
+          </div>
+
+     <div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#rules-of-the-game" id="toc-rules-of-the-game" class="nav-link active" data-scroll-target="#rules-of-the-game">Rules of the game</a>
+  <ul class="collapse">
+  <li><a href="#the-golden-rule" id="toc-the-golden-rule" class="nav-link" data-scroll-target="#the-golden-rule">The Golden Rule</a></li>
+  <li><a href="#roll-the-dice" id="toc-roll-the-dice" class="nav-link" data-scroll-target="#roll-the-dice">Roll the dice</a>
+  <ul class="collapse">
+  <li><a href="#the-delicate-art-of-dice-rolling" id="toc-the-delicate-art-of-dice-rolling" class="nav-link" data-scroll-target="#the-delicate-art-of-dice-rolling">The delicate art of dice rolling</a></li>
+  <li><a href="#the-secret-ingredient" id="toc-the-secret-ingredient" class="nav-link" data-scroll-target="#the-secret-ingredient">The secret ingredient</a></li>
+  <li><a href="#ensure-the-show" id="toc-ensure-the-show" class="nav-link" data-scroll-target="#ensure-the-show">Ensure the show</a></li>
+  <li><a href="#ensure-that-the-game-continues" id="toc-ensure-that-the-game-continues" class="nav-link" data-scroll-target="#ensure-that-the-game-continues">Ensure that the game continues</a></li>
+  <li><a href="#describe-there-will-always-be-something-left" id="toc-describe-there-will-always-be-something-left" class="nav-link" data-scroll-target="#describe-there-will-always-be-something-left">Describe, there will always be something left</a></li>
+  </ul></li>
+  <li><a href="#cooperation" id="toc-cooperation" class="nav-link" data-scroll-target="#cooperation">Cooperation</a></li>
+  <li><a href="#saves" id="toc-saves" class="nav-link" data-scroll-target="#saves">Saves</a></li>
+  <li><a href="#combat" id="toc-combat" class="nav-link" data-scroll-target="#combat">Combat</a>
+  <ul class="collapse">
+  <li><a href="#feats-and-risks" id="toc-feats-and-risks" class="nav-link" data-scroll-target="#feats-and-risks">Feats and Risks</a></li>
+  <li><a href="#staging-a-fight" id="toc-staging-a-fight" class="nav-link" data-scroll-target="#staging-a-fight">Staging a fight</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+</div>
+<main class="content" id="quarto-document-content">      <section id="rules-of-the-game" class="level1">
+<h1>Rules of the game</h1>
+<blockquote class="blockquote">
+<p>We started IFT to change the world. Our suits are much better tailored today, our spirits finer. We’ve changed, but the world is still the same. If we don’t do anything, someone else will.</p>
+<p>—Nathan Ingram, Person of Interest, S02E14</p>
+</blockquote>
+<section id="the-golden-rule" class="level2">
+<h2 class="anchored" data-anchor-id="the-golden-rule">The Golden Rule</h2>
+<p>Sometimes the playmaker doesn’t know or doesn’t want to answer a question - Is the corporate executive at his desk right now? Is there any ammunition left in the storeroom? Did the fire in their squat destroy the characters’ equipment? Does the corporate security officer in pursuit recognise the characters in the lobby of the skyscraper?</p>
+<p>Whenever you are faced with a question that may be important for the rest of the adventure, but whose answer is not directly relevant to you, roll 1d6. On a result of 4 or more, the answer to the question is yes. On a result of 3 or less, the answer is no.</p>
+<p>Note: a triple-6 on the dice is always a success and earns one point of luck. A triple-1 is always a failure and yields not only one point of luck but also a bunch of extra complications!</p>
+</section>
+<section id="roll-the-dice" class="level2">
+<h2 class="anchored" data-anchor-id="roll-the-dice">Roll the dice</h2>
+<p>To play, you need 3d6, one of which is a different colour from the others.</p>
+<p>When you want to achieve a goal and something or someone gets in the way, roll the 3d6, add up the results and add the rank of an appropriate characteristic - for example Dexterity to blow out a lock with a knife blade or Wisdom to locate the drug stash under a floorboard. Don’t forget any bonuses - such as a skill bonus.</p>
+<p>To succeed, the total must be equal to or greater than a difficulty or an opposing roll made by an opponent or competitor who does not want you to succeed - in which case they roll 3d6 + Attribute (see page 295) and the results are compared. For a fixed difficulty, see the following table:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: right;">Target number</th>
+<th style="text-align: left;">Difficulty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">9</td>
+<td style="text-align: left;">Simple</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">12</td>
+<td style="text-align: left;">Difficult</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">15</td>
+<td style="text-align: left;">Difficult</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">18</td>
+<td style="text-align: left;">Very hard</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">21</td>
+<td style="text-align: left;">Extremely difficult</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">24</td>
+<td style="text-align: left;">Almost impossible</td>
+</tr>
+</tbody>
+</table>
+<section id="the-delicate-art-of-dice-rolling" class="level3">
+<h3 class="anchored" data-anchor-id="the-delicate-art-of-dice-rolling">The delicate art of dice rolling</h3>
+<p>The principle of a roll is to confront a character’s abilities with the possibility that they may fail to achieve their goals; the purpose of the roll is certainly not to punish them or prevent them from moving forward, but only to tell how the story is progressing. If it is a success, then the character succeeds and the story moves in the direction he wants; on a failure, the story takes an unexpected turn. And we continue to move forward: the player indicates what his character does in the new circumstances and the leader determines how it happens, with a description, a choice to be made and possibly a new dice roll.</p>
+<section id="the-dice-are-useless" class="level4">
+<h4 class="anchored" data-anchor-id="the-dice-are-useless">The dice are useless…</h4>
+<p>If there is nothing in the character’s way, or if it doesn’t matter, there is no need to roll - it is automatically successful. And, of course, if the task is simply impossible to accomplish, it is automatically failed. More generally, if you don’t have a good reason to invoke a random bifurcation of history, don’t ask for a roll - ideally, you should have at least a vague idea of the different legs of the trousers of time that you might put on depending on the circumstances.</p>
+</section>
+<section id="yet-you-cant-do-without-them" class="level4">
+<h4 class="anchored" data-anchor-id="yet-you-cant-do-without-them">…yet you can’t do without them</h4>
+<p>If something or someone complicates the task, opposes the character, or makes things very complicated, you have to roll the dice. The game leader must then assess the difficulty: there are two schools of thought.</p>
+<ol type="a">
+<li><p>The first is to choose an objective difficulty. The action is more or less difficult because the circumstances or the task itself require it: try to imagine the scene, compare the action to your own knowledge or to what you have seen in films or read in novels. Generally, the more technical the task, the more circumstances beyond the control of a single human beast, the more random the general conditions, the more difficult it is.</p></li>
+<li><p>The second school is to determine the difficulty in terms of the story. If the task can change the story and the world profoundly, then the difficulty is huge; if it’s just an incidental and peripheral perk, then the difficulty is ridiculous. It’s a hair more complicated to deal with and anything but objective - plus, players can quickly realise that a difficulty of 24 to tail an extra in a trendy nightclub indicates that he’s a super-important big bad next!</p></li>
+</ol>
+<p>And, of course, you can happily mix and match approaches depending on when you play. The important thing is to be consistent with yourself, the world and the story.</p>
+</section>
+</section>
+<section id="the-secret-ingredient" class="level3">
+<h3 class="anchored" data-anchor-id="the-secret-ingredient">The secret ingredient</h3>
+<p>You know how to manage the difficulty of an action in an opposition - for example, two characters racing. In this case, the difficulty of the roll is the opponent’s roll (3d6 + Power for an extra). What’s to stop you doing the same for a static difficulty: instead of saying “it’s a 15 difficulty”, the difficulty to pick the lock is then equal to 3d6 + 4. Maybe the lock is a hair easier or a hair harder than you expected. This is handy when you don’t know what to do or want to go fast. Just assume that chaos will make the decision for you…</p>
+</section>
+<section id="ensure-the-show" class="level3">
+<h3 class="anchored" data-anchor-id="ensure-the-show">Ensure the show</h3>
+<p>Once the roll has been made, it’s time to announce the consequences. If it’s a success, the character achieves his immediate goal, as the player might expect under the best of circumstances. If the roll is really good - a result well above the difficulty, at least a five or six point margin - add a matrix effect: the character runs around bouncing off obstacles and street furniture while chasing a bad guy; the computer quickly spits out all the info it can and gives access to hidden backdoors to go even further; the checkpoint passage is so smooth that the character is suddenly the most innocent guy in the world. Give them a little advantage in this form: it’s time saved, it’s stealth, it’s downright impressed witnesses, it’s extra ¥, it’s clues or additional information, etc.</p>
+</section>
+<section id="ensure-that-the-game-continues" class="level3">
+<h3 class="anchored" data-anchor-id="ensure-that-the-game-continues">Ensure that the game continues</h3>
+<p>What if it fails? The biggest danger you face then is driving your story into a dead end. The character aims for a goal and misses it: now what? If it’s just “no”, the story can’t develop. So it is very important that you see all failures not as a punishment, but as an opportunity, a way to bounce back and offer unexpected developments. Also, be careful that a failure is not immediately forgotten: there is nothing more frustrating than attempting an action that serves no purpose, even and especially by failing - as a feeling of uselessness and futility for the player.</p>
+<p>How do you do it? The quickest way is to grant a success but demand something in return: the character gets hurt, compromises himself, loses time, material, money, has to agree to do a service, etc. Be imaginative and hit where you feel the player will cringe. Very important: the player can always choose to fail so that they don’t have to agree to pay to succeed! The easiest way to do this is often to tap into resources: lose life points, luck points, connection points, etc. But it is always more interesting to find original ideas. In reality, the purpose of such an exchange is to push the player to choose between the plague and the cholera: succeed with a cost or simply fail? Don’t make it too simple, but demand a quick answer.</p>
+<p>The second way is to take advantage of a failure to complicate things and put new obstacles in the character’s way. Not a wall, but a closed door. Not a bottomless precipice, but an unstable ledge from which it is difficult to escape. Not a cut bridge, but a long diversions. Not the loss of all one’s money, but debts that must be repaid one day. Not an outright capture, but a price on your head. In short, continue to ruin the character’s life and prevent him from seeing the sun. Accumulate the problems.</p>
+<p>Or, more foolishly, require the player to play with his brain and find alternative and more subtle solutions…</p>
+</section>
+<section id="describe-there-will-always-be-something-left" class="level3">
+<h3 class="anchored" data-anchor-id="describe-there-will-always-be-something-left">Describe, there will always be something left</h3>
+<p>One of the best ways to always have something to say to bounce back from a failure or bring in new twists is to describe the scenes all over the place! Think of sights, sounds, smells, textures, weather, materials, the shape of places, decorative details, lights and shadows - anything you can think of. Not only does this immerse the players in the appropriate atmosphere and give them plenty of relevant (or irrelevant) information to make decisions and describe the actions of their characters, but it’s also great for giving you, the player, a head start. Use your own descriptions, on the fly, to create play and set up the twists and turns the dice are designed to provide.</p>
+</section>
+</section>
+<section id="cooperation" class="level2">
+<h2 class="anchored" data-anchor-id="cooperation">Cooperation</h2>
+<p>When one character helps another, he gives them a +1 bonus to their roll.</p>
+<p>When the whole group must perform the same action - climbing a wall or advancing discreetly - the characters all seem to succeed if at least half of them succeed in their roll.</p>
+</section>
+<section id="saves" class="level2">
+<h2 class="anchored" data-anchor-id="saves">Saves</h2>
+<p>In the course of adventures, your adventurer will certainly find himself in delicate and dangerous situations, facing multiple dangers: fire, falls, diseases, poisons, traps, etc.</p>
+<p>A saving throw is a characteristic throw requested by the game leader to check whether the character manages to protect himself, at least in part, from a sudden danger or a vital threat. It is always a reaction and not something that comes from the character’s will (even when the character has voluntarily swallowed the contents of a bottle of poison). The characteristic used depends on the type of danger and there are a few skills that should help you.</p>
+<p>The difficulty depends on the circumstances, but mostly on what the player wants to achieve:</p>
+<ul>
+<li>Easy or hard (9/12): you want to scare them.</li>
+<li>Difficult to hard (15/18): you want to tap into the characters’ resources to weaken them.</li>
+<li>Complicated or impossible (21/24): you ask for a saving throw to make the characters think they have a chance, but in fact they don’t. It’s not expected that they’ll make it (even if there are some pleasant surprises).</li>
+</ul>
+<p>If the character fails the roll, the effects of the danger apply. If he succeeds, the effects may be completely nullified or only limited (he does not die on the spot, but still suffers damage or injury, for example).</p>
+<p>There are far too many possible hazards to list - from electric fences to terrifying corporate interface lockout programs, from combat gases to sudden explosions. Just try to think about the maximum consequences of the hazard (injury, death, unconsciousness, damage, etc.) and what can happen if the character succeeds in the saving throw.</p>
+</section>
+<section id="combat" class="level2">
+<h2 class="anchored" data-anchor-id="combat">Combat</h2>
+<p>Action and Manoeuvre - Combat is turn-based - each opponent can perform an action (cast a spell, make an attack, use a skill) and a manoeuvre (move a few metres, take cover, aim, charge, help an ally, etc.). - A manoeuvre used in support of an action brings a +1 bonus to the action). It is always possible to use an action to perform a manoeuvre, but never vice versa.</p>
+<p>Movement: if you need to calculate the exact distance a character has moved during a turn, ask for a Strength (all power) or Dexterity (all flexibility) roll. The result directly indicates the distance in metres.</p>
+<p>Initiative - Once at the start of a fight, all combatants can make an Intelligence roll (or Power roll for extras) to determine the order of the action, from highest initiative to lowest. If, at any time, your initiative is 20 or more, you gain an extra action at the end of the turn (at your initiative minus 20). If one group surprises another, all members of the group get a +1d6 bonus to initiative.</p>
+<blockquote class="blockquote">
+<p>If you don’t want the players to see the transition between the story being told informally and the start of a fight, don’t say anything and roll the initiative in secret. Then simply distribute the word. Ideally, you should get the initiative bonus for each character and make several draws in advance, before the game starts. Then you simply refer to your notes when you need them. Don’t forget to note the initiative increases and decreases due to feats and risks.</p>
+</blockquote>
+<p>Attacks and damage - The difficulty of an attack roll is equal to your opponent’s defence. If you hit, the damage is equal to the value of the different coloured die + your Strength or Dexterity rank, depending on the weapon you are using (melee or ranged). The damage is subtracted from the target’s hit points. The coloured die is always an explosive die for calculating damage: if you roll a 6, roll the die again and add the new result. Continue as long as you get 6’s. You can always distribute the damage to one or more opponents whose defence is equal to or less than that of the main target.</p>
+<p>Special rules: there are dozens of specific cases that can arise in combat - whether the opponent is under cover or not, whether it is possible to disengage without taking a hit, whether it is possible to block a path so that only one opponent at a time can attack, whether I can shoot into the fray while my companions are engaged in fierce hand-to-hand combat, etc. In fact, every battle should bring up new issues and new tactics. But it is impossible (and pointless) to list them all and give a specific rule for each. In truth, this is the fundamental job of the game leader, the moment when he must fully assume his role: to referee, to make decisions, to use the golden rule, to make the players happy or on the contrary to increase the difficulties. If you make a bad decision once, it means you will make two very good ones later - so don’t worry. The rules are simple enough that you have nothing to worry about. Trust your common sense and just follow the directions given to you by the story and the adventure.</p>
+<section id="feats-and-risks" class="level3">
+<h3 class="anchored" data-anchor-id="feats-and-risks">Feats and Risks</h3>
+<p>Each round of combat, you can choose a feat. The host rolls the risk you take in exchange… If a risk seems directly opposite to the feat you are choosing, ignore the risk and apply the feat.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">FEAT</th>
+<th style="text-align: center;">1D6</th>
+<th style="text-align: left;">RISK</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">VIOLENT HIT: You add 1d6 to your physical damage. This damage is non-explosive and does not apply to spells.</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">DEFLECTED HIT: You do not count the coloured die in your damage, only the applicable modifiers, or (at your discretion) you take damage yourself equal to the smallest die you rolled.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">PRECISE STRIKE: You seek to break through the opponent’s armour.<br>You have a +2 bonus to attack.</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">DISADVANTAGE: You have a -2 malus to attack or you lose a connection point.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">CASCADE: You perform an additional manoeuvre at the same time as your action.</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">BLUNDER: If you fail your attack, things get very complicated: you lose your weapon, you fall, etc.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">CAUTION: You are careful. You have a bonus of +1 in defence for the turn.</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">HAZARD: You are not paying attention. You have -1 in defence for the turn.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">VIVACITY: You gain 1d6 initiative points.</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">DELAY: You lose 1d6 initiative points.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">TACTICS: You give a +2 bonus to one of your companions.</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">NONE: You are not hindered this turn and your feat applies without compensation.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="staging-a-fight" class="level3">
+<h3 class="anchored" data-anchor-id="staging-a-fight">Staging a fight</h3>
+<p>Here are some tips to help you stage a fight (or a physical chase-type conflict).</p>
+<section id="general-process" class="level4">
+<h4 class="anchored" data-anchor-id="general-process">General process</h4>
+<p>By following these steps, you should be fine in all situations.</p>
+<ol type="1">
+<li>On his own initiative, the player indicates what he wants to do according to the situation and his tactical options. Everything is possible and he should not let himself be limited by technique. Eventually, he can choose a feat.</li>
+<li>The leader chooses the most appropriate way to handle what the player is asking for. This may be a characteristic roll (the most common is the attack roll, for example) or a simple description. You should not be impressed by even the strangest requests. For example, let’s say the character wants to push an enemy away with his shoulder and throw him through a window - it’s not written in black and white in the rules, but you can consider it a Strength roll. The damage rolled on the coloured die (with the Strength bonus) is not actually inflicted, but can be compared, for example, to the sum of the enemy’s hit points and those of the window. If they are higher, the window shatters and the man falls through - and if they are lower, ask the victim for a saving throw! In fact, everything can be solved in a very simple way - whether it’s disarming an opponent or shoving them into a hole, with attack rolls against the defence. Is the character making a feint to divert attention? Use Charisma to attack. He wants to drive his opponent over a weak floor? Use Intelligence to attack. Damage is a general indication of the effect of the attack - which you can turn into a difficulty for a saving throw quite simply (for example, with a difficulty of 7 + damage).</li>
+<li>The player rolls if necessary.</li>
+<li>The leader describes the consequences, says what happens, deals damage if necessary or bounces the action. Then he passes to the next player. Of course, this is exactly the same process for the characters’ opponents (but the leader is on his own to decide things).</li>
+</ol>
+</section>
+<section id="three-important-points-of-combat" class="level4">
+<h4 class="anchored" data-anchor-id="three-important-points-of-combat">Three important points of combat</h4>
+<section id="i.-stakes" class="level5">
+<h5 class="anchored" data-anchor-id="i.-stakes">I. Stakes:</h5>
+<p>A fight is not something you engage in to pass the time. It is a high point in the story - the characters will risk their resources or their lives, perhaps worse. Even their opponents take the matter very seriously - after all, they are likely to lose their lives. In fact, in most situations, one does not go into battle without strong needs or clear objectives. In some cases, it is the characters who will have to define these objectives; in other cases, they will simply defend themselves against opponents who themselves have goals to achieve. The important point is to always ask what is at stake in a fight: why are we fighting? Do we have to go as far as the physical elimination of the opponent? Is it not enough to wound, stun, chase, intimidate or coerce? What if the enemy flees? Do you chase them to the finish or are you magnanimous? Fighting in a role-playing game is then also a lesson in humanity… Conversely, what do the characters risk? What are they willing to risk? It’s pretty obvious that they will be victorious most of the time, after all aren’t they the heroes of the story… But to win without glory is to triumph without danger (or something like that). Also, a fight must be able to cost: time, allies, wounds, equipment, information, reputation… The players know, deep down, that the death of their character is not a real possibility as they have so many ways to get out of it (by spending luck points or simply because they are not alone). Also, it is very important that other elements emerge that make the fight “dangerous” for their mission or adventure: most of the time, it is about seeing their objective escape. Also, play their opponents intelligently: they are not cannon fodder who die stupidly. If the characters want something, their enemies will do whatever it takes to get it out of their hands, and sometimes that means dodging the fight, running away or creating diversions.</p>
+</section>
+<section id="ii.-descriptions" class="level5">
+<h5 class="anchored" data-anchor-id="ii.-descriptions">II. Descriptions:</h5>
+<p>A fight is first of all a series of important choices grouped together in a very short period of time. There is an objective to fulfil and you have to do everything (or almost everything) to achieve it - free prisoners, steal or break an object, get through a defended area, flee in good order. It’s rarely a case of slaughtering all your enemies, but rather a specific target. To make these choices, you need to be informed and it is the job of the game leader to inform his players: describe the terrain, the circumstances, the actions, the reactions, the twists and turns, the audience, the surprises, the equipment, the physical and emotional state of the opponents, etc. In fact, the more detail you can provide, the easier it will be to manage the actions of the characters (the little 2 and 4 above) and the easier it will be for the players to make decisions quickly (the little 1 above). This doesn’t mean going off on a tangent or being fussy, just giving all the relevant tactical information. Two last important points: on the one hand, the players must be told, in a clear and unambiguous way, “You can win this fight” or “Run away, you fools! The players can’t guess whether the opposition they are facing is up to them or not. You need to send clear and unambiguous messages, without telling them head-on (which would pull them out of the immersion). This means using appropriate descriptions and multiple clues, including alternative ways out. On the other hand, the players must be able to participate in the descriptions and thus establish facts that are verified. Before an ambush, for example, if they ask what the terrain is like, ask them to tell you what they want it to be like: after all, they are the ones setting up the ambush and therefore they are the ones choosing the location. And then, in the course of the fight, they can find places to hide, to slip away, to corner the opponent. Let them announce that they are hiding behind a table that didn’t exist a few moments before - in truth, nobody paid any attention to it. Now you too can use this table in the descriptions.</p>
+</section>
+<section id="iii.-pacing" class="level5">
+<h5 class="anchored" data-anchor-id="iii.-pacing">III. Pacing:</h5>
+<p>Try to keep the flow of speech relatively even. This sometimes means cutting off a character’s action, on a cliffhanger, to focus on another part of the battlefield and another character. Push your players to react quickly, to pass the word, to listen to each other - there’s nothing worse than a player who looks up in the middle of a fight and says “Yeah, wait, here, go ahead, tell me again what’s going on, where am I?” There’s no point in punishing stupid actions or unfortunate initiatives. But inattention can be worth losing your turn! On your side, be careful not to push your players into inattention because you are spending too much time on a technicality or reviewing your notes or the rules. Make decisions when you don’t know. At worst, roll the golden rule die. No one will replay the game or judge your refereeing mistakes; and if you think you’ve misjudged a situation or wronged a character, you’ll make up for it the next time (by giving them a small bonus or a point of luck back). Pacing is also about technique. Have clear notes in front of you, with the life points, defence and initiative of the opponents; also, draw a square representing the game table. Arrange the names of the characters in the place of their players, and indicate their defence and initiative. When you hand out the floor, call out the players by their character’s name. Make quick rolls for the opponents, compare to the defence, announce the result and how the conflict continues. A solid organisation of your post-it notes and numbers can help you speed up the manoeuvre. Ah. Still, a tip not to be overlooked: just as you write down the names of the characters so you only use those and not the players’, write down the names or descriptions of the opponents - the Little Fat Guy, the Big Skinny Guy, the Scarfed Guy, Studded Armour, Big Hair, Big Mouth, etc. This will help you to immerse your players. On the other hand, if you’re not going to tell your players that the strange shadow that’s attacking them is The Priest, a techno-villain who’s behind a spate of horrific murders, don’t write down The Priest, just Strange Shadow. Because if you don’t, there will always be a moment when, after reading the paper, you’ll spill the beans and your players will look at you with a big smile: “Ah, of course it’s The Priest! The guy we’ve been looking for everywhere!”</p>
+</section>
+</section>
+</section>
+</section>
+</section>
+     </main>
+<!-- /main column -->  <script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>  </div> <!-- /content --> 
+  
+</body></html>

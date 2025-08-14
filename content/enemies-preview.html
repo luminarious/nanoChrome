@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="generator" content="quarto-1.7.32">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+    <title>enemies</title>
+    <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      div.columns{display: flex; gap: min(4vw, 1.5em);}
+      div.column{flex: auto; overflow-x: auto;}
+      div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+      ul.task-list{list-style: none;}
+      ul.task-list li input[type="checkbox"] {
+        width: 0.8em;
+        margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+        vertical-align: middle;
+      }
+    </style>
+
+    <style>
+      body.hypothesis-enabled #quarto-embed-header {
+        padding-right: 36px;
+      }
+
+      #quarto-embed-header {
+        height: 3em;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: solid 1px;
+      }
+
+      #quarto-embed-header h6 {
+        font-size: 1.1em;
+        padding-top: 0.6em;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-weight: 400;
+      }
+
+      #quarto-embed-header a.quarto-back-link,
+      #quarto-embed-header a.quarto-download-embed {
+        font-size: 0.8em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 1em;
+        margin-right: 1em;
+      }
+
+      .quarto-back-container {
+        padding-left: 0.5em;
+        display: flex;
+      }
+
+      .headroom {
+          will-change: transform;
+          transition: transform 200ms linear;
+      }
+
+      .headroom--pinned {
+          transform: translateY(0%);
+      }
+
+      .headroom--unpinned {
+          transform: translateY(-100%);
+      }      
+    </style>
+
+    <script>
+    window.document.addEventListener("DOMContentLoaded", function () {
+
+      var header = window.document.querySelector("#quarto-embed-header");
+      const titleBannerEl = window.document.querySelector("body > #title-block-header");
+      if (titleBannerEl) {
+        titleBannerEl.style.paddingTop = header.clientHeight + "px";
+      }
+      const contentEl = window.document.getElementById('quarto-content');
+      for (const child of contentEl.children) {
+        child.style.paddingTop = header.clientHeight + "px";
+        child.style.marginTop = "1em";
+      }
+
+      // Use the article root if the `back` call doesn't work. This isn't perfect
+      // but should typically work
+      window.quartoBackToArticle = () => {
+        var currentUrl = window.location.href;
+        window.history.back();
+        setTimeout(() => {
+            // if location was not changed in 100 ms, then there is no history back
+            if(currentUrl === window.location.href){              
+                // redirect to site root
+                window.location.href = "...html";
+            }
+        }, 100);
+      }
+
+      const headroom = new window.Headroom(header, {
+        tolerance: 5,
+        onPin: function () {
+        },
+        onUnpin: function () {
+        },
+      });
+      headroom.init();
+    });
+    </script>
+
+    
+<script src="../site_libs/manuscript-notebook/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-813c323200a87c37e262811031999de4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+     
+        <link rel="stylesheet" href="../assets/site.css">
+      </head>
+
+  <body class="quarto-notebook quarto-light">
+    <div id="quarto-embed-header" class="headroom fixed-top bg-primary">
+      
+      <a onclick="window.quartoBackToArticle(); return false;" class="btn btn-primary quarto-back-link" href=""><i class="bi bi-caret-left"></i> Back to Article</a>
+      <h6><i class="bi bi-journal-code"></i> People of Chrome City</h6>
+
+            <a href="../content/enemies.qmd" class="btn btn-primary quarto-download-embed" download="enemies.qmd">Download Source</a>
+          </div>
+
+     <div id="quarto-content" class="page-columns page-rows-contents page-layout-article toc-left">
+<div id="quarto-sidebar-toc-left" class="sidebar toc-left">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#people-of-chrome-city" id="toc-people-of-chrome-city" class="nav-link active" data-scroll-target="#people-of-chrome-city">People of Chrome City</a>
+  <ul class="collapse">
+  <li><a href="#npc-archetypes" id="toc-npc-archetypes" class="nav-link" data-scroll-target="#npc-archetypes">NPC archetypes</a></li>
+  <li><a href="#npc-profiles" id="toc-npc-profiles" class="nav-link" data-scroll-target="#npc-profiles">NPC profiles</a></li>
+  <li><a href="#npc-equipment" id="toc-npc-equipment" class="nav-link" data-scroll-target="#npc-equipment">NPC equipment</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</div>
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+</div>
+<main class="content" id="quarto-document-content">      <section id="people-of-chrome-city" class="level1">
+<h1>People of Chrome City</h1>
+<blockquote class="blockquote">
+<p>“They’re vampires, Cowboy. They suck the blood of the Earth because that’s what keeps them alive, but they don’t know what it is to live for.”</p>
+<p>—Walter Jon Williams, Wired</p>
+</blockquote>
+<p>nanoChrome offers you to play in a relatively coherent world. So don’t try to balance the opposites, but put the right things in the right places and let the players be intrepid. If a place has to be guarded by a real army, so be it. If the gangers are really lousy, so much the better. Characters will alternately be prey and predator depending on what they want to accomplish.</p>
+<p>Use the archetypes for each as needed, mixing a type, a profile and an equipment pack. You can add any skills and abilities you think make sense.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>It was the /Cs who gave nicknames to the norms, corresponding to their place in society. The terms have since passed into common parlance…</p>
+</div>
+</div>
+</div>
+<section id="npc-archetypes" class="level2">
+<h2 class="anchored" data-anchor-id="npc-archetypes">NPC archetypes</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">DESCRIPTION</th>
+<th style="text-align: right;">CHANCE</th>
+<th style="text-align: right;">CONN.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">ZOMBIES are anyone who leads a perfectly normal life - metro, work, sleep. They hang out on public transport, roam the anarzone, forget themselves in corpos leather lounges or float in the persistent worlds of the matrix.</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SKELETONS are the zombies who have a gun and a uniform. They are responsible for guarding the herd and preventing the deviants from chewing their cud in peace. But apart from that, they don’t differ much from the previous ones.</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">GHOULS are enhanced zombies, who have understood that they can feed on the masses. They are all the neighbourhood bullies, the ambitious and sadistic corpos executives, the functional sociopaths who parasitise society.</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">VAMPIRES stand out from the crowd. They rule or give the illusion of ruling. They have great powers and very little responsibility, but they are not untouchable. Generally, they are ghouls who have risen from seed and hope to become liches.</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">LICHES are out of reach. They are the real masters of the world, the ones who decide for everyone. Unfortunately, they are sometimes so far away that they can no longer see the details and a few deviant zombies can still play nasty tricks on them.</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">15</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="npc-profiles" class="level2">
+<h2 class="anchored" data-anchor-id="npc-profiles">NPC profiles</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">1D6</th>
+<th style="text-align: left;">PROFILE</th>
+<th style="text-align: right;">POWER</th>
+<th style="text-align: right;">HP</th>
+<th style="text-align: right;">DEFENCE</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">HALF-SALT</td>
+<td style="text-align: right;">+0</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">BIG MAN</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">STRONG</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: right;">10</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">BIG SHOT</td>
+<td style="text-align: right;">+3</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">11</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">BIG OX</td>
+<td style="text-align: right;">+4</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">12</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">WE SAY “SIR”</td>
+<td style="text-align: right;">+5</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">13</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="npc-equipment" class="level2">
+<h2 class="anchored" data-anchor-id="npc-equipment">NPC equipment</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: center;">D26</th>
+<th style="text-align: left;">ENEMY</th>
+<th style="text-align: left;">WEAPONS</th>
+<th style="text-align: left;">MODIFIERS</th>
+<th style="text-align: left;">CYBERNETICS</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">CORPORATE AGENT</td>
+<td style="text-align: left;">FIST WEAPON [attack +2; damage +1; Interfaced, Secure, Silent, Impact, Versatile multitool, Voice Multicharger]<br>
+CIVIL PROTECTION [Interfaced, Discreet]</td>
+<td style="text-align: left;">HP +10<br>
+Defence +4<br>
+Initiative +1d6</td>
+<td style="text-align: left;">NEURONIC [Retinal display, Emotional control, Stress reducer, Wired reflexes]<br>
+PANOPTIC [Photographic memory, Light amplifier],<br>
+REINFORCEMENTS [Automatic stimulation, Double heart, Blood filter]</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">CORPORATE GUARD</td>
+<td style="text-align: left;">MELEE WEAPON [attack +2; damage +0; Accuracy, Discrete]<br>
+CIVIL PROTECTION [Discrete]</td>
+<td style="text-align: left;">HP +0<br>
+Defence +1<br>
+Initiative +0</td>
+<td style="text-align: left;">NANOGENETIC [Rejuvenation]</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.3</td>
+<td style="text-align: left;">CORPORATE COMMANDO</td>
+<td style="text-align: left;">ASSAULT RIFLE [Attack +2; Damage +4; Interfaced, Secure, Impact, Multipurpose Chambering, Voice Multicharger]<br>
+TACTICAL PROTECTION [Reinforcements, IFF, Auto-injectors].</td>
+<td style="text-align: left;">HP +20<br>
+Defence +6<br>
+Initiative +1d6</td>
+<td style="text-align: left;">NEURONIC [Retinal display, Wired reflexes]<br>
+PROSTHETIC [Woven skin, Bone replacement, Nictitating membrane]<br>
+STRENGTHENING [Automatic stimulation, Double heart]</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.4</td>
+<td style="text-align: left;">CORPORATE CPA</td>
+<td style="text-align: left;">LONG NANOBLADE [attack +4; damage +9; Impact, Accuracy, Interfaced]<br>
+FIST WEAPON [attack +4; damage +6; Impact, Interfaced]</td>
+<td style="text-align: left;">HP +0<br>
+Defence +6<br>
+Initiative +1d6</td>
+<td style="text-align: left;">NEURONIC [Wired Reflexes]<br>
+CPA [Acceleration, Anti-shock, Armor, Armor x2, EMP Protection]</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">1.5</td>
+<td style="text-align: left;">COMBAT CYBORG</td>
+<td style="text-align: left;">LONG NANOBLADE [attack +4; damage +5; Impact, Accuracy, Interfaced]</td>
+<td style="text-align: left;">HP +15<br>
+Défense +4<br>
+initiative +1d6</td>
+<td style="text-align: left;">NEURONIQUE [Inhibiteur de douleur, Réflexes câblés]<br>
+NANOGÉNÉTIQUE [Amortisseur traumatique, Modification endocrinienne, Pyrokynésie]<br>
+PANOPTIQUE [Équilibre]<br>
+PROSTHÉTIQUE [Peau tissée, Plaques dermiques, Sutures automatiques, Membres inférieurs, Amortisseurs de saut, Assistance cinétique, Membres supérieurs, Impacteurs, Remplacement osseux]<br>
+RENFORCEMENTS [Double coeur]</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">1.6</td>
+<td style="text-align: left;">GANGER</td>
+<td style="text-align: left;">ASSAULT RIFLE [attaque +2; dégâts +4; Précision, Impact]</td>
+<td style="text-align: left;">HP +0<br>
+Défense +0<br>
+Initiative +0</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.1</td>
+<td style="text-align: left;">CORPORATE GUARD</td>
+<td style="text-align: left;">ASSAULT RIFLE [attack +2; damage +4; Precision, Impact]<br>
+TACTICAL PROTECTION [Reinforcements, IFF, Auto-injectors]</td>
+<td style="text-align: left;">HP +0<br>
+Defense +6<br>
+Initiative +0</td>
+<td style="text-align: left;">PROSTHETICS [Woven skin, dermal plates]</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.2</td>
+<td style="text-align: left;">HENCHMAN</td>
+<td style="text-align: left;">HANDGUN [attack +4; damage +0; Precision, Discreet, Interfaced] CIVILIAN PROTECTION [Discreet]</td>
+<td style="text-align: left;">HP +5<br>
+Defense +4<br>
+Initiative +1d6</td>
+<td style="text-align: left;">NEURONICS [Wired reflexes]<br>
+NANOGENETICS [Hydra genoblasts, Totipotent genoblasts]</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.3</td>
+<td style="text-align: left;">FIELD JOURNALIST</td>
+<td style="text-align: left;">HANDGUN [attack +2; damage +0; Precision, Discreet]<br>
+CIVILIAN PROTECTION [Discreet]</td>
+<td style="text-align: left;">HP +0<br>
+Defense +2<br>
+Initiative +0</td>
+<td style="text-align: left;">PANOPTIC [Sound editor, SSP recorder, Sensory implant, Photographic memory, Micro-cannon, Zoom, High-definition vision]</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.4</td>
+<td style="text-align: left;">EVERYMAN</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">HP +0<br>
+Defense +0<br>
+Initiative +0</td>
+<td style="text-align: left;">—</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">2.5</td>
+<td style="text-align: left;">CORPORATE OFFICER</td>
+<td style="text-align: left;">HANDGUN [attack +4; damage +1; Precision, Interfaced, Secured]<br>
+CIVILIAN PROTECTION [Interfaced, Discreet]</td>
+<td style="text-align: left;">HP +5<br>
+Defense +4<br>
+Initiative +1d6</td>
+<td style="text-align: left;">NEURONICS [Retinal display, Emotion control, Stress reducer, Wired reflexes, Hidden memory, Logic processors]<br>
+NANOGENETICS [Rejuvenation, Hydra genoblasts, Totipotent genoblasts]</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2.6</td>
+<td style="text-align: left;">STREETNINJA</td>
+<td style="text-align: left;">SHORT NANOBLADE [attack +4; damage +1; Impact, Precision, Interfaced]</td>
+<td style="text-align: left;">HP +0<br>
+Defense +4<br>
+Initiative +1d6</td>
+<td style="text-align: left;">NEURONICS [Wired reflexes]<br>
+PROSTHETICS [Woven skin, Thermo-optic camouflage, Dermal plates, Subdermal pocket, Thermal regulation, Flash-dermis]</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+     </main>
+<!-- /main column -->  <script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>  </div> <!-- /content --> 
+  
+</body></html>
