@@ -19,8 +19,11 @@ the cyberpunker before cyberpunk.
 >
 > —Albert Londres
 
-Texts and illustrations
-:   Le Grümph
+Text and illustrations
+:   [Le Grümph](https://www.legrumph.org)
+
+Online English adaptation
+:   [Hardi Kõvamees](https://hardi.design)
 
 Corrections
 :   Le Surcapitaine, Myrkvid, Matthieu Chalaux, Stéphane Treille, Nadège Debray, Frédric 'Danilo' Toutain

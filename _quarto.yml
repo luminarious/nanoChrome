@@ -2,22 +2,17 @@ project:
   type: book
   output-dir: dist
 
-lang: en
-tbl-cap-location: top
-
 book:
   title: nanoChrome
-  subtitle: Subtitle
+  #subtitle: Subtitle
 
   author:
     - name: John Grümph
       url: https://legrumph.org
   date: 2015-09-30
   isbn: 979-10-95063-07-0
-  abstract: Abstract
   output-file: nanoChrome
-  description: Description
-
+  
   search: true
   downloads: [pdf]
   
@@ -43,14 +38,21 @@ book:
     - content/charsheet.qmd
     - content/license.qmd
 
+lang: en
+tbl-cap-location: top
+
 format:
   html:
-    theme: yeti
     css: assets/site.css
     toc: true
     reference-location: margin
     callout-appearance: simple
     number-sections: false
+    section-divs: true
+    tbl-colwidths: false
+    link-external-icon: true
+    code-copy: true
+    theme: yeti
   pdf:
     number-sections: false
     toc: true

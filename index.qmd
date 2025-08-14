@@ -1,5 +1,8 @@
 ---
-title: "Home" 
+title: Home
+toc: false
+repo-actions: false
+body-classes: is-home
 ---
 
 {{< include README.md >}}
