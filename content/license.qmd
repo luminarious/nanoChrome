@@ -1,0 +1,30 @@
+# Terms of Use
+
+## Licence
+
+The text of nanoChrome is licensed under the Creative Commons Attribution-ShareAlike 4.0 International license (CC BY-SA 4.0).
+
+This license allows you to share and adapt the rules, mechanics, and text of nanoChrome for any purpose, even commercially, as long as you follow the terms outlined below.
+
+## Attribution
+
+You must give appropriate credit. When using nanoChrome text, you must include the following attribution in a prominent location in your work:
+
+```
+This work is based on nanoChrome, by John Grümph, and is licensed for use
+under the Creative Commons Attribution-ShareAlike 4.0 International license.
+```
+
+## ShareAlike
+
+If you remix, transform, or build upon the material from nanoChrome, you must distribute your contributions under the same CC BY-SA 4.0 license as the original. This is the "ShareAlike" condition.
+
+## No Endorsement
+
+You must not state or imply that your work is an official nanoChrome product or that it is endorsed by John Grümph, unless you have received explicit permission to do so.
+
+## Scope of the License
+
+This license applies only to the text contained within nanoChrome.
+
+The nanoChrome brand name, logos, illustrations, book layout, and any other material not explicitly part of this text are not covered by this license. You may not copy, translate, or otherwise use these assets for publication without explicit permission from John Grümph. Please contact [John Grümph](https://legrumph.org) for permission.

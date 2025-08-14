@@ -41,6 +41,7 @@ book:
     - content/catalogues.qmd
   appendices: 
     - content/charsheet.qmd
+    - content/license.qmd
 
 format:
   html:
