@@ -4,13 +4,9 @@ function getRows(table) {
 
 function makeResultTable(table, row) {
 	const result = table.cloneNode(false)
-
 	result.removeAttribute('id')
 
-	if (table.tHead) { result.append(table.tHead.cloneNode(true)) }
-
 	const body = document.createElement('tbody')
-
 	body.append(row.cloneNode(true))
 	result.append(body)
 
@@ -26,9 +22,7 @@ function initRandomTable(root) {
 
 	const rows = getRows(table)
 
-	if (rows.length === 0) {
-		return
-	}
+	if (rows.length === 0) { return }
 
 	button.hidden = false
 

@@ -1,1 +1,102 @@
-/** hmm */
+.random-table {
+	position: relative;
+	border: 1px solid oklch(from currentColor l c h / 0.11);
+	margin-bottom: 0.5lh;
+	border-radius: 8px;
+
+	details {
+		margin-bottom: 0;
+		min-height: 48px;
+
+		& > table {
+			min-width: 100%;
+		}
+	}
+	
+	summary {
+		padding-inline-end: 96px;
+		color: revert;
+		display: grid;
+		grid-template-areas: "marker primary" "marker secondary";
+		grid-template-columns: min-content auto;
+
+		span {
+			line-height: 24px;
+		}
+
+		table {
+			background: oklch(from currentColor l c h / 0.11);
+			border-radius: 4px;
+			margin-bottom: 8px;
+		}
+		td {
+			min-width: 0 !important;
+		}
+	}
+
+	details summary::before {
+		content: '';
+		display: grid;
+		place-items: center;
+		width: 48px;
+		height: 48px;
+		grid-area: marker;
+		background: 50% 50% / 1.5rem 1.5rem no-repeat;
+		background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 24 24' %3E%3Cpath fill='currentColor' d='M8.47 4.22a.75.75 0 0 0 0 1.06L15.19 12l-6.72 6.72a.75.75 0 1 0 1.06 1.06l7.25-7.25a.75.75 0 0 0 0-1.06L9.53 4.22a.75.75 0 0 0-1.06 0'/%3E%3C/svg%3E");
+	}
+
+	details:open summary::before {
+		background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' %3E%3Cpath fill='currentColor' d='M4.22 8.47a.75.75 0 0 1 1.06 0L12 15.19l6.72-6.72a.75.75 0 1 1 1.06 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L4.22 9.53a.75.75 0 0 1 0-1.06'/%3E%3C/svg%3E");
+	}
+
+	table {
+		margin-block: 4px;
+		border: revert;
+		* {
+			border: revert;
+		}
+	}
+
+	th {
+		background: oklch(from currentColor l c h / 0.11);
+	}
+
+	td, td {
+		padding-inline: 8px;
+	}
+}
+
+.random-table-caption {
+	font-weight: bold;
+}
+
+.random-table-actions {
+	position: absolute;
+	inset-block-start: 0;
+	inset-inline-end: 0;
+	display: flex;
+	align-items: center;
+	min-height: 48px;
+
+	> * {
+		background: 0;
+		border: 0;
+		appearance: 0;
+		border-radius: 0;
+		min-height: 48px;
+		min-width: 48px;
+	}
+
+	a {
+		display: grid;
+		min-height: 48px;
+		min-width: 48px;
+		place-items: center;
+
+	}
+	svg {
+		fill: currentColor;
+		width: 24px;
+		height: 24px;
+	}
+}

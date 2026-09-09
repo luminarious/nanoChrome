@@ -19,7 +19,9 @@
 		padding: 0.1ex 0.5ex;
 	}
 	:is(td, th):first-child {
-		width: fit-content;
 		min-width: 8ex;
+		width: min-content;
+		padding-left: 16px;
+		text-align: center;
 	}
 }

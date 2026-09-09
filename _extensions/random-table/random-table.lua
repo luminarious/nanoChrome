@@ -94,38 +94,26 @@ function CodeBlock(el)
 
 	local caption = config.caption and pandoc.utils.stringify(config.caption) or nil
 	local id = 'random-table-' .. pandoc.structure.unique_identifier(pandoc.Inlines(caption))
-	local described_by = id and ' aria-describedby="' .. id .. '-caption"' or ''
-	local link = id and '<a class="random-table-link" href="#' .. id .. '">Link to table</a>' or ''
-
-	local controls = {
-		pandoc.RawInline('html', '<button type="button" class="random-table-roll" hidden' .. described_by .. '>Roll</button> ' .. link)
-	}
-
-	if caption then
-		controls[#controls + 1] = pandoc.Space()
-		controls[#controls + 1] = pandoc.Span(
-			{ pandoc.Str(caption) },
-			pandoc.Attr(id .. '-caption', { 'random-table-caption' })
-		)
-	end
+	local link_svg = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.95 21q-2.05 0-3.5-1.45T3 16.05q0-1 .375-1.9t1.075-1.6l2.625-2.625q.3-.3.713-.3t.712.3t.3.7t-.3.7l-2.65 2.65q-.425.425-.637.963T5 16.05q0 1.225.863 2.088T7.95 19q.575 0 1.125-.213t.975-.637l2.625-2.65q.3-.275.7-.275t.7.3t.3.7t-.3.7L11.45 19.55q-.7.7-1.6 1.075T7.95 21m1.25-6.2q-.3-.3-.3-.712t.3-.713L13.375 9.2q.3-.3.713-.3t.712.3t.3.713t-.3.712L10.625 14.8q-.3.3-.712.3t-.713-.3m6.3-.725q-.3-.3-.3-.7t.3-.7l2.65-2.625q.425-.425.625-.95t.2-1.1q0-1.25-.85-2.125T16.025 5q-.575 0-1.112.213t-.963.637L11.325 8.5q-.3.3-.7.3t-.7-.3t-.3-.712t.3-.713L12.55 4.45q.7-.7 1.6-1.075T16.05 3q2.05 0 3.488 1.45t1.437 3.525q0 .975-.363 1.875t-1.062 1.6l-2.625 2.625q-.3.3-.712.3t-.713-.3"/></svg>'
 
 	return pandoc.Div({
-			pandoc.Div({
-					pandoc.Plain(controls),
-					pandoc.Div({},
-						pandoc.Attr('', { 'random-table-result' }, {
-							role = 'status',
-							['aria-live'] = 'polite',
-							['aria-atomic'] = 'true'
-						})
-					)
-				},
-				pandoc.Attr('', { 'random-table-controls' })
+			pandoc.RawBlock('html',
+				'<details>'
+					.. '<summary>'
+					.. '<span id="' .. id .. '-caption" class="random-table-caption">' .. caption .. '</span>'
+					.. '<span class="random-table-result" role="status" aria-live="polite" aria-atomic="true">Show all rows</span>'
+					.. '</summary>'
 			),
 
-			pandoc.RawBlock('html', '<details><summary' .. described_by .. '>Show full table</summary>'),
 			table,
-			pandoc.RawBlock('html', '</details>')
+
+			pandoc.RawBlock('html',
+				'</details>'
+					.. '<div class="random-table-actions">'
+					.. '<a class="random-table-link" href="#' .. id .. '">' .. link_svg .. '</a>'
+					.. '<button type="button" class="random-table-roll" hidden aria-describedby="' .. id .. '-caption">Roll</button>'
+					.. '</div>'
+			)
 		},
 		pandoc.Attr(id, { 'random-table' })
 	)
