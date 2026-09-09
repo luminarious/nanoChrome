@@ -60,3 +60,6 @@ format:
     pdf-engine: prince
     pdf-engine-opts:
       - -v
+
+filters:
+  - random-table
