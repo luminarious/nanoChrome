@@ -1,0 +1,3568 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Appendix A — Player Reference – nanoChrome</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../content/charsheet.html" rel="next">
+<link href="../content/catalogues.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-4a40906346917017d3cffafa15537364.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/random-table-0.2.0/random-table.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+
+<body class="nav-sidebar floating reference-page quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/reference.html">Appendices</a></li><li class="breadcrumb-item"><a href="../content/reference.html"><span class="chapter-title">Player Reference</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">nanoChrome</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/luminarious/nanoChrome" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <a href="../nanoChrome.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/cyberpunk.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chronicles of chrome</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/characters.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Characters</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/rules.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Rules of the game</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/matrix.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Matrix</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/relationships.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Relationships</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/vehicles.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Vehicles</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/running.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Welcome to Chrome City</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/adventures.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Adventures</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/enemies.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">People of Chrome City</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/magic.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Chrome Dragon</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/catalogues.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Catalogues</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/reference.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Player Reference</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/charsheet.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Character sheet</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/license.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Terms of Use</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#character-creation" id="toc-character-creation" class="nav-link active" data-scroll-target="#character-creation">Character Creation</a>
+  <ul class="collapse">
+  <li><a href="#name" id="toc-name" class="nav-link" data-scroll-target="#name">1. Name</a></li>
+  <li><a href="#choose-affiliation" id="toc-choose-affiliation" class="nav-link" data-scroll-target="#choose-affiliation">2. Choose affiliation</a></li>
+  <li><a href="#choose-occupation" id="toc-choose-occupation" class="nav-link" data-scroll-target="#choose-occupation">3. Choose occupation</a></li>
+  <li><a href="#assign-attributes" id="toc-assign-attributes" class="nav-link" data-scroll-target="#assign-attributes">4. Assign attributes</a></li>
+  <li><a href="#choose-identity" id="toc-choose-identity" class="nav-link" data-scroll-target="#choose-identity">5. Choose identity</a></li>
+  <li><a href="#choose-starting-equipment-pack" id="toc-choose-starting-equipment-pack" class="nav-link" data-scroll-target="#choose-starting-equipment-pack">6. Choose starting equipment pack</a></li>
+  <li><a href="#establish-relationships" id="toc-establish-relationships" class="nav-link" data-scroll-target="#establish-relationships">7. Establish relationships</a></li>
+  <li><a href="#choose-skills-and-abilities" id="toc-choose-skills-and-abilities" class="nav-link" data-scroll-target="#choose-skills-and-abilities">8. Choose skills and abilities</a></li>
+  <li><a href="#fill-secondary-fields" id="toc-fill-secondary-fields" class="nav-link" data-scroll-target="#fill-secondary-fields">9. Fill secondary fields</a></li>
+  <li><a href="#character-questions" id="toc-character-questions" class="nav-link" data-scroll-target="#character-questions">10. Character questions</a></li>
+  </ul></li>
+  <li><a href="#character-options" id="toc-character-options" class="nav-link" data-scroll-target="#character-options">Character Options</a>
+  <ul class="collapse">
+  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
+  <li><a href="#abilities" id="toc-abilities" class="nav-link" data-scroll-target="#abilities">Abilities</a></li>
+  <li><a href="#akashic-spirits" id="toc-akashic-spirits" class="nav-link" data-scroll-target="#akashic-spirits">Akashic Spirits</a></li>
+  </ul></li>
+  <li><a href="#regular-play" id="toc-regular-play" class="nav-link" data-scroll-target="#regular-play">Regular Play</a>
+  <ul class="collapse">
+  <li><a href="#golden-rule" id="toc-golden-rule" class="nav-link" data-scroll-target="#golden-rule">Golden Rule</a></li>
+  <li><a href="#checks" id="toc-checks" class="nav-link" data-scroll-target="#checks">Checks</a></li>
+  <li><a href="#cooperation" id="toc-cooperation" class="nav-link" data-scroll-target="#cooperation">Cooperation</a></li>
+  <li><a href="#saves" id="toc-saves" class="nav-link" data-scroll-target="#saves">Saves</a></li>
+  <li><a href="#hp-wounds-care" id="toc-hp-wounds-care" class="nav-link" data-scroll-target="#hp-wounds-care">HP, wounds, care</a></li>
+  <li><a href="#connection" id="toc-connection" class="nav-link" data-scroll-target="#connection">Connection</a></li>
+  <li><a href="#plans" id="toc-plans" class="nav-link" data-scroll-target="#plans">Plans</a></li>
+  <li><a href="#cycle" id="toc-cycle" class="nav-link" data-scroll-target="#cycle">Cycle</a></li>
+  <li><a href="#combat-turn" id="toc-combat-turn" class="nav-link" data-scroll-target="#combat-turn">Combat turn</a></li>
+  <li><a href="#combat-stunts" id="toc-combat-stunts" class="nav-link" data-scroll-target="#combat-stunts">Combat stunts</a></li>
+  <li><a href="#scene-details" id="toc-scene-details" class="nav-link" data-scroll-target="#scene-details">Scene details</a></li>
+  <li><a href="#social-resolution" id="toc-social-resolution" class="nav-link" data-scroll-target="#social-resolution">Social resolution</a></li>
+  </ul></li>
+  <li><a href="#relationships" id="toc-relationships" class="nav-link" data-scroll-target="#relationships">Relationships</a>
+  <ul class="collapse">
+  <li><a href="#service-categories" id="toc-service-categories" class="nav-link" data-scroll-target="#service-categories">Service categories</a></li>
+  <li><a href="#rank-advancement" id="toc-rank-advancement" class="nav-link" data-scroll-target="#rank-advancement">Rank advancement</a></li>
+  <li><a href="#returning-favour" id="toc-returning-favour" class="nav-link" data-scroll-target="#returning-favour">Returning Favour</a></li>
+  </ul></li>
+  <li><a href="#matrix-rules" id="toc-matrix-rules" class="nav-link" data-scroll-target="#matrix-rules">Matrix Rules</a>
+  <ul class="collapse">
+  <li><a href="#program-activation" id="toc-program-activation" class="nav-link" data-scroll-target="#program-activation">Program activation</a></li>
+  <li><a href="#firewalls" id="toc-firewalls" class="nav-link" data-scroll-target="#firewalls">Firewalls</a></li>
+  <li><a href="#alarms" id="toc-alarms" class="nav-link" data-scroll-target="#alarms">Alarms</a></li>
+  <li><a href="#counter-intrusion" id="toc-counter-intrusion" class="nav-link" data-scroll-target="#counter-intrusion">Counter-intrusion</a></li>
+  </ul></li>
+  <li><a href="#matrix-programs" id="toc-matrix-programs" class="nav-link" data-scroll-target="#matrix-programs">Matrix Programs</a>
+  <ul class="collapse">
+  <li><a href="#level-1" id="toc-level-1" class="nav-link" data-scroll-target="#level-1">Level 1</a></li>
+  <li><a href="#level-2" id="toc-level-2" class="nav-link" data-scroll-target="#level-2">Level 2</a></li>
+  <li><a href="#level-3" id="toc-level-3" class="nav-link" data-scroll-target="#level-3">Level 3</a></li>
+  <li><a href="#level-4" id="toc-level-4" class="nav-link" data-scroll-target="#level-4">Level 4</a></li>
+  <li><a href="#level-5" id="toc-level-5" class="nav-link" data-scroll-target="#level-5">Level 5</a></li>
+  <li><a href="#special" id="toc-special" class="nav-link" data-scroll-target="#special">Special</a></li>
+  </ul></li>
+  <li><a href="#vehicles" id="toc-vehicles" class="nav-link" data-scroll-target="#vehicles">Vehicles</a>
+  <ul class="collapse">
+  <li><a href="#cpa-operation" id="toc-cpa-operation" class="nav-link" data-scroll-target="#cpa-operation">CPA operation</a></li>
+  <li><a href="#speed-and-chases" id="toc-speed-and-chases" class="nav-link" data-scroll-target="#speed-and-chases">Speed and chases</a></li>
+  <li><a href="#platform" id="toc-platform" class="nav-link" data-scroll-target="#platform">Platform</a></li>
+  <li><a href="#wounds-and-collisions" id="toc-wounds-and-collisions" class="nav-link" data-scroll-target="#wounds-and-collisions">Wounds and collisions</a></li>
+  <li><a href="#armour" id="toc-armour" class="nav-link" data-scroll-target="#armour">Armour</a></li>
+  <li><a href="#defence-and-damage" id="toc-defence-and-damage" class="nav-link" data-scroll-target="#defence-and-damage">Defence and damage</a></li>
+  <li><a href="#driving" id="toc-driving" class="nav-link" data-scroll-target="#driving">Driving</a></li>
+  <li><a href="#neural-interface" id="toc-neural-interface" class="nav-link" data-scroll-target="#neural-interface">Neural interface</a></li>
+  <li><a href="#rigger-transfer" id="toc-rigger-transfer" class="nav-link" data-scroll-target="#rigger-transfer">Rigger Transfer</a></li>
+  </ul></li>
+  <li><a href="#equipment" id="toc-equipment" class="nav-link" data-scroll-target="#equipment">Equipment</a>
+  <ul class="collapse">
+  <li><a href="#nexus" id="toc-nexus" class="nav-link" data-scroll-target="#nexus">Nexus</a></li>
+  <li><a href="#visibility" id="toc-visibility" class="nav-link" data-scroll-target="#visibility">Visibility</a></li>
+  <li><a href="#weapons" id="toc-weapons" class="nav-link" data-scroll-target="#weapons">Weapons</a></li>
+  <li><a href="#protection" id="toc-protection" class="nav-link" data-scroll-target="#protection">Protection</a></li>
+  <li><a href="#vehicles-for-purchase" id="toc-vehicles-for-purchase" class="nav-link" data-scroll-target="#vehicles-for-purchase">Vehicles for purchase</a></li>
+  <li><a href="#weapon-and-protection-options" id="toc-weapon-and-protection-options" class="nav-link" data-scroll-target="#weapon-and-protection-options">Weapon and protection options</a></li>
+  <li><a href="#cpa-vehicle-and-drone-options" id="toc-cpa-vehicle-and-drone-options" class="nav-link" data-scroll-target="#cpa-vehicle-and-drone-options">CPA, vehicle and drone options</a></li>
+  </ul></li>
+  <li><a href="#augmentations" id="toc-augmentations" class="nav-link" data-scroll-target="#augmentations">Augmentations</a>
+  <ul class="collapse">
+  <li><a href="#cybernetic-augmentations" id="toc-cybernetic-augmentations" class="nav-link" data-scroll-target="#cybernetic-augmentations">Cybernetic augmentations</a></li>
+  <li><a href="#cosmetic-augmentations" id="toc-cosmetic-augmentations" class="nav-link" data-scroll-target="#cosmetic-augmentations">Cosmetic augmentations</a></li>
+  </ul></li>
+  <li><a href="#accelerators" id="toc-accelerators" class="nav-link" data-scroll-target="#accelerators">Accelerators</a></li>
+  <li><a href="#campaign-procedures" id="toc-campaign-procedures" class="nav-link" data-scroll-target="#campaign-procedures">Campaign Procedures</a>
+  <ul class="collapse">
+  <li><a href="#panopticom" id="toc-panopticom" class="nav-link" data-scroll-target="#panopticom">Panopticom</a></li>
+  <li><a href="#galères" id="toc-galères" class="nav-link" data-scroll-target="#galères">Galères (Complications)</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/luminarious/nanoChrome/edit/quarto/content/reference.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/luminarious/nanoChrome/blob/quarto/content/reference.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/luminarious/nanoChrome/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/reference.html">Appendices</a></li><li class="breadcrumb-item"><a href="../content/reference.html"><span class="chapter-title">Player Reference</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Appendix A — Player Reference</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="character-creation" class="level2">
+<h2 class="anchored" data-anchor-id="character-creation">Character Creation</h2>
+<section id="name" class="level3">
+<h3 class="anchored" data-anchor-id="name">1. Name</h3>
+</section>
+<section id="choose-affiliation" class="level3">
+<h3 class="anchored" data-anchor-id="choose-affiliation">2. Choose affiliation</h3>
+<p>Affiliation ability costs 1 Connection unless stated.</p>
+<dl>
+<dt><span id="option-corpo">Corpo</span></dt>
+<dd>
+social privilege: remove charge/fine, pass checkpoint, obtain reservation/access, similar privilege.
+</dd>
+<dt><span id="option-ganger">Ganger</span></dt>
+<dd>
+gang relationship: help, refuge, equipment, similar support.
+</dd>
+<dt><span id="option-independent">Independent</span></dt>
+<dd>
+erase traces/blend in; gain nothing directly; prevent others obtaining information about you.
+</dd>
+<dt><span id="option-c">/C</span></dt>
+<dd>
+describe counter-culture; each Connection spent on an action → roll +2.
+</dd>
+</dl>
+</section>
+<section id="choose-occupation" class="level3">
+<h3 class="anchored" data-anchor-id="choose-occupation">3. Choose occupation</h3>
+<p>Gain both abilities. Occupation abilities cannot be learned with XP; <code>*</code> may be bought again with XP.</p>
+<dl>
+<dt><span id="option-rigger">Rigger</span></dt>
+<dd>
+gain Neuronic free. <strong>Drones*</strong>: always 3 specialised drones available; destroyed drones return at cycle end; +1 drone/purchase. <strong>Transfer</strong>: connected to vehicle → become vehicle with its capabilities, even when not aboard.
+</dd>
+<dt><span id="option-hacker">Hacker</span></dt>
+<dd>
+<strong>Connection</strong>: +3 Connection. <strong>Nerves of Steel</strong>: 1 Luck → non-combat automatic success as triple 6.
+</dd>
+<dt><span id="option-face">Face</span></dt>
+<dd>
+<strong>Improvisation</strong>: Connection works as plan points without preparation. <strong>Relationships</strong>: create temporary Contact with name + activity/service domain; spend Connection to call on it.
+</dd>
+<dt><span id="option-fighter">Fighter</span></dt>
+<dd>
+<strong>Tough as Nails</strong>: +15 HP. <strong>Military Training*</strong>: choose melee/ranged → attack +2, damage +2; buy again for other category.
+</dd>
+<dt><span id="option-neuronic">Neuronic</span></dt>
+<dd>
+Neural Plug: use neurally interfaced equipment; associated rolls generally +2 where equipment states it, or satisfies interface prerequisite.
+</dd>
+</dl>
+</section>
+<section id="assign-attributes" class="level3">
+<h3 class="anchored" data-anchor-id="assign-attributes">4. Assign attributes</h3>
+<p><code>+1, +1, +2, +2, +3, +3 to STR, CON, DEX, INT, WIS, CHA.</code></p>
+</section>
+<section id="choose-identity" class="level3">
+<h3 class="anchored" data-anchor-id="choose-identity">5. Choose identity</h3>
+<dl>
+<dt><span id="option-idc">IDC</span></dt>
+<dd>
+civilian ID; identity, fingerprints, biometrics in government databases.
+</dd>
+<dt><span id="option-ido">IDO</span></dt>
+<dd>
+orbital/corporate ID; more rights; stronger protection and monitoring.
+</dd>
+<dt><span id="option-no-id">No ID</span></dt>
+<dd>
+few/no rights; until authorities identify you, no official existence.
+</dd>
+</dl>
+</section>
+<section id="choose-starting-equipment-pack" class="level3">
+<h3 class="anchored" data-anchor-id="choose-starting-equipment-pack">6. Choose starting equipment pack</h3>
+<p>Sacrifice any skill or ability → +¥10 each.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Pack</th>
+<th>Nexus</th>
+<th>Weapons</th>
+<th>Protection</th>
+<th>Other</th>
+<th style="text-align: right;">¥</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Action</strong></td>
+<td>Basic</td>
+<td>1 melee + 1 ranged</td>
+<td>Tactical vest +3</td>
+<td>coffin-hotel subscription, secondary conurb</td>
+<td style="text-align: right;">24</td>
+</tr>
+<tr class="even">
+<td><strong>Tinkering</strong></td>
+<td>+3</td>
+<td>1 melee or ranged</td>
+<td>Light civilian vest +1</td>
+<td>workshop: +4 tinkering/repair/modification</td>
+<td style="text-align: right;">22</td>
+</tr>
+<tr class="odd">
+<td><strong>Status</strong></td>
+<td>+1</td>
+<td>1 melee or ranged</td>
+<td>Civilian vest +2</td>
+<td>secure apartment</td>
+<td style="text-align: right;">20</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Nexus</th>
+<th style="text-align: right;">Connection bonus</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Basic</td>
+<td style="text-align: right;">+0</td>
+</tr>
+<tr class="even">
+<td>+1</td>
+<td style="text-align: right;">+1</td>
+</tr>
+<tr class="odd">
+<td>+3</td>
+<td style="text-align: right;">+3</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Weapon</th>
+<th style="text-align: right;">Damage</th>
+<th>Visibility</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Handgun</td>
+<td style="text-align: right;">+0</td>
+<td>Inconspicuous</td>
+</tr>
+<tr class="even">
+<td>Assault rifle / shotgun</td>
+<td style="text-align: right;">+3</td>
+<td>Visible</td>
+</tr>
+<tr class="odd">
+<td>Precision rifle</td>
+<td style="text-align: right;">+3</td>
+<td>Visible assembled; Inconspicuous disassembled</td>
+</tr>
+<tr class="even">
+<td>Assault cannon / heavy machine gun</td>
+<td style="text-align: right;">+5</td>
+<td>Obvious</td>
+</tr>
+<tr class="odd">
+<td>Short nanoblade</td>
+<td style="text-align: right;">+0</td>
+<td>Inconspicuous</td>
+</tr>
+<tr class="even">
+<td>Long nanoblade</td>
+<td style="text-align: right;">+3</td>
+<td>Visible</td>
+</tr>
+<tr class="odd">
+<td>Tonfa / cestus</td>
+<td style="text-align: right;">+3</td>
+<td>Visible</td>
+</tr>
+<tr class="even">
+<td>Taser</td>
+<td style="text-align: right;">+0, non-lethal/special</td>
+<td>Inconspicuous</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Protection</th>
+<th style="text-align: right;">Defence</th>
+<th>Visibility</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Light civilian vest</td>
+<td style="text-align: right;">+1</td>
+<td>Inconspicuous</td>
+</tr>
+<tr class="even">
+<td>Civilian vest</td>
+<td style="text-align: right;">+2</td>
+<td>Inconspicuous</td>
+</tr>
+<tr class="odd">
+<td>Tactical vest</td>
+<td style="text-align: right;">+3</td>
+<td>Visible</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="establish-relationships" class="level3">
+<h3 class="anchored" data-anchor-id="establish-relationships">7. Establish relationships</h3>
+<p>Print/cut the NPC portraits.</p>
+<ol type="1">
+<li>GM divides portraits among players.</li>
+<li>Each player removes 1 portrait; pass remaining cards to neighbours and repeat until each player holds 2.</li>
+<li>GM shuffles those portraits and deals them again.</li>
+<li>Each player writes 1 trait for each portrait.</li>
+<li>Pass 1 portrait left and 1 right; receiving players add a second trait.</li>
+<li>Optional: shuffle the trait post-its and randomly reassign them among portraits.</li>
+<li>Put portraits in the centre. For each: define name, occupation, short history, psychological traits, and why characters may know them.</li>
+<li>Assign 1–3 specific services.</li>
+</ol>
+<p>Start with 5 relationship points. Spend to raise relationships: <code>Contact 1 · Friend 2 · Intimate 3</code>.</p>
+</section>
+<section id="choose-skills-and-abilities" class="level3">
+<h3 class="anchored" data-anchor-id="choose-skills-and-abilities">8. Choose skills and abilities</h3>
+<p>Choose 5 skills and 2 abilities. Any of these choices may be replaced with a cybernetic augmentation; total augmentations cannot exceed CON.</p>
+<p>Use <a href="#character-options">Character Options</a> and <a href="#augmentations">Augmentations</a>.</p>
+</section>
+<section id="fill-secondary-fields" class="level3">
+<h3 class="anchored" data-anchor-id="fill-secondary-fields">9. Fill secondary fields</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Field</th>
+<th>Record</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>HP</td>
+<td>maximum <code>5 + CON×5 + bonuses</code>; current = maximum</td>
+</tr>
+<tr class="even">
+<td>Wounds</td>
+<td>0</td>
+</tr>
+<tr class="odd">
+<td>Connection</td>
+<td>maximum <code>INT + Nexus + bonuses</code>; current = maximum</td>
+</tr>
+<tr class="even">
+<td>Initiative</td>
+<td><code>3d6 + INT + bonuses</code>; current when rolled</td>
+</tr>
+<tr class="odd">
+<td>Nexus</td>
+<td>hardware, Connection bonus, Firewall, options</td>
+</tr>
+<tr class="even">
+<td>Defence</td>
+<td><code>7 + WIS + protection + bonuses</code></td>
+</tr>
+<tr class="odd">
+<td>Luck</td>
+<td>starting/current <code>CHA + bonuses</code></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="character-questions" class="level3">
+<h3 class="anchored" data-anchor-id="character-questions">10. Character questions</h3>
+<p>After creation, each player asks another player 1 question about that character. Continue until every character has answered ≥1. Asked player may refuse, redirect, or alter the question.</p>
+</section>
+</section>
+<section id="character-options" class="level2">
+<h2 class="anchored" data-anchor-id="character-options">Character Options</h2>
+<p>Used during creation and advancement. <code>*</code> = repeatable: additional purchases increase power or activations/cycle as applicable. <code>[X]</code> = prerequisite. Applicable skill → +4 only when its wording fits the action. Ability-granted damage dice never explode.</p>
+<p>The <a href="../content/charsheet.html">character sheet</a> lists the 100 XP purchase choices. Attribute advancement: max +4 purchased ranks in the same Attribute.</p>
+<section id="skills" class="level3">
+<h3 class="anchored" data-anchor-id="skills">Skills</h3>
+<div class="reference-skills">
+<ul>
+<li>Talk someone around</li>
+<li>Tinker with explosives</li>
+<li>Tinker with electronic devices</li>
+<li>Tinker with drones and mechas</li>
+<li>Tinker with mechanical devices</li>
+<li>Code and decode</li>
+<li>Drive a light vehicle</li>
+<li>Drive a heavy vehicle</li>
+<li>Know your rights and navigate the legal system</li>
+<li>Know a neighbourhood like the back of your hand</li>
+<li>Run fast and long</li>
+<li>Cook drugs</li>
+<li>Cook and season food</li>
+<li>Read architectural plans</li>
+<li>Disarm security systems</li>
+<li>Draw and paint</li>
+<li>Listen and hear</li>
+<li>Climb and scramble</li>
+<li>Appraise an object</li>
+<li>Avoid a nasty surprise</li>
+<li>Perform acrobatics</li>
+<li>Pick pockets</li>
+<li>Forge documents</li>
+<li>Tail someone</li>
+<li>Film and photograph</li>
+<li>Search a place</li>
+<li>Shout loudest</li>
+<li>Interrogate and question</li>
+<li>Intimidate and throw your weight around</li>
+<li>Play an instrument</li>
+<li>Act</li>
+<li>Read emotions</li>
+<li>Read lips</li>
+<li>Haggle hard</li>
+<li>Stand guard</li>
+<li>Ride a horse</li>
+<li>Swim and dive</li>
+<li>Negotiate a contract</li>
+<li>Open locks</li>
+<li>Ride a two-wheeler</li>
+<li>Pilot a flying vehicle</li>
+<li>Pilot a mecha</li>
+<li>Prescribe medication</li>
+<li>Comfort and console</li>
+<li>Write readable text</li>
+<li>Look and spot</li>
+<li>Find an escape route</li>
+<li>Resist toxins</li>
+<li>Care for animals</li>
+<li>Know biology</li>
+<li>Know mathematics and physics</li>
+<li>Jump high and far</li>
+<li>Disguise yourself skilfully</li>
+<li>Move silently</li>
+<li>Hide in shadows</li>
+<li>Blend into surroundings</li>
+<li>Be convincing</li>
+<li>Be courageous</li>
+<li>Seduce and flirt</li>
+<li>Heal and stitch</li>
+<li>Follow a trail</li>
+<li>Endure pain</li>
+<li>Know a bit about computers</li>
+<li>Tamper with an electrical network</li>
+<li>Work wood, concrete, and metal</li>
+<li>Work plastec and carboconcrete</li>
+<li>Find information</li>
+<li>Find your way</li>
+</ul>
+</div>
+</section>
+<section id="abilities" class="level3">
+<h3 class="anchored" data-anchor-id="abilities">Abilities</h3>
+<dl>
+<dt><span id="option-assistance">Assistance</span></dt>
+<dd>
+help manoeuvre bonus = WIS, not +1
+</dd>
+<dt><span id="option-recovery-insurance">Recovery Insurance</span></dt>
+<dd>
+insurer comes to retrieve you wherever you are when configured vital-function alarm triggers; you set sensitivity, e.g.&nbsp;prolonged 0 HP or third wound
+</dd>
+<dt><span id="option-health-insurance">Health Insurance*</span></dt>
+<dd>
+hospital cost covered for 1 wound/cycle
+</dd>
+<dt><span id="option-sneak-attack">Sneak Attack*</span></dt>
+<dd>
+1/combat: ×2 melee/ranged damage (coloured die + bonus); declare after attack roll
+</dd>
+<dt><span id="option-attention-to-detail">Attention to Detail</span></dt>
+<dd>
+missed security system about to trigger → 1d6; 4+ notice in time to act first
+</dd>
+<dt><span id="option-authority">Authority</span></dt>
+<dd>
+responsible organisational position; role privileges/obligations
+</dd>
+<dt><span id="option-invisible-bullet">Invisible Bullet*</span></dt>
+<dd>
+1/combat: fire at concealed/invisible target in visual range; projectile ignores obstacles; target may be beyond normal weapon range
+</dd>
+<dt><span id="option-tinkerer">Tinkerer</span></dt>
+<dd>
+1 Connection → choose 1: technology-related roll +1; find a small item to trade for information/service; quick temporary repair
+</dd>
+<dt><span id="option-chip-burner">Chip Burner</span></dt>
+<dd>
+Connection +2/day
+</dd>
+<dt><span id="option-celebrity">Celebrity*</span></dt>
+<dd>
+cycle end +1d6 ¥/purchase; recognition on 1d6 ≤ purchases
+</dd>
+<dt><span id="option-insolent-luck">Outrageous Luck</span></dt>
+<dd>
+Luck +2/cycle
+</dd>
+<dt><span id="option-two-weapon-fighting">Two-Weapon Fighting</span></dt>
+<dd>
+using 2 weapons: Defence +1, damage +3
+</dd>
+<dt><span id="option-contacts">Contacts*</span></dt>
+<dd>
+choose security forces, administration, criminal organisations, health services, transport authority, media/entertainment, or corporations; 1/cycle service/information there free as Intimate; otherwise normal Contact cost
+</dd>
+<dt><span id="option-multiple-drones">Multiple Drones*</span></dt>
+<dd>
+[Rigger] simultaneous drones +1/purchase; still ≤1 vehicle; 1 vehicle + drones allowed
+</dd>
+<dt><span id="option-deserted-place">Deserted Place</span></dt>
+<dd>
+meeting/problem-solving/storage/hiding place without interference
+</dd>
+<dt><span id="option-akashic-spirit">Akashic Spirit</span></dt>
+<dd>
+choose spirit; gain benefits + disadvantage
+</dd>
+<dt><span id="option-fortunate">Fortunate*</span></dt>
+<dd>
+1/cycle major purchase/rental; disappears cycle end
+</dd>
+<dt><span id="option-wardrobe">Wardrobe</span></dt>
+<dd>
+suitable clothing always available; +2 when clothing matters
+</dd>
+<dt><span id="option-deadly-grace">Deadly Grace</span></dt>
+<dd>
+ranged damage adds DEX twice
+</dd>
+<dt><span id="option-big-bully">Big Bully</span></dt>
+<dd>
+melee damage adds STR twice
+</dd>
+<dt><span id="option-multitool">Multitool</span></dt>
+<dd>
++2 when tool applies
+</dd>
+<dt><span id="option-nanodrones">Nanodrones</span></dt>
+<dd>
+environmental analysis, marking, micro-cavity exploration, spying, similar tasks; GM adjudicates results/countermeasures
+</dd>
+<dt><span id="option-nanoprinter">Nanoprinter</span></dt>
+<dd>
+print object/tool from blueprint/scanned model in minutes; after use 1d6: 1 → unusable until cycle end
+</dd>
+<dt><span id="option-enhanced-nexus-attack">Enhanced Nexus — Attack</span></dt>
+<dd>
+firewall test: roll 2d6, choose 1
+</dd>
+<dt><span id="option-enhanced-nexus-biomonitor">Enhanced Nexus — Biomonitor</span></dt>
+<dd>
++10 HP
+</dd>
+<dt><span id="option-enhanced-nexus-environmental-filters">Enhanced Nexus — Environmental Filters</span></dt>
+<dd>
+WIS +2 for scene/situation analysis using nexus filters
+</dd>
+<dt><span id="option-enhanced-nexus-firewall">Enhanced Nexus — Firewall*</span></dt>
+<dd>
+firewall 2; +1/purchase; max 5
+</dd>
+<dt><span id="option-enhanced-nexus-hacker">Enhanced Nexus — Hacker*</span></dt>
+<dd>
+1 Connection → opposing firewall −1/purchase; max −3
+</dd>
+<dt><span id="option-enhanced-nexus-facial-recognition">Enhanced Nexus — Facial Recognition</span></dt>
+<dd>
+unknown person → 1d6; 4+ available social-network information
+</dd>
+<dt><span id="option-enhanced-nexus-universal-translator">Enhanced Nexus — Universal Translator</span></dt>
+<dd>
+translate unknown spoken languages
+</dd>
+<dt><span id="option-parkour">Parkour</span></dt>
+<dd>
+dense urban: long-distance movement = civilian-vehicle speed; short/tactical ×2
+</dd>
+<dt><span id="option-light-steps">Light Steps</span></dt>
+<dd>
+quieter; cross surfaces unsuitable for heavier characters; reduced walking/running fatigue
+</dd>
+<dt><span id="option-corporate-portfolio">Corporate Portfolio*</span></dt>
+<dd>
+cycle end +1d6 ¥/purchase
+</dd>
+<dt><span id="option-first-aid">First Aid*</span></dt>
+<dd>
+not action; adjacent ally; spend 1 HP → ally +2 HP, +2/purchase; Heal and Stitch → +1d6 HP
+</dd>
+<dt><span id="option-emp-protection">EMP Protection*</span></dt>
+<dd>
+electronic/cybernetic equipment protected against 1 EMP discharge/cycle; if EMP still affects it → off until scene end, no further damage
+</dd>
+<dt><span id="option-safe-haven">Safe Haven</span></dt>
+<dd>
+place where nobody looks for you
+</dd>
+<dt><span id="option-storage-cache">Storage Cache</span></dt>
+<dd>
+protected resource/equipment/valuable storage; multiple routes + concealment/security prevent discovery
+</dd>
+<dt><span id="option-retreat">Retreat</span></dt>
+<dd>
+spend time there → +1 Luck
+</dd>
+<dt><span id="option-virtual-living-room">Virtual Living Room</span></dt>
+<dd>
+protected Matrix meeting space; no discovery/monitoring
+</dd>
+<dt><span id="option-consultancy-services">Consultancy Services*</span></dt>
+<dd>
+1/cycle specialist help: legal representation, contract negotiation, close protection, event organisation, document research, file analysis, transport logistics
+</dd>
+<dt><span id="option-pirate-idc">Forged IDC*</span></dt>
+<dd>
+false IDC; compromised/destroyed → ¥4 rebuild at cycle end; works with/without official IDC/IDO; false IDO normally unavailable
+</dd>
+<dt><span id="option-light-sleep">Light Sleep</span></dt>
+<dd>
+cannot be surprised asleep; wake alert
+</dd>
+<dt><span id="option-toughness">Toughness</span></dt>
+<dd>
+at 0 HP remain conscious/active; each further hit while still at 0, or each return to 0, → 1 wound
+</dd>
+</dl>
+</section>
+<section id="akashic-spirits" class="level3">
+<h3 class="anchored" data-anchor-id="akashic-spirits">Akashic Spirits</h3>
+<p>Requires <strong>Akashic Spirit</strong>. Choose 1. Each benefit costs 1 Luck; 1 Luck also ignores the disadvantage.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Spirit</th>
+<th>Benefits</th>
+<th>Disadvantage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Artist</strong></td>
+<td>quickly create complex digital work; assess work value + available creator information</td>
+<td>practise art daily; do not refuse concert/exhibition/museum</td>
+</tr>
+<tr class="even">
+<td><strong>Assassin</strong></td>
+<td>erase all surveillance images of yourself; find fast uncaught escape route</td>
+<td>do not refuse chance to cause a death you can complete, or could prevent by acting</td>
+</tr>
+<tr class="odd">
+<td><strong>Investigator</strong></td>
+<td>useful police/security database information; 3D-record whole crime scene for later study</td>
+<td>do not leave mystery unresolved</td>
+</tr>
+<tr class="even">
+<td><strong>Officer</strong></td>
+<td>positions of all security units within ~1 block; you + companions pass checkpoint by showing identity</td>
+<td>give orders/reject disobedience; obey superior</td>
+</tr>
+<tr class="odd">
+<td><strong>Dilettante</strong></td>
+<td>quickly create complete virtual environment for Matrix visitors; briefly bluff expertise in 1 specialist subject</td>
+<td>seek new culture/food/drink/sex/drugs/similar experiences; do not resist offer</td>
+</tr>
+<tr class="even">
+<td><strong>Businessman</strong></td>
+<td>+¥2; completely conceal financial transaction from tracing</td>
+<td>invest significant income share in corporate interests, GM discretion</td>
+</tr>
+<tr class="odd">
+<td><strong>Scientist</strong></td>
+<td>scientific assessment + useful interpretation; mathematical analysis of owned data → useful inference</td>
+<td>keep current scientifically; spend significant time reading relevant publications/books</td>
+</tr>
+<tr class="even">
+<td><strong>Seducer</strong></td>
+<td>all available Matrix information on seduction target; control AR/physical environment (music, lights, ads, announcements) to favour self/hinder rivals</td>
+<td>change partners regularly; organise full days for each partner</td>
+</tr>
+<tr class="odd">
+<td><strong>Thief</strong></td>
+<td>positions of all security systems within ~1 block; fence contacts for trade or commissioned theft</td>
+<td>steal + sell 1 valuable object/cycle</td>
+</tr>
+<tr class="even">
+<td><strong>Traveller</strong></td>
+<td>simultaneous foreign-language translation; organise public transport to shorten journey/lose pursuers</td>
+<td>regularly travel to distant destinations inside/outside city</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="regular-play" class="level2">
+<h2 class="anchored" data-anchor-id="regular-play">Regular Play</h2>
+<section id="golden-rule" class="level3">
+<h3 class="anchored" data-anchor-id="golden-rule">Golden Rule</h3>
+<p>Important question whose answer matters to the adventure but the GM does not know or want to decide → 1d6: <code>4+ yes · 1–3 no</code>.</p>
+</section>
+<section id="checks" class="level3">
+<h3 class="anchored" data-anchor-id="checks">Checks</h3>
+<p><code>3d6 + Attribute + bonuses</code>; 1 d6 is coloured. Success → total ≥ difficulty or opposition. Opposed check: opponent rolls <code>3d6 + relevant value</code>; NPC opposition uses Power.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Difficulty</th>
+<th style="text-align: right;">Target</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Simple</td>
+<td style="text-align: right;">9</td>
+</tr>
+<tr class="even">
+<td>Tricky</td>
+<td style="text-align: right;">12</td>
+</tr>
+<tr class="odd">
+<td>Difficult</td>
+<td style="text-align: right;">15</td>
+</tr>
+<tr class="even">
+<td>Very hard</td>
+<td style="text-align: right;">18</td>
+</tr>
+<tr class="odd">
+<td>Extremely complicated</td>
+<td style="text-align: right;">21</td>
+</tr>
+<tr class="even">
+<td>Almost impossible</td>
+<td style="text-align: right;">24</td>
+</tr>
+</tbody>
+</table>
+<p>Triple 6 → automatic success +1 Luck. Triple 1 → automatic failure +1 Luck + complications. No obstacle or meaningful consequence → automatic success. Impossible task → automatic failure. Success by about 5–6+ → extra benefit appropriate to action. Failure may become success at a cost; player may reject cost and accept failure. Failure may instead create a new obstacle/complication.</p>
+</section>
+<section id="cooperation" class="level3">
+<h3 class="anchored" data-anchor-id="cooperation">Cooperation</h3>
+<p>Help another character → +1 to their roll. Whole-group check → group succeeds if ≥half succeed individually.</p>
+</section>
+<section id="saves" class="level3">
+<h3 class="anchored" data-anchor-id="saves">Saves</h3>
+<p>Reaction to sudden danger: matching Attribute + applicable skill. Failure → danger applies. Success → danger cancelled or reduced as situation permits.</p>
+</section>
+<section id="hp-wounds-care" class="level3">
+<h3 class="anchored" data-anchor-id="hp-wounds-care">HP, wounds, care</h3>
+<p>Full night’s sleep → restore all HP + Connection.</p>
+<p><code>0 HP → 1 wound + unconscious</code> until care, rest, or 1 Luck restores consciousness. Each wound → maximum HP −5. Maximum HP reduced to 0 by wounds → death unless suitable new augmentation replaces damaged body; installing it clears all current wounds. Clinic → remove 1 wound for ¥4.</p>
+<dl>
+<dt><span id="option-care">Care</span></dt>
+<dd>
+1/day/character: <code>INT + applicable skill vs 15 → restore HP = coloured die</code>. Connection spent on roll → +2 HP/point. ¥ spent → +5 HP/¥.
+</dd>
+</dl>
+</section>
+<section id="connection" class="level3">
+<h3 class="anchored" data-anchor-id="connection">Connection</h3>
+<p>At 0 Connection → relationships cannot activate. Matrix exception: programs still launch, but each automatically triggers alarm.</p>
+</section>
+<section id="plans" class="level3">
+<h3 class="anchored" data-anchor-id="plans">Plans</h3>
+<p>Before a mission, each character may pay ¥2 → regain Connection equal to 1 chosen Attribute rank.</p>
+<p>Preparation domain: STR/CON — heavy work, vehicle modification, demolition gear; DEX/INT — data/electronics; WIS/CHA — information/contacts. Preparation need not be listed in advance.</p>
+<p>During that mission, spend Connection, including pooled Connection, to establish retroactive preparation when an obstacle/problem appears.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: right;">Connection</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td>bypass minor obstacle or save time on something otherwise easy</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3</td>
+<td>escape important danger or bypass obstacle requiring prepared material, skill, or information</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">5+</td>
+<td>bypass major obstacle or immediate lethal danger, substantially changing established situation</td>
+</tr>
+</tbody>
+</table>
+<p>Face may use normal Connection as plan points without pre-mission preparation.</p>
+</section>
+<section id="cycle" class="level3">
+<h3 class="anchored" data-anchor-id="cycle">Cycle</h3>
+<p>Players decide when cycle changes; a cycle may represent hours to weeks. <a href="../content/charsheet.html">Character sheet</a> gives recovery/XP effects. Cycle change also advances opposing factions’ plans.</p>
+</section>
+<section id="combat-turn" class="level3">
+<h3 class="anchored" data-anchor-id="combat-turn">Combat turn</h3>
+<p>Turn = 1 action + 1 manoeuvre.</p>
+<dl>
+<dt><span id="option-actions">Actions</span></dt>
+<dd>
+attack, skill, program.
+</dd>
+<dt><span id="option-manoeuvres">Manoeuvres</span></dt>
+<dd>
+move, take cover, aim, charge, help.
+</dd>
+</dl>
+<p>Supporting manoeuvre → action roll +1. Action may be spent as manoeuvre; manoeuvre cannot be spent as action.</p>
+<p>Exact movement: STR or DEX roll → metres moved this turn.</p>
+<p>Initiative acts high → low. Surprise → surprised side’s opponents +1d6 Initiative.</p>
+<p>The <a href="../content/charsheet.html">character sheet</a> gives standard attack/damage formulas and the Feat/Risk tables. Each combat turn, choose 1 Feat; GM rolls 1 Risk. If that Risk directly opposes the chosen Feat, ignore the Risk and apply the Feat.</p>
+<p>On hit, coloured damage die explodes: 6 → roll/add another d6; repeat on each 6. Damage → target HP. Damage may be split among one or more opponents whose Defence ≤ primary target Defence.</p>
+</section>
+<section id="combat-stunts" class="level3">
+<h3 class="anchored" data-anchor-id="combat-stunts">Combat stunts</h3>
+<p>Describe intended result/tactical goal. GM chooses Attribute attack vs Defence, check, save, or description.</p>
+<p>Attack Attributes may include: STR force; DEX precision; CHA feint/distraction; INT setup/tactics.</p>
+<p>Damage may represent effect strength instead of HP. GM may convert damage to save difficulty; source example: <code>7 + damage</code>.</p>
+</section>
+<section id="scene-details" class="level3">
+<h3 class="anchored" data-anchor-id="scene-details">Scene details</h3>
+<p>When acting, players may establish plausible previously unspecified terrain/details: cover, hiding place, choke point, similar feature. Established detail becomes true for everyone.</p>
+</section>
+<section id="social-resolution" class="level3">
+<h3 class="anchored" data-anchor-id="social-resolution">Social resolution</h3>
+<p>Minor social action → 1 quick roll, or none if uncertainty is unnecessary. Information exchange → play conversation directly; spoken content determines what is revealed. Social conflict where speech + mechanics both matter → CHA with situational modifiers, or multiple rolls/rounds if needed. No fixed social-combat subsystem.</p>
+</section>
+</section>
+<section id="relationships" class="level2">
+<h2 class="anchored" data-anchor-id="relationships">Relationships</h2>
+<p>Spend Connection to activate a relationship for help. GM may adjust cost for circumstances. Request directly matching the contact’s service → cost down 1 step.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Service</th>
+<th style="text-align: right;">Contact</th>
+<th style="text-align: right;">Friend</th>
+<th style="text-align: right;">Intimate</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Minor</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td>Important</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="odd">
+<td>Major</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="even">
+<td>Unique / major personal danger</td>
+<td style="text-align: right;">—</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">5</td>
+</tr>
+</tbody>
+</table>
+<section id="service-categories" class="level3">
+<h3 class="anchored" data-anchor-id="service-categories">Service categories</h3>
+<dl>
+<dt><span id="option-black-market">Black Market</span></dt>
+<dd>
+illicit/discounted goods; usually specialised.
+</dd>
+<dt><span id="option-entrances">Entrances</span></dt>
+<dd>
+restricted/important places/events.
+</dd>
+<dt><span id="option-information">Information</span></dt>
+<dd>
+technical, faction, neighbourhood, or other information.
+</dd>
+<dt><span id="option-intervention">Intervention</span></dt>
+<dd>
+field help; risk affects compensation.
+</dd>
+<dt><span id="option-transport">Transport</span></dt>
+<dd>
+people, cargo, messages; fast or discreet.
+</dd>
+<dt><span id="option-matrix">Matrix</span></dt>
+<dd>
+remote Matrix work/support.
+</dd>
+<dt><span id="option-fence">Fence</span></dt>
+<dd>
+buys stolen/recovered goods; prices depend on speciality.
+</dd>
+<dt><span id="option-refuge">Refuge</span></dt>
+<dd>
+safe shelter; may include medical facilities.
+</dd>
+<dt><span id="option-connections">Connections</span></dt>
+<dd>
+introductions through social network.
+</dd>
+<dt><span id="option-advice">Advice</span></dt>
+<dd>
+mentor/protector support.
+</dd>
+</dl>
+</section>
+<section id="rank-advancement" class="level3">
+<h3 class="anchored" data-anchor-id="rank-advancement">Rank advancement</h3>
+<p>GM awards ranks from relationship development.</p>
+<dl>
+<dt><span id="option-contact">Contact</span></dt>
+<dd>
+meet, spend time, render service, or establish working contact.
+</dd>
+<dt><span id="option-friend">Friend</span></dt>
+<dd>
+trust through shared experiences, mutual services, common interests, continued contact.
+</dd>
+<dt><span id="option-intimate">Intimate</span></dt>
+<dd>
+major personal investment; willingness to entrust secrets or life.
+</dd>
+</dl>
+<p>Betrayal or neglect may reduce or end a relationship.</p>
+</section>
+<section id="returning-favour" class="level3">
+<h3 class="anchored" data-anchor-id="returning-favour">Returning Favour</h3>
+<p>Meaningfully help a relationship with its own problem → involved characters +3 Connection + 1 future free service worth ≤3 Connection. Especially important favour → GM may instead award 1 relationship point.</p>
+</section>
+</section>
+<section id="matrix-rules" class="level2">
+<h2 class="anchored" data-anchor-id="matrix-rules">Matrix Rules</h2>
+<p>All characters can use nexus and programs.</p>
+<section id="program-activation" class="level3">
+<h3 class="anchored" data-anchor-id="program-activation">Program activation</h3>
+<p>Program cost = program level in Connection unless stated; use = 1 action. Programs normally manipulate Matrix or connected objects live/on site. Matrix research, custom coding, sorting/searching information may use normal skills.</p>
+<p>At 0 Connection → programs may still launch, but each automatically triggers alarm.</p>
+</section>
+<section id="firewalls" class="level3">
+<h3 class="anchored" data-anchor-id="firewalls">Firewalls</h3>
+<p>Pay program cost → roll 1d6. <code>Roll ≤ firewall</code> → blocked; cost spent. Stop, pay/retry, or force through → program works + alarm.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: right;">Firewall</th>
+<th>System</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">0</td>
+<td>unprotected nexus/machine</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1–2</td>
+<td>most automated systems/consumer nexuses</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3–4</td>
+<td>common corporate nexuses/systems</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">5</td>
+<td>strongest generally available corporate/security systems</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">6</td>
+<td>corporate anti-zone systems; described as impossible to hack</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="alarms" class="level3">
+<h3 class="anchored" data-anchor-id="alarms">Alarms</h3>
+<p>Forced firewall passage → 1d6 alarm. Local security may add a modifier, usually half local security level. Abilities/equipment may reduce the roll.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: right;">Roll</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td>no effective response</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td>all Connection costs +1 until cycle end</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td>Matrix unavailable to you until scene end</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td>Matrix unavailable until cycle end unless connection identity changes; remaining nearby brings response</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">5</td>
+<td>opposing programs spot you; GM rolls 1d6 = Connection still usable before full identification; tracing follows</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">6</td>
+<td>corporate forces arrive in 1d2 minutes; opposing programs mark/track you</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">7+</td>
+<td>counter-intrusion program attacks directly</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="counter-intrusion" class="level3">
+<h3 class="anchored" data-anchor-id="counter-intrusion">Counter-intrusion</h3>
+<p>Choose either procedure.</p>
+<section id="combat" class="level4">
+<h4 class="anchored" data-anchor-id="combat">Combat</h4>
+<p>Use normal combat. Hacker uses INT for attack + damage. Other characters enter by spending Connection = enemy program Power. Matrix combat damage affects real HP.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: right;">Power</th>
+<th>Program</th>
+<th>Stats</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td>Cerberus</td>
+<td>Defence 9; HP 15; attack +2; initiative +1d6</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td>Droïdeka</td>
+<td>Defence 12; HP 15; attack +2; damage +4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td>Flamer</td>
+<td>Defence 10; HP 25; attack +2; damage +3 area; initiative +2d6</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td>Guivre</td>
+<td>Defence 11; HP 30; attack +2; initiative +1d6; each attack, hit or miss, steals 1 Connection or deals +1d6 HP</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">5</td>
+<td>Golem</td>
+<td>Defence 15; HP 40; attack +2; damage +4; each attack steals 1 Hacker manoeuvre</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">6</td>
+<td>Hydra</td>
+<td>Defence 13; HP 30; attack +2; damage +4; initiative +4d6; +5 HP whenever Hacker/ally spends 1 Connection</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="save" class="level4">
+<h4 class="anchored" data-anchor-id="save">Save</h4>
+<p>INT save. Before roll, wager Connection → +1/point. Suggested difficulty <code>12 + 1d6</code>; d6 corresponds to counter-intrusion Power. Success → no effect. Failure → d26.</p>
+<p><strong>d26:</strong> roll 2d6; first die odd → 10s, even → 20s; second d6 = units.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: right;">d26</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">11</td>
+<td>ejected from Matrix until scene end</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">12</td>
+<td>1d6 exploding damage per Power</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">13</td>
+<td>ejected from Matrix until cycle end</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">14</td>
+<td>lose 1d6 Luck</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">15</td>
+<td>lose all Connection</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">16</td>
+<td>tracked 1d6 cycles; immediately alerts security or adds half Power to firewalls you attack</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">21</td>
+<td>1 physical/cybernetic item suffers EMP</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">22</td>
+<td>nexus fully hacked; local security obtains all data</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">23</td>
+<td>nexus destroyed; 1d6 4+ → stored data also destroyed</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">24</td>
+<td>all physical/cybernetic equipment suffers EMP</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">25</td>
+<td>nexus permanently loses 1 capability</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">26</td>
+<td>1d6 wounds from neural damage</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+<section id="matrix-programs" class="level2">
+<h2 class="anchored" data-anchor-id="matrix-programs">Matrix Programs</h2>
+<p>Program cost = level in Connection unless stated; use = 1 action.</p>
+<section id="level-1" class="level3">
+<h3 class="anchored" data-anchor-id="level-1">Level 1</h3>
+<dl>
+<dt><span id="option-security-system-control">Security System Control</span></dt>
+<dd>
+temporary local security-system control
+</dd>
+<dt><span id="option-emergency-disconnect">Emergency Disconnect</span></dt>
+<dd>
+force through: program works, alarm ignores you, lose all remaining Connection
+</dd>
+<dt><span id="option-diversion-of-communications">Communications Interception</span></dt>
+<dd>
+intercept communication: answer it or prevent delivery
+</dd>
+<dt><span id="option-geolocation">Geolocation</span></dt>
+<dd>
+divert target geolocation; always know position
+</dd>
+<dt><span id="option-quick-glance">Quick Glance</span></dt>
+<dd>
+target nexus personal information; amount depends on Matrix exposure/privacy
+</dd>
+<dt><span id="option-metamorphosis">Metamorphosis</span></dt>
+<dd>
+change AR appearance; affects AR viewers
+</dd>
+<dt><span id="option-symbiosis">Symbiosis</span></dt>
+<dd>
+piggyback user/system signal; receive same data, no control
+</dd>
+</dl>
+</section>
+<section id="level-2" class="level3">
+<h3 class="anchored" data-anchor-id="level-2">Level 2</h3>
+<dl>
+<dt><span id="option-accreditation">Accreditation</span></dt>
+<dd>
+temporary checkpoint accreditation for 1 person; +1 Connection/additional person
+</dd>
+<dt><span id="option-anonymat">Anonymity</span></dt>
+<dd>
+alarm −1
+</dd>
+<dt><span id="option-control-of-a-machine">Control of a Machine</span></dt>
+<dd>
+local machine control for simple tasks
+</dd>
+<dt><span id="option-listen">Listen</span></dt>
+<dd>
+after hacking target nexus, hear live conversations while in visual range
+</dd>
+<dt><span id="option-illusion">Illusion</span></dt>
+<dd>
+add/remove minor coherent elements from target AR
+</dd>
+<dt><span id="option-camera-playback">Camera Playback</span></dt>
+<dd>
+local camera data ≤WIS hours old, area ≤1 block
+</dd>
+<dt><span id="option-security-reset">Security Reset</span></dt>
+<dd>
+full turn disconnected → cancel all programs targeting/affecting you
+</dd>
+<dt><span id="option-decoy">Decoy</span></dt>
+<dd>
+false data to machines/cameras; they act on it
+</dd>
+<dt><span id="option-tampered-signal">Tampered Signal</span></dt>
+<dd>
+add data to communication signal
+</dd>
+<dt><span id="option-network-monitoring">Network Monitoring</span></dt>
+<dd>
+on site, display live people/machine communication links to identify functional groups
+</dd>
+</dl>
+</section>
+<section id="level-3" class="level3">
+<h3 class="anchored" data-anchor-id="level-3">Level 3</h3>
+<dl>
+<dt><span id="option-anonymisation">Anonymisation</span></dt>
+<dd>
+alarm −3
+</dd>
+<dt><span id="option-jamming">Jamming</span></dt>
+<dd>
+jam local communications; automatic alarm at −3
+</dd>
+<dt><span id="option-embezzlement">Embezzlement</span></dt>
+<dd>
+transfer funds; automatic alarm
+</dd>
+<dt><span id="option-invisibility">Invisibility</span></dt>
+<dd>
+absent from target AR; normal vision/disconnection/specific surveillance reveals you
+</dd>
+<dt><span id="option-access-restricted-data">Access Restricted Data</span></dt>
+<dd>
+access non-public databases; no search function → skill roll; may take turns/minutes/hours
+</dd>
+<dt><span id="option-hacking-of-interfaced-systems">Hacking of Interfaced Systems</span></dt>
+<dd>
+control target interfaced system; until reset, related rolls use only 2d6
+</dd>
+</dl>
+</section>
+<section id="level-4" class="level3">
+<h3 class="anchored" data-anchor-id="level-4">Level 4</h3>
+<dl>
+<dt><span id="option-network-control">Network Control</span></dt>
+<dd>
+filter network communications/data. Each minute: 1d6 &lt; elapsed minutes → alarm
+</dd>
+<dt><span id="option-decryptage">Decryption</span></dt>
+<dd>
+firewall −1 until scene end; stacks across uses/characters/consoles
+</dd>
+<dt><span id="option-protected-identity">Protected Identity</span></dt>
+<dd>
+normal Connection + ¥5/activation; protected secondary Matrix identity persists across cycles; identification requests route there. Opposing programs identify you → identity burns + pursuit ends; reactivate/pay to replace
+</dd>
+<dt><span id="option-saturation">Saturation</span></dt>
+<dd>
+flood target AR; target must disconnect until scene end to reset
+</dd>
+</dl>
+</section>
+<section id="level-5" class="level3">
+<h3 class="anchored" data-anchor-id="level-5">Level 5</h3>
+<dl>
+<dt><span id="option-counterorder">Counterorder</span></dt>
+<dd>
+cancel just-triggered alarm
+</dd>
+<dt><span id="option-destruction">Destruction</span></dt>
+<dd>
+collapse network across ~1 block; communications stop; secondary/alert systems start
+</dd>
+<dt><span id="option-worm">Worm</span></dt>
+<dd>
+install 1 persistent function: <strong>Backdoor</strong> firewall −1 on future visits, including later cycles; normal activations still required. <strong>Skimming</strong> cycle end +1d6 ¥; conspicuous if found. <strong>Supervision</strong> record system-file changes; report at scene end when needed
+</dd>
+</dl>
+</section>
+<section id="special" class="level3">
+<h3 class="anchored" data-anchor-id="special">Special</h3>
+<dl>
+<dt><span id="option-changing-data">Changing Data</span></dt>
+<dd>
+erase/corrupt system data; 2–5 Connection by data/change
+</dd>
+<dt><span id="option-data-funnel">Data Funnel</span></dt>
+<dd>
+sort/capture selected system data; variable Connection; often paired with Access Restricted Data
+</dd>
+</dl>
+</section>
+</section>
+<section id="vehicles" class="level2">
+<h2 class="anchored" data-anchor-id="vehicles">Vehicles</h2>
+<section id="cpa-operation" class="level3">
+<h3 class="anchored" data-anchor-id="cpa-operation">CPA operation</h3>
+<p>A CPA works like being on foot: fight, run, jump, and act normally; its size/mass may grant circumstantial advantages or disadvantages. Base CPA: Defence +2, all attack damage +5, 3 wounds. Unarmed + unarmoured CPA = legal civilian/work vehicle; combat CPA = security-restricted.</p>
+</section>
+<section id="speed-and-chases" class="level3">
+<h3 class="anchored" data-anchor-id="speed-and-chases">Speed and chases</h3>
+<p><code>Very Slow &lt; Slow &lt; Average &lt; Fast &lt; Ultra-Fast.</code></p>
+<p>Chase → usually compare relative speed. Terrain, traffic, road conditions, vehicle size may change result.</p>
+</section>
+<section id="platform" class="level3">
+<h3 class="anchored" data-anchor-id="platform">Platform</h3>
+<p>Vehicles may carry useful tools/equipment such as sensors, weapons, manipulators. Capacity follows vehicle size; heavy load may reduce speed by 1 step; otherwise use common sense.</p>
+</section>
+<section id="wounds-and-collisions" class="level3">
+<h3 class="anchored" data-anchor-id="wounds-and-collisions">Wounds and collisions</h3>
+<p>Vehicle wound capacity = 1–5; character vehicles generally ≥3. Qualifying hit/collision → wounds as specified. At wound limit → out of service until repaired or destroyed, depending on fiction.</p>
+<p>Collision wounds by current speed: <code>Slow 1 · Average 2 · Fast 3 · Ultra-Fast 4</code>. Frontal +1; rear −1.</p>
+</section>
+<section id="armour" class="level3">
+<h3 class="anchored" data-anchor-id="armour">Armour</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Armour</th>
+<th style="text-align: right;">Passenger damage reduction</th>
+<th>Minimum calibre</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>None</td>
+<td style="text-align: right;">0</td>
+<td>any firearm/projectile</td>
+</tr>
+<tr class="even">
+<td>Light</td>
+<td style="text-align: right;">1d6</td>
+<td>any firearm</td>
+</tr>
+<tr class="odd">
+<td>Medium</td>
+<td style="text-align: right;">2d6</td>
+<td>assault rifle or heavier</td>
+</tr>
+<tr class="even">
+<td>Heavy</td>
+<td style="text-align: right;">3d6</td>
+<td>heavy cannon, rockets, missiles</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="defence-and-damage" class="level3">
+<h3 class="anchored" data-anchor-id="defence-and-damage">Defence and damage</h3>
+<p>Stationary Defence 7. Moving Defence 11. Ultra-Fast +2 Defence. Target passenger → +4 Defence + passenger protection bonus.</p>
+<p>Successful hit with sufficient calibre → 1 vehicle wound. Do not roll normal HP damage against vehicle.</p>
+</section>
+<section id="driving" class="level3">
+<h3 class="anchored" data-anchor-id="driving">Driving</h3>
+<p>Use DEX or INT; sometimes CON for endurance. Roll only when avoiding obstacle/problem.</p>
+<p>Normal driver in combat → 1 action/turn; no additional manoeuvre; no bonus action from Initiative.</p>
+</section>
+<section id="neural-interface" class="level3">
+<h3 class="anchored" data-anchor-id="neural-interface">Neural interface</h3>
+<p>Neuronic → interface directly with vehicle/machine; piloting +2; access interfaced equipment.</p>
+</section>
+<section id="rigger-transfer" class="level3">
+<h3 class="anchored" data-anchor-id="rigger-transfer">Rigger Transfer</h3>
+<p>While interfaced → act as vehicle; 1 action + 1 manoeuvre/turn; receive Initiative bonus actions; vehicle HP = Rigger personal HP; vehicle wound capacity +1; hits remove vehicle HP before wounds; if aboard, Rigger may take wounds instead of vehicle.</p>
+</section>
+</section>
+<section id="equipment" class="level2">
+<h2 class="anchored" data-anchor-id="equipment">Equipment</h2>
+<p>Unless stated, firearm/melee/protection/CPA/vehicle/drone option = ¥4. <code>*</code> = repeatable purchase. <code>[X]</code> = prerequisite. ¥ may be pooled or kept individually.</p>
+<section id="nexus" class="level3">
+<h3 class="anchored" data-anchor-id="nexus">Nexus</h3>
+<p>Nexus bonus adds daily Connection.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Nexus</th>
+<th style="text-align: right;">Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Basic</td>
+<td style="text-align: right;">¥4</td>
+</tr>
+<tr class="even">
+<td>+1</td>
+<td style="text-align: right;">¥8</td>
+</tr>
+<tr class="odd">
+<td>+3</td>
+<td style="text-align: right;">¥12</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="visibility" class="level3">
+<h3 class="anchored" data-anchor-id="visibility">Visibility</h3>
+<p><code>Obvious → Visible → Inconspicuous → Concealed.</code></p>
+<dl>
+<dt><span id="option-obvious">Obvious</span></dt>
+<dd>
+cannot conceal; attracts attention.
+</dd>
+<dt><span id="option-visible">Visible</span></dt>
+<dd>
+may cover; cannot use while covered.
+</dd>
+<dt><span id="option-invisible">Inconspicuous</span></dt>
+<dd>
+requires search/electronic detection.
+</dd>
+<dt><span id="option-concealed">Concealed</span></dt>
+<dd>
+actively hidden; systems also reduce the risk of electronic detection.
+</dd>
+<dt><span id="option-discreet">Discreet</span></dt>
+<dd>
+move 1 step toward Concealed.
+</dd>
+</dl>
+</section>
+<section id="weapons" class="level3">
+<h3 class="anchored" data-anchor-id="weapons">Weapons</h3>
+<p>Additional weapon: ¥8.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Category</th>
+<th style="text-align: right;">Damage</th>
+<th>Visibility</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Handgun</td>
+<td style="text-align: right;">+0</td>
+<td>Inconspicuous</td>
+</tr>
+<tr class="even">
+<td>Assault rifle / shotgun</td>
+<td style="text-align: right;">+3</td>
+<td>Visible</td>
+</tr>
+<tr class="odd">
+<td>Precision rifle</td>
+<td style="text-align: right;">+3</td>
+<td>Visible assembled; Inconspicuous disassembled</td>
+</tr>
+<tr class="even">
+<td>Assault cannon / heavy machine gun</td>
+<td style="text-align: right;">+5</td>
+<td>Obvious</td>
+</tr>
+<tr class="odd">
+<td>Short nanoblade</td>
+<td style="text-align: right;">+0</td>
+<td>Inconspicuous</td>
+</tr>
+<tr class="even">
+<td>Long nanoblade</td>
+<td style="text-align: right;">+3</td>
+<td>Visible</td>
+</tr>
+<tr class="odd">
+<td>Tonfa / cestus</td>
+<td style="text-align: right;">+3</td>
+<td>Visible</td>
+</tr>
+<tr class="even">
+<td>Taser</td>
+<td style="text-align: right;">+0, non-lethal/special</td>
+<td>Inconspicuous</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="protection" class="level3">
+<h3 class="anchored" data-anchor-id="protection">Protection</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Protection</th>
+<th style="text-align: right;">Defence</th>
+<th style="text-align: right;">Cost</th>
+<th>Visibility</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Light civilian vest</td>
+<td style="text-align: right;">+1</td>
+<td style="text-align: right;">¥4</td>
+<td>Inconspicuous</td>
+</tr>
+<tr class="even">
+<td>Civilian vest</td>
+<td style="text-align: right;">+2</td>
+<td style="text-align: right;">¥8</td>
+<td>Inconspicuous</td>
+</tr>
+<tr class="odd">
+<td>Tactical vest</td>
+<td style="text-align: right;">+3</td>
+<td style="text-align: right;">¥12</td>
+<td>Visible</td>
+</tr>
+</tbody>
+</table>
+<p>Civilian protection → Inconspicuous + allowed everywhere. Tactical protection → Visible; without appropriate accreditation, carrying it invites serious security/police checks.</p>
+</section>
+<section id="vehicles-for-purchase" class="level3">
+<h3 class="anchored" data-anchor-id="vehicles-for-purchase">Vehicles for purchase</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Vehicle</th>
+<th style="text-align: right;">Cost</th>
+<th>Speed</th>
+<th>Design / capacity</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Civilian CPA</td>
+<td style="text-align: right;">¥12</td>
+<td>Slow</td>
+<td>Civilian powered suit/mecha; force-work and urban-work platform.</td>
+</tr>
+<tr class="even">
+<td>Urban two-wheeler</td>
+<td style="text-align: right;">¥4</td>
+<td>Average</td>
+<td>Scooter / low-displacement motorcycle.</td>
+</tr>
+<tr class="odd">
+<td>Fast motorcycle</td>
+<td style="text-align: right;">¥8</td>
+<td>Fast</td>
+<td>Racing motorcycle.</td>
+</tr>
+<tr class="even">
+<td>Urban electric car</td>
+<td style="text-align: right;">¥8</td>
+<td>Slow</td>
+<td>2 seats; no trunk; compact/easy to park.</td>
+</tr>
+<tr class="odd">
+<td>Suburban car</td>
+<td style="text-align: right;">¥12</td>
+<td>Average</td>
+<td>4 cramped seats.</td>
+</tr>
+<tr class="even">
+<td>Road car</td>
+<td style="text-align: right;">¥14</td>
+<td>Fast</td>
+<td>5 seats; powerful road car.</td>
+</tr>
+<tr class="odd">
+<td>Drift / Fast &amp; Furious car</td>
+<td style="text-align: right;">¥18</td>
+<td>Ultra-Fast</td>
+<td>High-performance sports/drift car; nitro.</td>
+</tr>
+<tr class="even">
+<td>SUV</td>
+<td style="text-align: right;">¥16</td>
+<td>Fast</td>
+<td>Heavy/powerful; lots of interior room.</td>
+</tr>
+<tr class="odd">
+<td>Van</td>
+<td style="text-align: right;">¥15</td>
+<td>Average</td>
+<td>3 front seats + huge rear cargo area; can house a workshop.</td>
+</tr>
+<tr class="even">
+<td>Truck</td>
+<td style="text-align: right;">¥25</td>
+<td>Slow to Average</td>
+<td>Carries several tonnes of cargo.</td>
+</tr>
+<tr class="odd">
+<td>Drone</td>
+<td style="text-align: right;">¥4</td>
+<td>Slow to Fast</td>
+<td>Small remote robot; functions vary by design.</td>
+</tr>
+</tbody>
+</table>
+<p>Source conflict: purchase table lists <strong>Civilian CPA = Slow</strong>; CPA catalogue says a factory-standard CPA is <strong>Very Slow</strong>. No reconciliation is given.</p>
+</section>
+<section id="weapon-and-protection-options" class="level3">
+<h3 class="anchored" data-anchor-id="weapon-and-protection-options">Weapon and protection options</h3>
+<p>Shared options use the same rule wherever listed.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Option</th>
+<th>Applies to</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Discreet</strong></td>
+<td>Firearm, melee, protection</td>
+<td>See <strong>Visibility</strong>.</td>
+</tr>
+<tr class="even">
+<td><strong>Electric Shock*</strong></td>
+<td>Melee, protection</td>
+<td>1/combat: +1d6 melee damage on one attack.</td>
+</tr>
+<tr class="odd">
+<td><strong>Interfaced</strong></td>
+<td>Firearm, melee</td>
+<td><a href="#neuronic">Neuronic</a> Attack +2.</td>
+</tr>
+<tr class="even">
+<td><strong>Menacing</strong></td>
+<td>Firearm, melee</td>
+<td>Intimidation +2 against people who respond to force.</td>
+</tr>
+<tr class="odd">
+<td><strong>Precision</strong></td>
+<td>Firearm, melee</td>
+<td>Attack +2.</td>
+</tr>
+<tr class="even">
+<td><strong>Secured</strong></td>
+<td>Firearm, melee</td>
+<td>Registered genotype only.</td>
+</tr>
+</tbody>
+</table>
+<section id="firearms" class="level4">
+<h4 class="anchored" data-anchor-id="firearms">Firearms</h4>
+<dl>
+<dt><span id="option-target-lock">Target Lock</span></dt>
+<dd>
+full turn aiming, no hindrance/movement: record ≤3 targets; next turn ≤3 successive shots against them
+</dd>
+<dt><span id="option-versatile-chambering">Versatile Chambering</span></dt>
+<dd>
+use all special ammunition
+</dd>
+<dt><span id="option-iff">IFF</span></dt>
+<dd>
+if allies wear active IFF protection, weapon cannot target them by mistake, including during burst fire
+</dd>
+<dt><span id="option-impact">Impact*</span></dt>
+<dd>
+damage +1/purchase; max +3
+</dd>
+<dt><span id="option-long-range">Long Range</span></dt>
+<dd>
+ignore long-range attack penalty
+</dd>
+<dt><span id="option-vocal-multi-loader">Voice-Controlled Ammo Selector</span></dt>
+<dd>
+[Versatile Chambering] switch special ammunition during turn; adjustable voice sensitivity; registered voice only
+</dd>
+<dt><span id="option-silenced">Silenced</span></dt>
+<dd>
+firing does not reveal position if nobody is near detonation or surrounding noise is high
+</dd>
+<dt><span id="option-burst-fire">Burst Fire</span></dt>
+<dd>
+attack several targets; difficulty = highest Defence +1/extra target; same damage to each hit
+</dd>
+<dt><span id="option-rapid-fire">Rapid Fire</span></dt>
+<dd>
+[Interfaced] 1 Connection → +1 shot
+</dd>
+<dt><span id="option-laser-sight">Laser Sight</span></dt>
+<dd>
+attack +1; no effect with Interfaced
+</dd>
+</dl>
+</section>
+<section id="special-ammunition" class="level4">
+<h4 class="anchored" data-anchor-id="special-ammunition">Special ammunition</h4>
+<p>Pay listed Connection 1/combat → ammunition available for that combat.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Ammunition</th>
+<th style="text-align: right;">Connection</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Self-Guided</strong></td>
+<td style="text-align: right;">2</td>
+<td>Attack +2; +0 against targets hidden behind obstacles.</td>
+</tr>
+<tr class="even">
+<td><strong>Shock</strong></td>
+<td style="text-align: right;">1</td>
+<td>Non-lethal incapacitation.</td>
+</tr>
+<tr class="odd">
+<td><strong>EMP</strong></td>
+<td style="text-align: right;">7</td>
+<td>Highly controlled/difficult to source; no HP damage; effect = coloured damage die + damage bonuses.</td>
+</tr>
+<tr class="even">
+<td><strong>Expanding</strong></td>
+<td style="text-align: right;">1</td>
+<td>Damage +2 against unprotected targets; especially useful against objects.</td>
+</tr>
+<tr class="odd">
+<td><strong>Darts</strong></td>
+<td style="text-align: right;">3</td>
+<td>Carry toxins with specific effects; no HP damage. Sedative toxin result = coloured damage die + damage bonuses.</td>
+</tr>
+<tr class="even">
+<td><strong>Armour-Piercing</strong></td>
+<td style="text-align: right;">2</td>
+<td>Ignore Defence from protection; damage −3.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>EMP:</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: right;">Result</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td>temporary overheating; no lasting damage</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2–3</td>
+<td>disabled 1 turn; vital equipment → fall + cannot act</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">4</td>
+<td>disabled until scene end/restart</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">5</td>
+<td>disabled until cycle end; repair ≥¥4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">6+</td>
+<td>destroyed; vital-system loss may kill; full-price replacement</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Darts:</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: right;">Result</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td>fails to penetrate clothing; no effect</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2–3</td>
+<td>stunned: actions −2 until rest</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">4–5</td>
+<td>nauseated: all actions use 2 dice until rest</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">6+</td>
+<td>unconscious</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="melee-weapons" class="level4">
+<h4 class="anchored" data-anchor-id="melee-weapons">Melee weapons</h4>
+<dl>
+<dt><span id="option-vibroblade">Vibroblade</span></dt>
+<dd>
+ultrasonic vibration destroys/destabilises physical structures
+</dd>
+<dt><span id="option-impact-2">Impact*</span></dt>
+<dd>
+damage +2/purchase; max +6
+</dd>
+<dt><span id="option-shape-memory">Shape Memory</span></dt>
+<dd>
+nanoblade retracts into handle, needs no scabbard, stores easily in coat/bag; full turn to deploy
+</dd>
+<dt><span id="option-prestigious">Prestigious</span></dt>
+<dd>
+social +2 with people impressed by visible weapon
+</dd>
+</dl>
+</section>
+<section id="protection-1" class="level4">
+<h4 class="anchored" data-anchor-id="protection-1">Protection</h4>
+<dl>
+<dt><span id="option-auto-injector">Auto-Injector*</span></dt>
+<dd>
+1/cycle, 0 HP → +5 HP
+</dd>
+<dt><span id="option-iff-2">IFF</span></dt>
+<dd>
+when active, allies cannot shoot wearer deliberately or by mistake
+</dd>
+<dt><span id="option-interfaced">Interfaced</span></dt>
+<dd>
+<a href="#neuronic">Neuronic</a> perception +2
+</dd>
+<dt><span id="option-shape-memory-2">Shape Memory</span></dt>
+<dd>
+Defence +1
+</dd>
+<dt><span id="option-reinforcements">Reinforcements</span></dt>
+<dd>
++5 HP; incompatible with Discreet
+</dd>
+<dt><span id="option-vital-support">Life Support*</span></dt>
+<dd>
+cancel 1 wound/cycle per purchase; max 3 wounds/cycle
+</dd>
+</dl>
+</section>
+</section>
+<section id="cpa-vehicle-and-drone-options" class="level3">
+<h3 class="anchored" data-anchor-id="cpa-vehicle-and-drone-options">CPA, vehicle and drone options</h3>
+<p><strong>CPA:</strong> Defence +2; all attack damage +5; 3 wounds. Acts as if on foot, including fighting/running/jumping; size/mass may give circumstantial advantages/disadvantages. Unarmed + unarmoured CPA = legal civilian/work vehicle; combat CPA = security-restricted.</p>
+<p><strong>Civilian vehicle:</strong> includes corporate-checkpoint authorisations; character-operated = 3 wounds.</p>
+<p><strong>Drone:</strong> autonomous module of variable size, normally controlled through Matrix; radio control is rarer.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Option</th>
+<th>Applies to</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Acceleration*</strong></td>
+<td>CPA, civilian, drone</td>
+<td>Speed +1 step/purchase. CPA catalogue baseline = Very Slow.</td>
+</tr>
+<tr class="even">
+<td><strong>Armament</strong></td>
+<td>CPA</td>
+<td>Install melee or ranged weapon; use relevant weapon options.</td>
+</tr>
+<tr class="odd">
+<td><strong>Armament</strong></td>
+<td>Civilian, drone</td>
+<td>Install ranged weapon; use firearm options.</td>
+</tr>
+<tr class="even">
+<td><strong>EMP Protection*</strong></td>
+<td>CPA, civilian, drone</td>
+<td>Protect/cancel 1 EMP effect per cycle per purchase.</td>
+</tr>
+<tr class="odd">
+<td><strong>Concealed Armament</strong></td>
+<td>Civilian, drone</td>
+<td>[Armament] Weapon concealed when inactive.</td>
+</tr>
+<tr class="even">
+<td><strong>Autopilot</strong></td>
+<td>Civilian, drone</td>
+<td>Self-operates under normal conditions.</td>
+</tr>
+<tr class="odd">
+<td><strong>Reinforced Armour*</strong></td>
+<td>Civilian, drone</td>
+<td>Baseline generally Light or None; +1 armour rank/purchase; Medium/Heavy usually require authorisation and count as military equipment.</td>
+</tr>
+<tr class="even">
+<td><strong>Stealthy</strong></td>
+<td>Civilian, drone</td>
+<td>+2 vs electronic detection.</td>
+</tr>
+<tr class="odd">
+<td><strong>Nanocamouflage</strong></td>
+<td>Civilian, drone</td>
+<td>Change colour/visual ID live from stored patterns.</td>
+</tr>
+<tr class="even">
+<td><strong>Environmental Seals*</strong></td>
+<td>CPA, civilian</td>
+<td>Protect cockpit from vacuum/cold/heat/toxins/radiation/similar extremes for 12h; each additional purchase +6h.</td>
+</tr>
+<tr class="odd">
+<td><strong>Sensors</strong></td>
+<td>CPA, drone</td>
+<td>Add 1 specific Panoptic-equivalent sensor.</td>
+</tr>
+</tbody>
+</table>
+<section id="cpa-options" class="level4">
+<h4 class="anchored" data-anchor-id="cpa-options">CPA options</h4>
+<dl>
+<dt><span id="option-anti-shock">Anti-Shock</span></dt>
+<dd>
+ignore wound effects; at wound limit → immobilised until combat end, repairable; without it → destroyed/scrap
+</dd>
+<dt><span id="option-piloting-assistance">Piloting Assistance*</span></dt>
+<dd>
+CPA movement +2/purchase
+</dd>
+<dt><span id="option-armour-plating">Armour Plating*</span></dt>
+<dd>
+factory baseline = None; +1 rank/purchase (Light → Medium → Heavy); Medium/Heavy usually require authorisation and count as military equipment
+</dd>
+<dt><span id="option-jumps">Jumps</span></dt>
+<dd>
+thrusters permit jumps of several tens of metres
+</dd>
+<dt><span id="option-solidity">Durability*</span></dt>
+<dd>
+wound capacity +1/purchase
+</dd>
+<dt><span id="option-superior-power">Superior Power</span></dt>
+<dd>
+raw-force actions +4; lift considerable masses
+</dd>
+</dl>
+</section>
+<section id="civilian-vehicle-options" class="level4">
+<h4 class="anchored" data-anchor-id="civilian-vehicle-options">Civilian vehicle options</h4>
+<dl>
+<dt><span id="option-medical-assistance">Medical Assistance</span></dt>
+<dd>
+1/cycle, if you fall out of combat while at controls → +5 HP
+</dd>
+<dt><span id="option-cargo-hold">Cargo Hold*</span></dt>
+<dd>
+more cargo space; multiple holds may substantially change vehicle shape/size
+</dd>
+<dt><span id="option-stylish">Stylish</span></dt>
+<dd>
+social +2 with nearby vehicle enthusiasts/relevant urban tribes
+</dd>
+</dl>
+</section>
+<section id="drone-options" class="level4">
+<h4 class="anchored" data-anchor-id="drone-options">Drone options</h4>
+<dl>
+<dt><span id="option-movement-mode">Movement Mode*</span></dt>
+<dd>
+add aerial/terrestrial/amphibious mode; 1 action to switch
+</dd>
+<dt><span id="option-solidity-2">Durability</span></dt>
+<dd>
+wound capacity +1
+</dd>
+</dl>
+</section>
+<section id="drone-types" class="level4">
+<h4 class="anchored" data-anchor-id="drone-types">Drone types</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Movement</th>
+<th>Speed</th>
+<th style="text-align: right;">Wounds</th>
+<th>Features</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Combatant</strong></td>
+<td>Flight</td>
+<td>Fast</td>
+<td style="text-align: right;">3</td>
+<td>Assault-rifle-equivalent weapon; Defence +2 to Rigger.</td>
+</tr>
+<tr class="even">
+<td><strong>Spy</strong></td>
+<td>Flight</td>
+<td>Very Slow</td>
+<td style="text-align: right;">1</td>
+<td>Concealed; stealth +4; multiple Panoptic sensor options, mainly microphones/cameras.</td>
+</tr>
+<tr class="odd">
+<td><strong>Manipulator</strong></td>
+<td>Flight</td>
+<td>Slow</td>
+<td style="text-align: right;">4</td>
+<td>Tools, manipulator arms, Fractal Hand for fine remote work.</td>
+</tr>
+<tr class="even">
+<td><strong>Patroller</strong></td>
+<td>Flight</td>
+<td>Average</td>
+<td style="text-align: right;">2</td>
+<td>Perception/vigilance +4.</td>
+</tr>
+<tr class="odd">
+<td><strong>Transporter</strong></td>
+<td>Flight</td>
+<td>Fast</td>
+<td style="text-align: right;">2</td>
+<td>Armoured, secured cargo compartment.</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+</section>
+</section>
+<section id="augmentations" class="level2">
+<h2 class="anchored" data-anchor-id="augmentations">Augmentations</h2>
+<p>Base augmentation ¥12 after creation. Option ¥4 unless stated. At creation, any skill/ability choice may instead be an augmentation. Augmentations ≤ CON. No option-count limit is specified. <code>*</code> = repeatable purchase. <code>[X]</code> = prerequisite.</p>
+<section id="cybernetic-augmentations" class="level3">
+<h3 class="anchored" data-anchor-id="cybernetic-augmentations">Cybernetic augmentations</h3>
+<section id="neuronic" class="level4">
+<h4 class="anchored" data-anchor-id="neuronic">Neuronic</h4>
+<dl>
+<dt><span id="option-neural-plug">Neural Plug</span></dt>
+<dd>
+interfaced equipment: associated rolls generally +2 where stated; also satisfies interface prerequisites.
+</dd>
+<dt><span id="option-affinity">Affinity</span></dt>
+<dd>
+mental communication with registered users
+</dd>
+<dt><span id="option-matrix-wiring">Matrix Wiring*</span></dt>
+<dd>
+Connection +1; max +3.
+</dd>
+<dt><span id="option-smart-external-cables">Smart External Cables</span></dt>
+<dd>
+cables self-unroll/connect
+</dd>
+<dt><span id="option-emotion-control">Emotion Control</span></dt>
+<dd>
+suppress selected emotions
+</dd>
+<dt><span id="option-temporal-shunt">Temporal Shunt</span></dt>
+<dd>
+1/cycle, 5 Connection → replay 1 full conflict round for you + companions
+</dd>
+<dt><span id="option-pain-inhibitor">Pain Inhibitor*</span></dt>
+<dd>
+1/cycle: ignore wound penalties for 1 scene
+</dd>
+<dt><span id="option-hidden-memory">Hidden Memory</span></dt>
+<dd>
+hide selected memories until trigger
+</dd>
+<dt><span id="option-logic-processor">Logic Processor</span></dt>
+<dd>
+document/situation analysis +4
+</dd>
+<dt><span id="option-cortical-redundancy">Cortical Redundancy</span></dt>
+<dd>
+body pulverised by a high-powered weapon or explosion → 1d6; 4+ brain survives intact
+</dd>
+<dt><span id="option-stress-reducer">Stress Reducer*</span></dt>
+<dd>
+1/cycle: automatic success on 1 social action
+</dd>
+<dt><span id="option-wired-reflexes">Wired Reflexes</span></dt>
+<dd>
+Defence +1; initiative +1d6
+</dd>
+<dt><span id="option-emotional-stabilizer">Emotional Stabilizer*</span></dt>
+<dd>
+Luck +1/cycle; max +3
+</dd>
+</dl>
+</section>
+<section id="nanogenetic" class="level4">
+<h4 class="anchored" data-anchor-id="nanogenetic">Nanogenetic</h4>
+<dl>
+<dt><span id="option-regeneration">Regeneration</span></dt>
+<dd>
+1 Luck → full HP
+</dd>
+<dt><span id="option-trauma-damper">Trauma Damper*</span></dt>
+<dd>
+1/cycle: cancel 1 wound at 0 HP
+</dd>
+<dt><span id="option-hydra-genoblasts">Hydra Genoblasts*</span></dt>
+<dd>
+1/scene: +5 HP
+</dd>
+<dt><span id="option-totipotent-genoblasts">Totipotent Genoblasts</span></dt>
+<dd>
++5 HP
+</dd>
+<dt><span id="option-rejuvenation">Rejuvenation</span></dt>
+<dd>
++10 years lifespan/treatment
+</dd>
+<dt><span id="option-body-adjustment">Body Adjustment</span></dt>
+<dd>
+[Rejuvenation] alter hair/eyes/height/general morphology
+</dd>
+<dt><span id="option-metabolic-screen">Metabolic Screen</span></dt>
+<dd>
+[Rejuvenation] prevent excessive weight gain/loss
+</dd>
+<dt><span id="option-onkos-screen">Onkos Screen</span></dt>
+<dd>
+[Rejuvenation] protect from tumours/cancer; tolerate high-radiation work
+</dd>
+<dt><span id="option-trauma-eraser">Trauma Eraser</span></dt>
+<dd>
+[Rejuvenation] remove scars/tattoos/body marks
+</dd>
+<dt><span id="option-tox-cleanse">Tox Cleanse</span></dt>
+<dd>
+[Rejuvenation] remove carcinogenic/biological toxins
+</dd>
+<dt><span id="option-endocrine-modification">Endocrine Modification</span></dt>
+<dd>
+always roll initiative, even surprised
+</dd>
+<dt><span id="option-empathy">Empathy</span></dt>
+<dd>
+[Endocrine Modification] read emotions/lies +4
+</dd>
+<dt><span id="option-nanoconductor">Nanoconductor</span></dt>
+<dd>
+[Endocrine Modification] immune to electricity
+</dd>
+<dt><span id="option-premonitions">Premonitions</span></dt>
+<dd>
+[Endocrine Modification] 1/cycle: ask GM 1 question about imminent event or determine 1 yourself
+</dd>
+<dt><span id="option-pyrokinesis">Pyrokinesis</span></dt>
+<dd>
+[Endocrine Modification] gas-burner-sized palm flame
+</dd>
+</dl>
+</section>
+<section id="panoptic" class="level4">
+<h4 class="anchored" data-anchor-id="panoptic">Panoptic</h4>
+<dl>
+<dt><span id="option-enhanced-senses">Enhanced Senses</span></dt>
+<dd>
+perception +4
+</dd>
+<dt><span id="option-sensory-dampeners">Sensory Dampeners</span></dt>
+<dd>
+protect hearing from sudden/sustained loud noise
+</dd>
+<dt><span id="option-light-amplifier">Light Amplifier</span></dt>
+<dd>
+low-light vision
+</dd>
+<dt><span id="option-sound-amplifier">Sound Amplifier</span></dt>
+<dd>
+increased hearing range/precision
+</dd>
+<dt><span id="option-chemical-analyzer">Chemical Analyzer</span></dt>
+<dd>
+analyse substances by taste/smell
+</dd>
+<dt><span id="option-extended-auditory-range">Extended Auditory Range</span></dt>
+<dd>
+hear infrasound/ultrasound
+</dd>
+<dt><span id="option-radiation-detector">Radiation Detector</span></dt>
+<dd>
+no surprise from radiation
+</dd>
+<dt><span id="option-sound-editor">Sound Editor</span></dt>
+<dd>
+separate sound sources live
+</dd>
+<dt><span id="option-balance">Balance</span></dt>
+<dd>
+ignore motion sickness/vertigo
+</dd>
+<dt><span id="option-synesthetic-recorder">Synesthetic Recorder</span></dt>
+<dd>
+record surrounding sensory information
+</dd>
+<dt><span id="option-emotional-implant">Emotional Implant</span></dt>
+<dd>
+[Synesthetic Recorder] add sensations/emotions
+</dd>
+<dt><span id="option-sensory-implant">Sensory Implant</span></dt>
+<dd>
+[Synesthetic Recorder] add touch/smell
+</dd>
+<dt><span id="option-infrared">Infrared</span></dt>
+<dd>
+see infrared
+</dd>
+<dt><span id="option-electromagnetic-reader">Electromagnetic Reader</span></dt>
+<dd>
+read/decode electromagnetic signals
+</dd>
+<dt><span id="option-photographic-memory">Photographic Memory*</span></dt>
+<dd>
+complete detail of 1 selected scene at a time
+</dd>
+<dt><span id="option-directional-microphone">Directional Microphone</span></dt>
+<dd>
+isolate distant directional sound
+</dd>
+<dt><span id="option-isothermal-probe">Isothermal Probe</span></dt>
+<dd>
+detect thermoclines/temperature boundaries
+</dd>
+<dt><span id="option-radar-sensor">Radar Sensor</span></dt>
+<dd>
+detect/analyse radar
+</dd>
+<dt><span id="option-ultraviolet">Ultraviolet</span></dt>
+<dd>
+see ultraviolet
+</dd>
+<dt><span id="option-zoom">Zoom</span></dt>
+<dd>
+magnify distant view
+</dd>
+<dt><span id="option-high-definition-vision">High-Definition Vision</span></dt>
+<dd>
+[Zoom] resolve small distant/microscopic detail
+</dd>
+</dl>
+</section>
+<section id="prosthetic" class="level4">
+<h4 class="anchored" data-anchor-id="prosthetic">Prosthetic</h4>
+<dl>
+<dt><span id="option-power">Power</span></dt>
+<dd>
+force work/endurance/athletics +2; choose 1 body replacement. <strong>Hidden Compartment</strong> — small-object storage.
+</dd>
+</dl>
+<section id="woven-skin" class="level5">
+<h5 class="anchored" data-anchor-id="woven-skin">Woven Skin</h5>
+<p>Base: Defence +1.</p>
+<dl>
+<dt><span id="option-dermal-display">Dermal Display</span></dt>
+<dd>
+skin display
+</dd>
+<dt><span id="option-thermo-optical-camouflage">Thermo-Optical Camouflage</span></dt>
+<dd>
+match surroundings while naked
+</dd>
+<dt><span id="option-motion-sensors">Motion Sensors</span></dt>
+<dd>
+detect movement within a few metres
+</dd>
+<dt><span id="option-dermal-paint">Dermal Paint</span></dt>
+<dd>
+alter skin colour/patterns
+</dd>
+<dt><span id="option-flashderm">Flashderm*</span></dt>
+<dd>
+1/cycle: flash-grenade effect
+</dd>
+<dt><span id="option-nictitating-membrane">Nictitating Membrane</span></dt>
+<dd>
+eyes protected from dust/acids/toxins/tear gas
+</dd>
+<dt><span id="option-photoderm">Photoderm</span></dt>
+<dd>
+directional high-power flashlight from skin
+</dd>
+<dt><span id="option-dermal-plates">Dermal Plates</span></dt>
+<dd>
+Defence +1
+</dd>
+<dt><span id="option-subdermal-pouch">Subdermal Pouch</span></dt>
+<dd>
+concealed waterproof skin storage
+</dd>
+<dt><span id="option-anti-radiation-protection">Anti-Radiation Protection</span></dt>
+<dd>
+tolerate radiation tens of minutes
+</dd>
+<dt><span id="option-solar-regulation">Solar Regulation</span></dt>
+<dd>
+prevent sunburn via pigmentation
+</dd>
+<dt><span id="option-thermal-regulation">Thermal Regulation</span></dt>
+<dd>
+tolerate extreme temperatures tens of minutes
+</dd>
+<dt><span id="option-protective-seals">Protective Seals</span></dt>
+<dd>
+seal bodily openings
+</dd>
+<dt><span id="option-heightened-tactile-sensitivity">Heightened Tactile Sensitivity</span></dt>
+<dd>
+tactile tests +4
+</dd>
+<dt><span id="option-automatic-sutures">Automatic Sutures</span></dt>
+<dd>
+1/cycle, 0 HP → +5 HP
+</dd>
+<dt><span id="option-special-textures">Special Textures</span></dt>
+<dd>
+fur, feathers, or scales
+</dd>
+</dl>
+</section>
+<section id="lower-limbs" class="level5">
+<h5 class="anchored" data-anchor-id="lower-limbs">Lower Limbs</h5>
+<p>Base: initiative +1d6.</p>
+<dl>
+<dt><span id="option-acceleration">Acceleration</span></dt>
+<dd>
+melee Defence +1
+</dd>
+<dt><span id="option-jump-absorbers">Jump Absorbers</span></dt>
+<dd>
+ignore falls ≤6 m
+</dd>
+<dt><span id="option-kinetic-assistance">Kinetic Assistance</span></dt>
+<dd>
+run faster/jump farther
+</dd>
+<dt><span id="option-anchoring-hooks">Anchoring Hooks</span></dt>
+<dd>
+heel/sole ground anchors; greatly increased grip
+</dd>
+<dt><span id="option-flippers">Flippers</span></dt>
+<dd>
+swimming +4
+</dd>
+</dl>
+</section>
+<section id="upper-limbs" class="level5">
+<h5 class="anchored" data-anchor-id="upper-limbs">Upper Limbs</h5>
+<p>Base: STR +2 outside combat.</p>
+<dl>
+<dt><span id="option-integrated-firearm">Integrated Firearm</span></dt>
+<dd>
+integrated firearm; improve with cybernetic options
+</dd>
+<dt><span id="option-electric-shock">Electric Shock*</span></dt>
+<dd>
+1/combat: melee damage +1d6 on 1 attack
+</dd>
+<dt><span id="option-impactors">Impactors</span></dt>
+<dd>
+melee damage +2
+</dd>
+<dt><span id="option-blades">Blades</span></dt>
+<dd>
+integrated melee weapon; improve with cybernetic options
+</dd>
+<dt><span id="option-fractal-hand">Fractal Hand</span></dt>
+<dd>
+fine manipulation +2
+</dd>
+<dt><span id="option-tool-hand">Tool Hand</span></dt>
+<dd>
+integrated tools
+</dd>
+<dt><span id="option-specialized-tool-hand">Specialized Tool Hand</span></dt>
+<dd>
+chosen technical field +4
+</dd>
+<dt><span id="option-pillow">Pillow</span></dt>
+<dd>
+inflatable arm pillow
+</dd>
+<dt><span id="option-superior-strength">Superior Strength</span></dt>
+<dd>
+STR actions +2
+</dd>
+<dt><span id="option-reinforcements-2">Reinforcements</span></dt>
+<dd>
+melee Defence +1
+</dd>
+</dl>
+</section>
+<section id="bone-replacement" class="level5">
+<h5 class="anchored" data-anchor-id="bone-replacement">Bone Replacement</h5>
+<p>Base: +5 HP.</p>
+<dl>
+<dt><span id="option-reinforced-spine">Reinforced Spine</span></dt>
+<dd>
+resist impact/whiplash/torsion
+</dd>
+<dt><span id="option-ceramic-teeth">Ceramic Teeth</span></dt>
+<dd>
+cut almost any material
+</dd>
+<dt><span id="option-sonar-implant">Sonar Implant</span></dt>
+<dd>
+sonar perception
+</dd>
+<dt><span id="option-skeletal-invisibility">Skeletal Invisibility</span></dt>
+<dd>
+skeleton invisible to X-ray/radar/MRI
+</dd>
+<dt><span id="option-mandibles">Mandibles</span></dt>
+<dd>
+paired prehensile mandibles
+</dd>
+<dt><span id="option-dynamic-facial-modification">Dynamic Facial Modification</span></dt>
+<dd>
+change facial structure; 1 wound/use
+</dd>
+<dt><span id="option-diamond-nails">Diamond Nails</span></dt>
+<dd>
+cut glass/most synthetics
+</dd>
+<dt><span id="option-tail">Tail</span></dt>
+<dd>
+running/balance +2 when tail helps
+</dd>
+<dt><span id="option-prehensile-tail">Prehensile Tail</span></dt>
+<dd>
+manipulate objects
+</dd>
+</dl>
+</section>
+</section>
+<section id="reinforcement" class="level4">
+<h4 class="anchored" data-anchor-id="reinforcement">Reinforcement</h4>
+<dl>
+<dt><span id="option-solidity-3">Durability</span></dt>
+<dd>
++10 HP
+</dd>
+<dt><span id="option-electric-shock-absorber">Electric Shock Absorber</span></dt>
+<dd>
+protect from electric-shock fibrillation
+</dd>
+<dt><span id="option-anti-pathogen-barrier">Anti-Pathogen Barrier</span></dt>
+<dd>
+protect from polluted-water poisoning
+</dd>
+<dt><span id="option-gills">Gills</span></dt>
+<dd>
+breathe underwater
+</dd>
+<dt><span id="option-hidden-compartment">Hidden Compartment</span></dt>
+<dd>
+concealed internal storage
+</dd>
+<dt><span id="option-metabolism-control">Metabolism Control</span></dt>
+<dd>
+reduced food/water need or safe overconsumption
+</dd>
+<dt><span id="option-emetic-control">Emetic Control</span></dt>
+<dd>
+suppress/induce nausea/vomiting
+</dd>
+<dt><span id="option-adaptive-digestion">Adaptive Digestion</span></dt>
+<dd>
+digest non-human food
+</dd>
+<dt><span id="option-double-heart">Double Heart</span></dt>
+<dd>
++5 HP
+</dd>
+<dt><span id="option-nasal-filters">Nasal Filters</span></dt>
+<dd>
+protect from toxic gas/smoke
+</dd>
+<dt><span id="option-blood-filters">Blood Filters</span></dt>
+<dd>
+protect from poisons
+</dd>
+<dt><span id="option-automatic-pleural-repair">Automatic Pleural Repair</span></dt>
+<dd>
+Defence +1 vs ranged
+</dd>
+<dt><span id="option-oxygen-reserve">Oxygen Reserve</span></dt>
+<dd>
+no breathing for tens of minutes
+</dd>
+<dt><span id="option-reserves">Reserves</span></dt>
+<dd>
+extended survival without food/water
+</dd>
+<dt><span id="option-seals">Seals</span></dt>
+<dd>
+seal digestive-tract openings
+</dd>
+<dt><span id="option-automatic-stimulation">Automatic Stimulation</span></dt>
+<dd>
+1/cycle, 0 HP → +5 HP
+</dd>
+<dt><span id="option-sexual-organs">Sexual Organs</span></dt>
+<dd>
+contraception + common-STI filters; most sexual options toggle at will
+</dd>
+<dt><span id="option-castration">Castration</span></dt>
+<dd>
+[Sexual Organs] neutralise genital area/sexual tension
+</dd>
+<dt><span id="option-cobra">Cobra</span></dt>
+<dd>
+[Sexual Organs] concealed articulated genital melee weapon; surprise attack
+</dd>
+<dt><span id="option-erection-control">Erection Control</span></dt>
+<dd>
+[Sexual Organs] control erection/ejaculation/genital size to partner response
+</dd>
+<dt><span id="option-explosive-gonads">Explosive Gonads</span></dt>
+<dd>
+[Sexual Organs] replace 1 testicle with explosive charge
+</dd>
+<dt><span id="option-variant-hermaphrodite">Variant Hermaphrodite</span></dt>
+<dd>
+[Sexual Organs] switch sex in minutes; both forms functional
+</dd>
+<dt><span id="option-liquid-pheromones">Liquid Pheromones</span></dt>
+<dd>
+[Sexual Organs] pleasure-inducing secretions
+</dd>
+<dt><span id="option-heightened-urges">Heightened Urges</span></dt>
+<dd>
+[Sexual Organs] seduction +2 when pursuing/seducing
+</dd>
+<dt><span id="option-controlled-urges">Controlled Urges</span></dt>
+<dd>
+[Sexual Organs] resist seduction/manipulation +4
+</dd>
+</dl>
+</section>
+</section>
+<section id="cosmetic-augmentations" class="level3">
+<h3 class="anchored" data-anchor-id="cosmetic-augmentations">Cosmetic augmentations</h3>
+<p>Cosmetic augmentations have no base implant and cost ¥2–4. <strong>Retinal Display</strong> is explicitly ¥2.</p>
+<dl>
+<dt><span id="option-retinal-display">Retinal Display</span></dt>
+<dd>
+retinal AR nexus connector; ¥2
+</dd>
+<dt><span id="option-capillilumes">Capillilumes</span></dt>
+<dd>
+luminous hair
+</dd>
+<dt><span id="option-capillitech">Capillitech</span></dt>
+<dd>
+change hair size/colour at will
+</dd>
+<dt><span id="option-special-hair">Special Hair</span></dt>
+<dd>
+feathers/fur/quills/leaves/metal/optical fibres/similar
+</dd>
+<dt><span id="option-perfume-gland">Perfume Gland</span></dt>
+<dd>
+programmable scent; 1–5 programs/model
+</dd>
+<dt><span id="option-synesthetic-implant">Synesthetic Implant</span></dt>
+<dd>
+synesthetic-chip reader, fractal axon connections
+</dd>
+<dt><span id="option-variable-breast-implants">Variable Breast Implants</span></dt>
+<dd>
+adjustable form
+</dd>
+<dt><span id="option-chromatic-lenses">Chromatic Lenses</span></dt>
+<dd>
+eye colour at will
+</dd>
+<dt><span id="option-nano-grooms">Nano-Grooms</span></dt>
+<dd>
+sweat nanomachines clean skin/clothes
+</dd>
+<dt><span id="option-chromatic-nails">Chromatic Nails</span></dt>
+<dd>
+nail colour/length at will
+</dd>
+<dt><span id="option-glowing-tattoos">Glowing Tattoos</span></dt>
+<dd>
+luminous moving dermal patterns
+</dd>
+</dl>
+<hr>
+</section>
+</section>
+<section id="accelerators" class="level2">
+<h2 class="anchored" data-anchor-id="accelerators">Accelerators</h2>
+<p>Only 1 accelerator active at a time except <strong>Run Run Run</strong>. You may take one without paying ¥, but suffer its negative side effect; spend ¥1 for a good dose to ignore that normal downside. Some corporations prohibit use and test employees; police react badly to carrying large quantities.</p>
+<dl>
+<dt><span id="option-caroline-says">Caroline Says</span></dt>
+<dd>
+concentration/detachment +2; downside social −2
+</dd>
+<dt><span id="option-chelsea-girl">Chelsea Girl</span></dt>
+<dd>
+3h15: 1 eye virtual, 1 physical; afterward may take 1 wound
+</dd>
+<dt><span id="option-dirty-boulevard">Dirty Boulevard</span></dt>
+<dd>
+current day/night actions −4. Next day before each roll set 1 non-damage die to chosen face; after each use 1d6, 6 → effect ends
+</dd>
+<dt><span id="option-femme-fatale">Femme Fatale</span></dt>
+<dd>
+social +4 several hours; afterward CHA −1 until cycle end
+</dd>
+<dt><span id="option-good-fortune">Good Fortune</span></dt>
+<dd>
+actions +1 until cycle end; cannot buy XP with ¥ during effect
+</dd>
+<dt><span id="option-halloween-parade">Halloween Parade</span></dt>
+<dd>
+automatic social-event access regardless accreditation; downside physical/combat −2 until night end
+</dd>
+<dt><span id="option-lady-day">Lady Day</span></dt>
+<dd>
+1 major Matrix service from Matrix spirits; afterward no Matrix 1d6 days
+</dd>
+<dt><span id="option-mirror">Mirror</span></dt>
+<dd>
+understand target desires/motivations; no Matrix while active
+</dd>
+<dt><span id="option-perfect-day">Perfect Day</span></dt>
+<dd>
+0 HP → +5 HP
+</dd>
+<dt><span id="option-run-run-run">Run Run Run</span></dt>
+<dd>
+combine 2 accelerators; unpaid dose → both downsides even if those doses were paid
+</dd>
+<dt><span id="option-sad-song">Sad Song</span></dt>
+<dd>
+no social interaction 1 day; next day negotiation/diplomacy +4
+</dd>
+<dt><span id="option-satellite-of-love">Satellite of Love</span></dt>
+<dd>
+leave body as Akashic spirit; +1d6+3 Connection; run programs directly; 1h/INT rank; afterward no Matrix 24h
+</dd>
+<dt><span id="option-sister-ray">Sister Ray</span></dt>
+<dd>
+8 personalities (calm, angry, cold, empath, autistic, victim, killer, lover), each = 1 skill; switch as needed; afterward social −4 until cycle end
+</dd>
+<dt><span id="option-sweet-jane">Sweet Jane</span></dt>
+<dd>
+GM records ingestion; before cycle end declare events since then dream/possible future → replay them
+</dd>
+<dt><span id="option-venus-in-fur">Venus in Fur</span></dt>
+<dd>
+physical torture is ineffective; ignore wound penalties until cycle end while wounds still accumulate; afterward −1 CON or WIS for 1 full cycle
+</dd>
+<dt><span id="option-vicious">Vicious</span></dt>
+<dd>
+melee attack/damage +2; GM may force physical response to frustration/anger
+</dd>
+<dt><span id="option-white-heat">White Heat</span></dt>
+<dd>
+skip 1 full night’s sleep; suffer paranoia/social lapses
+</dd>
+<dt><span id="option-white-light">White Light</span></dt>
+<dd>
+no sleep needed until cycle end; then permanently −1 CON
+</dd>
+</dl>
+<hr>
+</section>
+<section id="campaign-procedures" class="level2">
+<h2 class="anchored" data-anchor-id="campaign-procedures">Campaign Procedures</h2>
+<section id="panopticom" class="level3">
+<h3 class="anchored" data-anchor-id="panopticom">Panopticom</h3>
+<p>At cycle change, when cell is ready, submit report. Accepted report → each character +¥5 +100 XP.</p>
+<p>Track 1 criteria sheet per investigation:</p>
+<ol type="1">
+<li>issue and angle;</li>
+<li>basic facts: who, what, where, when, how, why;</li>
+<li>causes and consequences;</li>
+<li>deeper facts and ramifications;</li>
+<li>impact on society;</li>
+<li>evidence;</li>
+<li>images;</li>
+<li>put the findings to those involved and seek their response;</li>
+<li>involvement of The Other;</li>
+<li>ethics — GM checks sincerity/professionalism from the characters’ point of view; being honestly deceived need not fail this criterion.</li>
+</ol>
+<dl>
+<dt><span id="option-submission">Submission</span></dt>
+<dd>
+count fulfilled criteria → GM rolls 2d6 modified by cell reputation. Result &gt; fulfilled criteria → rejected. Rejected report may be resubmitted after ≥1 additional criterion is fulfilled.
+</dd>
+<dt><span id="option-reputation">Reputation</span></dt>
+<dd>
+range −3…+3. Each broadcast may change it ±1, including later reassessment. Apply reputation to report-acceptance roll and ¥ payout. Source does not specify the arithmetic for modifying ¥ payout.
+</dd>
+</dl>
+</section>
+<section id="galères" class="level3">
+<h3 class="anchored" data-anchor-id="galères">Galères (Complications)</h3>
+<p>Galère = complication usually affecting 1 character. Resolved → +20 XP +3 Connection.</p>
+<p>Optional player procedure: adventure start → each player secretly chooses 1 Galère; later introduce it against own or another player character; resolve normally; character resolving it gains reward.</p>
+<div id="random-table-galère" class="random-table">
+<details><summary><span id="random-table-galère-caption" class="random-table-caption">Galère</span><span class="random-table-result" role="status" aria-live="polite" aria-atomic="true">Show all rows</span></summary>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d66</th>
+<th>galère</th>
+<th>prompt</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>11</td>
+<td>ACCIDENT</td>
+<td>Involved in an accident, responsible or not; property damage and injuries and complications.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>BUREAUCRACY</td>
+<td>Administrative trouble: reminders, lost files, debts, bizarre bills; urgent and time-consuming.</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>CELEBRATION</td>
+<td>Party invitation at a bad time; wrong mood; everyone drinks too much.</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>SUSPICIOUS PACKAGE</td>
+<td>Opened a package meant for someone else; dangerous to you + recipient: money, drugs, illegal gear, threats, bomb, bloody body part.</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>STROKE OF LUCK</td>
+<td>Won a lot of ¥; the money itself becomes a problem.</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>CHASE</td>
+<td>Just robbed; chase the thief; you may have been deliberately targeted.</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td>DEBT</td>
+<td>Someone close owes dangerous people through gambling, unofficial loan, illegal service, similar; already hurt and needs help.</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td>LOCAL DIPLOMACY</td>
+<td>Squat has troublesome neighbours; you must handle it by diplomacy/patience or violence.</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td>MISSING PERSON</td>
+<td>Friend, sibling, or contact missing; may have left worried message; nobody has seen them.</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td>MISTAKEN IDENTITY</td>
+<td>Dangerous people mistake you for someone else and will not accept protests.</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td>OUTBREAK OF VIOLENCE</td>
+<td>Witness violence leaving physical/emotional scars or involving you more than wanted.</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td>FRUSTRATION</td>
+<td>You explode angrily; people fear you now; later come stares and complaints.</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td>GROUPIE</td>
+<td>After a notable feat, someone becomes obsessed with you; harmless for now.</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td>HANGOVER</td>
+<td>Brutal morning; cannot remember how you got there; slightest noise causes severe migraine. What happened?</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td>LOVE STORY</td>
+<td>You are in love; relationship complications, whether developing or routine.</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td>FESTIVAL DAY</td>
+<td>Festival disrupts travel, errands, and reaching contacts; little works normally.</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td>THE HEAT</td>
+<td>Corporate security is overzealous: station ‘verification’ or half the corpo cops chasing you.</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td>WAR DECLARED</td>
+<td>Wrong joke to wrong person; war is declared and will not stop there.</td>
+</tr>
+<tr class="odd">
+<td>41</td>
+<td>MURPHY’S LAW</td>
+<td>Bad day; whatever you do tends toward nightmare.</td>
+</tr>
+<tr class="even">
+<td>42</td>
+<td>THE EXES</td>
+<td>An ex returns: one needs a service, chance brings you together, welcome or not.</td>
+</tr>
+<tr class="odd">
+<td>43</td>
+<td>ILLNESS</td>
+<td>Someone is sick, maybe you; find increasingly rare and expensive medication.</td>
+</tr>
+<tr class="even">
+<td>44</td>
+<td>BAD IDEA</td>
+<td>Dragged into someone else’s bad plan; their problem now concerns you.</td>
+</tr>
+<tr class="odd">
+<td>45</td>
+<td>BAD PRESS</td>
+<td>Media targets you: supposed scoop, personal vendetta, or paid smear.</td>
+</tr>
+<tr class="even">
+<td>46</td>
+<td>LONG FUSE</td>
+<td>Past mistakes return; time to pay.</td>
+</tr>
+<tr class="odd">
+<td>51</td>
+<td>SUDDEN DEATH</td>
+<td>Someone dies; emotional impact optional, but plans for the day must change.</td>
+</tr>
+<tr class="even">
+<td>52</td>
+<td>UNEXPECTED BABYSITTING</td>
+<td>A child is thrust on you for the day; far from easy to manage.</td>
+</tr>
+<tr class="odd">
+<td>53</td>
+<td>PERSONAL PAGE</td>
+<td>Someone tampers with your WakuWaku personal page; consequences follow.</td>
+</tr>
+<tr class="even">
+<td>54</td>
+<td>BREAKDOWN</td>
+<td>Something fails at the worst moment; fix it while work continues manually.</td>
+</tr>
+<tr class="odd">
+<td>55</td>
+<td>APPOINTMENT</td>
+<td>Important appointment conflicts with something equally crucial; find a solution.</td>
+</tr>
+<tr class="even">
+<td>56</td>
+<td>REVELATIONS</td>
+<td>Someone close shares deeply personal, disturbing, or bizarre revelations beyond what you can handle.</td>
+</tr>
+<tr class="odd">
+<td>61</td>
+<td>RIPPED OFF</td>
+<td>Contract not honoured: shoddy/undelivered equipment or false information; confrontation follows.</td>
+</tr>
+<tr class="even">
+<td>62</td>
+<td>ABSENT-MINDED</td>
+<td>Tired, in love, or preoccupied; forget what you are told and half of what you must do.</td>
+</tr>
+<tr class="odd">
+<td>63</td>
+<td>A DEMANDING JOB</td>
+<td>Problems at the squat; caretaker summons you; urgent work comes first.</td>
+</tr>
+<tr class="even">
+<td>64</td>
+<td>A SMALL FAVOR</td>
+<td>Asked a favour you cannot refuse; agreed reflexively before considering consequences.</td>
+</tr>
+<tr class="odd">
+<td>65</td>
+<td>FAMILY VISIT</td>
+<td>Family comes to visit; pleasant but cumbersome and tiring.</td>
+</tr>
+<tr class="even">
+<td>66</td>
+<td>VOLUNTEER</td>
+<td>Thankless squat job with no recognition, on an already difficult day.</td>
+</tr>
+</tbody>
+</table>
+</details><div class="random-table-actions"><a class="random-table-link" aria-label="Link to table" aria-describedby="random-table-galère-caption" href="#random-table-galère"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><path d="M7.95 21q-2.05 0-3.5-1.45T3 16.05q0-1 .375-1.9t1.075-1.6l2.625-2.625q.3-.3.713-.3t.712.3t.3.7t-.3.7l-2.65 2.65q-.425.425-.637.963T5 16.05q0 1.225.863 2.088T7.95 19q.575 0 1.125-.213t.975-.637l2.625-2.65q.3-.275.7-.275t.7.3t.3.7t-.3.7L11.45 19.55q-.7.7-1.6 1.075T7.95 21m1.25-6.2q-.3-.3-.3-.712t.3-.713L13.375 9.2q.3-.3.713-.3t.712.3t.3.713t-.3.712L10.625 14.8q-.3.3-.712.3t-.713-.3m6.3-.725q-.3-.3-.3-.7t.3-.7l2.65-2.625q.425-.425.625-.95t.2-1.1q0-1.25-.85-2.125T16.025 5q-.575 0-1.112.213t-.963.637L11.325 8.5q-.3.3-.7.3t-.7-.3t-.3-.712t.3-.713L12.55 4.45q.7-.7 1.6-1.075T16.05 3q2.05 0 3.488 1.45t1.437 3.525q0 .975-.363 1.875t-1.062 1.6l-2.625 2.625q-.3.3-.712.3t-.713-.3"></path></svg></a><button type="button" class="random-table-roll" hidden="" aria-describedby="random-table-galère-caption">Roll</button></div>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../content/catalogues.html" class="pagination-link" aria-label="Catalogues">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Catalogues</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../content/charsheet.html" class="pagination-link" aria-label="Character sheet">
+        <span class="nav-page-text"><span class="chapter-title">Character sheet</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/luminarious/nanoChrome/edit/quarto/content/reference.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/luminarious/nanoChrome/blob/quarto/content/reference.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/luminarious/nanoChrome/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script src="../site_libs/quarto-contrib/random-table-0.2.0/random-table.js"></script>
+</body></html>
