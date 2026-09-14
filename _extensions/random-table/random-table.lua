@@ -110,7 +110,7 @@ function CodeBlock(el)
 			pandoc.RawBlock('html',
 				'</details>'
 					.. '<div class="random-table-actions">'
-					.. '<a class="random-table-link" href="#' .. id .. '">' .. link_svg .. '</a>'
+					.. '<a class="random-table-link" aria-label="Link to table" aria-describedby="' .. id .. '-caption" href="#' .. id .. '">' .. link_svg .. '</a>'
 					.. '<button type="button" class="random-table-roll" hidden aria-describedby="' .. id .. '-caption">Roll</button>'
 					.. '</div>'
 			)

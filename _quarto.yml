@@ -34,7 +34,8 @@ book:
     - content/enemies.qmd
     - content/magic.qmd
     - content/catalogues.qmd
-  appendices: 
+  appendices:
+    - content/reference.qmd
     - content/charsheet.qmd
     - content/license.qmd
 

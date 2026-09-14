@@ -1,0 +1,1569 @@
+---
+body-classes: reference-page
+---
+
+# Player Reference
+
+## Character Creation
+
+### 1. Name
+
+### 2. Choose affiliation
+
+Affiliation ability costs 1 Connection unless stated.
+
+[Corpo]{#option-corpo}
+:   social privilege: remove charge/fine, pass checkpoint, obtain reservation/access, similar privilege.
+
+[Ganger]{#option-ganger}
+:   gang relationship: help, refuge, equipment, similar support.
+
+[Independent]{#option-independent}
+:   erase traces/blend in; gain nothing directly; prevent others obtaining information about you.
+
+[/C]{#option-c}
+:   describe counter-culture; each Connection spent on an action → roll +2.
+
+### 3. Choose occupation
+
+Gain both abilities. Occupation abilities cannot be learned with XP; `*` may be bought again with XP.
+
+[Rigger]{#option-rigger}
+:   gain Neuronic free. **Drones\***: always 3 specialised drones available; destroyed drones return at cycle end; +1 drone/purchase. **Transfer**: connected to vehicle → become vehicle with its capabilities, even when not aboard.
+
+[Hacker]{#option-hacker}
+:   **Connection**: +3 Connection. **Nerves of Steel**: 1 Luck → non-combat automatic success as triple 6.
+
+[Face]{#option-face}
+:   **Improvisation**: Connection works as plan points without preparation. **Relationships**: create temporary Contact with name + activity/service domain; spend Connection to call on it.
+
+[Fighter]{#option-fighter}
+:   **Tough as Nails**: +15 HP. **Military Training\***: choose melee/ranged → attack +2, damage +2; buy again for other category.
+
+[Neuronic]{#option-neuronic}
+:   Neural Plug: use neurally interfaced equipment; associated rolls generally +2 where equipment states it, or satisfies interface prerequisite.
+
+### 4. Assign attributes
+
+`+1, +1, +2, +2, +3, +3 to STR, CON, DEX, INT, WIS, CHA.`
+
+### 5. Choose identity
+
+[IDC]{#option-idc}
+:   civilian ID; identity, fingerprints, biometrics in government databases.
+
+[IDO]{#option-ido}
+:   orbital/corporate ID; more rights; stronger protection and monitoring.
+
+[No ID]{#option-no-id}
+:   few/no rights; until authorities identify you, no official existence.
+
+### 6. Choose starting equipment pack
+
+Sacrifice any skill or ability → +¥10 each.
+
+| Pack | Nexus | Weapons | Protection | Other | ¥ |
+|---|---|---|---|---|---:|
+| **Action** | Basic | 1 melee + 1 ranged | Tactical vest +3 | coffin-hotel subscription, secondary conurb | 24 |
+| **Tinkering** | +3 | 1 melee or ranged | Light civilian vest +1 | workshop: +4 tinkering/repair/modification | 22 |
+| **Status** | +1 | 1 melee or ranged | Civilian vest +2 | secure apartment | 20 |
+
+| Nexus | Connection bonus |
+|---|---:|
+| Basic | +0 |
+| +1 | +1 |
+| +3 | +3 |
+
+| Weapon | Damage | Visibility |
+|---|---:|---|
+| Handgun | +0 | Inconspicuous |
+| Assault rifle / shotgun | +3 | Visible |
+| Precision rifle | +3 | Visible assembled; Inconspicuous disassembled |
+| Assault cannon / heavy machine gun | +5 | Obvious |
+| Short nanoblade | +0 | Inconspicuous |
+| Long nanoblade | +3 | Visible |
+| Tonfa / cestus | +3 | Visible |
+| Taser | +0, non-lethal/special | Inconspicuous |
+
+| Protection | Defence | Visibility |
+|---|---:|---|
+| Light civilian vest | +1 | Inconspicuous |
+| Civilian vest | +2 | Inconspicuous |
+| Tactical vest | +3 | Visible |
+
+### 7. Establish relationships
+
+Print/cut the NPC portraits.
+
+1. GM divides portraits among players.
+2. Each player removes 1 portrait; pass remaining cards to neighbours and repeat until each player holds 2.
+3. GM shuffles those portraits and deals them again.
+4. Each player writes 1 trait for each portrait.
+5. Pass 1 portrait left and 1 right; receiving players add a second trait.
+6. Optional: shuffle the trait post-its and randomly reassign them among portraits.
+7. Put portraits in the centre. For each: define name, occupation, short history, psychological traits, and why characters may know them.
+8. Assign 1–3 specific services.
+
+Start with 5 relationship points. Spend to raise relationships: `Contact 1 · Friend 2 · Intimate 3`.
+
+### 8. Choose skills and abilities
+
+Choose 5 skills and 2 abilities. Any of these choices may be replaced with a cybernetic augmentation; total augmentations cannot exceed CON.
+
+Use [Character Options](#character-options) and [Augmentations](#augmentations).
+
+### 9. Fill secondary fields
+
+| Field | Record |
+|---|---|
+| HP | maximum `5 + CON×5 + bonuses`; current = maximum |
+| Wounds | 0 |
+| Connection | maximum `INT + Nexus + bonuses`; current = maximum |
+| Initiative | `3d6 + INT + bonuses`; current when rolled |
+| Nexus | hardware, Connection bonus, Firewall, options |
+| Defence | `7 + WIS + protection + bonuses` |
+| Luck | starting/current `CHA + bonuses` |
+
+### 10. Character questions
+
+After creation, each player asks another player 1 question about that character. Continue until every character has answered ≥1. Asked player may refuse, redirect, or alter the question.
+
+## Character Options
+
+Used during creation and advancement. `*` = repeatable: additional purchases increase power or activations/cycle as applicable. `[X]` = prerequisite. Applicable skill → +4 only when its wording fits the action. Ability-granted damage dice never explode.
+
+The [character sheet](charsheet.qmd) lists the 100 XP purchase choices. Attribute advancement: max +4 purchased ranks in the same Attribute.
+
+### Skills
+
+::: {.reference-skills}
+- Talk someone around
+- Tinker with explosives
+- Tinker with electronic devices
+- Tinker with drones and mechas
+- Tinker with mechanical devices
+- Code and decode
+- Drive a light vehicle
+- Drive a heavy vehicle
+- Know your rights and navigate the legal system
+- Know a neighbourhood like the back of your hand
+- Run fast and long
+- Cook drugs
+- Cook and season food
+- Read architectural plans
+- Disarm security systems
+- Draw and paint
+- Listen and hear
+- Climb and scramble
+- Appraise an object
+- Avoid a nasty surprise
+- Perform acrobatics
+- Pick pockets
+- Forge documents
+- Tail someone
+- Film and photograph
+- Search a place
+- Shout loudest
+- Interrogate and question
+- Intimidate and throw your weight around
+- Play an instrument
+- Act
+- Read emotions
+- Read lips
+- Haggle hard
+- Stand guard
+- Ride a horse
+- Swim and dive
+- Negotiate a contract
+- Open locks
+- Ride a two-wheeler
+- Pilot a flying vehicle
+- Pilot a mecha
+- Prescribe medication
+- Comfort and console
+- Write readable text
+- Look and spot
+- Find an escape route
+- Resist toxins
+- Care for animals
+- Know biology
+- Know mathematics and physics
+- Jump high and far
+- Disguise yourself skilfully
+- Move silently
+- Hide in shadows
+- Blend into surroundings
+- Be convincing
+- Be courageous
+- Seduce and flirt
+- Heal and stitch
+- Follow a trail
+- Endure pain
+- Know a bit about computers
+- Tamper with an electrical network
+- Work wood, concrete, and metal
+- Work plastec and carboconcrete
+- Find information
+- Find your way
+:::
+
+### Abilities
+
+[Assistance]{#option-assistance}
+:   help manoeuvre bonus = WIS, not +1
+
+[Recovery Insurance]{#option-recovery-insurance}
+:   insurer comes to retrieve you wherever you are when configured vital-function alarm triggers; you set sensitivity, e.g. prolonged 0 HP or third wound
+
+[Health Insurance\*]{#option-health-insurance}
+:   hospital cost covered for 1 wound/cycle
+
+[Sneak Attack\*]{#option-sneak-attack}
+:   1/combat: ×2 melee/ranged damage (coloured die + bonus); declare after attack roll
+
+[Attention to Detail]{#option-attention-to-detail}
+:   missed security system about to trigger → 1d6; 4+ notice in time to act first
+
+[Authority]{#option-authority}
+:   responsible organisational position; role privileges/obligations
+
+[Invisible Bullet\*]{#option-invisible-bullet}
+:   1/combat: fire at concealed/invisible target in visual range; projectile ignores obstacles; target may be beyond normal weapon range
+
+[Tinkerer]{#option-tinkerer}
+:   1 Connection → choose 1: technology-related roll +1; find a small item to trade for information/service; quick temporary repair
+
+[Chip Burner]{#option-chip-burner}
+:   Connection +2/day
+
+[Celebrity\*]{#option-celebrity}
+:   cycle end +1d6 ¥/purchase; recognition on 1d6 ≤ purchases
+
+[Outrageous Luck]{#option-insolent-luck}
+:   Luck +2/cycle
+
+[Two-Weapon Fighting]{#option-two-weapon-fighting}
+:   using 2 weapons: Defence +1, damage +3
+
+[Contacts\*]{#option-contacts}
+:   choose security forces, administration, criminal organisations, health services, transport authority, media/entertainment, or corporations; 1/cycle service/information there free as Intimate; otherwise normal Contact cost
+
+[Multiple Drones\*]{#option-multiple-drones}
+:   [Rigger] simultaneous drones +1/purchase; still ≤1 vehicle; 1 vehicle + drones allowed
+
+[Deserted Place]{#option-deserted-place}
+:   meeting/problem-solving/storage/hiding place without interference
+
+[Akashic Spirit]{#option-akashic-spirit}
+:   choose spirit; gain benefits + disadvantage
+
+[Fortunate\*]{#option-fortunate}
+:   1/cycle major purchase/rental; disappears cycle end
+
+[Wardrobe]{#option-wardrobe}
+:   suitable clothing always available; +2 when clothing matters
+
+[Deadly Grace]{#option-deadly-grace}
+:   ranged damage adds DEX twice
+
+[Big Bully]{#option-big-bully}
+:   melee damage adds STR twice
+
+[Multitool]{#option-multitool}
+:   +2 when tool applies
+
+[Nanodrones]{#option-nanodrones}
+:   environmental analysis, marking, micro-cavity exploration, spying, similar tasks; GM adjudicates results/countermeasures
+
+[Nanoprinter]{#option-nanoprinter}
+:   print object/tool from blueprint/scanned model in minutes; after use 1d6: 1 → unusable until cycle end
+
+[Enhanced Nexus — Attack]{#option-enhanced-nexus-attack}
+:   firewall test: roll 2d6, choose 1
+
+[Enhanced Nexus — Biomonitor]{#option-enhanced-nexus-biomonitor}
+:   +10 HP
+
+[Enhanced Nexus — Environmental Filters]{#option-enhanced-nexus-environmental-filters}
+:   WIS +2 for scene/situation analysis using nexus filters
+
+[Enhanced Nexus — Firewall\*]{#option-enhanced-nexus-firewall}
+:   firewall 2; +1/purchase; max 5
+
+[Enhanced Nexus — Hacker\*]{#option-enhanced-nexus-hacker}
+:   1 Connection → opposing firewall −1/purchase; max −3
+
+[Enhanced Nexus — Facial Recognition]{#option-enhanced-nexus-facial-recognition}
+:   unknown person → 1d6; 4+ available social-network information
+
+[Enhanced Nexus — Universal Translator]{#option-enhanced-nexus-universal-translator}
+:   translate unknown spoken languages
+
+[Parkour]{#option-parkour}
+:   dense urban: long-distance movement = civilian-vehicle speed; short/tactical ×2
+
+[Light Steps]{#option-light-steps}
+:   quieter; cross surfaces unsuitable for heavier characters; reduced walking/running fatigue
+
+[Corporate Portfolio\*]{#option-corporate-portfolio}
+:   cycle end +1d6 ¥/purchase
+
+[First Aid\*]{#option-first-aid}
+:   not action; adjacent ally; spend 1 HP → ally +2 HP, +2/purchase; Heal and Stitch → +1d6 HP
+
+[EMP Protection\*]{#option-emp-protection}
+:   electronic/cybernetic equipment protected against 1 EMP discharge/cycle; if EMP still affects it → off until scene end, no further damage
+
+[Safe Haven]{#option-safe-haven}
+:   place where nobody looks for you
+
+[Storage Cache]{#option-storage-cache}
+:   protected resource/equipment/valuable storage; multiple routes + concealment/security prevent discovery
+
+[Retreat]{#option-retreat}
+:   spend time there → +1 Luck
+
+[Virtual Living Room]{#option-virtual-living-room}
+:   protected Matrix meeting space; no discovery/monitoring
+
+[Consultancy Services\*]{#option-consultancy-services}
+:   1/cycle specialist help: legal representation, contract negotiation, close protection, event organisation, document research, file analysis, transport logistics
+
+[Forged IDC\*]{#option-pirate-idc}
+:   false IDC; compromised/destroyed → ¥4 rebuild at cycle end; works with/without official IDC/IDO; false IDO normally unavailable
+
+[Light Sleep]{#option-light-sleep}
+:   cannot be surprised asleep; wake alert
+
+[Toughness]{#option-toughness}
+:   at 0 HP remain conscious/active; each further hit while still at 0, or each return to 0, → 1 wound
+
+### Akashic Spirits
+
+Requires **Akashic Spirit**. Choose 1. Each benefit costs 1 Luck; 1 Luck also ignores the disadvantage.
+
+| Spirit | Benefits | Disadvantage |
+|---|---|---|
+| **Artist** | quickly create complex digital work; assess work value + available creator information | practise art daily; do not refuse concert/exhibition/museum |
+| **Assassin** | erase all surveillance images of yourself; find fast uncaught escape route | do not refuse chance to cause a death you can complete, or could prevent by acting |
+| **Investigator** | useful police/security database information; 3D-record whole crime scene for later study | do not leave mystery unresolved |
+| **Officer** | positions of all security units within ~1 block; you + companions pass checkpoint by showing identity | give orders/reject disobedience; obey superior |
+| **Dilettante** | quickly create complete virtual environment for Matrix visitors; briefly bluff expertise in 1 specialist subject | seek new culture/food/drink/sex/drugs/similar experiences; do not resist offer |
+| **Businessman** | +¥2; completely conceal financial transaction from tracing | invest significant income share in corporate interests, GM discretion |
+| **Scientist** | scientific assessment + useful interpretation; mathematical analysis of owned data → useful inference | keep current scientifically; spend significant time reading relevant publications/books |
+| **Seducer** | all available Matrix information on seduction target; control AR/physical environment (music, lights, ads, announcements) to favour self/hinder rivals | change partners regularly; organise full days for each partner |
+| **Thief** | positions of all security systems within ~1 block; fence contacts for trade or commissioned theft | steal + sell 1 valuable object/cycle |
+| **Traveller** | simultaneous foreign-language translation; organise public transport to shorten journey/lose pursuers | regularly travel to distant destinations inside/outside city |
+
+## Regular Play
+
+### Golden Rule
+
+Important question whose answer matters to the adventure but the GM does not know or want to decide → 1d6: `4+ yes · 1–3 no`.
+
+### Checks
+
+`3d6 + Attribute + bonuses`; 1 d6 is coloured. Success → total ≥ difficulty or opposition. Opposed check: opponent rolls `3d6 + relevant value`; NPC opposition uses Power.
+
+| Difficulty | Target |
+|---|---:|
+| Simple | 9 |
+| Tricky | 12 |
+| Difficult | 15 |
+| Very hard | 18 |
+| Extremely complicated | 21 |
+| Almost impossible | 24 |
+
+Triple 6 → automatic success +1 Luck. Triple 1 → automatic failure +1 Luck + complications.
+No obstacle or meaningful consequence → automatic success. Impossible task → automatic failure.
+Success by about 5–6+ → extra benefit appropriate to action.
+Failure may become success at a cost; player may reject cost and accept failure. Failure may instead create a new obstacle/complication.
+
+### Cooperation
+
+Help another character → +1 to their roll. Whole-group check → group succeeds if ≥half succeed individually.
+
+### Saves
+
+Reaction to sudden danger: matching Attribute + applicable skill. Failure → danger applies. Success → danger cancelled or reduced as situation permits.
+
+### HP, wounds, care
+
+Full night's sleep → restore all HP + Connection.
+
+`0 HP → 1 wound + unconscious` until care, rest, or 1 Luck restores consciousness.
+Each wound → maximum HP −5. Maximum HP reduced to 0 by wounds → death unless suitable new augmentation replaces damaged body; installing it clears all current wounds.
+Clinic → remove 1 wound for ¥4.
+
+[Care]{#option-care}
+:   1/day/character: `INT + applicable skill vs 15 → restore HP = coloured die`. Connection spent on roll → +2 HP/point. ¥ spent → +5 HP/¥.
+
+### Connection
+
+At 0 Connection → relationships cannot activate. Matrix exception: programs still launch, but each automatically triggers alarm.
+
+### Plans
+
+Before a mission, each character may pay ¥2 → regain Connection equal to 1 chosen Attribute rank.
+
+Preparation domain: STR/CON — heavy work, vehicle modification, demolition gear; DEX/INT — data/electronics; WIS/CHA — information/contacts. Preparation need not be listed in advance.
+
+During that mission, spend Connection, including pooled Connection, to establish retroactive preparation when an obstacle/problem appears.
+
+| Connection | Effect |
+|---:|---|
+| 1 | bypass minor obstacle or save time on something otherwise easy |
+| 3 | escape important danger or bypass obstacle requiring prepared material, skill, or information |
+| 5+ | bypass major obstacle or immediate lethal danger, substantially changing established situation |
+
+Face may use normal Connection as plan points without pre-mission preparation.
+
+### Cycle
+
+Players decide when cycle changes; a cycle may represent hours to weeks. [Character sheet](charsheet.qmd) gives recovery/XP effects. Cycle change also advances opposing factions' plans.
+
+### Combat turn
+
+Turn = 1 action + 1 manoeuvre.
+
+[Actions]{#option-actions}
+:   attack, skill, program.
+
+[Manoeuvres]{#option-manoeuvres}
+:   move, take cover, aim, charge, help.
+
+Supporting manoeuvre → action roll +1. Action may be spent as manoeuvre; manoeuvre cannot be spent as action.
+
+Exact movement: STR or DEX roll → metres moved this turn.
+
+Initiative acts high → low. Surprise → surprised side's opponents +1d6 Initiative.
+
+The [character sheet](charsheet.qmd) gives standard attack/damage formulas and the Feat/Risk tables. Each combat turn, choose 1 Feat; GM rolls 1 Risk. If that Risk directly opposes the chosen Feat, ignore the Risk and apply the Feat.
+
+On hit, coloured damage die explodes: 6 → roll/add another d6; repeat on each 6. Damage → target HP. Damage may be split among one or more opponents whose Defence ≤ primary target Defence.
+
+### Combat stunts
+
+Describe intended result/tactical goal. GM chooses Attribute attack vs Defence, check, save, or description.
+
+Attack Attributes may include: STR force; DEX precision; CHA feint/distraction; INT setup/tactics.
+
+Damage may represent effect strength instead of HP. GM may convert damage to save difficulty; source example: `7 + damage`.
+
+### Scene details
+
+When acting, players may establish plausible previously unspecified terrain/details: cover, hiding place, choke point, similar feature. Established detail becomes true for everyone.
+
+### Social resolution
+
+Minor social action → 1 quick roll, or none if uncertainty is unnecessary.
+Information exchange → play conversation directly; spoken content determines what is revealed.
+Social conflict where speech + mechanics both matter → CHA with situational modifiers, or multiple rolls/rounds if needed. No fixed social-combat subsystem.
+
+## Relationships
+
+Spend Connection to activate a relationship for help. GM may adjust cost for circumstances. Request directly matching the contact's service → cost down 1 step.
+
+| Service | Contact | Friend | Intimate |
+|---|---:|---:|---:|
+| Minor | 2 | 0 | 0 |
+| Important | 5 | 2 | 0 |
+| Major | 10 | 4 | 2 |
+| Unique / major personal danger | — | 8 | 5 |
+
+### Service categories
+
+[Black Market]{#option-black-market}
+:   illicit/discounted goods; usually specialised.
+
+[Entrances]{#option-entrances}
+:   restricted/important places/events.
+
+[Information]{#option-information}
+:   technical, faction, neighbourhood, or other information.
+
+[Intervention]{#option-intervention}
+:   field help; risk affects compensation.
+
+[Transport]{#option-transport}
+:   people, cargo, messages; fast or discreet.
+
+[Matrix]{#option-matrix}
+:   remote Matrix work/support.
+
+[Fence]{#option-fence}
+:   buys stolen/recovered goods; prices depend on speciality.
+
+[Refuge]{#option-refuge}
+:   safe shelter; may include medical facilities.
+
+[Connections]{#option-connections}
+:   introductions through social network.
+
+[Advice]{#option-advice}
+:   mentor/protector support.
+
+### Rank advancement
+
+GM awards ranks from relationship development.
+
+[Contact]{#option-contact}
+:   meet, spend time, render service, or establish working contact.
+
+[Friend]{#option-friend}
+:   trust through shared experiences, mutual services, common interests, continued contact.
+
+[Intimate]{#option-intimate}
+:   major personal investment; willingness to entrust secrets or life.
+
+Betrayal or neglect may reduce or end a relationship.
+
+### Returning Favour
+
+Meaningfully help a relationship with its own problem → involved characters +3 Connection + 1 future free service worth ≤3 Connection. Especially important favour → GM may instead award 1 relationship point.
+
+## Matrix Rules
+
+All characters can use nexus and programs.
+
+### Program activation
+
+Program cost = program level in Connection unless stated; use = 1 action. Programs normally manipulate Matrix or connected objects live/on site. Matrix research, custom coding, sorting/searching information may use normal skills.
+
+At 0 Connection → programs may still launch, but each automatically triggers alarm.
+
+### Firewalls
+
+Pay program cost → roll 1d6. `Roll ≤ firewall` → blocked; cost spent. Stop, pay/retry, or force through → program works + alarm.
+
+| Firewall | System |
+|---:|---|
+| 0 | unprotected nexus/machine |
+| 1–2 | most automated systems/consumer nexuses |
+| 3–4 | common corporate nexuses/systems |
+| 5 | strongest generally available corporate/security systems |
+| 6 | corporate anti-zone systems; described as impossible to hack |
+
+### Alarms
+
+Forced firewall passage → 1d6 alarm. Local security may add a modifier, usually half local security level. Abilities/equipment may reduce the roll.
+
+| Roll | Effect |
+|---:|---|
+| 1 | no effective response |
+| 2 | all Connection costs +1 until cycle end |
+| 3 | Matrix unavailable to you until scene end |
+| 4 | Matrix unavailable until cycle end unless connection identity changes; remaining nearby brings response |
+| 5 | opposing programs spot you; GM rolls 1d6 = Connection still usable before full identification; tracing follows |
+| 6 | corporate forces arrive in 1d2 minutes; opposing programs mark/track you |
+| 7+ | counter-intrusion program attacks directly |
+
+### Counter-intrusion
+
+Choose either procedure.
+
+#### Combat
+
+Use normal combat. Hacker uses INT for attack + damage. Other characters enter by spending Connection = enemy program Power. Matrix combat damage affects real HP.
+
+| Power | Program | Stats |
+|---:|---|---|
+| 1 | Cerberus | Defence 9; HP 15; attack +2; initiative +1d6 |
+| 2 | Droïdeka | Defence 12; HP 15; attack +2; damage +4 |
+| 3 | Flamer | Defence 10; HP 25; attack +2; damage +3 area; initiative +2d6 |
+| 4 | Guivre | Defence 11; HP 30; attack +2; initiative +1d6; each attack, hit or miss, steals 1 Connection or deals +1d6 HP |
+| 5 | Golem | Defence 15; HP 40; attack +2; damage +4; each attack steals 1 Hacker manoeuvre |
+| 6 | Hydra | Defence 13; HP 30; attack +2; damage +4; initiative +4d6; +5 HP whenever Hacker/ally spends 1 Connection |
+
+#### Save
+
+INT save. Before roll, wager Connection → +1/point. Suggested difficulty `12 + 1d6`; d6 corresponds to counter-intrusion Power. Success → no effect. Failure → d26.
+
+**d26:** roll 2d6; first die odd → 10s, even → 20s; second d6 = units.
+
+| d26 | Effect |
+|---:|---|
+| 11 | ejected from Matrix until scene end |
+| 12 | 1d6 exploding damage per Power |
+| 13 | ejected from Matrix until cycle end |
+| 14 | lose 1d6 Luck |
+| 15 | lose all Connection |
+| 16 | tracked 1d6 cycles; immediately alerts security or adds half Power to firewalls you attack |
+| 21 | 1 physical/cybernetic item suffers EMP |
+| 22 | nexus fully hacked; local security obtains all data |
+| 23 | nexus destroyed; 1d6 4+ → stored data also destroyed |
+| 24 | all physical/cybernetic equipment suffers EMP |
+| 25 | nexus permanently loses 1 capability |
+| 26 | 1d6 wounds from neural damage |
+
+## Matrix Programs
+
+Program cost = level in Connection unless stated; use = 1 action.
+
+### Level 1
+
+[Security System Control]{#option-security-system-control}
+:   temporary local security-system control
+
+[Emergency Disconnect]{#option-emergency-disconnect}
+:   force through: program works, alarm ignores you, lose all remaining Connection
+
+[Communications Interception]{#option-diversion-of-communications}
+:   intercept communication: answer it or prevent delivery
+
+[Geolocation]{#option-geolocation}
+:   divert target geolocation; always know position
+
+[Quick Glance]{#option-quick-glance}
+:   target nexus personal information; amount depends on Matrix exposure/privacy
+
+[Metamorphosis]{#option-metamorphosis}
+:   change AR appearance; affects AR viewers
+
+[Symbiosis]{#option-symbiosis}
+:   piggyback user/system signal; receive same data, no control
+
+### Level 2
+
+[Accreditation]{#option-accreditation}
+:   temporary checkpoint accreditation for 1 person; +1 Connection/additional person
+
+[Anonymity]{#option-anonymat}
+:   alarm −1
+
+[Control of a Machine]{#option-control-of-a-machine}
+:   local machine control for simple tasks
+
+[Listen]{#option-listen}
+:   after hacking target nexus, hear live conversations while in visual range
+
+[Illusion]{#option-illusion}
+:   add/remove minor coherent elements from target AR
+
+[Camera Playback]{#option-camera-playback}
+:   local camera data ≤WIS hours old, area ≤1 block
+
+[Security Reset]{#option-security-reset}
+:   full turn disconnected → cancel all programs targeting/affecting you
+
+[Decoy]{#option-decoy}
+:   false data to machines/cameras; they act on it
+
+[Tampered Signal]{#option-tampered-signal}
+:   add data to communication signal
+
+[Network Monitoring]{#option-network-monitoring}
+:   on site, display live people/machine communication links to identify functional groups
+
+### Level 3
+
+[Anonymisation]{#option-anonymisation}
+:   alarm −3
+
+[Jamming]{#option-jamming}
+:   jam local communications; automatic alarm at −3
+
+[Embezzlement]{#option-embezzlement}
+:   transfer funds; automatic alarm
+
+[Invisibility]{#option-invisibility}
+:   absent from target AR; normal vision/disconnection/specific surveillance reveals you
+
+[Access Restricted Data]{#option-access-restricted-data}
+:   access non-public databases; no search function → skill roll; may take turns/minutes/hours
+
+[Hacking of Interfaced Systems]{#option-hacking-of-interfaced-systems}
+:   control target interfaced system; until reset, related rolls use only 2d6
+
+### Level 4
+
+[Network Control]{#option-network-control}
+:   filter network communications/data. Each minute: 1d6 < elapsed minutes → alarm
+
+[Decryption]{#option-decryptage}
+:   firewall −1 until scene end; stacks across uses/characters/consoles
+
+[Protected Identity]{#option-protected-identity}
+:   normal Connection + ¥5/activation; protected secondary Matrix identity persists across cycles; identification requests route there. Opposing programs identify you → identity burns + pursuit ends; reactivate/pay to replace
+
+[Saturation]{#option-saturation}
+:   flood target AR; target must disconnect until scene end to reset
+
+### Level 5
+
+[Counterorder]{#option-counterorder}
+:   cancel just-triggered alarm
+
+[Destruction]{#option-destruction}
+:   collapse network across ~1 block; communications stop; secondary/alert systems start
+
+[Worm]{#option-worm}
+:   install 1 persistent function: **Backdoor** firewall −1 on future visits, including later cycles; normal activations still required. **Skimming** cycle end +1d6 ¥; conspicuous if found. **Supervision** record system-file changes; report at scene end when needed
+
+### Special
+
+[Changing Data]{#option-changing-data}
+:   erase/corrupt system data; 2–5 Connection by data/change
+
+[Data Funnel]{#option-data-funnel}
+:   sort/capture selected system data; variable Connection; often paired with Access Restricted Data
+
+## Vehicles
+
+### CPA operation
+
+A CPA works like being on foot: fight, run, jump, and act normally; its size/mass may grant circumstantial advantages or disadvantages. Base CPA: Defence +2, all attack damage +5, 3 wounds. Unarmed + unarmoured CPA = legal civilian/work vehicle; combat CPA = security-restricted.
+
+### Speed and chases
+
+`Very Slow < Slow < Average < Fast < Ultra-Fast.`
+
+Chase → usually compare relative speed. Terrain, traffic, road conditions, vehicle size may change result.
+
+### Platform
+
+Vehicles may carry useful tools/equipment such as sensors, weapons, manipulators. Capacity follows vehicle size; heavy load may reduce speed by 1 step; otherwise use common sense.
+
+### Wounds and collisions
+
+Vehicle wound capacity = 1–5; character vehicles generally ≥3. Qualifying hit/collision → wounds as specified. At wound limit → out of service until repaired or destroyed, depending on fiction.
+
+Collision wounds by current speed: `Slow 1 · Average 2 · Fast 3 · Ultra-Fast 4`. Frontal +1; rear −1.
+
+### Armour
+
+| Armour | Passenger damage reduction | Minimum calibre |
+|---|---:|---|
+| None | 0 | any firearm/projectile |
+| Light | 1d6 | any firearm |
+| Medium | 2d6 | assault rifle or heavier |
+| Heavy | 3d6 | heavy cannon, rockets, missiles |
+
+### Defence and damage
+
+Stationary Defence 7. Moving Defence 11. Ultra-Fast +2 Defence. Target passenger → +4 Defence + passenger protection bonus.
+
+Successful hit with sufficient calibre → 1 vehicle wound. Do not roll normal HP damage against vehicle.
+
+### Driving
+
+Use DEX or INT; sometimes CON for endurance. Roll only when avoiding obstacle/problem.
+
+Normal driver in combat → 1 action/turn; no additional manoeuvre; no bonus action from Initiative.
+
+### Neural interface
+
+Neuronic → interface directly with vehicle/machine; piloting +2; access interfaced equipment.
+
+### Rigger Transfer
+
+While interfaced → act as vehicle; 1 action + 1 manoeuvre/turn; receive Initiative bonus actions; vehicle HP = Rigger personal HP; vehicle wound capacity +1; hits remove vehicle HP before wounds; if aboard, Rigger may take wounds instead of vehicle.
+
+## Equipment
+
+Unless stated, firearm/melee/protection/CPA/vehicle/drone option = ¥4. `*` = repeatable purchase. `[X]` = prerequisite. ¥ may be pooled or kept individually.
+
+### Nexus
+
+Nexus bonus adds daily Connection.
+
+| Nexus | Cost |
+|---|---:|
+| Basic | ¥4 |
+| +1 | ¥8 |
+| +3 | ¥12 |
+
+### Visibility
+
+`Obvious → Visible → Inconspicuous → Concealed.`
+
+[Obvious]{#option-obvious}
+:   cannot conceal; attracts attention.
+
+[Visible]{#option-visible}
+:   may cover; cannot use while covered.
+
+[Inconspicuous]{#option-invisible}
+:   requires search/electronic detection.
+
+[Concealed]{#option-concealed}
+:   actively hidden; systems also reduce the risk of electronic detection.
+
+[Discreet]{#option-discreet}
+:   move 1 step toward Concealed.
+
+### Weapons
+
+Additional weapon: ¥8.
+
+| Category | Damage | Visibility |
+|---|---:|---|
+| Handgun | +0 | Inconspicuous |
+| Assault rifle / shotgun | +3 | Visible |
+| Precision rifle | +3 | Visible assembled; Inconspicuous disassembled |
+| Assault cannon / heavy machine gun | +5 | Obvious |
+| Short nanoblade | +0 | Inconspicuous |
+| Long nanoblade | +3 | Visible |
+| Tonfa / cestus | +3 | Visible |
+| Taser | +0, non-lethal/special | Inconspicuous |
+
+### Protection
+
+| Protection | Defence | Cost | Visibility |
+|---|---:|---:|---|
+| Light civilian vest | +1 | ¥4 | Inconspicuous |
+| Civilian vest | +2 | ¥8 | Inconspicuous |
+| Tactical vest | +3 | ¥12 | Visible |
+
+Civilian protection → Inconspicuous + allowed everywhere. Tactical protection → Visible; without appropriate accreditation, carrying it invites serious security/police checks.
+
+### Vehicles for purchase
+
+| Vehicle | Cost | Speed | Design / capacity |
+|---|---:|---|---|
+| Civilian CPA | ¥12 | Slow | Civilian powered suit/mecha; force-work and urban-work platform. |
+| Urban two-wheeler | ¥4 | Average | Scooter / low-displacement motorcycle. |
+| Fast motorcycle | ¥8 | Fast | Racing motorcycle. |
+| Urban electric car | ¥8 | Slow | 2 seats; no trunk; compact/easy to park. |
+| Suburban car | ¥12 | Average | 4 cramped seats. |
+| Road car | ¥14 | Fast | 5 seats; powerful road car. |
+| Drift / Fast & Furious car | ¥18 | Ultra-Fast | High-performance sports/drift car; nitro. |
+| SUV | ¥16 | Fast | Heavy/powerful; lots of interior room. |
+| Van | ¥15 | Average | 3 front seats + huge rear cargo area; can house a workshop. |
+| Truck | ¥25 | Slow to Average | Carries several tonnes of cargo. |
+| Drone | ¥4 | Slow to Fast | Small remote robot; functions vary by design. |
+
+Source conflict: purchase table lists **Civilian CPA = Slow**; CPA catalogue says a factory-standard CPA is **Very Slow**. No reconciliation is given.
+
+### Weapon and protection options
+
+Shared options use the same rule wherever listed.
+
+| Option | Applies to | Effect |
+|---|---|---|
+| **Discreet** | Firearm, melee, protection | See **Visibility**. |
+| **Electric Shock\*** | Melee, protection | 1/combat: +1d6 melee damage on one attack. |
+| **Interfaced** | Firearm, melee | [Neuronic] Attack +2. |
+| **Menacing** | Firearm, melee | Intimidation +2 against people who respond to force. |
+| **Precision** | Firearm, melee | Attack +2. |
+| **Secured** | Firearm, melee | Registered genotype only. |
+
+#### Firearms
+
+[Target Lock]{#option-target-lock}
+:   full turn aiming, no hindrance/movement: record ≤3 targets; next turn ≤3 successive shots against them
+
+[Versatile Chambering]{#option-versatile-chambering}
+:   use all special ammunition
+
+[IFF]{#option-iff}
+:   if allies wear active IFF protection, weapon cannot target them by mistake, including during burst fire
+
+[Impact\*]{#option-impact}
+:   damage +1/purchase; max +3
+
+[Long Range]{#option-long-range}
+:   ignore long-range attack penalty
+
+[Voice-Controlled Ammo Selector]{#option-vocal-multi-loader}
+:   [Versatile Chambering] switch special ammunition during turn; adjustable voice sensitivity; registered voice only
+
+[Silenced]{#option-silenced}
+:   firing does not reveal position if nobody is near detonation or surrounding noise is high
+
+[Burst Fire]{#option-burst-fire}
+:   attack several targets; difficulty = highest Defence +1/extra target; same damage to each hit
+
+[Rapid Fire]{#option-rapid-fire}
+:   [Interfaced] 1 Connection → +1 shot
+
+[Laser Sight]{#option-laser-sight}
+:   attack +1; no effect with Interfaced
+
+#### Special ammunition
+
+Pay listed Connection 1/combat → ammunition available for that combat.
+
+| Ammunition | Connection | Effect |
+|---|---:|---|
+| **Self-Guided** | 2 | Attack +2; +0 against targets hidden behind obstacles. |
+| **Shock** | 1 | Non-lethal incapacitation. |
+| **EMP** | 7 | Highly controlled/difficult to source; no HP damage; effect = coloured damage die + damage bonuses. |
+| **Expanding** | 1 | Damage +2 against unprotected targets; especially useful against objects. |
+| **Darts** | 3 | Carry toxins with specific effects; no HP damage. Sedative toxin result = coloured damage die + damage bonuses. |
+| **Armour-Piercing** | 2 | Ignore Defence from protection; damage −3. |
+
+**EMP:**
+
+| Result | Effect |
+|---:|---|
+| 1 | temporary overheating; no lasting damage |
+| 2–3 | disabled 1 turn; vital equipment → fall + cannot act |
+| 4 | disabled until scene end/restart |
+| 5 | disabled until cycle end; repair ≥¥4 |
+| 6+ | destroyed; vital-system loss may kill; full-price replacement |
+
+**Darts:**
+
+| Result | Effect |
+|---:|---|
+| 1 | fails to penetrate clothing; no effect |
+| 2–3 | stunned: actions −2 until rest |
+| 4–5 | nauseated: all actions use 2 dice until rest |
+| 6+ | unconscious |
+
+#### Melee weapons
+
+[Vibroblade]{#option-vibroblade}
+:   ultrasonic vibration destroys/destabilises physical structures
+
+[Impact\*]{#option-impact-2}
+:   damage +2/purchase; max +6
+
+[Shape Memory]{#option-shape-memory}
+:   nanoblade retracts into handle, needs no scabbard, stores easily in coat/bag; full turn to deploy
+
+[Prestigious]{#option-prestigious}
+:   social +2 with people impressed by visible weapon
+
+#### Protection
+
+[Auto-Injector\*]{#option-auto-injector}
+:   1/cycle, 0 HP → +5 HP
+
+[IFF]{#option-iff-2}
+:   when active, allies cannot shoot wearer deliberately or by mistake
+
+[Interfaced]{#option-interfaced}
+:   [Neuronic] perception +2
+
+[Shape Memory]{#option-shape-memory-2}
+:   Defence +1
+
+[Reinforcements]{#option-reinforcements}
+:   +5 HP; incompatible with Discreet
+
+[Life Support\*]{#option-vital-support}
+:   cancel 1 wound/cycle per purchase; max 3 wounds/cycle
+
+### CPA, vehicle and drone options
+
+**CPA:** Defence +2; all attack damage +5; 3 wounds. Acts as if on foot, including fighting/running/jumping; size/mass may give circumstantial advantages/disadvantages. Unarmed + unarmoured CPA = legal civilian/work vehicle; combat CPA = security-restricted.
+
+**Civilian vehicle:** includes corporate-checkpoint authorisations; character-operated = 3 wounds.
+
+**Drone:** autonomous module of variable size, normally controlled through Matrix; radio control is rarer.
+
+| Option | Applies to | Effect |
+|---|---|---|
+| **Acceleration\*** | CPA, civilian, drone | Speed +1 step/purchase. CPA catalogue baseline = Very Slow. |
+| **Armament** | CPA | Install melee or ranged weapon; use relevant weapon options. |
+| **Armament** | Civilian, drone | Install ranged weapon; use firearm options. |
+| **EMP Protection\*** | CPA, civilian, drone | Protect/cancel 1 EMP effect per cycle per purchase. |
+| **Concealed Armament** | Civilian, drone | [Armament] Weapon concealed when inactive. |
+| **Autopilot** | Civilian, drone | Self-operates under normal conditions. |
+| **Reinforced Armour\*** | Civilian, drone | Baseline generally Light or None; +1 armour rank/purchase; Medium/Heavy usually require authorisation and count as military equipment. |
+| **Stealthy** | Civilian, drone | +2 vs electronic detection. |
+| **Nanocamouflage** | Civilian, drone | Change colour/visual ID live from stored patterns. |
+| **Environmental Seals\*** | CPA, civilian | Protect cockpit from vacuum/cold/heat/toxins/radiation/similar extremes for 12h; each additional purchase +6h. |
+| **Sensors** | CPA, drone | Add 1 specific Panoptic-equivalent sensor. |
+
+#### CPA options
+
+[Anti-Shock]{#option-anti-shock}
+:   ignore wound effects; at wound limit → immobilised until combat end, repairable; without it → destroyed/scrap
+
+[Piloting Assistance\*]{#option-piloting-assistance}
+:   CPA movement +2/purchase
+
+[Armour Plating\*]{#option-armour-plating}
+:   factory baseline = None; +1 rank/purchase (Light → Medium → Heavy); Medium/Heavy usually require authorisation and count as military equipment
+
+[Jumps]{#option-jumps}
+:   thrusters permit jumps of several tens of metres
+
+[Durability\*]{#option-solidity}
+:   wound capacity +1/purchase
+
+[Superior Power]{#option-superior-power}
+:   raw-force actions +4; lift considerable masses
+
+#### Civilian vehicle options
+
+[Medical Assistance]{#option-medical-assistance}
+:   1/cycle, if you fall out of combat while at controls → +5 HP
+
+[Cargo Hold\*]{#option-cargo-hold}
+:   more cargo space; multiple holds may substantially change vehicle shape/size
+
+[Stylish]{#option-stylish}
+:   social +2 with nearby vehicle enthusiasts/relevant urban tribes
+
+#### Drone options
+
+[Movement Mode\*]{#option-movement-mode}
+:   add aerial/terrestrial/amphibious mode; 1 action to switch
+
+[Durability]{#option-solidity-2}
+:   wound capacity +1
+
+#### Drone types
+
+| Type | Movement | Speed | Wounds | Features |
+|---|---|---|---:|---|
+| **Combatant** | Flight | Fast | 3 | Assault-rifle-equivalent weapon; Defence +2 to Rigger. |
+| **Spy** | Flight | Very Slow | 1 | Concealed; stealth +4; multiple Panoptic sensor options, mainly microphones/cameras. |
+| **Manipulator** | Flight | Slow | 4 | Tools, manipulator arms, Fractal Hand for fine remote work. |
+| **Patroller** | Flight | Average | 2 | Perception/vigilance +4. |
+| **Transporter** | Flight | Fast | 2 | Armoured, secured cargo compartment. |
+
+---
+
+## Augmentations
+
+Base augmentation ¥12 after creation. Option ¥4 unless stated. At creation, any skill/ability choice may instead be an augmentation. Augmentations ≤ CON. No option-count limit is specified. `*` = repeatable purchase. `[X]` = prerequisite.
+
+### Cybernetic augmentations
+
+#### Neuronic
+
+[Neural Plug]{#option-neural-plug}
+:   interfaced equipment: associated rolls generally +2 where stated; also satisfies interface prerequisites.
+
+[Affinity]{#option-affinity}
+:   mental communication with registered users
+
+[Matrix Wiring\*]{#option-matrix-wiring}
+:   Connection +1; max +3.
+
+[Smart External Cables]{#option-smart-external-cables}
+:   cables self-unroll/connect
+
+[Emotion Control]{#option-emotion-control}
+:   suppress selected emotions
+
+[Temporal Shunt]{#option-temporal-shunt}
+:   1/cycle, 5 Connection → replay 1 full conflict round for you + companions
+
+[Pain Inhibitor\*]{#option-pain-inhibitor}
+:   1/cycle: ignore wound penalties for 1 scene
+
+[Hidden Memory]{#option-hidden-memory}
+:   hide selected memories until trigger
+
+[Logic Processor]{#option-logic-processor}
+:   document/situation analysis +4
+
+[Cortical Redundancy]{#option-cortical-redundancy}
+:   body pulverised by a high-powered weapon or explosion → 1d6; 4+ brain survives intact
+
+[Stress Reducer\*]{#option-stress-reducer}
+:   1/cycle: automatic success on 1 social action
+
+[Wired Reflexes]{#option-wired-reflexes}
+:   Defence +1; initiative +1d6
+
+[Emotional Stabilizer\*]{#option-emotional-stabilizer}
+:   Luck +1/cycle; max +3
+
+#### Nanogenetic
+
+[Regeneration]{#option-regeneration}
+:   1 Luck → full HP
+
+[Trauma Damper\*]{#option-trauma-damper}
+:   1/cycle: cancel 1 wound at 0 HP
+
+[Hydra Genoblasts\*]{#option-hydra-genoblasts}
+:   1/scene: +5 HP
+
+[Totipotent Genoblasts]{#option-totipotent-genoblasts}
+:   +5 HP
+
+[Rejuvenation]{#option-rejuvenation}
+:   +10 years lifespan/treatment
+
+[Body Adjustment]{#option-body-adjustment}
+:   [Rejuvenation] alter hair/eyes/height/general morphology
+
+[Metabolic Screen]{#option-metabolic-screen}
+:   [Rejuvenation] prevent excessive weight gain/loss
+
+[Onkos Screen]{#option-onkos-screen}
+:   [Rejuvenation] protect from tumours/cancer; tolerate high-radiation work
+
+[Trauma Eraser]{#option-trauma-eraser}
+:   [Rejuvenation] remove scars/tattoos/body marks
+
+[Tox Cleanse]{#option-tox-cleanse}
+:   [Rejuvenation] remove carcinogenic/biological toxins
+
+[Endocrine Modification]{#option-endocrine-modification}
+:   always roll initiative, even surprised
+
+[Empathy]{#option-empathy}
+:   [Endocrine Modification] read emotions/lies +4
+
+[Nanoconductor]{#option-nanoconductor}
+:   [Endocrine Modification] immune to electricity
+
+[Premonitions]{#option-premonitions}
+:   [Endocrine Modification] 1/cycle: ask GM 1 question about imminent event or determine 1 yourself
+
+[Pyrokinesis]{#option-pyrokinesis}
+:   [Endocrine Modification] gas-burner-sized palm flame
+
+#### Panoptic
+
+[Enhanced Senses]{#option-enhanced-senses}
+:   perception +4
+
+[Sensory Dampeners]{#option-sensory-dampeners}
+:   protect hearing from sudden/sustained loud noise
+
+[Light Amplifier]{#option-light-amplifier}
+:   low-light vision
+
+[Sound Amplifier]{#option-sound-amplifier}
+:   increased hearing range/precision
+
+[Chemical Analyzer]{#option-chemical-analyzer}
+:   analyse substances by taste/smell
+
+[Extended Auditory Range]{#option-extended-auditory-range}
+:   hear infrasound/ultrasound
+
+[Radiation Detector]{#option-radiation-detector}
+:   no surprise from radiation
+
+[Sound Editor]{#option-sound-editor}
+:   separate sound sources live
+
+[Balance]{#option-balance}
+:   ignore motion sickness/vertigo
+
+[Synesthetic Recorder]{#option-synesthetic-recorder}
+:   record surrounding sensory information
+
+[Emotional Implant]{#option-emotional-implant}
+:   [Synesthetic Recorder] add sensations/emotions
+
+[Sensory Implant]{#option-sensory-implant}
+:   [Synesthetic Recorder] add touch/smell
+
+[Infrared]{#option-infrared}
+:   see infrared
+
+[Electromagnetic Reader]{#option-electromagnetic-reader}
+:   read/decode electromagnetic signals
+
+[Photographic Memory\*]{#option-photographic-memory}
+:   complete detail of 1 selected scene at a time
+
+[Directional Microphone]{#option-directional-microphone}
+:   isolate distant directional sound
+
+[Isothermal Probe]{#option-isothermal-probe}
+:   detect thermoclines/temperature boundaries
+
+[Radar Sensor]{#option-radar-sensor}
+:   detect/analyse radar
+
+[Ultraviolet]{#option-ultraviolet}
+:   see ultraviolet
+
+[Zoom]{#option-zoom}
+:   magnify distant view
+
+[High-Definition Vision]{#option-high-definition-vision}
+:   [Zoom] resolve small distant/microscopic detail
+
+#### Prosthetic
+
+[Power]{#option-power}
+:   force work/endurance/athletics +2; choose 1 body replacement. **Hidden Compartment** — small-object storage.
+
+##### Woven Skin
+
+Base: Defence +1.
+
+[Dermal Display]{#option-dermal-display}
+:   skin display
+
+[Thermo-Optical Camouflage]{#option-thermo-optical-camouflage}
+:   match surroundings while naked
+
+[Motion Sensors]{#option-motion-sensors}
+:   detect movement within a few metres
+
+[Dermal Paint]{#option-dermal-paint}
+:   alter skin colour/patterns
+
+[Flashderm\*]{#option-flashderm}
+:   1/cycle: flash-grenade effect
+
+[Nictitating Membrane]{#option-nictitating-membrane}
+:   eyes protected from dust/acids/toxins/tear gas
+
+[Photoderm]{#option-photoderm}
+:   directional high-power flashlight from skin
+
+[Dermal Plates]{#option-dermal-plates}
+:   Defence +1
+
+[Subdermal Pouch]{#option-subdermal-pouch}
+:   concealed waterproof skin storage
+
+[Anti-Radiation Protection]{#option-anti-radiation-protection}
+:   tolerate radiation tens of minutes
+
+[Solar Regulation]{#option-solar-regulation}
+:   prevent sunburn via pigmentation
+
+[Thermal Regulation]{#option-thermal-regulation}
+:   tolerate extreme temperatures tens of minutes
+
+[Protective Seals]{#option-protective-seals}
+:   seal bodily openings
+
+[Heightened Tactile Sensitivity]{#option-heightened-tactile-sensitivity}
+:   tactile tests +4
+
+[Automatic Sutures]{#option-automatic-sutures}
+:   1/cycle, 0 HP → +5 HP
+
+[Special Textures]{#option-special-textures}
+:   fur, feathers, or scales
+
+##### Lower Limbs
+
+Base: initiative +1d6.
+
+[Acceleration]{#option-acceleration}
+:   melee Defence +1
+
+[Jump Absorbers]{#option-jump-absorbers}
+:   ignore falls ≤6 m
+
+[Kinetic Assistance]{#option-kinetic-assistance}
+:   run faster/jump farther
+
+[Anchoring Hooks]{#option-anchoring-hooks}
+:   heel/sole ground anchors; greatly increased grip
+
+[Flippers]{#option-flippers}
+:   swimming +4
+
+##### Upper Limbs
+
+Base: STR +2 outside combat.
+
+[Integrated Firearm]{#option-integrated-firearm}
+:   integrated firearm; improve with cybernetic options
+
+[Electric Shock\*]{#option-electric-shock}
+:   1/combat: melee damage +1d6 on 1 attack
+
+[Impactors]{#option-impactors}
+:   melee damage +2
+
+[Blades]{#option-blades}
+:   integrated melee weapon; improve with cybernetic options
+
+[Fractal Hand]{#option-fractal-hand}
+:   fine manipulation +2
+
+[Tool Hand]{#option-tool-hand}
+:   integrated tools
+
+[Specialized Tool Hand]{#option-specialized-tool-hand}
+:   chosen technical field +4
+
+[Pillow]{#option-pillow}
+:   inflatable arm pillow
+
+[Superior Strength]{#option-superior-strength}
+:   STR actions +2
+
+[Reinforcements]{#option-reinforcements-2}
+:   melee Defence +1
+
+##### Bone Replacement
+
+Base: +5 HP.
+
+[Reinforced Spine]{#option-reinforced-spine}
+:   resist impact/whiplash/torsion
+
+[Ceramic Teeth]{#option-ceramic-teeth}
+:   cut almost any material
+
+[Sonar Implant]{#option-sonar-implant}
+:   sonar perception
+
+[Skeletal Invisibility]{#option-skeletal-invisibility}
+:   skeleton invisible to X-ray/radar/MRI
+
+[Mandibles]{#option-mandibles}
+:   paired prehensile mandibles
+
+[Dynamic Facial Modification]{#option-dynamic-facial-modification}
+:   change facial structure; 1 wound/use
+
+[Diamond Nails]{#option-diamond-nails}
+:   cut glass/most synthetics
+
+[Tail]{#option-tail}
+:   running/balance +2 when tail helps
+
+[Prehensile Tail]{#option-prehensile-tail}
+:   manipulate objects
+
+#### Reinforcement
+
+[Durability]{#option-solidity-3}
+:   +10 HP
+
+[Electric Shock Absorber]{#option-electric-shock-absorber}
+:   protect from electric-shock fibrillation
+
+[Anti-Pathogen Barrier]{#option-anti-pathogen-barrier}
+:   protect from polluted-water poisoning
+
+[Gills]{#option-gills}
+:   breathe underwater
+
+[Hidden Compartment]{#option-hidden-compartment}
+:   concealed internal storage
+
+[Metabolism Control]{#option-metabolism-control}
+:   reduced food/water need or safe overconsumption
+
+[Emetic Control]{#option-emetic-control}
+:   suppress/induce nausea/vomiting
+
+[Adaptive Digestion]{#option-adaptive-digestion}
+:   digest non-human food
+
+[Double Heart]{#option-double-heart}
+:   +5 HP
+
+[Nasal Filters]{#option-nasal-filters}
+:   protect from toxic gas/smoke
+
+[Blood Filters]{#option-blood-filters}
+:   protect from poisons
+
+[Automatic Pleural Repair]{#option-automatic-pleural-repair}
+:   Defence +1 vs ranged
+
+[Oxygen Reserve]{#option-oxygen-reserve}
+:   no breathing for tens of minutes
+
+[Reserves]{#option-reserves}
+:   extended survival without food/water
+
+[Seals]{#option-seals}
+:   seal digestive-tract openings
+
+[Automatic Stimulation]{#option-automatic-stimulation}
+:   1/cycle, 0 HP → +5 HP
+
+[Sexual Organs]{#option-sexual-organs}
+:   contraception + common-STI filters; most sexual options toggle at will
+
+[Castration]{#option-castration}
+:   [Sexual Organs] neutralise genital area/sexual tension
+
+[Cobra]{#option-cobra}
+:   [Sexual Organs] concealed articulated genital melee weapon; surprise attack
+
+[Erection Control]{#option-erection-control}
+:   [Sexual Organs] control erection/ejaculation/genital size to partner response
+
+[Explosive Gonads]{#option-explosive-gonads}
+:   [Sexual Organs] replace 1 testicle with explosive charge
+
+[Variant Hermaphrodite]{#option-variant-hermaphrodite}
+:   [Sexual Organs] switch sex in minutes; both forms functional
+
+[Liquid Pheromones]{#option-liquid-pheromones}
+:   [Sexual Organs] pleasure-inducing secretions
+
+[Heightened Urges]{#option-heightened-urges}
+:   [Sexual Organs] seduction +2 when pursuing/seducing
+
+[Controlled Urges]{#option-controlled-urges}
+:   [Sexual Organs] resist seduction/manipulation +4
+
+### Cosmetic augmentations
+
+Cosmetic augmentations have no base implant and cost ¥2–4. **Retinal Display** is explicitly ¥2.
+
+[Retinal Display]{#option-retinal-display}
+:   retinal AR nexus connector; ¥2
+
+[Capillilumes]{#option-capillilumes}
+:   luminous hair
+
+[Capillitech]{#option-capillitech}
+:   change hair size/colour at will
+
+[Special Hair]{#option-special-hair}
+:   feathers/fur/quills/leaves/metal/optical fibres/similar
+
+[Perfume Gland]{#option-perfume-gland}
+:   programmable scent; 1–5 programs/model
+
+[Synesthetic Implant]{#option-synesthetic-implant}
+:   synesthetic-chip reader, fractal axon connections
+
+[Variable Breast Implants]{#option-variable-breast-implants}
+:   adjustable form
+
+[Chromatic Lenses]{#option-chromatic-lenses}
+:   eye colour at will
+
+[Nano-Grooms]{#option-nano-grooms}
+:   sweat nanomachines clean skin/clothes
+
+[Chromatic Nails]{#option-chromatic-nails}
+:   nail colour/length at will
+
+[Glowing Tattoos]{#option-glowing-tattoos}
+:   luminous moving dermal patterns
+
+---
+
+## Accelerators
+
+Only 1 accelerator active at a time except **Run Run Run**. You may take one without paying ¥, but suffer its negative side effect; spend ¥1 for a good dose to ignore that normal downside. Some corporations prohibit use and test employees; police react badly to carrying large quantities.
+
+[Caroline Says]{#option-caroline-says}
+:   concentration/detachment +2; downside social −2
+
+[Chelsea Girl]{#option-chelsea-girl}
+:   3h15: 1 eye virtual, 1 physical; afterward may take 1 wound
+
+[Dirty Boulevard]{#option-dirty-boulevard}
+:   current day/night actions −4. Next day before each roll set 1 non-damage die to chosen face; after each use 1d6, 6 → effect ends
+
+[Femme Fatale]{#option-femme-fatale}
+:   social +4 several hours; afterward CHA −1 until cycle end
+
+[Good Fortune]{#option-good-fortune}
+:   actions +1 until cycle end; cannot buy XP with ¥ during effect
+
+[Halloween Parade]{#option-halloween-parade}
+:   automatic social-event access regardless accreditation; downside physical/combat −2 until night end
+
+[Lady Day]{#option-lady-day}
+:   1 major Matrix service from Matrix spirits; afterward no Matrix 1d6 days
+
+[Mirror]{#option-mirror}
+:   understand target desires/motivations; no Matrix while active
+
+[Perfect Day]{#option-perfect-day}
+:   0 HP → +5 HP
+
+[Run Run Run]{#option-run-run-run}
+:   combine 2 accelerators; unpaid dose → both downsides even if those doses were paid
+
+[Sad Song]{#option-sad-song}
+:   no social interaction 1 day; next day negotiation/diplomacy +4
+
+[Satellite of Love]{#option-satellite-of-love}
+:   leave body as Akashic spirit; +1d6+3 Connection; run programs directly; 1h/INT rank; afterward no Matrix 24h
+
+[Sister Ray]{#option-sister-ray}
+:   8 personalities (calm, angry, cold, empath, autistic, victim, killer, lover), each = 1 skill; switch as needed; afterward social −4 until cycle end
+
+[Sweet Jane]{#option-sweet-jane}
+:   GM records ingestion; before cycle end declare events since then dream/possible future → replay them
+
+[Venus in Fur]{#option-venus-in-fur}
+:   physical torture is ineffective; ignore wound penalties until cycle end while wounds still accumulate; afterward −1 CON or WIS for 1 full cycle
+
+[Vicious]{#option-vicious}
+:   melee attack/damage +2; GM may force physical response to frustration/anger
+
+[White Heat]{#option-white-heat}
+:   skip 1 full night's sleep; suffer paranoia/social lapses
+
+[White Light]{#option-white-light}
+:   no sleep needed until cycle end; then permanently −1 CON
+
+---
+
+## Campaign Procedures
+
+### Panopticom
+
+At cycle change, when cell is ready, submit report. Accepted report → each character +¥5 +100 XP.
+
+Track 1 criteria sheet per investigation:
+
+1. issue and angle;
+2. basic facts: who, what, where, when, how, why;
+3. causes and consequences;
+4. deeper facts and ramifications;
+5. impact on society;
+6. evidence;
+7. images;
+8. put the findings to those involved and seek their response;
+9. involvement of The Other;
+10. ethics — GM checks sincerity/professionalism from the characters' point of view; being honestly deceived need not fail this criterion.
+
+[Submission]{#option-submission}
+:   count fulfilled criteria → GM rolls 2d6 modified by cell reputation. Result > fulfilled criteria → rejected. Rejected report may be resubmitted after ≥1 additional criterion is fulfilled.
+
+[Reputation]{#option-reputation}
+:   range −3…+3. Each broadcast may change it ±1, including later reassessment. Apply reputation to report-acceptance roll and ¥ payout. Source does not specify the arithmetic for modifying ¥ payout.
+
+### Galères (Complications) {#galères}
+
+Galère = complication usually affecting 1 character. Resolved → +20 XP +3 Connection.
+
+Optional player procedure: adventure start → each player secretly chooses 1 Galère; later introduce it against own or another player character; resolve normally; character resolving it gains reward.
+
+```{.random-table}
+caption: Galère
+columns: [d66, galère, prompt]
+rows:
+  - ["11", ACCIDENT, "Involved in an accident, responsible or not; property damage and injuries and complications."]
+  - ["12", BUREAUCRACY, "Administrative trouble: reminders, lost files, debts, bizarre bills; urgent and time-consuming."]
+  - ["13", CELEBRATION, "Party invitation at a bad time; wrong mood; everyone drinks too much."]
+  - ["14", SUSPICIOUS PACKAGE, "Opened a package meant for someone else; dangerous to you + recipient: money, drugs, illegal gear, threats, bomb, bloody body part."]
+  - ["15", STROKE OF LUCK, "Won a lot of ¥; the money itself becomes a problem."]
+  - ["16", CHASE, "Just robbed; chase the thief; you may have been deliberately targeted."]
+  - ["21", DEBT, "Someone close owes dangerous people through gambling, unofficial loan, illegal service, similar; already hurt and needs help."]
+  - ["22", LOCAL DIPLOMACY, "Squat has troublesome neighbours; you must handle it by diplomacy/patience or violence."]
+  - ["23", MISSING PERSON, "Friend, sibling, or contact missing; may have left worried message; nobody has seen them."]
+  - ["24", MISTAKEN IDENTITY, "Dangerous people mistake you for someone else and will not accept protests."]
+  - ["25", OUTBREAK OF VIOLENCE, "Witness violence leaving physical/emotional scars or involving you more than wanted."]
+  - ["26", FRUSTRATION, "You explode angrily; people fear you now; later come stares and complaints."]
+  - ["31", GROUPIE, "After a notable feat, someone becomes obsessed with you; harmless for now."]
+  - ["32", HANGOVER, "Brutal morning; cannot remember how you got there; slightest noise causes severe migraine. What happened?"]
+  - ["33", LOVE STORY, "You are in love; relationship complications, whether developing or routine."]
+  - ["34", FESTIVAL DAY, "Festival disrupts travel, errands, and reaching contacts; little works normally."]
+  - ["35", THE HEAT, "Corporate security is overzealous: station 'verification' or half the corpo cops chasing you."]
+  - ["36", WAR DECLARED, "Wrong joke to wrong person; war is declared and will not stop there."]
+  - ["41", "MURPHY'S LAW", "Bad day; whatever you do tends toward nightmare."]
+  - ["42", THE EXES, "An ex returns: one needs a service, chance brings you together, welcome or not."]
+  - ["43", ILLNESS, "Someone is sick, maybe you; find increasingly rare and expensive medication."]
+  - ["44", BAD IDEA, "Dragged into someone else's bad plan; their problem now concerns you."]
+  - ["45", BAD PRESS, "Media targets you: supposed scoop, personal vendetta, or paid smear."]
+  - ["46", LONG FUSE, "Past mistakes return; time to pay."]
+  - ["51", SUDDEN DEATH, "Someone dies; emotional impact optional, but plans for the day must change."]
+  - ["52", UNEXPECTED BABYSITTING, "A child is thrust on you for the day; far from easy to manage."]
+  - ["53", PERSONAL PAGE, "Someone tampers with your WakuWaku personal page; consequences follow."]
+  - ["54", BREAKDOWN, "Something fails at the worst moment; fix it while work continues manually."]
+  - ["55", APPOINTMENT, "Important appointment conflicts with something equally crucial; find a solution."]
+  - ["56", REVELATIONS, "Someone close shares deeply personal, disturbing, or bizarre revelations beyond what you can handle."]
+  - ["61", RIPPED OFF, "Contract not honoured: shoddy/undelivered equipment or false information; confrontation follows."]
+  - ["62", ABSENT-MINDED, "Tired, in love, or preoccupied; forget what you are told and half of what you must do."]
+  - ["63", A DEMANDING JOB, "Problems at the squat; caretaker summons you; urgent work comes first."]
+  - ["64", A SMALL FAVOR, "Asked a favour you cannot refuse; agreed reflexively before considering consequences."]
+  - ["65", FAMILY VISIT, "Family comes to visit; pleasant but cumbersome and tiring."]
+  - ["66", VOLUNTEER, "Thankless squat job with no recognition, on an already difficult day."]
+```
