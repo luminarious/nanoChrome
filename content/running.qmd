@@ -65,74 +65,103 @@ Find a snappy name that is easy to pronounce and remember - an acronym perhaps, 
 
 Here are a few different tables to help you picture The Other.
 
-| 1D6 | NATURE OF THE OTHER         |
-|:---:|:----------------------------|
-|  1  | A local corporation         |
-|  2  | An orbital corporation      |
-|  3  | An NGO                      |
-|  4  | A criminal organisation     |
-|  5  | A governmental organisation |
-|  6  | A secret society or cult    |
+```{.random-table}
+caption: Nature of the Other
+columns: [d6, nature]
+rows:
+  - [1, A local corporation]
+  - [2, An orbital corporation]
+  - [3, An NGO]
+  - [4, A criminal organisation]
+  - [5, A governmental organisation]
+  - [6, A secret society or cult]
+```
 
-| 1D6 | THE OTHER'S FACADE            |
-|:---:|:------------------------------|
-|  1  | Friendly and sympathetic      |
-|  2  | Charitable and benevolent     |
-|  3  | Discreet and cold             |
-|  4  | Mysterious                    |
-|  5  | Respectable and serious       |
-|  6  | Scandalous and media-friendly |
+```{.random-table}
+caption: The Other’s facade
+columns: [d6, facade]
+rows:
+  - [1, Friendly and sympathetic]
+  - [2, Charitable and benevolent]
+  - [3, Discreet and cold]
+  - [4, Mysterious]
+  - [5, Respectable and serious]
+  - [6, Scandalous and media-friendly]
+```
 
-| 1D6 | THE OTHER'S SECRET MEANS                     |
-|:---:|:---------------------------------------------|
-|  1  | Money, lots of it                            |
-|  2  | Fast and efficient henchmen                  |
-|  3  | Effective political and judicial influence   |
-|  4  | Unprecedented and secret technological means |
-|  5  | Accurate and comprehensive intelligence      |
-|  6  | Unshakeable public image                     |
+```{.random-table}
+caption: The Other’s secret means
+columns: [d6, means]
+rows:
+  - [1, 'Money, lots of it']
+  - [2, Fast and efficient henchmen]
+  - [3, Effective political and judicial influence]
+  - [4, Unprecedented and secret technological means]
+  - [5, Accurate and comprehensive intelligence]
+  - [6, Unshakeable public image]
+```
 
-| 1D6 | WEAKNESSES OF THE OTHER       |
-|:---:|:------------------------------|
-|  1  | A lot of indecision and delay |
-|  2  | Too much infighting           |
-|  3  | Ambitions without the means   |
-|  4  | Cruelty, baby, cruelty        |
-|  5  | Very poor public image        |
-|  6  | Too much self-confidence      |
+```{.random-table}
+caption: Weaknesses of the Other
+columns: [d6, weakness]
+rows:
+  - [1, A lot of indecision and delay]
+  - [2, Too much infighting]
+  - [3, Ambitions without the means]
+  - [4, 'Cruelty, baby, cruelty']
+  - [5, Very poor public image]
+  - [6, Too much self-confidence]
+```
 
-+--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 1D6    | THE OTHER'S REAL GOALS                                                                                                                                                                                                                                                                                                                                                                                               |
-+:======:+:=====================================================================================================================================================================================================================================================================================================================================================================================================================+
-| 1      | CONTROL: The Other wants power in one (or all) areas. It is about control and mastery. This can easily turn into fascism when The Other also wants to 'create' the conditions for an ideal society on its terms.                                                                                                                                                                                                     |
-+--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2      | CONVEY: The Other covets something. It may be power or wealth, or something simpler like an absolute monopoly on a particular technology. All his manoeuvres consist of creating the conditions for his success by eliminating competitors or by seeking the object of desire.                                                                                                                                       |
-+--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3      | CREATION: The Other has a great idea and wants to implement it, even if people don't agree. It may be something physical (developing innovative energy systems that will put all oil workers out of work, creating a race of super soldiers) or something more conceptual (establishing perfect security in a fully Christianised world). Generally, it's not without trial, error and escaped laboratory creatures. |
-+--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 4      | DESTRUCTION: The ultimate goal of The Other is to destroy something - the social order, enemies, an ethnic group, a political faction, trade unionists, polluters, orbiters, earthlings, etc. - and to make it a reality. The Other has embarked on a complex and far-reaching plan, spanning several years or decades, to ensure the success of the enterprise.                                                     |
-+--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 5      | EXPANSION: The Other wants to expand or extend its influence throughout a community, city or region. This can be about gaining market share or putting key people in important positions. This is the crude application of the concept: Grow or Lose.                                                                                                                                                                |
-+--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 6      | PROTECTION: The Other wants to protect something or someone. This may be to protect a community from a threat, to protect the threat itself, to defend against outsiders, to protect a way of life or customs. Usually, this is not without cruel decisions and extreme actions.                                                                                                                                     |
-+--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+```{.random-table}
+caption: The Other’s real goals
+columns: [d6, goal]
+rows:
+  - [1, "CONTROL: The Other wants power in one (or all) areas. It is about control and mastery. This can easily turn into fascism when The Other also wants to 'create' the conditions for an ideal society on its terms."]
+  - [2, "CONVEY: The Other covets something. It may be power or wealth, or something simpler like an absolute monopoly on a particular technology. All his manoeuvres consist of creating the conditions for his success by eliminating competitors or by seeking the object of desire."]
+  - [3, "CREATION: The Other has a great idea and wants to implement it, even if people don't agree. It may be something physical (developing innovative energy systems that will put all oil workers out of work, creating a race of super soldiers) or something more conceptual (establishing perfect security in a fully Christianised world). Generally, it's not without trial, error and escaped laboratory creatures."]
+  - [4, "DESTRUCTION: The ultimate goal of The Other is to destroy something - the social order, enemies, an ethnic group, a political faction, trade unionists, polluters, orbiters, earthlings, etc. - and to make it a reality. The Other has embarked on a complex and far-reaching plan, spanning several years or decades, to ensure the success of the enterprise."]
+  - [5, "EXPANSION: The Other wants to expand or extend its influence throughout a community, city or region. This can be about gaining market share or putting key people in important positions. This is the crude application of the concept: Grow or Lose."]
+  - [6, "PROTECTION: The Other wants to protect something or someone. This may be to protect a community from a threat, to protect the threat itself, to defend against outsiders, to protect a way of life or customs. Usually, this is not without cruel decisions and extreme actions."]
+```
 
 The Other may react in very different ways to perceived threats. Some reactions are brutal, others subtle. The following table gives you some examples of threats and possible reactions:
 
-| IN CASE OF…              | 1D26 | THE REACTION IS…             |
-|:-------------------------|:----:|:-----------------------------|
-| Attack                   | 1.1  | Hand over to the authorities |
-| Departure or resignation | 1.2  | Corrupt                      |
-| Disappearance            | 1.3  | Destroy credibility          |
-| Elimination              | 1.4  | Eliminate                    |
-| Espionage                | 1.5  | Cover up                     |
-| Extraction               | 1.6  | Intercept                    |
-| Leakage                  | 2.1  | Leave it alone or ignore     |
-| Intrusion                | 2.2  | Manipulating opinion         |
-| Threats                  | 2.3  | Threatening                  |
-| Public disclosure        | 2.4  | Entrapment                   |
-| Surveillance             | 2.5  | Bringing to court            |
-| Theft                    | 2.6  | Surveillance                 |
+```{.random-table}
+caption: In case of…
+columns: [1d26, incident]
+rows:
+  - [1.1, Attack]
+  - [1.2, Departure or resignation]
+  - [1.3, Disappearance]
+  - [1.4, Elimination]
+  - [1.5, Espionage]
+  - [1.6, Extraction]
+  - [2.1, Leakage]
+  - [2.2, Intrusion]
+  - [2.3, Threats]
+  - [2.4, Public disclosure]
+  - [2.5, Surveillance]
+  - [2.6, Theft]
+```
+
+```{.random-table}
+caption: The reaction is…
+columns: [1d26, reaction]
+rows:
+  - [1.1, Hand over to the authorities]
+  - [1.2, Corrupt]
+  - [1.3, Destroy credibility]
+  - [1.4, Eliminate]
+  - [1.5, Cover up]
+  - [1.6, Intercept]
+  - [2.1, Leave it alone or ignore]
+  - [2.2, Manipulating opinion]
+  - [2.3, Threatening]
+  - [2.4, Entrapment]
+  - [2.5, Bringing to court]
+  - [2.6, Surveillance]
+```
 
 ### Divide and Conquer
 
@@ -148,14 +177,17 @@ If The Other is some kind of anonymous, awesome monolith, it's important that th
 
 Make general plans for each faction, short and medium term goals according to their motivations.
 
-| 1D6 | FACTION MOTIVATIONS |
-|:---:|:--------------------|
-|  1  | Greed               |
-|  2  | Lust                |
-|  3  | Hatred              |
-|  4  | Power               |
-|  5  | Vision              |
-|  6  | Revenge             |
+```{.random-table}
+caption: Faction motivations
+columns: [d6, motivation]
+rows:
+  - [1, Greed]
+  - [2, Lust]
+  - [3, Hatred]
+  - [4, Power]
+  - [5, Vision]
+  - [6, Revenge]
+```
 
 ## Managing cycles
 
@@ -184,21 +216,17 @@ Finally, remember that factions have goals and if given time, will achieve them.
 
 Playing techmercs is the basis of the cyberpunk game. You play as guys who will do anything to eat and burn. You like money and adrenaline, in any order you like. You show off for the gallery under the guise of rebellious misfits, but in reality, you're waiting for the big score that will buy you a deserted island in the Pacific or a way to get back at someone. Draw or choose a motivation for each character.
 
-+-----------+----------------------------------------------------------------------------------------------------------+
-| 1D6       | TECHMERC MOTIVATION                                                                                      |
-+:=========:+:=========================================================================================================+
-| 1         | To help a family member who is in big trouble                                                            |
-+-----------+----------------------------------------------------------------------------------------------------------+
-| 2         | Change the world or change the world                                                                     |
-+-----------+----------------------------------------------------------------------------------------------------------+
-| 3         | Make a big score to pay off all your debts and finally see the sun                                       |
-+-----------+----------------------------------------------------------------------------------------------------------+
-| 4         | Find a way to get your kid back from being stolen by dirty corpos                                        |
-+-----------+----------------------------------------------------------------------------------------------------------+
-| 5         | Be loyal to the mentor who taught you and your family everything who's been protecting you all your life |
-+-----------+----------------------------------------------------------------------------------------------------------+
-| 6         | Get revenge for a dirty trick that left you stranded once upon a time                                    |
-+-----------+----------------------------------------------------------------------------------------------------------+
+```{.random-table}
+caption: Techmerc motivation
+columns: [d6, motivation]
+rows:
+  - [1, To help a family member who is in big trouble]
+  - [2, Change the world or change the world]
+  - [3, Make a big score to pay off all your debts and finally see the sun]
+  - [4, Find a way to get your kid back from being stolen by dirty corpos]
+  - [5, "Be loyal to the mentor who taught you and your family everything who's been protecting you all your life"]
+  - [6, Get revenge for a dirty trick that left you stranded once upon a time]
+```
 
 With techmercs, you can have one adventure after another without bothering too much with The Other at first. Just make him appear gradually and establish a race to see who will achieve their goals first: the characters or The Other?
 
@@ -206,87 +234,67 @@ The adventures almost always have a similar structure: the Client meets the char
 
 Of course, as a campaign progresses, the characters will have more resources, political support, connections, information to use. And more enemies and more problems with the authorities. And they will be identified and locked out by The Other.
 
-+----------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| 1D6      | WHO IS THE CLIENT?                                                                                                                         |
-+:========:+:===========================================================================================================================================+
-| 1        | An elderly corporatist executive, his eyes burnt out by all he has already seen and done.                                                  |
-+----------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| 2        | A young guy with big teeth, full of accelerants accelerators, excited as a flea and rather expansive.                                      |
-+----------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| 3        | A sharp and jovial O.G. with a sharp mind as his body blades.                                                                              |
-+----------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| 4        | A retired former techmerc, a bit off at times, but still on the ball.                                                                      |
-+----------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| 5        | A pretty, discreet and cold young woman who keeps the characters at a distance and does not respond to any of their their direct requests. |
-+----------+--------------------------------------------------------------------------------------------------------------------------------------------+
-| 6        | A presence on the matrix - no doubt an akashic spirit, but who can really know?                                                            |
-+----------+--------------------------------------------------------------------------------------------------------------------------------------------+
+```{.random-table}
+caption: Who is the client?
+columns: [d6, client]
+rows:
+  - [1, "An elderly corporatist executive, his eyes burnt out by all he has already seen and done."]
+  - [2, "A young guy with big teeth, full of accelerants accelerators, excited as a flea and rather expansive."]
+  - [3, "A sharp and jovial O.G. with a sharp mind as his body blades."]
+  - [4, "A retired former techmerc, a bit off at times, but still on the ball."]
+  - [5, "A pretty, discreet and cold young woman who keeps the characters at a distance and does not respond to any of their their direct requests."]
+  - [6, "A presence on the matrix - no doubt an akashic spirit, but who can really know?"]
+```
 
-+---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 1D6     | WHAT IS THE ATTITUDE OF THE CLIENT?                                                                                                                                                        |
-+:=======:+:===========================================================================================================================================================================================+
-| 1       | It is a simple intermediary, a transmission belt. Nothing personal, one way or the other.                                                                                                  |
-+---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2       | Calm and resigned to the darkness of his job, he organises things as best he can and puts oil in the wheels so that everyone gets through.                                                 |
-+---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3       | He is deadly serious when it comes to business. We're not here to fraternise, but the job must be done at all costs and he's always available. Just remember that he doesn't like excuses. |
-+---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 4       | The Client always has advice to give, checks on the progress of operations every five minutes, sometimes intervenes in the field without being asked. Who said "Pain in the ass"?          |
-+---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 5       | The Client is warm, patient and understanding. Always.                                                                                                                                     |
-+---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 6       | The Client is passive-aggressive and never gives satisfaction. He always has something to reproach the characters with and will recriminate at the slightest request.                      |
-+---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+```{.random-table}
+caption: What is the attitude of the client?
+columns: [d6, attitude]
+rows:
+  - [1, "It is a simple intermediary, a transmission belt. Nothing personal, one way or the other."]
+  - [2, "Calm and resigned to the darkness of his job, he organises things as best he can and puts oil in the wheels so that everyone gets through."]
+  - [3, "He is deadly serious when it comes to business. We're not here to fraternise, but the job must be done at all costs and he's always available. Just remember that he doesn't like excuses."]
+  - [4, "The Client always has advice to give, checks on the progress of operations every five minutes, sometimes intervenes in the field without being asked. Who said \"Pain in the ass\"?"]
+  - [5, "The Client is warm, patient and understanding. Always."]
+  - [6, "The Client is passive-aggressive and never gives satisfaction. He always has something to reproach the characters with and will recriminate at the slightest request."]
+```
 
-+--------------+------------------------------------------------------------------+
-| 1D6          | WHAT IS THE CLIENT'S POSITION?                                   |
-+:============:+:=================================================================+
-| 1            | He is a front man for a secret power.                            |
-+--------------+------------------------------------------------------------------+
-| 2            | He is an undercover government agent.                            |
-+--------------+------------------------------------------------------------------+
-| 3            | He is another techmerc who subcontracts some of his missions.    |
-+--------------+------------------------------------------------------------------+
-| 4            | He is an employee of the Other.                                  |
-+--------------+------------------------------------------------------------------+
-| 5            | He is a freelancer who works for himself and has a lot of money. |
-+--------------+------------------------------------------------------------------+
-| 6            | He is a freelance intermediary.                                  |
-+--------------+------------------------------------------------------------------+
+```{.random-table}
+caption: "What is the client's position?"
+columns: [d6, position]
+rows:
+  - [1, "He is a front man for a secret power."]
+  - [2, "He is an undercover government agent."]
+  - [3, "He is another techmerc who subcontracts some of his missions."]
+  - [4, "He is an employee of the Other."]
+  - [5, "He is a freelancer who works for himself and has a lot of money."]
+  - [6, "He is a freelance intermediary."]
+```
 
-+---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 1D6     | WHAT IS THE CLIENT'S MOTIVATION?                                                                                                                                                                                                     |
-+:=======:+:=====================================================================================================================================================================================================================================+
-| 1       | It's a job like any other. Tomorrow, the Client may be assigned to the marketing department of his company.                                                                                                                          |
-+---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2       | There's always stuff to skim - money, information, stuff to sell. There's no reason not to make a little extra on the backs of the characters.                                                                                       |
-+---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3       | The Client has a complicated personal history, a score to settle or an intimate investigation to unravel. And every assignment he gives has a little extra to it that only concerns him.                                             |
-+---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 4       | The Client would have liked to become a techmerc. But he has a degree and he doesn't like violence, so he might as well settle for a more comfortable and better-paid position. But still, he would have liked to be a techmerc too… |
-+---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 5       | The Client is, secretly or not, connected to the characters and tries to protect or guide them.                                                                                                                                      |
-+---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 6       | Someone is putting pressure on the Client with convincing arguments - intimidation, vital resources, information, blackmail…                                                                                                         |
-+---------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+```{.random-table}
+caption: "What is the client's motivation?"
+columns: [d6, motivation]
+rows:
+  - [1, "It's a job like any other. Tomorrow, the Client may be assigned to the marketing department of his company."]
+  - [2, "There's always stuff to skim - money, information, stuff to sell. There's no reason not to make a little extra on the backs of the characters."]
+  - [3, "The Client has a complicated personal history, a score to settle or an intimate investigation to unravel. And every assignment he gives has a little extra to it that only concerns him."]
+  - [4, "The Client would have liked to become a techmerc. But he has a degree and he doesn't like violence, so he might as well settle for a more comfortable and better-paid position. But still, he would have liked to be a techmerc too…"]
+  - [5, "The Client is, secretly or not, connected to the characters and tries to protect or guide them."]
+  - [6, "Someone is putting pressure on the Client with convincing arguments - intimidation, vital resources, information, blackmail…"]
+```
 
 At the end of a job for the Client, you may wish to choose or draw an item from the next table - without any obligation. Something goes wrong and the characters may be surprised by the outcome of their mission…
 
-+----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 1D6      | THE END OF A MISSION                                                                                                                                         |
-+:========:+:=============================================================================================================================================================+
-| 1        | The operation receives full media coverage (thanks Panopticom!).                                                                                             |
-+----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2        | The operation has not gone unnoticed and the Other has all the details in hand.                                                                              |
-+----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3        | The target of the contract takes revenge on the characters or their or their relatives, unless they ask for a a 'voluntary' service to wipe the slate clean. |
-+----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 4        | The Client does not like to leave a trail of operations and a team is assigned to eliminate the characters.                                                  |
-+----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 5        | The Client is not who he seems and in the end, he screws everyone over.                                                                                      |
-+----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 6        | You don't get the full amount promised, if you only get paid.                                                                                                |
-+----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
+```{.random-table}
+caption: The end of a mission
+columns: [d6, result]
+rows:
+  - [1, The operation receives full media coverage (thanks Panopticom!).]
+  - [2, The operation has not gone unnoticed and the Other has all the details in hand.]
+  - [3, "The target of the contract takes revenge on the characters or their or their relatives, unless they ask for a a 'voluntary' service to wipe the slate clean."]
+  - [4, The Client does not like to leave a trail of operations and a team is assigned to eliminate the characters.]
+  - [5, "The Client is not who he seems and in the end, he screws everyone over."]
+  - [6, "You don't get the full amount promised, if you only get paid."]
+```
 
 ### Corporates
 
@@ -304,26 +312,29 @@ Another advantage is that the characters' mission is simply to bring the faction
 
 In the meantime, between or during missions, add a little spice to the characters' hard working lives.
 
-| 1D36 | INTERNAL LIFE OR A FEW MINUTES AT THE COFFEE MACHINE |
-|:----:|:-----------------------------------------------------|
-| 1.1  | Change of management                                 |
-| 1.2  | Catfight                                             |
-| 1.3  | Jokes that go wrong                                  |
-| 1.4  | Colleagues who are a bit too free                    |
-| 1.5  | Work all over the place                              |
-| 1.6  | Jealousy drama                                       |
-| 2.1  | Nervous exhaustion                                   |
-| 2.2  | Political wrangling                                  |
-| 2.3  | Waste and mismanagement                              |
-| 2.4  | Moral harassment                                     |
-| 2.5  | The age of individual evaluations                    |
-| 2.6  | Shortage of drawing pins and paper clips             |
-| 3.1  | Office romance                                       |
-| 3.2  | Bitch-talk night                                     |
-| 3.3  | A crow leaves messages on the intranet               |
-| 3.4  | A bet in progress                                    |
-| 3.5  | A bit too much water at the farewell party           |
-| 3.6  | A medical alert                                      |
+```{.random-table}
+caption: Internal life or a few minutes at the coffee machine
+columns: [1d66, event]
+rows:
+  - ['1.1', Change of management]
+  - ['1.2', Catfight]
+  - ['1.3', Jokes that go wrong]
+  - ['1.4', Colleagues who are a bit too free]
+  - ['1.5', Work all over the place]
+  - ['1.6', Jealousy drama]
+  - ['2.1', Nervous exhaustion]
+  - ['2.2', Political wrangling]
+  - ['2.3', Waste and mismanagement]
+  - ['2.4', Moral harassment]
+  - ['2.5', The age of individual evaluations]
+  - ['2.6', Shortage of drawing pins and paper clips]
+  - ['3.1', Office romance]
+  - ['3.2', Bitch-talk night]
+  - ['3.3', A crow leaves messages on the intranet]
+  - ['3.4', A bet in progress]
+  - ['3.5', A bit too much water at the farewell party]
+  - ['3.6', A medical alert]
+```
 
 ### Panopticom
 
@@ -454,62 +465,71 @@ And if you've done your job well, it won't be easy for them: the culprit may hav
 
 The important thing is that the characters have something to do with the results of their investigation, that they are forced to make choices or take action based on this information.
 
-| 1D36 | SOURCES OF INFORMATION                    |
-|:----:|:------------------------------------------|
-| 1.1  | Official records                          |
-| 1.2  | Personal files                            |
-| 1.3  | Medical records                           |
-| 1.4  | Relatives                                 |
-| 1.5  | Relationships or associates of the target |
-| 1.6  | The police                                |
-| 2.1  | Financial analyst                         |
-| 2.2  | Newspaper article                         |
-| 2.3  | Interested client                         |
-| 2.4  | Confidential informant                    |
-| 2.5  | A forensic laboratory                     |
-| 2.6  | A cooperative witness                     |
-| 3.1  | A reluctant witness                       |
-| 3.2  | An anonymous tip                          |
-| 3.3  | A press conference                        |
-| 3.4  | A hunch                                   |
-| 3.5  | A search on the matrix                    |
-| 3.6  | A rumour in the street                    |
+```{.random-table}
+caption: Sources of information
+columns: [d66, source]
+rows:
+  - ["1.1", Official records]
+  - ["1.2", Personal files]
+  - ["1.3", Medical records]
+  - ["1.4", Relatives]
+  - ["1.5", Relationships or associates of the target]
+  - ["1.6", The police]
+  - ["2.1", Financial analyst]
+  - ["2.2", Newspaper article]
+  - ["2.3", Interested client]
+  - ["2.4", Confidential informant]
+  - ["2.5", A forensic laboratory]
+  - ["2.6", A cooperative witness]
+  - ["3.1", A reluctant witness]
+  - ["3.2", An anonymous tip]
+  - ["3.3", A press conference]
+  - ["3.4", A hunch]
+  - ["3.5", A search on the matrix]
+  - ["3.6", A rumour in the street]
+```
 
-| 1D26 | ATTITUDES OF WITNESSES                           |
-|:----:|:-------------------------------------------------|
-| 1.1  | Unclear, uncertain, hesitant                     |
-| 1.2  | Categorical, confident                           |
-| 1.3  | Too many irrelevant details                      |
-| 1.4  | Evasive, reluctant, obstinate, distrustful       |
-| 1.5  | Unfriendly, aggressive, uncooperative            |
-| 1.6  | Inquisitive, curious, answers questions          |
-| 2.1  | Hides something, conceals, lies                  |
-| 2.2  | Wants something out of it, greedy, interested    |
-| 2.3  | Already contacted by others, threatened, coerced |
-| 2.4  | Inventive, mythomaniac, manipulative             |
-| 2.5  | Scared, won't say anything, doesn't want to talk |
-| 2.6  | In a hurry, late, not now                        |
+```{.random-table}
+caption: Attitudes of witnesses
+columns: [1d26, attitude]
+rows:
+  - ["1.1", "Unclear, uncertain, hesitant"]
+  - ["1.2", "Categorical, confident"]
+  - ["1.3", "Too many irrelevant details"]
+  - ["1.4", "Evasive, reluctant, obstinate, distrustful"]
+  - ["1.5", "Unfriendly, aggressive, uncooperative"]
+  - ["1.6", "Inquisitive, curious, answers questions"]
+  - ["2.1", "Hides something, conceals, lies"]
+  - ["2.2", "Wants something out of it, greedy, interested"]
+  - ["2.3", "Already contacted by others, threatened, coerced"]
+  - ["2.4", "Inventive, mythomaniac, manipulative"]
+  - ["2.5", "Scared, won't say anything, doesn't want to talk"]
+  - ["2.6", "In a hurry, late, not now"]
+```
 
-| 1D36 | TYPE OF INFORMATION              |
-|:----:|:---------------------------------|
-| 1.1  | DNA fingerprints                 |
-| 1.2  | Computer files                   |
-| 1.3  | Bundles of paper                 |
-| 1.4  | Chemicals                        |
-| 1.5  | Footprints or tyre tracks        |
-| 1.6  | Blood                            |
-| 2.1  | A serial number                  |
-| 2.2  | An object                        |
-| 2.3  | An appointment                   |
-| 2.4  | A network or known links         |
-| 2.5  | An address in the matrix         |
-| 2.6  | A physical address               |
-| 3.1  | A weapon                         |
-| 3.2  | A chronology                     |
-| 3.3  | A physical description           |
-| 3.4  | Ancient history                  |
-| 3.5  | Real-time location               |
-| 3.6  | A note on the back of a matchbox |
+```{.random-table}
+caption: Type of information
+columns: [d66, type]
+rows:
+  - ["1.1", DNA fingerprints]
+  - ["1.2", Computer files]
+  - ["1.3", Bundles of paper]
+  - ["1.4", Chemicals]
+  - ["1.5", Footprints or tyre tracks]
+  - ["1.6", Blood]
+  - ["2.1", A serial number]
+  - ["2.2", An object]
+  - ["2.3", An appointment]
+  - ["2.4", A network or known links]
+  - ["2.5", An address in the matrix]
+  - ["2.6", A physical address]
+  - ["3.1", A weapon]
+  - ["3.2", A chronology]
+  - ["3.3", A physical description]
+  - ["3.4", Ancient history]
+  - ["3.5", Real-time location]
+  - ["3.6", A note on the back of a matchbox]
+```
 
 ## A note on the back of a matchbox
 
@@ -563,21 +583,17 @@ The game leader has a little preparation to do before launching his players into
 
 Fill out a small table for each objective to be accomplished. The table usually has 6 items numbered from 1 to 6 (but if you have the right stuff on hand, you can vary the die used from d4 to d10 to represent the difficulty or length of the operation). The 1 is always "goal achieved" (at least, the characters are able to do what they need to do now to achieve it). For the other elements, you can pick and choose from the following suggestions according to your needs and desires. Try to put the things you consider most dangerous at the top of the die and the things that are more favourable to the characters at the bottom of the table. By choosing the items on each table, the leader can really guide the moods he wants to set for events, even if he doesn't ultimately decide exactly what they are.
 
-+-----------+---------------------------------------------------------------------------------------------------------------------+
-| 1D6       | EXAMPLE OF HOW DANGEROUS THE EVENTS ARE                                                                             |
-+:=========:+:====================================================================================================================+
-| 1         | The characters achieve their objective                                                                              |
-+-----------+---------------------------------------------------------------------------------------------------------------------+
-| 2         | The adventure is annoying and wastes the characters' time characters, but does not put the mission back into play.  |
-+-----------+---------------------------------------------------------------------------------------------------------------------+
-| 3         | The incident is a real puzzle, difficult to solve, but the characters have some time.                               |
-+-----------+---------------------------------------------------------------------------------------------------------------------+
-| 4         | Things suddenly speed up. It's not deadly, but it is explosive.                                                     |
-+-----------+---------------------------------------------------------------------------------------------------------------------+
-| 5         | It's a pretty dangerous ride, but the characters have a few moments' notice.                                        |
-+-----------+---------------------------------------------------------------------------------------------------------------------+
-| 6         | The situation is extremely dangerous and things jump out at the characters without them having had time to prepare. |
-+-----------+---------------------------------------------------------------------------------------------------------------------+
+```{.random-table}
+caption: Example of how dangerous the events are
+columns: [d6, result]
+rows:
+  - [1, The characters achieve their objective]
+  - [2, "The adventure is annoying and wastes the characters' time characters, but does not put the mission back into play."]
+  - [3, "The incident is a real puzzle, difficult to solve, but the characters have some time."]
+  - [4, "Things suddenly speed up. It's not deadly, but it is explosive."]
+  - [5, "It's a pretty dangerous ride, but the characters have a few moments' notice."]
+  - [6, "The situation is extremely dangerous and things jump out at the characters without them having had time to prepare."]
+```
 
 OPPOSITION
 
@@ -693,23 +709,29 @@ The characters must infiltrate a corporate marina, find a specific yacht, plant 
 
 The leader should therefore prepare two small adventure tables:
 
-| 1D6 | EVENTS: THE MARINA                                 |
-|:---:|----------------------------------------------------|
-|  1  | Objective achieved: The characters are in front of |
-|  2  | Misunderstanding and misunderstanding              |
-|  3  | Shouldn't you have turned right?                   |
-|  4  | Surprise visit                                     |
-|  5  | Attentive and discreet people                      |
-|  6  | Unexpected face to face                            |
+```{.random-table}
+caption: "Events: The Marina"
+columns: [d6, event]
+rows:
+  - [1, "Objective achieved: The characters are in front of"]
+  - [2, "Misunderstanding and misunderstanding"]
+  - [3, "Shouldn't you have turned right?"]
+  - [4, "Surprise visit"]
+  - [5, "Attentive and discreet people"]
+  - [6, "Unexpected face to face"]
+```
 
-| 1D6 | ADVENTURES: THE YACHT                         |
-|:---:|:----------------------------------------------|
-|  1  | Objective achieved: the characters access the |
-|  2  | Cupboards full of things…                     |
-|  3  | Strange and disturbing noises…                |
-|  4  | Midnight swim!                                |
-|  5  | Unfortunate coincidences                      |
-|  6  | Alarm bells ringing…                          |
+```{.random-table}
+caption: "Adventures: The Yacht"
+columns: [d6, adventure]
+rows:
+  - [1, "Objective achieved: the characters access the"]
+  - [2, "Cupboards full of things…"]
+  - [3, "Strange and disturbing noises…"]
+  - [4, "Midnight swim!"]
+  - [5, "Unfortunate coincidences"]
+  - [6, "Alarm bells ringing…"]
+```
 
 ## Events and rumours
 
@@ -725,55 +747,39 @@ To get the action going again, you have several tools at your disposal:
 -   Get The Other to act: The Other does not sit still. It has its own goals and it sets them in motion at its own pace. This is how the world gradually evolves. Normally you have to wait for a cycle to pass, but if the characters don't take the initiative, too bad for them…
 -   Ask the players to invent rumours or events in the town: you can use the table below as a guide to trigger or inspire these rumours - or leave it to the players. Ideally, ask for one rumour a day - when the characters get up. Players can take turns answering. Rumours can be about things that have happened, are happening, or are likely to happen later.
 
-+-------------+-----------------------------------------------------------------------------------+
-| 1D6         | WHEN?                                                                             |
-+:===========:+:==================================================================================+
-| 1-2         | What happened in the previous days (the previous cycle)                           |
-+-------------+-----------------------------------------------------------------------------------+
-| 3-4         | What is happening today (this cycle)                                              |
-+-------------+-----------------------------------------------------------------------------------+
-| 5-6         | What will happen in the next few days (the next cycle or even the one after that) |
-+-------------+-----------------------------------------------------------------------------------+
+```{.random-table}
+caption: When?
+columns: [1d6, when]
+rows:
+  - [1-2, What happened in the previous days (the previous cycle)]
+  - [3-4, What is happening today (this cycle)]
+  - [5-6, What will happen in the next few days (the next cycle or even the one after that)]
+```
 
-+--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 1D36   | RUMOURS/EVENTS            | KEYWORDS                                                                                                                                                                                                                                            |
-+:======:+:==========================+:====================================================================================================================================================================================================================================================+
-| 1.1    | AT WORK                   | Unemployment - strikes - wage negotiations - industrial accident - economic crisis - modification of the labour code - trade union action - counter-insurgency and jaunts - employer pressure - repression…                                         |
-+--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 1.2    | PARTIES AND EVENTS        | Block party - traditional celebrations - concert - art - happening - Zeuf, Kabukirock and Takodub - Blitzball match - student party - excellent mega party - stars and celebrities - social event and cocktail party…                               |
-+--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 1.3    | ANARZONE                  | Abandonment - on the wrong side of the checkpoints - violent gangs - territoriality - resignation - revolt - protest - charity work - black market and smuggling - no future - ruins - hope…                                                        |
-+--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 1.4    | THE OTHER                 | Press conference - media announcements - unverified rumours - suppressed scandal - trial - defeated opponents…                                                                                                                                      |
-+--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 1.5    | CRIMINALITY               | Grisly murder - drug trafficking - corruption - grand theft - score-settling - serial killer - gang warfare - drive-by shooting - human trafficking - cyber-recovery - akhashic crime…                                                              |
-+--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 1.6    | THE MUNICIPALITY          | Works - local codes - council decisions - scandal - press conference - security - firm opposition - deals and compromises - public pressure - shady deals…                                                                                          |
-+--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2.1    | POLITICS                  | Authoritarianism - utopia - social movements - protests - indecisions - violence - unnatural agreements and alliances - nationalism and identity-based withdrawal - internationalism - elections - militants - scandal - prevarications and abuses… |
-+--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2.2    | THE WORLD                 | World news - ongoing wars - ecological disasters - devastating accidents - pacts and alliances - commodity prices - new technologies…                                                                                                               |
-+--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2.3    | THE FLOATING WORLD        | Gamblers and bouncers - bars and cabarets - shows - music scene - prostitution - gambling - code of conduct - drunkenness - predators and victims - drugs - gangers - trafficking - cop patrols - nightclubs - snitches…                            |
-+--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2.4    | THE NEIGHBORHOOD          | Traders - residents - entrepreneurs - suppliers - friends - neighbours - thugs - parasites - profiteers - exploited - accident - drama - joy - party…                                                                                               |
-+--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2.5    | THE SQUAT                 | Passages - meetings - feelings - quarrels - logistics - celebrations - mourning - work - exclusions - newcomers - mysteries - black market…                                                                                                         |
-+--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2.6    | THE WEATHER               | Storms - strong winds - heavy rain - heat waves - floods - extreme cold - power cuts - accidents…                                                                                                                                                   |
-+--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3.1    | THE CONURBS               | Football match - quiet life - unpredictable drama - fire - building work - monster traffic jams - problems on public transport - perversions - buried secrets - mowing the lawn and putting your head down…                                         |
-+--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3.2    | CORPORATIONS              | Orbitals - price wars - industrial management - hedonism - scandal - board of directors - wealth - power - internal struggles - careers and jobs - managers and employees…                                                                          |
-+--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3.3    | THE ENCLAVES CORPORATISTS | Archologies - enhanced security - press conference - marketing and aggressive advertising - sales - antizone on fire terrorist attack - munificence and abuse…                                                                                      |
-+--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3.4    | THE ORBITALS              | Corporatist Council - lift orbital elevator - moon islands - Kwaza barge - interventionism - the twelve orbitals - UN - secret war - space accident - bombings - above the mass…                                                                    |
-+--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3.5    | MY PRIVATE LIFE           | Simple meeting - tragic accident - anecdote - important meeting - discovery - secret to share - stupidity - humour - dark thoughts - love at first sight break-up - evening with friends - too many things to do to do - bills to pay…              |
-+--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3.6    | ON THE MATRIX             | Special communications - news streaming - hackers and coders - akhashic minds - lost connection - virtual reality - persistent worlds - digital economy - blackmail and control - denial of service - concerted attacks - akhashic flashmob…        |
-+--------+---------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+```{.random-table}
+caption: Rumours/events
+columns: [d66, rumours/events, keywords]
+rows:
+  - ["1.1", AT WORK, Unemployment - strikes - wage negotiations - industrial accident - economic crisis - modification of the labour code - trade union action - counter-insurgency and jaunts - employer pressure - repression…]
+  - ["1.2", PARTIES AND EVENTS, Block party - traditional celebrations - concert - art - happening - Zeuf - Kabukirock and Takodub - Blitzball match - student party - excellent mega party - stars and celebrities - social event and cocktail party…]
+  - ["1.3", ANARZONE, Abandonment - on the wrong side of the checkpoints - violent gangs - territoriality - resignation - revolt - protest - charity work - black market and smuggling - no future - ruins - hope…]
+  - ["1.4", THE OTHER, Press conference - media announcements - unverified rumours - suppressed scandal - trial - defeated opponents…]
+  - ["1.5", CRIMINALITY, Grisly murder - drug trafficking - corruption - grand theft - score-settling - serial killer - gang warfare - drive-by shooting - human trafficking - cyber-recovery - akhashic crime…]
+  - ["1.6", THE MUNICIPALITY, Works - local codes - council decisions - scandal - press conference - security - firm opposition - deals and compromises - public pressure - shady deals…]
+  - ["2.1", POLITICS, Authoritarianism - utopia - social movements - protests - indecisions - violence - unnatural agreements and alliances - nationalism and identity-based withdrawal - internationalism - elections - militants - scandal - prevarications and abuses…]
+  - ["2.2", THE WORLD, World news - ongoing wars - ecological disasters - devastating accidents - pacts and alliances - commodity prices - new technologies…]
+  - ["2.3", THE FLOATING WORLD, Gamblers and bouncers - bars and cabarets - shows - music scene - prostitution - gambling - code of conduct - drunkenness - predators and victims - drugs - gangers - trafficking - cop patrols - nightclubs - snitches…]
+  - ["2.4", THE NEIGHBORHOOD, Traders - residents - entrepreneurs - suppliers - friends - neighbours - thugs - parasites - profiteers - exploited - accident - drama - joy - party…]
+  - ["2.5", THE SQUAT, Passages - meetings - feelings - quarrels - logistics - celebrations - mourning - work - exclusions - newcomers - mysteries - black market…]
+  - ["2.6", THE WEATHER, Storms - strong winds - heavy rain - heat waves - floods - extreme cold - power cuts - accidents…]
+  - ["3.1", THE CONURBS, Football match - quiet life - unpredictable drama - fire - building work - monster traffic jams - problems on public transport - perversions - buried secrets - mowing the lawn and putting your head down…]
+  - ["3.2", CORPORATIONS, Orbitals - price wars - industrial management - hedonism - scandal - board of directors - wealth - power - internal struggles - careers and jobs - managers and employees…]
+  - ["3.3", THE ENCLAVES CORPORATISTS, Archologies - enhanced security - press conference - marketing and aggressive advertising - sales - antizone on fire terrorist attack - munificence and abuse…]
+  - ["3.4", THE ORBITALS, Corporatist Council - lift orbital elevator - moon islands - Kwaza barge - interventionism - the twelve orbitals - UN - secret war - space accident - bombings - above the mass…]
+  - ["3.5", MY PRIVATE LIFE, Simple meeting - tragic accident - anecdote - important meeting - discovery - secret to share - stupidity - humour - dark thoughts - love at first sight break-up - evening with friends - too many things to do to do - bills to pay…]
+  - ["3.6", ON THE MATRIX, Special communications - news streaming - hackers and coders - akhashic minds - lost connection - virtual reality - persistent worlds - digital economy - blackmail and control - denial of service - concerted attacks - akhashic flashmob…]
+```
+
 
 ## Flash-infos
 
@@ -783,59 +789,65 @@ To get the action going again, you have several tools at your disposal:
 
 If you like, you can also use the newsflash table: draw from each column and throw out a news item in less than thirty seconds in the form of a flash headline heard on the radio. If the players are hooked or want to know more, you can then expand on the story as you see fit. By punctuating the game sessions in this way, you'll set the pace and find yourself making up lots of interesting stuff on the fly - all the goodness of automatic writing, in a hurry, without thinking…
 
-| 1D66 | WHAT?                           | WHO?                    |
-|:----:|:--------------------------------|:------------------------|
-| 1.1  | Accident                        | The federal government  |
-| 1.2  | Economic news                   | Local government        |
-| 1.3  | Foreign news                    | The Other               |
-| 1.4  | Political news                  | Police                  |
-| 1.5  | Social news                     | Organised crime         |
-| 1.6  | Social agenda                   | Big crime               |
-| 2.1  | Robbery                         | Panopticom              |
-| 2.2  | Weather report                  | An adversary            |
-| 2.3  | Pink notebooks                  | A corporate executive   |
-| 2.4  | Catastrophe                     | An akashic shaman       |
-| 2.5  | Sensational crime               | A coder                 |
-| 2.6  | Culture                         | A diplomat              |
-| 3.1  | Drama                           | An akhashic mind        |
-| 3.2  | Riot                            | A media expert          |
-| 3.3  | Espionage                       | A street gang           |
-| 3.4  | Absurd fact                     | A politician            |
-| 3.5  | Criminal mischief               | An immortal             |
-| 3.6  | War                             | A stranger              |
-| 4.1  | Justice and trial               | An intermediary         |
-| 4.2  | The Matrix                      | An inventor             |
-| 4.3  | Manifestations                  | A messenger             |
-| 4.4  | Murder                          | A nomad                 |
-| 4.5  | Military operations             | An oligarch             |
-| 4.6  | Police operations               | A cleric                |
-| 5.1  | People                          | An orbital national     |
-| 5.2  | Religion                        | A swordsman             |
-| 5.3  | International meeting           | A scientist             |
-| 5.4  | Health                          | A recognized specialist |
-| 5.5  | Political and financial scandal | A sportsman             |
-| 5.6  | Sexual scandal                  | A trafficker            |
-| 6.1  | Science and discovery           | A celebrity             |
-| 6.2  | Sports - results                | An orbital corporation  |
-| 6.3  | Sports - scandals and stories   | An escort               |
-| 6.4  | Technology                      | A faction of the game   |
-| 6.5  | Terrorism                       | A relationship          |
-| 6.6  | Urban violence                  | A cult                  |
+```{.random-table}
+caption: What? / Who?
+columns: [d66, what?, who?]
+rows:
+  - ["1.1", Accident, The federal government]
+  - ["1.2", Economic news, Local government]
+  - ["1.3", Foreign news, The Other]
+  - ["1.4", Political news, Police]
+  - ["1.5", Social news, Organised crime]
+  - ["1.6", Social agenda, Big crime]
+  - ["2.1", Robbery, Panopticom]
+  - ["2.2", Weather report, An adversary]
+  - ["2.3", Pink notebooks, A corporate executive]
+  - ["2.4", Catastrophe, An akashic shaman]
+  - ["2.5", Sensational crime, A coder]
+  - ["2.6", Culture, A diplomat]
+  - ["3.1", Drama, An akhashic mind]
+  - ["3.2", Riot, A media expert]
+  - ["3.3", Espionage, A street gang]
+  - ["3.4", Absurd fact, A politician]
+  - ["3.5", Criminal mischief, An immortal]
+  - ["3.6", War, A stranger]
+  - ["4.1", Justice and trial, An intermediary]
+  - ["4.2", The Matrix, An inventor]
+  - ["4.3", Manifestations, A messenger]
+  - ["4.4", Murder, A nomad]
+  - ["4.5", Military operations, An oligarch]
+  - ["4.6", Police operations, A cleric]
+  - ["5.1", People, An orbital national]
+  - ["5.2", Religion, A swordsman]
+  - ["5.3", International meeting, A scientist]
+  - ["5.4", Health, A recognized specialist]
+  - ["5.5", Political and financial scandal, A sportsman]
+  - ["5.6", Sexual scandal, A trafficker]
+  - ["6.1", Science and discovery, A celebrity]
+  - ["6.2", Sports - results, An orbital corporation]
+  - ["6.3", Sports - scandals and stories, An escort]
+  - ["6.4", Technology, A faction of the game]
+  - ["6.5", Terrorism, A relationship]
+  - ["6.6", Urban violence, A cult]
+```
 
-| 1D26 | WHERE?                               |
-|:----:|:-------------------------------------|
-| 1.1  | Abroad (anarzone)                    |
-| 1.2  | Abroad (conurb)                      |
-| 1.3  | Abroad (corporatist enclave)         |
-| 1.4  | In facilities belonging to The Other |
-| 1.5  | In an antizone                       |
-| 1.6  | In orbit                             |
-| 2.1  | Here (anarzone)                      |
-| 2.2  | Here (conurb)                        |
-| 2.3  | Here (corporatist enclave)           |
-| 2.4  | Another city (anarzone)              |
-| 2.5  | Another city (conurb)                |
-| 2.6  | Another city (corporatist enclave)   |
+```{.random-table}
+caption: Where?
+columns: [d26, where?]
+rows:
+  - ["1.1", "Abroad (anarzone)"]
+  - ["1.2", "Abroad (conurb)"]
+  - ["1.3", "Abroad (corporatist enclave)"]
+  - ["1.4", "In facilities belonging to The Other"]
+  - ["1.5", "In an antizone"]
+  - ["1.6", "In orbit"]
+  - ["2.1", "Here (anarzone)"]
+  - ["2.2", "Here (conurb)"]
+  - ["2.3", "Here (corporatist enclave)"]
+  - ["2.4", "Another city (anarzone)"]
+  - ["2.5", "Another city (conurb)"]
+  - ["2.6", "Another city (corporatist enclave)"]
+```
 
 ## THE GALLERIES
 
@@ -849,81 +861,46 @@ When a problem has been solved, it yields 20 XP and 3 connection points.
 
 You can also give the list to the players: each one chooses one in secret at the beginning of the adventure. They can play it whenever they want on themselves or on one of their little friends. For the sake of mischief and to the delight of the rest of the table. What can be funny is when all the galleys fall on the same unfortunate person (who ends up accumulating some XP in the story).
 
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 1D66  | Name                 | Description                                                                                                                                                                                                                            |
-+:=====:+:=====================+:=======================================================================================================================================================================================================================================+
-| 1.1   | ACCIDENT             | You are involved in an accident – whether you are responsible or not. There's damage and lots of complications to manage, both material and human.                                                                                     |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 1.2   | BUREAUCRACY          | You're being given administrative grief – reminder letters, lost files, debts, and bizarre bills… It's becoming urgent to deal with it, and it's going to keep you busy for a while.                                                   |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 1.3   | CELEBRATION          | You're invited to a party, but it's really bad timing. You're not in the mood, and everyone is going to drink way too much. It's going to be a long night...                                                                           |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 1.4   | SUSPICIOUS PACKAGE   | You mistakenly received and opened a strange package not addressed to you. It contained something dangerous – for you and the recipient – far too much money, drugs, illegal equipment, threats, a bomb, or even a bloody ear or head. |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 1.5   | STROKE OF LUCK       | You're really lucky today. You've won a lot of ¥. But money doesn't buy happiness, as you well know. And this money is going to burn a hole in your pocket.                                                                            |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 1.6   | CHASE                | You've just been robbed. Surprised at first, you are now chasing the thug. It's not necessarily bad luck; you might have been the target of the setup.                                                                                 |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2.1   | DEBT                 | Someone close to you owes money to dangerous people. Gambling debt, unofficial loan, illegal service… They need help and are already roughed up. You can't leave them like this.                                                       |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2.2   | LOCAL DIPLOMACY      | Your squat has some problems with troublesome neighbors, and you're in charge of dealing with it. You'll need a good dose of patience and diplomacy, unless you opt for the punch-in-the-face method...                                |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2.3   | MISSING PERSON       | A buddy, a brother, or an acquaintance is nowhere to be found. What kind of mess has he gotten himself into this time? He might have left you a worried message, and no one has seen him since.                                        |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2.4   | MISTAKEN IDENTITY    | You're mistaken for someone else, and of course, it's not to give you flowers or congratulate you. These people won't let you go because of a few protests, and they are dangerous.                                                    |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2.5   | OUTBREAK OF VIOLENCE | You witness an outbreak of violence that will leave physical or emotional scars, or even involve you more than you'd like.                                                                                                             |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 2.6   | FRUSTRATION          | Sometimes, the cup is full. You explode angrily. For now, people are just afraid of you. But tomorrow, you'll have to deal with the stares and complaints.                                                                             |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3.1   | GROUPIE              | After a brilliant act, someone is obsessed with you. For now, they're harmless, but with this kind of crackpot, you never know what might happen.                                                                                      |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3.2   | HANGOVER             | Here come those rough mornings when you can't remember how you ended up there, when the slightest noise gives you a migraine that would knock out a COPA. What happened last night?                                                    |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3.3   | LOVE STORY           | You're in love, but couple life is sometimes complicated, whether the story is in full swing or you're settled into a routine.                                                                                                         |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3.4   | FESTIVAL DAY         | You don't like festivals. Impossible to get around, do errands, or reach your contacts. Nothing seems to work normally.                                                                                                                |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3.5   | THE HEAT             | Those corporate security jerks are overzealous tonight. Insults, beatings? Either you're at the station for more thorough "verifications," or you're on the run with half the corpo cops on your tail.                                 |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 3.6   | BURYING THE HATCHET  | You made the wrong joke to the wrong person. Everyone had a good laugh, but you saw it in their eyes: war is declared. It's not going to end there... oh no!                                                                           |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 4.1   | MURPHY'S LAW         | Today is a bad day, and it's only just begun. Whatever you do today, it's going to turn into a nightmare.                                                                                                                              |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 4.2   | THE EXES             | An ex comes back into your life: they need a favor from you, or vice versa; it's pure chance working things out (or not); it's a pleasant surprise (or not)…                                                                           |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 4.3   | ILLNESS              | Someone is sick. Maybe you. You'll have to run around everywhere to find increasingly rare and expensive medications.                                                                                                                  |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 4.4   | BAD IDEA             | You're dragged into a bad plan, a first-class mess. You're not responsible for your friends, family, or clients, but when their problems start to concern you, it's already too late.                                                  |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 4.5   | BAD PRESS            | The media is cruel, and you find yourself their target without quite understanding why. Does the journalist think they have a scoop, or are they pursuing you with some sort of personal hatred? Unless they were paid to destroy you. |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 4.6   | LONG FUSE            | Your past comes back to haunt you. You made some mistakes back in the day, and now it's time to pay the bill.                                                                                                                          |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 5.1   | SUDDEN DEATH         | Someone has died. This death may or may not affect you emotionally, but it certainly forces you to reconsider your plans for the day.                                                                                                  |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 5.2   | IMPROVISED NANNY     | You've inherited a kid for the day – the mother thrust them into your arms and bolted, claiming urgent matters. You'll quickly realize this is far from a little angel!                                                                |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 5.3   | PERSONAL PAGE        | Someone has tampered with your personal page on the WakuWaku social network. It pisses you off, for sure, but it's not without consequences.                                                                                           |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 5.4   | BREAKDOWN            | Something breaks down at the worst possible moment, and guess who has to fix the problem. And in the meantime, you'll have to do the work by hand since the machine has given up the ghost.                                            |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 5.5   | APPOINTMENT          | You have an important appointment, the kind you can't miss, and it falls right in the middle of something else equally crucial. You'll have to find a solution.                                                                        |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 5.6   | REVELATIONS          | Someone close trusts you enough to make very personal, very disturbing, or downright bizarre revelations to you. Except it's much more than you can handle.                                                                            |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 6.1   | RIPPED OFF           | You had a contract, but the other party didn't honor their commitments – shoddy or undelivered equipment, false information. You'll have to kick some asses, and something tells you your night isn't over yet.                        |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 6.2   | ABSENT-MINDED        | Today you're tired, in love, or obsessed with your problems. You don't retain anything you're told, and you forget half of what you're asked to do.                                                                                    |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 6.3   | A DEMANDING JOB      | There are problems at the squat, and the caretaker has summoned you. He's furious, overwhelmed, stressed, and this needs to be sorted out before anything else… You're not going to be idle!                                           |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 6.4   | A SMALL FAVOR        | You're asked for a favor you can't refuse. You said yes reflexively, without thinking about the real consequences of your answer, and now you're stuck.                                                                                |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 6.5   | FAMILY VISIT         | Members of your family are coming to visit - but as often, nothing is simple. They're very nice, but really cumbersome and tiring.                                                                                                     |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| 6.6   | VOLUNTEER            | You have something to do for the squat, a thankless job for which you can expect no recognition, but someone has to do it. And of course, it's on a day when everything is complicated.                                                |
-+-------+----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+```{.random-table}
+columns: [d66, name, description]
+rows:
+  - ["1.1", ACCIDENT, "You are involved in an accident – whether you are responsible or not. There's damage and lots of complications to manage, both material and human."]
+  - ["1.2", BUREAUCRACY, "You're being given administrative grief – reminder letters, lost files, debts, and bizarre bills… It's becoming urgent to deal with it, and it's going to keep you busy for a while."]
+  - ["1.3", CELEBRATION, "You're invited to a party, but it's really bad timing. You're not in the mood, and everyone is going to drink way too much. It's going to be a long night..."]
+  - ["1.4", SUSPICIOUS PACKAGE, "You mistakenly received and opened a strange package not addressed to you. It contained something dangerous – for you and the recipient – far too much money, drugs, illegal equipment, threats, a bomb, or even a bloody ear or head."]
+  - ["1.5", STROKE OF LUCK, "You're really lucky today. You've won a lot of ¥. But money doesn't buy happiness, as you well know. And this money is going to burn a hole in your pocket."]
+  - ["1.6", CHASE, "You've just been robbed. Surprised at first, you are now chasing the thug. It's not necessarily bad luck; you might have been the target of the setup."]
+  - ["2.1", DEBT, "Someone close to you owes money to dangerous people. Gambling debt, unofficial loan, illegal service… They need help and are already roughed up. You can't leave them like this."]
+  - ["2.2", LOCAL DIPLOMACY, "Your squat has some problems with troublesome neighbors, and you're in charge of dealing with it. You'll need a good dose of patience and diplomacy, unless you opt for the punch-in-the-face method..."]
+  - ["2.3", MISSING PERSON, "A buddy, a brother, or an acquaintance is nowhere to be found. What kind of mess has he gotten himself into this time? He might have left you a worried message, and no one has seen him since."]
+  - ["2.4", MISTAKEN IDENTITY, "You're mistaken for someone else, and of course, it's not to give you flowers or congratulate you. These people won't let you go because of a few protests, and they are dangerous."]
+  - ["2.5", OUTBREAK OF VIOLENCE, "You witness an outbreak of violence that will leave physical or emotional scars, or even involve you more than you'd like."]
+  - ["2.6", FRUSTRATION, "Sometimes, the cup is full. You explode angrily. For now, people are just afraid of you. But tomorrow, you'll have to deal with the stares and complaints."]
+  - ["3.1", GROUPIE, "After a brilliant act, someone is obsessed with you. For now, they're harmless, but with this kind of crackpot, you never know what might happen."]
+  - ["3.2", HANGOVER, "Here come those rough mornings when you can't remember how you ended up there, when the slightest noise gives you a migraine that would knock out a COPA. What happened last night?"]
+  - ["3.3", LOVE STORY, "You're in love, but couple life is sometimes complicated, whether the story is in full swing or you're settled into a routine."]
+  - ["3.4", FESTIVAL DAY, "You don't like festivals. Impossible to get around, do errands, or reach your contacts. Nothing seems to work normally."]
+  - ["3.5", THE HEAT, "Those corporate security jerks are overzealous tonight. Insults, beatings? Either you're at the station for more thorough \"verifications,\" or you're on the run with half the corpo cops on your tail."]
+  - ["3.6", BURYING THE HATCHET, "You made the wrong joke to the wrong person. Everyone had a good laugh, but you saw it in their eyes: war is declared. It's not going to end there... oh no!"]
+  - ["4.1", "MURPHY'S LAW", "Today is a bad day, and it's only just begun. Whatever you do today, it's going to turn into a nightmare."]
+  - ["4.2", THE EXES, "An ex comes back into your life: they need a favor from you, or vice versa; it's pure chance working things out (or not); it's a pleasant surprise (or not)…"]
+  - ["4.3", ILLNESS, "Someone is sick. Maybe you. You'll have to run around everywhere to find increasingly rare and expensive medications."]
+  - ["4.4", BAD IDEA, "You're dragged into a bad plan, a first-class mess. You're not responsible for your friends, family, or clients, but when their problems start to concern you, it's already too late."]
+  - ["4.5", BAD PRESS, "The media is cruel, and you find yourself their target without quite understanding why. Does the journalist think they have a scoop, or are they pursuing you with some sort of personal hatred? Unless they were paid to destroy you."]
+  - ["4.6", LONG FUSE, "Your past comes back to haunt you. You made some mistakes back in the day, and now it's time to pay the bill."]
+  - ["5.1", SUDDEN DEATH, "Someone has died. This death may or may not affect you emotionally, but it certainly forces you to reconsider your plans for the day."]
+  - ["5.2", IMPROVISED NANNY, "You've inherited a kid for the day – the mother thrust them into your arms and bolted, claiming urgent matters. You'll quickly realize this is far from a little angel!"]
+  - ["5.3", PERSONAL PAGE, "Someone has tampered with your personal page on the WakuWaku social network. It pisses you off, for sure, but it's not without consequences."]
+  - ["5.4", BREAKDOWN, "Something breaks down at the worst possible moment, and guess who has to fix the problem. And in the meantime, you'll have to do the work by hand since the machine has given up the ghost."]
+  - ["5.5", APPOINTMENT, "You have an important appointment, the kind you can't miss, and it falls right in the middle of something else equally crucial. You'll have to find a solution."]
+  - ["5.6", REVELATIONS, "Someone close trusts you enough to make very personal, very disturbing, or downright bizarre revelations to you. Except it's much more than you can handle."]
+  - ["6.1", RIPPED OFF, "You had a contract, but the other party didn't honor their commitments – shoddy or undelivered equipment, false information. You'll have to kick some asses, and something tells you your night isn't over yet."]
+  - ["6.2", ABSENT-MINDED, "Today you're tired, in love, or obsessed with your problems. You don't retain anything you're told, and you forget half of what you're asked to do."]
+  - ["6.3", A DEMANDING JOB, "There are problems at the squat, and the caretaker has summoned you. He's furious, overwhelmed, stressed, and this needs to be sorted out before anything else… You're not going to be idle!"]
+  - ["6.4", A SMALL FAVOR, "You're asked for a favor you can't refuse. You said yes reflexively, without thinking about the real consequences of your answer, and now you're stuck."]
+  - ["6.5", FAMILY VISIT, "Members of your family are coming to visit - but as often, nothing is simple. They're very nice, but really cumbersome and tiring."]
+  - ["6.6", VOLUNTEER, "You have something to do for the squat, a thankless job for which you can expect no recognition, but someone has to do it. And of course, it's on a day when everything is complicated."]
+```
 
 ## Gigs
 
@@ -939,26 +916,29 @@ Depending on your inspiration, things can either go well or go seriously wrong. 
 
 At the end of a job, you get 1d3 ¥, plus 1d3 if you have a really interesting skill or ability for the job.
 
-| 1D36 | Gig             |
-|:----:|:----------------|
-| 1.1  | Accompaniment   |
-| 1.2  | Administration  |
-| 1.3  | Assistance      |
-| 1.4  | On-call         |
-| 1.5  | Accounting      |
-| 1.6  | Driving         |
-| 2.1  | Construction    |
-| 2.2  | Manufacturing   |
-| 2.3  | Custodial       |
-| 2.4  | Structural work |
-| 2.5  | Delivery        |
-| 2.6  | Maintenance     |
-| 3.1  | Handling        |
-| 3.2  | Cleaning        |
-| 3.3  | Protection      |
-| 3.4  | Service         |
-| 3.5  | Surveillance    |
-| 3.6  | Tour            |
+```{.random-table}
+caption: Gig
+columns: [d66, gig]
+rows:
+  - ["1.1", Accompaniment]
+  - ["1.2", Administration]
+  - ["1.3", Assistance]
+  - ["1.4", On-call]
+  - ["1.5", Accounting]
+  - ["1.6", Driving]
+  - ["2.1", Construction]
+  - ["2.2", Manufacturing]
+  - ["2.3", Custodial]
+  - ["2.4", Structural work]
+  - ["2.5", Delivery]
+  - ["2.6", Maintenance]
+  - ["3.1", Handling]
+  - ["3.2", Cleaning]
+  - ["3.3", Protection]
+  - ["3.4", Service]
+  - ["3.5", Surveillance]
+  - ["3.6", Tour]
+```
 
 ## Returning the favour
 
@@ -976,45 +956,30 @@ Just figure out what it is and how the characters are involved, then go for it. 
 
 When all is well, the characters involved gain 3 connection points and, more importantly, a freebie to ask for later - say, up to a value of 3 connection points. But, if the referral is really important, it can also be a connection point to spend to increase the character's relationship with the contact.
 
-+--------------+-----------------------------------+-----------------------------------------+
-| 1D36         | TRIGGER                           | REQUEST                                 |
-+:============:+:==================================+:========================================+
-| 1.1          | It's a job like any other         | Helping a friend in trouble             |
-+--------------+-----------------------------------+-----------------------------------------+
-| 1.2          | "Friends" ask for it              | Breaking kneecaps                       |
-+--------------+-----------------------------------+-----------------------------------------+
-| 1.3          | In the middle of something else   | Defending your lair                     |
-+--------------+-----------------------------------+-----------------------------------------+
-| 1.4          | A knock on the door…              | Delivering a message                    |
-+--------------+-----------------------------------+-----------------------------------------+
-| 1.5          | By the family                     | Giving a hand to move                   |
-+--------------+-----------------------------------+-----------------------------------------+
-| 1.6          | By a third party                  | Eliminating a threat                    |
-+--------------+-----------------------------------+-----------------------------------------+
-| 2.1          | During a lunch in town            | Preventing her murder                   |
-+--------------+-----------------------------------+-----------------------------------------+
-| 2.2          | During a drunken night out        | Preventing a dirty trick                |
-+--------------+-----------------------------------+-----------------------------------------+
-| 2.3          | Suddenly, with direct involvement | Intercepting sensitive information      |
-+--------------+-----------------------------------+-----------------------------------------+
-| 2.4          | An article in the media           | Participating in negotiations           |
-+--------------+-----------------------------------+-----------------------------------------+
-| 2.5          | A challenge                       | Protecting a cover                      |
-+--------------+-----------------------------------+-----------------------------------------+
-| 2.6          | A message from a faction          | Recovering something valuable           |
-+--------------+-----------------------------------+-----------------------------------------+
-| 3.1          | A message about the matrix        | Finding a lost object                   |
-+--------------+-----------------------------------+-----------------------------------------+
-| 3.2          | A paper slipped under the door    | Finding a person                        |
-+--------------+-----------------------------------+-----------------------------------------+
-| 3.3          | A clandestine meeting             | Finding out about someone               |
-+--------------+-----------------------------------+-----------------------------------------+
-| 3.4          | Long-distance communication       | Acting as a diplomatic intermediary     |
-+--------------+-----------------------------------+-----------------------------------------+
-| 3.5          | A rumour                          | Monitoring a person or group            |
-+--------------+-----------------------------------+-----------------------------------------+
-| 3.6          | An emergency                      | Finding sensitive sensitive information |
-+--------------+-----------------------------------+-----------------------------------------+
+```{.random-table}
+caption: Trigger and request
+columns: [d66, trigger, request]
+rows:
+  - ["1.1", "It's a job like any other", "Helping a friend in trouble"]
+  - ["1.2", '"Friends" ask for it', "Breaking kneecaps"]
+  - ["1.3", "In the middle of something else", "Defending your lair"]
+  - ["1.4", "A knock on the door…", "Delivering a message"]
+  - ["1.5", "By the family", "Giving a hand to move"]
+  - ["1.6", "By a third party", "Eliminating a threat"]
+  - ["2.1", "During a lunch in town", "Preventing her murder"]
+  - ["2.2", "During a drunken night out", "Preventing a dirty trick"]
+  - ["2.3", "Suddenly, with direct involvement", "Intercepting sensitive informatio"]
+  - ["2.4", "An article in the media", "Participating in negotiations"]
+  - ["2.5", "A challenge", "Protecting a cover"]
+  - ["2.6", "A message from a faction", "Recovering something valuable"]
+  - ["3.1", "A message about the matrix", "Finding a lost object"]
+  - ["3.2", "A paper slipped under the door", "Finding a person"]
+  - ["3.3", "A clandestine meeting", "Finding out about someone"]
+  - ["3.4", "Long-distance communication", "Acting as a diplomatic intermediary"]
+  - ["3.5", "A rumour", "Monitoring a person or group"]
+  - ["3.6", "An emergency", "Finding sensitive sensitive information"]
+```
+
 
 ## Corporations
 
@@ -1032,144 +997,140 @@ So here are a few different tables that should inspire you…
 
 > To begin with, you may want to compose a vague organisation chart of the corporation. At the top, you have the board of directors and the CEO (Chief Executive Officer) who is the managing director. Then you have lots of COs (CFO, COO, CSO, CBO…) with various titles to put around them. In good French, this means Human Resources Director, Financial Director, Administrative Director, Compliance Director, etc. Underneath all this fine laundry, organise departments. The bigger the company, the more departments it has; the more different areas it deals with, the more departments it has. You will almost always find certain departments: general services, accounting, human resources. For the rest, have fun building something funny and impossible to understand. Put some names for the known managers and add some stories.
 
-| 1D666 | DEPARTMENTS AND SERVICES        |
-|:-----:|:--------------------------------|
-| 1.1.1 | Reception and representation    |
-| 1.1.2 | Procurement                     |
-| 1.1.3 | General administration          |
-| 1.1.4 | Akashic                         |
-| 1.1.5 | Archives                        |
-| 1.1.6 | Insurance                       |
-| 1.2.1 | Internal audit                  |
-| 1.2.2 | Social benefits                 |
-| 1.2.3 | Trainee's office                |
-| 1.2.4 | Clients                         |
-| 1.2.5 | Accounting                      |
-| 1.2.6 | Consumption                     |
-| 1.3.1 | External contracts              |
-| 1.3.2 | Counter-espionage               |
-| 1.3.3 | Cost control                    |
-| 1.3.4 | Mail                            |
-| 1.3.5 | Creative                        |
-| 1.3.6 | Design                          |
-| 1.4.1 | Retail                          |
-| 1.4.2 | Development                     |
-| 1.4.3 | Local management                |
-| 1.4.4 | Product division                |
-| 1.4.5 | Warehouses and stocks           |
-| 1.4.6 | Environment                     |
-| 1.5.1 | Evaluation and estimates        |
-| 1.5.2 | Manufacturing                   |
-| 1.5.3 | Billing                         |
-| 1.5.4 | Finance                         |
-| 1.5.5 | Charitable foundation           |
-| 1.5.6 | Continuing education            |
-| 1.6.1 | Health and safety               |
-| 1.6.2 | Industrial                      |
-| 1.6.3 | IT                              |
-| 1.6.4 | Engineering                     |
-| 1.6.5 | Investment                      |
-| 1.6.6 | Legal                           |
-| 2.1.1 | Litigation                      |
-| 2.1.2 | Logistics                       |
-| 2.1.3 | Maintenance                     |
-| 2.1.4 | Marketing                       |
-| 2.1.5 | Trademarks and patents          |
-| 2.1.6 | Packaging                       |
-| 2.2.1 | Vehicle fleet                   |
-| 2.2.2 | Internal complaints             |
-| 2.2.3 | Planning                        |
-| 2.2.4 | Promotion and media             |
-| 2.2.5 | Cleanliness                     |
-| 2.2.6 | Prospects                       |
-| 2.3.1 | Management protection           |
-| 2.3.2 | Psychological                   |
-| 2.3.3 | Quality                         |
-| 2.3.4 | Research                        |
-| 2.3.5 | Recruitment                     |
-| 2.3.6 | Public relations                |
-| 2.4.1 | Intelligence                    |
-| 2.4.2 | Human Resources                 |
-| 2.4.3 | Risks                           |
-| 2.4.4 | Health and occupational health  |
-| 2.4.5 | Executive Secretariat           |
-| 2.4.6 | General Secretariat             |
-| 2.5.1 | Security                        |
-| 2.5.2 | Tour Operator Service           |
-| 2.5.3 | Domestic Services               |
-| 2.5.4 | General Services                |
-| 2.5.5 | Subcontracting                  |
-| 2.5.6 | Switchboard                     |
-| 2.6.1 | Statistics                      |
-| 2.6.2 | Technical                       |
-| 2.6.3 | Transport                       |
-| 2.6.4 | Economic intelligence           |
-| 2.6.5 | Legal and compliance monitoring |
-| 2.6.6 | Technology watch                |
-| 3.x.x | **Reroll**                      |
-| 4.x.x | **Reroll**                      |
-| 5.x.x | **Reroll**                      |
-| 6.x.x | **Reroll**                      |
+```{.random-table}
+caption: Departments and services
+columns: [d666, departments and services]
+rows:
+  - ["1.1.1", Reception and representation]
+  - ["1.1.2", Procurement]
+  - ["1.1.3", General administration]
+  - ["1.1.4", Akashic]
+  - ["1.1.5", Archives]
+  - ["1.1.6", Insurance]
+  - ["1.2.1", Internal audit]
+  - ["1.2.2", Social benefits]
+  - ["1.2.3", "Trainee's office"]
+  - ["1.2.4", Clients]
+  - ["1.2.5", Accounting]
+  - ["1.2.6", Consumption]
+  - ["1.3.1", External contracts]
+  - ["1.3.2", Counter-espionage]
+  - ["1.3.3", Cost control]
+  - ["1.3.4", Mail]
+  - ["1.3.5", Creative]
+  - ["1.3.6", Design]
+  - ["1.4.1", Retail]
+  - ["1.4.2", Development]
+  - ["1.4.3", Local management]
+  - ["1.4.4", Product division]
+  - ["1.4.5", Warehouses and stocks]
+  - ["1.4.6", Environment]
+  - ["1.5.1", Evaluation and estimates]
+  - ["1.5.2", Manufacturing]
+  - ["1.5.3", Billing]
+  - ["1.5.4", Finance]
+  - ["1.5.5", Charitable foundation]
+  - ["1.5.6", Continuing education]
+  - ["1.6.1", Health and safety]
+  - ["1.6.2", Industrial]
+  - ["1.6.3", IT]
+  - ["1.6.4", Engineering]
+  - ["1.6.5", Investment]
+  - ["1.6.6", Legal]
+  - ["2.1.1", Litigation]
+  - ["2.1.2", Logistics]
+  - ["2.1.3", Maintenance]
+  - ["2.1.4", Marketing]
+  - ["2.1.5", Trademarks and patents]
+  - ["2.1.6", Packaging]
+  - ["2.2.1", Vehicle fleet]
+  - ["2.2.2", Internal complaints]
+  - ["2.2.3", Planning]
+  - ["2.2.4", Promotion and media]
+  - ["2.2.5", Cleanliness]
+  - ["2.2.6", Prospects]
+  - ["2.3.1", Management protection]
+  - ["2.3.2", Psychological]
+  - ["2.3.3", Quality]
+  - ["2.3.4", Research]
+  - ["2.3.5", Recruitment]
+  - ["2.3.6", Public relations]
+  - ["2.4.1", Intelligence]
+  - ["2.4.2", Human Resources]
+  - ["2.4.3", Risks]
+  - ["2.4.4", Health and occupational health]
+  - ["2.4.5", Executive Secretariat]
+  - ["2.4.6", General Secretariat]
+  - ["2.5.1", Security]
+  - ["2.5.2", Tour Operator Service]
+  - ["2.5.3", Domestic Services]
+  - ["2.5.4", General Services]
+  - ["2.5.5", Subcontracting]
+  - ["2.5.6", Switchboard]
+  - ["2.6.1", Statistics]
+  - ["2.6.2", Technical]
+  - ["2.6.3", Transport]
+  - ["2.6.4", Economic intelligence]
+  - ["2.6.5", Legal and compliance monitoring]
+  - ["2.6.6", Technology watch]
+```
+
 
 You need to populate the corporation with employees with different profiles, complex expectations and ambivalent attitudes. Each time the characters meet someone, try to give them some depth - their attitude is what they project, their nature is more secret but influences their short and long term motivations.
 
-| 1D26 | JOB              | POSITION     |
-|:----:|:-----------------|:-------------|
-| 1.1  | Junior Executive | Former       |
-| 1.2  | Senior Manager   | In the know  |
-| 1.3  | Creative         | Client       |
-| 1.4  | Director         | Freewheeling |
-| 1.5  | Expert           | Eccentric    |
-| 1.6  | Engineer         | Mistreated   |
-| 2.1  | Janitor          | Newcomer     |
-| 2.2  | Hidden           | Stuck        |
-| 2.3  | Replacement      | Placarded    |
-| 2.4  | Secretary        | Leaving      |
-| 2.5  | Security         | Guarded      |
-| 2.6  | Temporary        | Technician   |
+```{.random-table}
+caption: Job and position
+columns: [d26, job, position]
+rows:
+  - ["1.1", Junior Executive, Former]
+  - ["1.2", Senior Manager, In the know]
+  - ["1.3", Creative, Client]
+  - ["1.4", Director, Freewheeling]
+  - ["1.5", Expert, Eccentric]
+  - ["1.6", Engineer, Mistreated]
+  - ["2.1", Janitor, Newcomer]
+  - ["2.2", Hidden, Stuck]
+  - ["2.3", Replacement, Placarded]
+  - ["2.4", Secretary, Leaving]
+  - ["2.5", Security, Guarded]
+  - ["2.6", Temporary, Technician]
+```
 
-| 1D26 | ATTITUDE      | NATURE      |
-|:----:|:--------------|:------------|
-| 1.1  | Aggressive    | Ambitious   |
-| 1.2  | Condescending | Plotter     |
-| 1.3  | Out of phase  | Curious     |
-| 1.4  | Unpleasant    | Dangerous   |
-| 1.5  | Enthusiastic  | Incompetent |
-| 1.6  | Invasive      | Mysterious  |
-| 2.1  | Cold          | Naïve       |
-| 2.2  | Unlucky       | Profiteer   |
-| 2.3  | Unfortunate   | Rebellious  |
-| 2.4  | Lost          | Secret      |
-| 2.5  | Helpful       | Seducer     |
-| 2.6  | Sympathetic   | Sociopath   |
+```{.random-table}
+caption: Attitude and nature
+columns: [d26, attitude, nature]
+rows:
+  - ["1.1", Aggressive, Ambitious]
+  - ["1.2", Condescending, Plotter]
+  - ["1.3", Out of phase, Curious]
+  - ["1.4", Unpleasant, Dangerous]
+  - ["1.5", Enthusiastic, Incompetent]
+  - ["1.6", Invasive, Mysterious]
+  - ["2.1", Cold, Naïve]
+  - ["2.2", Unlucky, Profiteer]
+  - ["2.3", Unfortunate, Rebellious]
+  - ["2.4", Lost, Secret]
+  - ["2.5", Helpful, Seducer]
+  - ["2.6", Sympathetic, Sociopath]
+```
 
-+--------------+-------------------+-----------------------------------------------------+
-| 1D26         | LOCATION          | OFFICE STORIES                                      |
-+:============:+:==================+:====================================================+
-| 1.1          | Library           | Administrative brutality                            |
-+--------------+-------------------+-----------------------------------------------------+
-| 1.2          | Offices           | Personal drama                                      |
-+--------------+-------------------+-----------------------------------------------------+
-| 1.3          | Canteen/cafeteria | Self-destructive dynamics                           |
-+--------------+-------------------+-----------------------------------------------------+
-| 1.4          | Data centre       | Moral and/or sexual harassment                      |
-+--------------+-------------------+-----------------------------------------------------+
-| 1.5          | Open spaces       | Calculated incompetence                             |
-+--------------+-------------------+-----------------------------------------------------+
-| 1.6          | Laboratories      | Service jealousy                                    |
-+--------------+-------------------+-----------------------------------------------------+
-| 2.1          | Technical room    | Management by fear                                  |
-+--------------+-------------------+-----------------------------------------------------+
-| 2.2          | Coffee machine    | Unattainable goals and enormous pressure            |
-+--------------+-------------------+-----------------------------------------------------+
-| 2.3          | Gymnasium         | Fraudulent transactions and abuse of company assets |
-+--------------+-------------------+-----------------------------------------------------+
-| 2.4          | Meeting rooms     | Peters' principle in action                         |
-+--------------+-------------------+-----------------------------------------------------+
-| 2.5          | Reception rooms   | Soothing and mind-numbing routine                   |
-+--------------+-------------------+-----------------------------------------------------+
-| 2.6          | Toilets           | Suspicion and mistrust                              |
-+--------------+-------------------+-----------------------------------------------------+
+```{.random-table}
+caption: Location and office stories
+columns: [d26, location, office stories]
+rows:
+  - ["1.1", Library, Administrative brutality]
+  - ["1.2", Offices, Personal drama]
+  - ["1.3", Canteen/cafeteria, Self-destructive dynamics]
+  - ["1.4", Data centre, Moral and/or sexual harassment]
+  - ["1.5", Open spaces, Calculated incompetence]
+  - ["1.6", Laboratories, Service jealousy]
+  - ["2.1", Technical room, Management by fear]
+  - ["2.2", Coffee machine, Unattainable goals and enormous pressure]
+  - ["2.3", Gymnasium, Fraudulent transactions and abuse of company assets]
+  - ["2.4", Meeting rooms, "Peters' principle in action"]
+  - ["2.5", Reception rooms, Soothing and mind-numbing routine]
+  - ["2.6", Toilets, Suspicion and mistrust]
+```
 
 ## Gangs
 
@@ -1199,51 +1160,54 @@ In short: gangers are not carefree.
 
 To finish with these happy thoughts, don't forget that the various mafia groups are gangs in their own right - just a bit more established: the difference between a cult and a church… And then add to this the fact that the various mafia groups are also gangs. And then throw in bikers, survivalists, neo-Nazis, some 'religious' sects and you've got some good opportunities to shake up your characters with some very scary threats.
 
-+-----------+--------------------------------------------------------------------------------------------------------------------------+
-| 1D6       | GANG RELATIONSHIP                                                                                                        |
-+:=========:+:=========================================================================================================================+
-| 1         | PROTECTION Families and relatives providing support to gang members without being part of the gang.                      |
-+-----------+--------------------------------------------------------------------------------------------------------------------------+
-| 2         | AT RISK Kids in the neighbourhood who do favours and will eventually join the gang.                                      |
-+-----------+--------------------------------------------------------------------------------------------------------------------------+
-| 3         | ASSOCIATES Uninitiated teenage members who gravitate to the gang, consider themselves part of it and learn the ropes.    |
-+-----------+--------------------------------------------------------------------------------------------------------------------------+
-| 4         | MEMBERS who only associate with other members and are fully initiated. Responsible for daily activities and protection.  |
-+-----------+--------------------------------------------------------------------------------------------------------------------------+
-| 5         | VETERANs are fully invested in the gang and have no other cultural background. They usually have good prison experience. |
-+-----------+--------------------------------------------------------------------------------------------------------------------------+
-| 6         | LEADER Usually the oldest and the one with the lightest criminal record. In contact with the other gang leaders.         |
-+-----------+--------------------------------------------------------------------------------------------------------------------------+
+```{.random-table}
+caption: Gang relationship
+columns: [d6, relationship]
+rows:
+  - [1, PROTECTION Families and relatives providing support to gang members without being part of the gang.]
+  - [2, AT RISK Kids in the neighbourhood who do favours and will eventually join the gang.]
+  - [3, "ASSOCIATES Uninitiated teenage members who gravitate to the gang, consider themselves part of it and learn the ropes."]
+  - [4, "MEMBERS who only associate with other members and are fully initiated. Responsible for daily activities and protection."]
+  - [5, "VETERANs are fully invested in the gang and have no other cultural background. They usually have good prison experience."]
+  - [6, "LEADER Usually the oldest and the one with the lightest criminal record. In contact with the other gang leaders."]
+```
 
-| 1D26 | GANG COLOURS (ROLL TWO OR THREE TIMES) |
-|:----:|:---------------------------------------|
-| 1.1  | Silver                                 |
-| 1.2  | White                                  |
-| 1.3  | Light blue                             |
-| 1.4  | Dark blue                              |
-| 1.5  | Grey                                   |
-| 1.6  | Yellow                                 |
-| 2.1  | Black                                  |
-| 2.2  | Gold                                   |
-| 2.3  | Orange                                 |
-| 2.4  | Purple                                 |
-| 2.5  | Red                                    |
-| 2.6  | Green                                  |
+```{.random-table}
+caption: Gang colours (roll two or three times)
+columns: [d26, colour]
+rows:
+  - ["1.1", Silver]
+  - ["1.2", White]
+  - ["1.3", Light blue]
+  - ["1.4", Dark blue]
+  - ["1.5", Grey]
+  - ["1.6", Yellow]
+  - ["2.1", Black]
+  - ["2.2", Gold]
+  - ["2.3", Orange]
+  - ["2.4", Purple]
+  - ["2.5", Red]
+  - ["2.6", Green]
+```
 
-| 1D26 | GANG-RELATED LOCATIONS    |
-|:----:|:--------------------------|
-| 1.1  | Sweatshop                 |
-| 1.2  | Sleazy brothel            |
-| 1.3  | Cache (drugs, weapons…)   |
-| 1.4  | Hideout (people, slaves…) |
-| 1.5  | Street corner             |
-| 1.6  | Drug packing lab          |
-| 2.1  | Drug manufacturing lab    |
-| 2.2  | Family house              |
-| 2.3  | Public park               |
-| 2.4  | Safe house                |
-| 2.5  | Cash reserve              |
-| 2.6  | Social club - Strip club  |
+```{.random-table}
+caption: Gang-related locations
+columns: [d26, location]
+rows:
+  - ["1.1", Sweatshop]
+  - ["1.2", Sleazy brothel]
+  - ["1.3", "Cache (drugs, weapons…)"]
+  - ["1.4", "Hideout (people, slaves…)"]
+  - ["1.5", Street corner]
+  - ["1.6", Drug packing lab]
+  - ["2.1", Drug manufacturing lab]
+  - ["2.2", Family house]
+  - ["2.3", Public park]
+  - ["2.4", Safe house]
+  - ["2.5", Cash reserve]
+  - ["2.6", Social club - Strip club]
+```
+
 
 ## Serve and protect
 
