@@ -14,7 +14,7 @@ local function make_table(config)
 	local rows = config.rows or pandoc.List()
 
 	if not columns or #columns == 0 then
-		error('random-table: columns must be a non-empty list', 0)
+		assert(false, 'columns must be a non-empty list')
 	end
 
 	local colspecs = {}
@@ -28,7 +28,7 @@ local function make_table(config)
 
 	for i, row in ipairs(rows) do
 		if #row ~= #columns then
-			error('random-table: row ' .. i .. ' has ' .. #row .. ' cells; expected ' .. #columns, 0)
+			assert(false, 'row ' .. i .. ' has ' .. #row .. ' cells; expected ' .. #columns)
 		end
 
 		local cells = {}
@@ -66,11 +66,7 @@ local function add_dependency()
 	dependency_added = true
 end
 
-function CodeBlock(el)
-	if not el.classes:includes('random-table') then
-		return
-	end
-
+local function render_random_table(el)
 	local ok, doc = pcall(
 		pandoc.read,
 		'---\n' .. el.text .. '\n---',
@@ -78,10 +74,13 @@ function CodeBlock(el)
 	)
 
 	if not ok then
-		error('random-table: invalid YAML: ' .. tostring(doc), 0)
+		assert(false, 'invalid YAML: ' .. tostring(doc))
 	end
 
 	local config = doc.meta
+	if not config.caption or pandoc.utils.stringify(config.caption):match('^%s*$') then
+		assert(false, 'caption is required; add caption: Your table title')
+	end
 	local table = make_table(config)
 
 	if not quarto.doc.is_format('html') then
@@ -89,8 +88,6 @@ function CodeBlock(el)
 	end
 
 	add_dependency()
-
-	table_index = table_index + 1
 
 	local caption = config.caption and pandoc.utils.stringify(config.caption) or nil
 	local id = 'random-table-' .. pandoc.structure.unique_identifier(pandoc.Inlines(caption))
@@ -117,4 +114,39 @@ function CodeBlock(el)
 		},
 		pandoc.Attr(id, { 'random-table' })
 	)
+end
+
+function CodeBlock(el)
+	if not el.classes:includes('random-table') then
+		return
+	end
+
+	table_index = table_index + 1
+	local ok, result = pcall(render_random_table, el)
+	if ok then
+		return result
+	end
+
+	local input = quarto.doc.input_file or PANDOC_STATE.input_files[1] or 'unknown input'
+	local source = io.open(input, 'r')
+	if source then
+		local text = source:read('*a'):gsub('\r\n', '\n')
+		source:close()
+		local start = text:find(el.text:gsub('\r\n', '\n'), 1, true)
+		if start then
+			local _, lines = text:sub(1, start - 1):gsub('\n', '\n')
+			input = input .. ':' .. (lines + 1)
+		end
+	end
+	local caption = ('\n' .. el.text):match('\ncaption:[ \t]*([^\n\r]+)')
+	local label = 'random-table #' .. table_index
+	if el.identifier ~= '' then
+		label = label .. ' (#' .. el.identifier .. ')'
+	end
+	if caption then
+		label = label .. ' [' .. caption .. ']'
+	end
+	local preview = el.text:match('[^\n\r]+') or '(empty block)'
+	assert(false, input .. ': ' .. label .. '\n  ' .. tostring(result)
+		.. '\n  Block starts with: ' .. preview)
 end

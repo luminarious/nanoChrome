@@ -862,6 +862,7 @@ When a problem has been solved, it yields 20 XP and 3 connection points.
 You can also give the list to the players: each one chooses one in secret at the beginning of the adventure. They can play it whenever they want on themselves or on one of their little friends. For the sake of mischief and to the delight of the rest of the table. What can be funny is when all the galleys fall on the same unfortunate person (who ends up accumulating some XP in the story).
 
 ```{.random-table}
+caption: Galères
 columns: [d66, name, description]
 rows:
   - ["1.1", ACCIDENT, "You are involved in an accident – whether you are responsible or not. There's damage and lots of complications to manage, both material and human."]
